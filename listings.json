@@ -2,8 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/2020-10-11-why-do-cross-validation.html",
+      "/posts/2019-10-14-charts-can-lie.html",
+      "/posts/2019-07-14-link-functions-matter.html",
+      "/posts/2019-06-13-file-paths-and-data-science-projects.html",
+      "/posts/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html",
+      "/posts/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html",
+      "/posts/2019-05-04-my-first-package-bnmr.html",
+      "/posts/2018-08-27-exploring-ge14-results-with-python-part-2.html",
+      "/posts/2018-08-25-exploring-ge14-results-with-python.html"
     ]
   }
 ]

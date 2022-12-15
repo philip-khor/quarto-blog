@@ -1,1 +1,1 @@
-Sitemap: www.philipscurve.com/sitemap.xml
+Sitemap: https://github.com/philip-khor/quarto-blog/sitemap.xml
