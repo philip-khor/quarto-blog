@@ -6,16 +6,13 @@ on:
 name: Quarto Publish
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v2        
+        uses: actions/checkout@v2
         
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -23,20 +20,7 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          source: ./
-          destination: ./_site
-          
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
