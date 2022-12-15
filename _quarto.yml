@@ -19,6 +19,8 @@ website:
     location: sidebar
   favicon: icon.png
   site-url: www.philipscurve.com
+execute:
+  freeze: auto
 
 format:
   html:

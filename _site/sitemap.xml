@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>www.philipscurve.com/about.html</loc>
+    <lastmod>2022-12-15T10:13:17.843Z</lastmod>
+  </url>
+  <url>
     <loc>www.philipscurve.com/index.html</loc>
-    <lastmod>2022-12-15T10:08:01.592Z</lastmod>
+    <lastmod>2022-12-15T10:13:19.466Z</lastmod>
+  </url>
+  <url>
+    <loc>www.philipscurve.com/posts/post-with-code/index.html</loc>
+    <lastmod>2022-12-15T10:13:21.264Z</lastmod>
+  </url>
+  <url>
+    <loc>www.philipscurve.com/posts/welcome/index.html</loc>
+    <lastmod>2022-12-15T10:13:22.427Z</lastmod>
   </url>
 </urlset>
