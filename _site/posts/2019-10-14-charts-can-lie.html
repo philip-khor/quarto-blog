@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Philip Khor">
+<meta name="dcterms.date" content="2019-10-14">
+
+<title>philip’s curve - Charts can lie</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../icon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">philip’s curve</span>
+    </a>
+  </div>
+          <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/philip-khor"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://masto.ai/@pk"><i class="bi bi-mastodon" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/philip-khor/"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-toggle-container">
+                <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+            </div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Charts can lie</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 14, 2019</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#graduate-marketability" id="toc-graduate-marketability" class="nav-link active" data-scroll-target="#graduate-marketability">Graduate marketability</a></li>
+  <li><a href="#health-budgets" id="toc-health-budgets" class="nav-link" data-scroll-target="#health-budgets">Health budgets</a></li>
+  <li><a href="#impact-metrics" id="toc-impact-metrics" class="nav-link" data-scroll-target="#impact-metrics">Impact metrics</a></li>
+  <li><a href="#thoughts" id="toc-thoughts" class="nav-link" data-scroll-target="#thoughts">Thoughts</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Data visualization is something we use to understand our data. Sure, it has some aesthetic function, but its primary purpose is to communicate what’s in the data.</p>
+<p>Unfortunately, some Malaysian ministries just don’t get it. All the Minister wants is a pretty chart to put on Twitter.</p>
+<p>It’s not cool if your chart’s designed to mislead, YB.</p>
+<section id="graduate-marketability" class="level2">
+<h2 class="anchored" data-anchor-id="graduate-marketability">Graduate marketability</h2>
+<blockquote class="twitter-tweet blockquote">
+<p lang="in" dir="ltr">
+</p><p>Tahun lepas, kebolehpasaran siswazah kita berjaya mencapai sasaran 80.2%.<br><br>Tahun ini kebolehpasaran siswazah kita telah mencapai 82%.<br><br>Peningkatan drastik dua tahun kebelakangan ini ialah suatu kejayaan yang besar.<br><br>Terima kasih semua. <a href="https://t.co/I0gYSWRwTF">pic.twitter.com/I0gYSWRwTF</a></p>
+<p></p>
+<p>— Maszlee Malik (<span class="citation" data-cites="maszlee">@maszlee</span>) <a href="https://twitter.com/maszlee/status/1176332437305135104?ref_src=twsrc%5Etfw">September 24, 2019</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Dr.&nbsp;Maszlee wants to show that the graduate employability rate has risen from 2018 to 2019. Alright. Here’s the chart:</p>
+<p><img src="https://pbs.twimg.com/media/EFMsHivWsAA6_J1?format=png&amp;name=900x900.png" class="img-fluid"></p>
+<p>Let’s start with what graduate employability means. Honestly, I’ve no clue. The visual tells me nothing about that. Let’s do a quick Google search, shall we?</p>
+<blockquote class="blockquote">
+<p>SERDANG, 6 Mei – Kebolehpasaran graduan Universiti Putra Malaysia (UPM) menjangkau 82.2 peratus, iaitu yang tertinggi di kalangan institusi pengajian tinggi di negara ini.</p>
+<p>Timbalan Naib Canselor (Hal Ehwal Pelajar dan Alumni) UPM, Prof.&nbsp;Dato’ Dr.&nbsp;Mohammad Shatar Sabran berkata 82.2 peratus daripada graduan UPM memperoleh pekerjaan dalam tempoh tiga bulan selepas konvokesyen mereka. https://upm.edu.my/news/kebolehpasaran_graduan_upm_822_peratus_tertinggi_di_kalangan_ipt-25091?L=bm</p>
+</blockquote>
+<p>Okay, so I presume it measures what percentage of graduates obtained jobs within three months of that convocation. Awesome. We should really just put that in the chart, because calling this “graduate employability” doesn’t tell us much..</p>
+<p>Next, let’s think about how someone using the graphic will understand this chart.</p>
+<p>The font for the numbers is quite large. But a key part of the visual is the length of the vertical ‘pillars’ supporting each of the ‘bubbles’.</p>
+<p>I’m no expert in perception, but let’s say people take the length of the ‘pillars’ to represent the metric.</p>
+<p>Surely people will think that the employability rate has improved a lot more than it has?</p>
+<p>The increase of the rate from 2018 to 2019 was 2 percentage points. But we’re interested in the ratio of the 2019 to 2018 percentage. 82/80 implies an increase of 2.5%.</p>
+<p>The line for 82% is 5 cm on my computer screen whereas the line for 80% is 2.3cm on my screen. That’s a ratio of 2.17 to 1, an increase of 117%.</p>
+<p>Put simply, the graph exaggerates the change in the employability rate by almost 50 times.</p>
+<p>The cognitive dissonance while processing the chart is stunning. Looking at the chart, I would have thought the Ministry made great progress, while in fact it’s just made a scratch.</p>
+</section>
+<section id="health-budgets" class="level1">
+<h1>Health budgets</h1>
+<blockquote class="twitter-tweet blockquote">
+<p lang="in" dir="ltr">
+</p><p>JUMLAH BAJET KESIHATAN<br>ALHAMDULILLAH!1<br><br>2019: RM28.68 bilion<br>2020: RM30.6 bil<br>% NAIK: 6.7%<br>KENAIKAN : RM1.92 bil<br><br>Bajet O.E:<br>2019: RM26.49 bil<br>2020: RM 27.9 bil<br>% NAIK : 5.3%<br>KENAIKAN: RM1.41 bilion<br><br>Bajet D.E:<br>2019: RM2.18 bil<br>2020: RM 2.7 bil<br>% NAIK : 23.8%<br>KENAIKAN: RM520 juta <a href="https://t.co/7A91JzkfKZ">pic.twitter.com/7A91JzkfKZ</a></p>
+<p></p>
+<p>— Dzulkefly Ahmad (<span class="citation" data-cites="DrDzul">@DrDzul</span>) <a href="https://twitter.com/DrDzul/status/1182591381023252481?ref_src=twsrc%5Etfw">October 11, 2019</a></p>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>The Ministry of Finance raised the budget allocation for the Ministry of Health.</p>
+<p><img src="https://pbs.twimg.com/media/EGloj0qUYAANBme?format=jpg&amp;name=small.png" class="img-fluid"></p>
+<p>The height of the bars implies that the health budget in 2020 has doubled. This is clearly not the case, and even the graph says so: it states that the increase was by 6.7% (I calculated 5.5%, but it could be a rounding error).</p>
+<p>That’s not even the best part. Notice that the bar for the operational budget, at 27.9 billion, is higher than the bar for the 2019 budget, at 29 billion. Apparently 27.9 billion is more than 29 billion.</p>
+<p>Wow.</p>
+</section>
+<section id="impact-metrics" class="level1">
+<h1>Impact metrics</h1>
+<p>These two graphics are prime candidates for using impact metrics. I tried making something quick:</p>
+<p><img src="..\img/graduate-employability.png" class="img-fluid"> <img src="..\img/health-budget.png" class="img-fluid"></p>
+<p>If you ask me, that’s more honest and clear than what the YBs tweeted.</p>
+</section>
+<section id="thoughts" class="level1">
+<h1>Thoughts</h1>
+<p>I taught classes on data visualization at my previous role. And it pains me to see how data visualization standards are not prioritized in policy circles in Malaysia. I’ve seen more than enough dual axis charts, pie charts, 3D donut charts, etc.</p>
+<p>This is not ideal. A policy professional’s role is to communicate information to the public. If your reports don’t account for best practices in data visualization, you are bound to confuse, if not mislead, your audience. We know, for instance, that pie charts are a bad choice of visualization, because humans find it difficult to tell quantities from angles as opposed to lengths.</p>
+<p>Why? <a href="https://paldhous.github.io/ucb/2016/dataviz/week2.html">In the 80s</a>, Cleveland and McGill ran a series of experiments which established a hierarchy of which visual cues humans can perceive more accurately. In the case of pie charts, it is popularly believed that we perceive quantities by arc of each of the pie’s slices. This is why waffle charts should be the standard for displaying proportions of a whole: lengths are easier to perceive than angles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paldhous.github.io/ucb/2016/dataviz/img/class2_2.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Cleveland and McGill’s hierarchy of perception of visual cues</figcaption><p></p>
+</figure>
+</div>
+<p>We need to do better when it comes to data visualization in Malaysia, particularly for communicating public policy. Government departments need to prioritise effective communication over aesthetic value.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

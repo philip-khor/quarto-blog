@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="econometrics">econometrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="wage-gap">wage-gap <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -166,78 +166,354 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1671033600000" data-listing-file-modified-sort="1671096263650" data-listing-reading-time-sort="0.045">
+<div class="quarto-post image-right" data-index="0" data-categories="" data-listing-date-sort="1603468800000" data-listing-file-modified-sort="1671113162108" data-listing-reading-time-sort="10.06">
 <div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html"> <img src="./posts/post-with-code/image.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-10-24-nested-cross-validation/index.html"> <img src="./posts/2020-10-24-nested-cross-validation/images/F1.large.jpg " class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/post-with-code/index.html">
+<a href="./posts/2020-10-24-nested-cross-validation/index.html">
 <h3 class="no-anchor listing-title">
-Post With Code
+Nested cross-validation
 </h3>
 <div class="listing-subtitle">
 
 </div>
 </a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<a href="./posts/post-with-code/index.html">
+<a href="./posts/2020-10-24-nested-cross-validation/index.html">
 <div class="listing-description">
-This is a post with executable code.
+In Why do cross-validation, I described cross-validation as a way of evaluating your modeling workflow from start to end to help you pick the…<sup></sup>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/post-with-code/index.html">
+<a href="./posts/2020-10-24-nested-cross-validation/index.html">
 <div class="listing-date">
-Dec 15, 2022
+Oct 24, 2020
 </div>
 <div class="listing-author">
-Harlow Malloc
+Philip Khor
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1670774400000" data-listing-file-modified-sort="1671096263634" data-listing-reading-time-sort="0.16">
+<div class="quarto-post image-right" data-index="1" data-categories="" data-listing-date-sort="1602345600000" data-listing-file-modified-sort="1671111937945" data-listing-reading-time-sort="3.135">
 <div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <img src="./posts/welcome/thumbnail.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-10-11-why-do-cross-validation.html"> <img src="./post/2020-10-11-why-do-cross-validation_files/Screenshot 2020-10-11 105549.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/welcome/index.html">
+<a href="./posts/2020-10-11-why-do-cross-validation.html">
 <h3 class="no-anchor listing-title">
-Welcome To My Blog
+Why do cross-validation?
 </h3>
 <div class="listing-subtitle">
 
 </div>
 </a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
+
 </div>
-</div>
-<a href="./posts/welcome/index.html">
+<a href="./posts/2020-10-11-why-do-cross-validation.html">
 <div class="listing-description">
-This is the first post in a Quarto blog. Welcome!
+In short, we do cross-validation to pick the right model. But what does that mean for our ‘final model’?
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/welcome/index.html">
+<a href="./posts/2020-10-11-why-do-cross-validation.html">
 <div class="listing-date">
-Dec 12, 2022
+Oct 11, 2020
 </div>
 <div class="listing-author">
-Tristan O’Malley
+Philip Khor
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1570982400000" data-listing-file-modified-sort="1671110938687" data-listing-reading-time-sort="3.925">
+<div class="thumbnail">
+<p><a href="./posts/2019-10-14-charts-can-lie.html"> <img src="https://pbs.twimg.com/media/EFMsHivWsAA6_J1?format=png&amp;name=900x900" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-10-14-charts-can-lie.html">
+<h3 class="no-anchor listing-title">
+Charts can lie
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Data visualization is something we use to understand our data. Sure, it has some aesthetic function, but its primary purpose is to communicate what’s in the data.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-10-14-charts-can-lie.html">
+<div class="listing-date">
+Oct 14, 2019
+</div>
+<div class="listing-author">
+Philip Khor
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="" data-listing-date-sort="1563033600000" data-listing-file-modified-sort="1671110877838" data-listing-reading-time-sort="5.705">
+<div class="thumbnail">
+<a href="./posts/2019-07-14-link-functions-matter.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2019-07-14-link-functions-matter.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-07-14-link-functions-matter.html">
+<h3 class="no-anchor listing-title">
+Link functions matter
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+
+</div>
+<a href="./posts/2019-07-14-link-functions-matter.html">
+<div class="listing-description">
+There’s a bit of a conversation on Twitter whether to use linear models or logistic models for estimating effect sizes in the case of binary response variables. I…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-07-14-link-functions-matter.html">
+<div class="listing-date">
+Jul 14, 2019
+</div>
+<div class="listing-author">
+Philip Khor
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="" data-listing-date-sort="1560355200000" data-listing-file-modified-sort="1652878504554" data-listing-reading-time-sort="2.11">
+<div class="thumbnail">
+<a href="./posts/2019-06-13-file-paths-and-data-science-projects.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2019-06-13-file-paths-and-data-science-projects.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-06-13-file-paths-and-data-science-projects.html">
+<h3 class="no-anchor listing-title">
+File paths and data science projects
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+
+</div>
+<a href="./posts/2019-06-13-file-paths-and-data-science-projects.html">
+<div class="listing-description">
+Large data…<em></em>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-06-13-file-paths-and-data-science-projects.html">
+<div class="listing-date">
+Jun 13, 2019
+</div>
+<div class="listing-author">
+Philip Khor
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="ggplot2,wage-gap" data-listing-date-sort="1560009600000" data-listing-file-modified-sort="1652878504550" data-listing-reading-time-sort="5.1">
+<div class="thumbnail">
+<a href="./posts/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html">
+<h3 class="no-anchor listing-title">
+The Australian gender wage gap: interactive viz
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ggplot2'); return false;">
+ggplot2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('wage-gap'); return false;">
+wage-gap
+</div>
+</div>
+<a href="./posts/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html">
+<div class="listing-description">
+I wrote a piece at The Ambitious Economist on Australia’s gender wage gap with some good ol’ <code>ggplot2</code> dataviz. However, there was a chart showing the gender wage gap by occupation that could have benefited from some interactive visualisation. Fortunately, the…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html">
+<div class="listing-date">
+Jun 9, 2019
+</div>
+<div class="listing-author">
+Philip Khor
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="econometrics" data-listing-date-sort="1559664000000" data-listing-file-modified-sort="1652878504549" data-listing-reading-time-sort="3.565">
+<div class="thumbnail">
+<p><a href="./posts/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html"> <img src="./img/e6f.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html">
+<h3 class="no-anchor listing-title">
+PSA: Python, OLS and perfectly collinear variables
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('econometrics'); return false;">
+econometrics
+</div>
+</div>
+<a href="./posts/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html">
+<div class="listing-description">
+Unlike most implementations of linear models (e.g.&nbsp;Stata, R), Python packages don’t usually drop perfectly collinear variables.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html">
+<div class="listing-date">
+Jun 5, 2019
+</div>
+<div class="listing-author">
+Philip Khor
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="" data-listing-date-sort="1556899200000" data-listing-file-modified-sort="1652878504547" data-listing-reading-time-sort="2.155">
+<div class="thumbnail">
+<a href="./posts/2019-05-04-my-first-package-bnmr.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2019-05-04-my-first-package-bnmr.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-05-04-my-first-package-bnmr.html">
+<h3 class="no-anchor listing-title">
+My first package: bnmr
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+
+</div>
+<a href="./posts/2019-05-04-my-first-package-bnmr.html">
+<div class="listing-description">
+bnmr is a wrapper for <code>httr</code> to access BNM (Malaysia’s central bank)’s recently released API. I wrote this to practice writing R packages, with lots of help from the R Packages boo…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-05-04-my-first-package-bnmr.html">
+<div class="listing-date">
+May 4, 2019
+</div>
+<div class="listing-author">
+Philip Khor
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="Python" data-listing-date-sort="1535644800000" data-listing-file-modified-sort="1671108902221" data-listing-reading-time-sort="10.43">
+<div class="thumbnail">
+<p><a href="./posts/2018-08-27-exploring-ge14-results-with-python-part-2.html"> <img src="./img/output_51_1.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-08-27-exploring-ge14-results-with-python-part-2.html">
+<h3 class="no-anchor listing-title">
+Exploring GE14 results with Python (part 2)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+</div>
+<a href="./posts/2018-08-27-exploring-ge14-results-with-python-part-2.html">
+<div class="listing-description">
+See here for part 1.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-08-27-exploring-ge14-results-with-python-part-2.html">
+<div class="listing-date">
+Aug 31, 2018
+</div>
+<div class="listing-author">
+Philip Khor
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="Python" data-listing-date-sort="1535126400000" data-listing-file-modified-sort="1671108578608" data-listing-reading-time-sort="9.275">
+<div class="thumbnail">
+<p><a href="./posts/2018-08-25-exploring-ge14-results-with-python.html"> <img src="./img/output_6_0.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-08-25-exploring-ge14-results-with-python.html">
+<h3 class="no-anchor listing-title">
+Exploring GE14 results with Python (part 1)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+</div>
+<a href="./posts/2018-08-25-exploring-ge14-results-with-python.html">
+<div class="listing-description">
+There’s an interesting blog post up on DataTarik about using random forests to model the outcomes of Malaysia’s 14th general election…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-08-25-exploring-ge14-results-with-python.html">
+<div class="listing-date">
+Aug 25, 2018
+</div>
+<div class="listing-author">
+Philip Khor
 </div>
 </a>
 </div>
