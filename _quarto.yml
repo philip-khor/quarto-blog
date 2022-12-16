@@ -2,18 +2,25 @@ project:
   type: website
   render:
     - '*.qmd'
-    - '/posts/2018-*-exploring-ge14-results-with-python*.md'
-    - '/posts/2019-05-04-my-first-package-bnmr.md'
-    - '/posts/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.md'
-    - '/posts/2019-06-13-file-paths-and-data-science-projects.Rmd'
-    - '/posts/2019-07-14-link-functions-matter.Rmd'
-    - '/posts/2019-10-14-charts-can-lie.md'
-    - '/posts/2020-10-11-why-do-cross-validation.Rmd'
-    - '/posts/2019-06-09-the-australian-gender-wage-gap-interactive-viz.Rmd'
-    - '/posts/2020-10-24-nested-cross-validation/index.md'
+    - '/post/2018-*-exploring-ge14-results-with-python*.md'
+    - '/post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.Rmd'
+    - '/post/2019-05-04-my-first-package-bnmr.md'
+    - '/post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.md'
+    - '/post/2019-06-13-file-paths-and-data-science-projects.Rmd'
+    - '/post/2019-07-14-link-functions-matter.Rmd'
+    - '/post/2019-10-14-charts-can-lie.md'
+    - '/post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.Rmd'
+    - '/post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.Rmd'
+    - '/post/2020-10-24-nested-cross-validation/index.Rmd'
+    - '/post/learning-to-sell/index.md'
+    - '/post/reflections-on-the-tidyverse/index.md'
+    - '/post/wsl/index.md'
     
 website:
   title: "philip's curve"
+  site-url: https://www.philipscurve.com
+  twitter-card: true
+  open-graph: true
   navbar:
     collapse: false
     right:
@@ -21,6 +28,7 @@ website:
       href: https://github.com/philip-khor
     - icon: mastodon
       href: https://masto.ai/@pk
+      rel: me
     - icon: linkedin
       href: https://www.linkedin.com/in/philip-khor/
   page-footer: 
@@ -29,7 +37,6 @@ website:
   search: 
     location: sidebar
   favicon: icon.png
-  # site-url: https://www.philipscurve.com
 execute:
   freeze: auto
 
