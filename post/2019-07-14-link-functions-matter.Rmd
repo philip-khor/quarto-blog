@@ -3,12 +3,8 @@ title: Link functions matter
 author: "Philip Khor"
 date: '2019-07-14'
 slug: link-functions-matter
-categories: []
-tags: []
-abstract: 'Benchmarking different link functions'
+subtitle: 'Benchmarking different link functions'
 lastmod: '2019-07-14T10:50:34+09:00'
-featured: no
-projects: []
 ---
 
 There's a bit of a conversation on Twitter whether to use linear models or logistic models for estimating effect sizes in the case of binary response variables. I wondered if linear models can work for prediction problems with binary response variables, since there may be cases where the latent probability is linearly related to the features.
