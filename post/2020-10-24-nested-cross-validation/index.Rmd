@@ -2,9 +2,8 @@
 title: "Nested cross-validation"
 author: "Philip Khor"
 date: '2020-10-24'
-slug: []
+slug: 'nested-cross-validation'
 categories: []
-tags: []
 subtitle: A solution for overfitting in model selection
 lastmod: '2020-10-24T13:38:22+08:00'
 image: featured.jpg
