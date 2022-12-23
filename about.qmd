@@ -2,7 +2,7 @@
 title: "About"
 image: avatar.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: mastodon
       text: Mastodon
@@ -13,6 +13,37 @@ about:
     - icon: github
       text: Github
       href: https://github.com/philip-khor
+    - icon: file-earmark-person 
+      text: CV 
+      href: https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf
+      
 ---
 
 <a rel="me" href="https://masto.ai/@pk">Philip</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the [conda-forge](https://conda-forge.org/) software distribution project. He is package maintainer of the R package [bnmr](https://github.com/philip-khor/bnmr/) and an author of [pmdplyr](https://github.com/NickCH-K/pmdplyr), and volunteers for [PyData Kuala Lumpur](https://www.meetup.com/pydatakl/).
+
+### Education
+
+**University of Wollongong** | Wollongong, NSW  
+Bachelor of Commerce (Hons), Economics | 2017
+
+**University of Wollongong** | Wollongong, NSW  
+Bachelor of Commerce (Dean's Scholar), Economics | 2014-2016
+
+**Tunku Abdul Rahman University of Management and Technology** | Tanjung Bungah, Penang  
+Diploma in Business Studies, Accounting | 2012-2014
+
+### Experience
+
+**CIMB Bank Berhad** | Manager, Regional Advanced Risk Modelling, Group Risk | March 2020 - May 2022
+
+**Skymind AI Berhad** | Technical Writer | Oct 2019 - Dec 2019
+
+**GRID Inc.** | Data Scientist Intern | May 2019 - Aug 2019
+
+**The Center of Applied Data Science** | Data Scientist Associate | Jul 2018 - May 2019
+
+**Penang Institute** | Research Assistant | Dec 2015 - Jan 2016, Aug 2016 - Jun 2017
+
+### Professional Memberships
+
+**Asian Institute of Chartered Bankers** | Associate

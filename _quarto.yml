@@ -23,6 +23,8 @@ website:
   open-graph: true
   navbar:
     collapse: false
+    left: 
+    - about.qmd
     right:
     - icon: github
       href: https://github.com/philip-khor
@@ -32,6 +34,7 @@ website:
     - icon: linkedin
       href: https://www.linkedin.com/in/philip-khor/
   page-footer: 
+    left: "Made with [Quarto](https://quarto.org/)."
     right:
       - about.qmd
   search: 
@@ -42,11 +45,10 @@ execute:
 
 format:
   html:
-    theme: 
-      light: spacelab
-      dark: slate
+    theme: spacelab
     # css: styles.css
     toc: true
+    smooth-scroll: true
     
 editor: visual
 
