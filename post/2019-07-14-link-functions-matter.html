@@ -129,10 +129,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <meta property="og:title" content="philip’s curve - Link functions matter">
 <meta property="og:description" content="Benchmarking different link functions">
+<meta property="og:image" content="https://www.philipscurve.com/img/384608250_535b9a6840_z.jpg">
 <meta property="og:site-name" content="philip's curve">
 <meta name="twitter:title" content="philip’s curve - Link functions matter">
 <meta name="twitter:description" content="Benchmarking different link functions">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.philipscurve.com/img/384608250_535b9a6840_z.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -177,6 +179,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Link functions matter</h1>
+            <p class="subtitle lead">Benchmarking different link functions</p>
                       </div>
   </div>
     
@@ -186,7 +189,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p> </p>
+               <p>Philip Khor </p>
             </div>
     </div>
       
@@ -340,16 +343,16 @@ prediction from a rank-deficient fit may be misleading</code></pre>
 <pre><code># A tibble: 10 × 4
    model       .metric  .estimator .estimate
    &lt;chr&gt;       &lt;chr&gt;    &lt;chr&gt;          &lt;dbl&gt;
- 1 cauchit     accuracy binary         0.832
- 2 logit       accuracy binary         0.826
- 3 OLS         accuracy binary         0.825
- 4 probit      accuracy binary         0.823
- 5 trimmed OLS accuracy binary         0.822
- 6 cauchit     kap      binary         0.636
- 7 logit       kap      binary         0.628
- 8 OLS         kap      binary         0.625
- 9 probit      kap      binary         0.623
-10 trimmed OLS kap      binary         0.621</code></pre>
+ 1 cauchit     accuracy binary         0.836
+ 2 logit       accuracy binary         0.827
+ 3 probit      accuracy binary         0.826
+ 4 OLS         accuracy binary         0.825
+ 5 trimmed OLS accuracy binary         0.823
+ 6 cauchit     kap      binary         0.644
+ 7 logit       kap      binary         0.630
+ 8 probit      kap      binary         0.628
+ 9 OLS         kap      binary         0.625
+10 trimmed OLS kap      binary         0.623</code></pre>
 </div>
 </div>
 <p>Looks like the cauchit model has the highest accuracy, and OLS isn’t too far behind the logit. But why does the cauchit link function perform better?</p>

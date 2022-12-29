@@ -129,10 +129,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <meta property="og:title" content="philip’s curve - Why do cross-validation?">
 <meta property="og:description" content="It can be difficult to see the forest for the trees sometimes. And it certainly can be the case with cross-validation.">
+<meta property="og:image" content="https://www.philipscurve.com/img/300px-Korsstygn_detalj.jpg">
 <meta property="og:site-name" content="philip's curve">
 <meta name="twitter:title" content="philip’s curve - Why do cross-validation?">
 <meta name="twitter:description" content="It can be difficult to see the forest for the trees sometimes. And it certainly can be the case with cross-validation.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.philipscurve.com/img/300px-Korsstygn_detalj.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -225,7 +227,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 <p>In short, we do cross-validation to pick the right model. But what does that mean for our ‘final model’?</p>
-<p>Let’s take a step back and motivate the train-test split approach (otherwise known as the *evaluation set approach*). Like cross-validation, we perform the evaluation set approach because we want to have some idea of how our model performs in the real world.</p>
+<p>Let’s take a step back and motivate the train-test split approach (otherwise known as the <em>evaluation set approach</em>). Like cross-validation, we perform the evaluation set approach because we want to have some idea of how our model performs in the real world.</p>
 <section id="the-evaluation-set-approach" class="level3">
 <h3 class="anchored" data-anchor-id="the-evaluation-set-approach">The evaluation set approach</h3>
 <p>A simple way to achieve this is to split our data so that the model is *trained* on one part of the data, and *evaluated* on the other part (‘holdout’). This is what we see at the start of most machine learning courses:</p>
