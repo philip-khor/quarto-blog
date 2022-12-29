@@ -4,12 +4,13 @@ author: Philip Khor
 date: '2020-10-11'
 slug: why-do-cross-validation
 subtitle: 'It can be difficult to see the forest for the trees sometimes. And it certainly can be the case with cross-validation.'
+image: /img/300px-Korsstygn_detalj.jpg
 lastmod: '2020-10-11T10:48:54+08:00'
 ---
 
 In short, we do cross-validation to pick the right model. But what does that mean for our 'final model'?
 
-Let's take a step back and motivate the train-test split approach (otherwise known as the \*evaluation set approach\*). Like cross-validation, we perform the evaluation set approach because we want to have some idea of how our model performs in the real world.
+Let's take a step back and motivate the train-test split approach (otherwise known as the *evaluation set approach*). Like cross-validation, we perform the evaluation set approach because we want to have some idea of how our model performs in the real world.
 
 ### The evaluation set approach
 

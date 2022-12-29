@@ -4,6 +4,7 @@ author: "Philip Khor"
 date: '2019-07-14'
 slug: link-functions-matter
 subtitle: 'Benchmarking different link functions'
+image: '/img/384608250_535b9a6840_z.jpg'
 lastmod: '2019-07-14T10:50:34+09:00'
 ---
 
