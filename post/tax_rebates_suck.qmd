@@ -7,7 +7,7 @@ date: "2023/07/09"
 
 If you're one of the [16.5% of employees who pay taxes in Malaysia](https://theedgemalaysia.com/article/cover-story-budget-2020-top-tax-bracket-raised-30-tin-number-proposed) you may be familiar with one of the many ways by which you can reduce your tax burden: tax reliefs. From purchases of computers to EPF contributions, there's so many incentives that the government provides for you to save money, or even get some cash back in the process.
 
-But wait a minute, you say. "I'm part of the 16%? The median income in Malaysia was RM5,873 a month in 2019[^1], and I'm barely there." But well, most of you aren't your own household. And if you're a single-earner household, your median income turns out to be just RM2,988 (2019), well below the taxable threshold of around RM3,000 a month. As of 2021, the Salaries and Wages Report, which provides more frequent updates on wage trends, indicates a median income of RM2,250 in 2021.
+But wait a minute, you say. "I'm part of the 16%? The median income in Malaysia was RM5,873 a month in 2019[^1], and I'm barely there." But well, most of you aren't your own household. And if you're a single-earner household, your median income turns out to be just RM2,988 (2019), well below the taxable threshold of around RM3,000 a month. The Salaries and Wages Report, which provides more frequent updates on wage trends, indicates a median income of RM2,250 in 2021.
 
 [^1]: From the Household Income Survey, which is the source for all things B40/M40/T20.
 
@@ -26,7 +26,7 @@ To see why, let's take a middle-of-the-road employee ('Person A') from a T20 hou
 | Person B | First 70,000  | 4,400 |           |
 |          | 22,496 \@ 21% | 4,724 | **9,124** |
 
-Suppose that both Person A and B enjoy RM1,000 tax relief on top of the standard RM9,000 tax relief (for existing? idk). This reduces chargable income for each of these persons by RM10,000. However, for Person A, tax payable reduces by 800 (RM10,000 $\times$ 8%), while for Person B tax payable reduces by RM2,100. This means the government has forgone 2.6 times more tax revenue for the richer Person B than for Person A, and makes tax deductions highly regressive.
+Suppose that both Person A and B enjoy RM1,000 tax relief on top of the standard RM9,000 tax relief (for existing? idk). This reduces chargable income for each of these persons by RM10,000. However, for Person A, tax payable reduces by 800 (RM10,000 $\times$ 8%), while for Person B tax payable reduces by RM2,100. This means the government has forgone 2.6 times more tax revenue for the richer Person B than for Person A, and makes tax deductions highly regressive: the rich benefit more than the poor.
 
 Perhaps you object: Person B's income means he contributes more to society, so he deserves additional relief proportionate to his contribution. Even by that logic, the government has forgone proportionately more revenue than Person B has earned.
 
