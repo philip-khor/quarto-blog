@@ -5,7 +5,7 @@ author: "Philip Khor"
 date: "2023/07/09"
 ---
 
-If you're one of the [16.5% of employees who pay taxes in Malaysia](https://theedgemalaysia.com/article/cover-story-budget-2020-top-tax-bracket-raised-30-tin-number-proposed) you may be familiar with one of the many ways by which you can reduce your tax burden: tax reliefs. From purchases of computers to EPF contributions, there's so many incentives that the government provides for you to save money, or even get some cash back in the process.
+If you're one of the [16.5% of employees who pay taxes in Malaysia](https://theedgemalaysia.com/article/cover-story-budget-2020-top-tax-bracket-raised-30-tin-number-proposed) you may be familiar with the many ways by which you can reduce your tax burden: tax reliefs. From purchases of computers to EPF contributions, there's so many incentives that the government provides for you to save money, or even get some cash back in the process.
 
 But wait a minute, you say. "I'm part of the 16%? The median income in Malaysia was RM5,873 a month in 2019[^1], and I'm barely there." But well, most of you aren't your own household. And if you're a single-earner household, your median income turns out to be just RM2,988 (2019), well below the taxable threshold of around RM3,000 a month. The Salaries and Wages Report, which provides more frequent updates on wage trends, indicates a median income of RM2,250 in 2021.
 
