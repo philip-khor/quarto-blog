@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Philip Khor">
-<meta name="dcterms.date" content="2020-10-11">
+<meta name="dcterms.date" content="2023-07-09">
+<meta name="description" content="One of my pet peeves is to see people advocate for tax rebates when they should know better.">
 
-<title>philip’s curve - Why do cross-validation?</title>
+<title>philip’s curve - (Individual) tax rebates suck</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,60 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../icon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../icon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -102,14 +69,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="philip’s curve - Why do cross-validation?">
-<meta property="og:description" content="It can be difficult to see the forest for the trees sometimes. And it certainly can be the case with cross-validation.">
-<meta property="og:image" content="https://www.philipscurve.com/img/300px-Korsstygn_detalj.jpg">
+<meta property="og:title" content="philip’s curve - (Individual) tax rebates suck">
+<meta property="og:description" content="One of my pet peeves is to see people advocate for tax rebates when they should know better.">
 <meta property="og:site_name" content="philip's curve">
-<meta name="twitter:title" content="philip’s curve - Why do cross-validation?">
-<meta name="twitter:description" content="It can be difficult to see the forest for the trees sometimes. And it certainly can be the case with cross-validation.">
-<meta name="twitter:image" content="https://www.philipscurve.com/img/300px-Korsstygn_detalj.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="philip’s curve - (Individual) tax rebates suck">
+<meta name="twitter:description" content="One of my pet peeves is to see people advocate for tax rebates when they should know better.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -119,13 +84,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">philip’s curve</span>
     </a>
   </div>
           <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -155,9 +120,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Why do cross-validation?</h1>
-            <p class="subtitle lead">It can be difficult to see the forest for the trees sometimes. And it certainly can be the case with cross-validation.</p>
-                      </div>
+      <h1 class="title">(Individual) tax rebates suck</h1>
+                  <div>
+        <div class="description">
+          One of my pet peeves is to see people advocate for tax rebates when they should know better.
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -173,7 +142,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 11, 2020</p>
+        <p class="date">July 9, 2023</p>
       </div>
     </div>
     
@@ -185,17 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-evaluation-set-approach" id="toc-the-evaluation-set-approach" class="nav-link active" data-scroll-target="#the-evaluation-set-approach">The evaluation set approach</a></li>
-  <li><a href="#training-on-the-evaluation-set" id="toc-training-on-the-evaluation-set" class="nav-link" data-scroll-target="#training-on-the-evaluation-set">Training on the evaluation set</a></li>
-  <li><a href="#another-holdout-set" id="toc-another-holdout-set" class="nav-link" data-scroll-target="#another-holdout-set">Another holdout set</a></li>
-  <li><a href="#k-fold-cross-validation" id="toc-k-fold-cross-validation" class="nav-link" data-scroll-target="#k-fold-cross-validation">K-fold cross-validation</a></li>
-  <li><a href="#which-is-the-final-model" id="toc-which-is-the-final-model" class="nav-link" data-scroll-target="#which-is-the-final-model">Which is the final model?</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -203,69 +162,70 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>In short, we do cross-validation to pick the right model. But what does that mean for our ‘final model’?</p>
-<p>Let’s take a step back and motivate the train-test split approach (otherwise known as the <em>evaluation set approach</em>). Like cross-validation, we perform the evaluation set approach because we want to have some idea of how our model performs in the real world.</p>
-<section id="the-evaluation-set-approach" class="level3">
-<h3 class="anchored" data-anchor-id="the-evaluation-set-approach">The evaluation set approach</h3>
-<p>A simple way to achieve this is to split our data so that the model is *trained* on one part of the data, and *evaluated* on the other part (‘holdout’). This is what we see at the start of most machine learning courses:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="Screenshot 2020-10-11 105549.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">evaluation set approach</figcaption>
-</figure>
+<p>If you’re one of the <a href="https://theedgemalaysia.com/article/cover-story-budget-2020-top-tax-bracket-raised-30-tin-number-proposed">16.5% of employees who pay taxes in Malaysia</a> you may be familiar with one of the many ways by which you can reduce your tax burden: tax reliefs. From purchases of computers to EPF contributions, there’s so many incentives that the government provides for you to save money, or even get some cash back in the process.</p>
+<p>But wait a minute, you say. “I’m part of the 16%? The median income in Malaysia was RM5,873 a month in 2019<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, and I’m barely there.” But well, most of you aren’t your own household. And if you’re a single-earner household, your median income turns out to be just RM2,988 (2019), well below the taxable threshold of around RM3,000 a month. As of 2021, the Salaries and Wages Report, which provides more frequent updates on wage trends, indicates a median income of RM2,250 in 2021.</p>
+<p>So yeah, if you’re familiar with <a href="https://www.hasil.gov.my/media/gf1dooov/form_be2022_2.pdf">Borang BE</a> pat yourself on the back. You’re T20, you’ve made it as part of the socioeconomic elite.</p>
+<p>Tax rebates are a great way for the government to claim to ‘fix’ problems without actually putting their money where their mouth is. There’s no real expense, just revenue forgone. But in truth, like a reverse Robin Hood, tax rebates steal from the poor to subsidise tax bills for the rich. So when a bunch of experts suggested <a href="https://www.thestar.com.my/news/nation/2023/07/07/ensuring-a-healthy-nest-egg">in the media</a> that tax rebates be used to encourage people to top up their EPF savings, I was rather unhappy.</p>
+<p>To see why, let’s take a middle-of-the-road employee (‘Person A’) from a T20 household. In 2019, the median income per capita in a T20 household was RM3,854, or RM 46,248 a year<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. For comparison, let’s take an individual (‘Person B’) that earns double that, say RM92,496. For the <a href="https://www.hasil.gov.my/en/individual/individual-life-cycle/how-to-declare-income/tax-rate/">year of assessment 2022</a>, Person A falls under the 8% tax bracket, whereas Person B falls under the 21% tax bracket. Ignoring all applicable tax reliefs, their tax payable would be as follows:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Person A</td>
+<td>First 35,000</td>
+<td>600</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>11,248 @ 8%</td>
+<td>900</td>
+<td><strong>1,500</strong></td>
+</tr>
+<tr class="odd">
+<td>Person B</td>
+<td>First 70,000</td>
+<td>4,400</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>22,496 @ 21%</td>
+<td>4,724</td>
+<td><strong>9,124</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Now suppose that both Person A and B enjoy RM1,000 tax relief on top of the standard RM9,000 tax relief (for existing? idk). This reduces chargable income for each of these persons by RM10,000. However, for Person A, chargable income reduces by 800, while for Person B chargable income reduces by RM2,100. This means the government has forgone 2.6 times more tax revenue for the richer Person B than for Person A, and makes tax deductions highly regressive.</p>
+<p>Perhaps you object: Person B’s income means he contributes more to society, so he deserves additional relief proportionate to his contribution. Even by that logic, the government has forgone proportionately more revenue than Person B has earned.</p>
+<p>Not to mention that the tax relief system is the bane of ratepayers’ existence: you are required to keep records for several years. Some of us approach the tax authorities for voluntary audits in fear of getting in trouble some point in the future if we’ve misunderstood the tax code.</p>
+<p>Now, there may be a place for tax relief if the intention is to incentivise the rich to do certain pro-social things, for instance engage in risky investments to spur innovation, or even to purchase insurance, where their purchase of insurance could diversify risk pools and contribute to lower premiums. But it would be a lot more equitable to subsidise these behaviours directly. Insurance vouchers, for instance. Or topping up EPF contributions to a minimum, in the style of a <a href="https://mitsloan.mit.edu/ideas-made-to-matter/negative-income-tax-explained">negative income tax</a>.</p>
+<p>If we expanded relief for voluntary contribution to the EPF, only the well-off and financially sound can afford to contribute voluntarily to the EPF at an amount significant enough to make a dent on their tax bill<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Not to lose sight of the fact that while we lobby the government to lower our tax bills, the median savings of EPF members has halved to <a href="https://www.bernama.com/en/business/news.php?id=2165052">RM8,100 in 2022 from RM16,600 pre-Covid</a>.</p>
+<p>We need a real conversation about how to fund social security moving forward, lest retirement means poverty for the aging masses.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p>In Python, this is what we do when we call <code>train_test_split()</code> from <code>sklearn</code>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, <span class="fl">0.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>for R users, using the <strong>tidymodels</strong> infrastructure, <strong>rsample</strong> can be used to split training and holdout sets:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rsample) </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>car_split <span class="ot">&lt;-</span> <span class="fu">initial_split</span>(mtcars)</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>train_data <span class="ot">&lt;-</span> <span class="fu">training</span>(car_split)</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>test_data <span class="ot">&lt;-</span> <span class="fu">testing</span>(car_split)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="training-on-the-evaluation-set" class="level3">
-<h3 class="anchored" data-anchor-id="training-on-the-evaluation-set">Training on the evaluation set</h3>
-<p>Unfortunately for us, in practice, we use the holdout set <strong>a lot</strong> more than once. Today’s data scientist is spoiled for choice when it comes to algorithms: for gradient boosting alone, you have XGBoost, LightGBM, CatBoost, HistGradientBoosting, gbm etc., not to mention the numerous hyperparameters you have for any one algorithm. If you use the holdout set to guide your choice of hyperparameters, you are bound to overfit on your holdout set.</p>
-<p>The no-free-lunch theorem further complicates this problem. Loosely speaking, the no-free-lunch theorem asserts that there is no One True Algorithm that has superior performance across all use cases. Given the above, the data scientist would have to test the algorithm multiple times to see which works best. With the evaluation set approach, this amounts to training on the holdout set.</p>
-</section>
-<section id="another-holdout-set" class="level3">
-<h3 class="anchored" data-anchor-id="another-holdout-set">Another holdout set</h3>
-<p>If you put this question up to the deep learning folks, they’ll provide you a seemingly simple solution: create two holdout sets. Pick the correct model on Holdout 1 (‘validation’), then evaluate the final model on Holdout 2 (‘holdout’):</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="105453.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">train, validation, holdout</figcaption>
-</figure>
+<div class="callout-title-container flex-fill">
+Disclaimer
 </div>
-<p>This may not be ideal sometimes because:</p>
-<p>1. data is often limited: there may not be enough data for two holdout sets. Moreover, in cases where observations are time-sensitive, a TVH approach could reduce the generalizability of the chosen model if the time period of the shrinked training set is less relevant to the problem at hand.</p>
-<p>2. Additionally, depending on the observations picked in validation/holdout, test error can be highly variable (see ISLR for details).</p>
-</section>
-<section id="k-fold-cross-validation" class="level3">
-<h3 class="anchored" data-anchor-id="k-fold-cross-validation">K-fold cross-validation</h3>
-<p>And so we move on to cross-validation, in hopes that we can get around this limited-data problem. This diagram may be familiar to some of you:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="Screenshot 2020-10-11 105633.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">5-fold cross-validation</figcaption>
-</figure>
 </div>
-<p>In (k-fold) cross-validation, we try to get at some semblance of generalization performance by resampling the development data. Slicing the development data into 5 folds, we train the data on 4 folds, and validate the resulting model on the remaining fold. We repeat this for each permutation of folds, and then average the validation score to obtain the cross-validated score.</p>
-</section>
-<section id="which-is-the-final-model" class="level3">
-<h3 class="anchored" data-anchor-id="which-is-the-final-model">Which is the final model?</h3>
-<p>While performing cross-validation, we have trained K models to evaluate our training procedure. Which should be the final model?</p>
-<p><strong>None of the above!</strong> The purpose of cross-validation is merely to pick the correct procedure for fitting a model. Whether it be the algorithm or the hyperparameter search space, the purpose of cross-validation is to know what procedure works best for your data. The same procedure can be reused to re-fit the model on new data, and that should make up your final model.</p>
-<blockquote class="blockquote">
-<p>The purpose of cross-validation is model checking, not model building (<a href="https://stats.stackexchange.com/a/52277">StackExchange</a>)</p>
-</blockquote>
-<p>In fact, once you’re done with cross-validation and picked your final model, you can, and should, re-train your model-building procedure on all the data you have. There is no reason to drop the holdout set once the optimal procedure has been selected.</p>
+<div class="callout-body-container callout-body">
+<p>This article represents my own opinions and do not represent the opinions of my employer. I am not a tax professional and no part of this article should be taken as tax advice of any kind.</p>
+</div>
+</div>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>From the Household Income Survey, which is the source for all things B40/M40/T20.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>See also <a href="http://web.usm.my/km/30(2)2012/KM%2030(2)%20ART%202%20(27-43).pdf" class="uri">http://web.usm.my/km/30(2)2012/KM%2030(2)%20ART%202%20(27-43).pdf</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Consider also that the EPF’s own analysis has characterised the large disparity between small and large depositors in the system as a problem. <a href="https://www.kwsp.gov.my/documents/20126/ddae99a2-bddd-4aee-4fbb-f85b1b3eddbf" class="uri">https://www.kwsp.gov.my/documents/20126/ddae99a2-bddd-4aee-4fbb-f85b1b3eddbf</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -578,7 +538,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
+    <a class="nav-link" href="../about.html">
 <p>About</p>
 </a>
   </li>  
@@ -590,5 +550,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

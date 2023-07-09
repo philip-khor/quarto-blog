@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.56">
+<meta name="generator" content="quarto-1.4.193">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,9 +19,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -48,48 +49,19 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -103,8 +75,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -131,6 +102,9 @@ div.csl-indent {
   "panel-placement": "start",
   "type": "textbox",
   "limit": 20,
+  "keyboard-shortcut": [
+    null
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -140,17 +114,19 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <meta property="og:title" content="philip’s curve - Nested cross-validation">
 <meta property="og:description" content="A solution for overfitting in model selection">
 <meta property="og:image" content="https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/featured.jpg">
-<meta property="og:site-name" content="philip's curve">
+<meta property="og:site_name" content="philip's curve">
 <meta name="twitter:title" content="philip’s curve - Nested cross-validation">
 <meta name="twitter:description" content="A solution for overfitting in model selection">
 <meta name="twitter:image" content="https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/featured.jpg">
@@ -163,7 +139,7 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">philip’s curve</span>
     </a>
@@ -181,7 +157,7 @@ div.csl-indent {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://masto.ai/@pk" rel="me" target=""><i class="bi bi-mastodon" role="img">
+    <a class="nav-link" href="https://masto.ai/(pk?)" rel="me" target=""><i class="bi bi-mastodon" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -191,6 +167,8 @@ div.csl-indent {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -357,13 +335,12 @@ div.csl-indent {
 <li><p>you perform a 5-fold cross validation, building a model on each combination of 4 of the 5 folds and evaluating the model on the remaining fold:</p>
 <div class="cell">
 <div class="cell-output-display">
-
 <div id="hamjlnbvkl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#hamjlnbvkl) .gt_table {
+#hamjlnbvkl .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -388,7 +365,7 @@ div.csl-indent {
   border-left-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_heading {
+#hamjlnbvkl .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -400,12 +377,12 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_caption {
+#hamjlnbvkl .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#hamjlnbvkl) .gt_title {
+#hamjlnbvkl .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -417,7 +394,7 @@ div.csl-indent {
   border-bottom-width: 0;
 }
 
-:where(#hamjlnbvkl) .gt_subtitle {
+#hamjlnbvkl .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -429,13 +406,13 @@ div.csl-indent {
   border-top-width: 0;
 }
 
-:where(#hamjlnbvkl) .gt_bottom_border {
+#hamjlnbvkl .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_col_headings {
+#hamjlnbvkl .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -450,7 +427,7 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_col_heading {
+#hamjlnbvkl .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -470,7 +447,7 @@ div.csl-indent {
   overflow-x: hidden;
 }
 
-:where(#hamjlnbvkl) .gt_column_spanner_outer {
+#hamjlnbvkl .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -482,15 +459,15 @@ div.csl-indent {
   padding-right: 4px;
 }
 
-:where(#hamjlnbvkl) .gt_column_spanner_outer:first-child {
+#hamjlnbvkl .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#hamjlnbvkl) .gt_column_spanner_outer:last-child {
+#hamjlnbvkl .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#hamjlnbvkl) .gt_column_spanner {
+#hamjlnbvkl .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -502,7 +479,7 @@ div.csl-indent {
   width: 100%;
 }
 
-:where(#hamjlnbvkl) .gt_group_heading {
+#hamjlnbvkl .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -528,7 +505,7 @@ div.csl-indent {
   text-align: left;
 }
 
-:where(#hamjlnbvkl) .gt_empty_group_heading {
+#hamjlnbvkl .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -543,15 +520,15 @@ div.csl-indent {
   vertical-align: middle;
 }
 
-:where(#hamjlnbvkl) .gt_from_md > :first-child {
+#hamjlnbvkl .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#hamjlnbvkl) .gt_from_md > :last-child {
+#hamjlnbvkl .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#hamjlnbvkl) .gt_row {
+#hamjlnbvkl .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -570,7 +547,7 @@ div.csl-indent {
   overflow-x: hidden;
 }
 
-:where(#hamjlnbvkl) .gt_stub {
+#hamjlnbvkl .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -583,7 +560,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#hamjlnbvkl) .gt_stub_row_group {
+#hamjlnbvkl .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -597,11 +574,11 @@ div.csl-indent {
   vertical-align: top;
 }
 
-:where(#hamjlnbvkl) .gt_row_group_first td {
+#hamjlnbvkl .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#hamjlnbvkl) .gt_summary_row {
+#hamjlnbvkl .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -611,16 +588,16 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#hamjlnbvkl) .gt_first_summary_row {
+#hamjlnbvkl .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_first_summary_row.thick {
+#hamjlnbvkl .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#hamjlnbvkl) .gt_last_summary_row {
+#hamjlnbvkl .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -630,7 +607,7 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_grand_summary_row {
+#hamjlnbvkl .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -640,7 +617,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#hamjlnbvkl) .gt_first_grand_summary_row {
+#hamjlnbvkl .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -650,11 +627,11 @@ div.csl-indent {
   border-top-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_striped {
+#hamjlnbvkl .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#hamjlnbvkl) .gt_table_body {
+#hamjlnbvkl .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -663,7 +640,7 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_footnotes {
+#hamjlnbvkl .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -677,7 +654,7 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_footnote {
+#hamjlnbvkl .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -686,7 +663,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#hamjlnbvkl) .gt_sourcenotes {
+#hamjlnbvkl .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -700,7 +677,7 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-:where(#hamjlnbvkl) .gt_sourcenote {
+#hamjlnbvkl .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -708,118 +685,125 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#hamjlnbvkl) .gt_left {
+#hamjlnbvkl .gt_left {
   text-align: left;
 }
 
-:where(#hamjlnbvkl) .gt_center {
+#hamjlnbvkl .gt_center {
   text-align: center;
 }
 
-:where(#hamjlnbvkl) .gt_right {
+#hamjlnbvkl .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#hamjlnbvkl) .gt_font_normal {
+#hamjlnbvkl .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#hamjlnbvkl) .gt_font_bold {
+#hamjlnbvkl .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#hamjlnbvkl) .gt_font_italic {
+#hamjlnbvkl .gt_font_italic {
   font-style: italic;
 }
 
-:where(#hamjlnbvkl) .gt_super {
+#hamjlnbvkl .gt_super {
   font-size: 65%;
 }
 
-:where(#hamjlnbvkl) .gt_footnote_marks {
+#hamjlnbvkl .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-:where(#hamjlnbvkl) .gt_asterisk {
+#hamjlnbvkl .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#hamjlnbvkl) .gt_indent_1 {
+#hamjlnbvkl .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#hamjlnbvkl) .gt_indent_2 {
+#hamjlnbvkl .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#hamjlnbvkl) .gt_indent_3 {
+#hamjlnbvkl .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#hamjlnbvkl) .gt_indent_4 {
+#hamjlnbvkl .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#hamjlnbvkl) .gt_indent_5 {
+#hamjlnbvkl .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table">
 
-  <thead class="gt_col_headings">
-    <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="C">C</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="kernel">kernel</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="fold0">fold0</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="fold1">fold1</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="fold2">fold2</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="fold3">fold3</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="fold4">fold4</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="cv">cv</th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr><td headers="C" class="gt_row gt_right">1</td>
-<td headers="kernel" class="gt_row gt_left">linear</td>
-<td headers="fold0" class="gt_row gt_right">0.947</td>
-<td headers="fold1" class="gt_row gt_right">0.930</td>
-<td headers="fold2" class="gt_row gt_right">0.974</td>
-<td headers="fold3" class="gt_row gt_right">0.921</td>
-<td headers="fold4" class="gt_row gt_right">0.956</td>
-<td headers="cv" class="gt_row gt_right">0.946</td></tr>
-    <tr><td headers="C" class="gt_row gt_right">1</td>
-<td headers="kernel" class="gt_row gt_left">rbf</td>
-<td headers="fold0" class="gt_row gt_right">0.851</td>
-<td headers="fold1" class="gt_row gt_right">0.895</td>
-<td headers="fold2" class="gt_row gt_right">0.930</td>
-<td headers="fold3" class="gt_row gt_right">0.947</td>
-<td headers="fold4" class="gt_row gt_right">0.938</td>
-<td headers="cv" class="gt_row gt_right">0.912</td></tr>
-    <tr><td headers="C" class="gt_row gt_right">10</td>
-<td headers="kernel" class="gt_row gt_left">linear</td>
-<td headers="fold0" class="gt_row gt_right">0.939</td>
-<td headers="fold1" class="gt_row gt_right">0.939</td>
-<td headers="fold2" class="gt_row gt_right">0.974</td>
-<td headers="fold3" class="gt_row gt_right">0.947</td>
-<td headers="fold4" class="gt_row gt_right">0.965</td>
-<td headers="cv" class="gt_row gt_right">0.953</td></tr>
-    <tr><td headers="C" class="gt_row gt_right">10</td>
-<td headers="kernel" class="gt_row gt_left">rbf</td>
-<td headers="fold0" class="gt_row gt_right">0.877</td>
-<td headers="fold1" class="gt_row gt_right">0.921</td>
-<td headers="fold2" class="gt_row gt_right">0.912</td>
-<td headers="fold3" class="gt_row gt_right">0.956</td>
-<td headers="fold4" class="gt_row gt_right">0.947</td>
-<td headers="cv" class="gt_row gt_right">0.923</td></tr>
-  </tbody>
-
-
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true">
+<thead class="gt_col_headings">
+<tr class="header">
+<th id="C" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">C</th>
+<th id="kernel" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">kernel</th>
+<th id="fold0" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">fold0</th>
+<th id="fold1" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">fold1</th>
+<th id="fold2" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">fold2</th>
+<th id="fold3" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">fold3</th>
+<th id="fold4" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">fold4</th>
+<th id="cv" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">cv</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="C">1</td>
+<td class="gt_row gt_left" headers="kernel">linear</td>
+<td class="gt_row gt_right" headers="fold0">0.947</td>
+<td class="gt_row gt_right" headers="fold1">0.930</td>
+<td class="gt_row gt_right" headers="fold2">0.974</td>
+<td class="gt_row gt_right" headers="fold3">0.921</td>
+<td class="gt_row gt_right" headers="fold4">0.956</td>
+<td class="gt_row gt_right" headers="cv">0.946</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="C">1</td>
+<td class="gt_row gt_left" headers="kernel">rbf</td>
+<td class="gt_row gt_right" headers="fold0">0.851</td>
+<td class="gt_row gt_right" headers="fold1">0.895</td>
+<td class="gt_row gt_right" headers="fold2">0.930</td>
+<td class="gt_row gt_right" headers="fold3">0.947</td>
+<td class="gt_row gt_right" headers="fold4">0.938</td>
+<td class="gt_row gt_right" headers="cv">0.912</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="C">10</td>
+<td class="gt_row gt_left" headers="kernel">linear</td>
+<td class="gt_row gt_right" headers="fold0">0.939</td>
+<td class="gt_row gt_right" headers="fold1">0.939</td>
+<td class="gt_row gt_right" headers="fold2">0.974</td>
+<td class="gt_row gt_right" headers="fold3">0.947</td>
+<td class="gt_row gt_right" headers="fold4">0.965</td>
+<td class="gt_row gt_right" headers="cv">0.953</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="C">10</td>
+<td class="gt_row gt_left" headers="kernel">rbf</td>
+<td class="gt_row gt_right" headers="fold0">0.877</td>
+<td class="gt_row gt_right" headers="fold1">0.921</td>
+<td class="gt_row gt_right" headers="fold2">0.912</td>
+<td class="gt_row gt_right" headers="fold3">0.956</td>
+<td class="gt_row gt_right" headers="fold4">0.947</td>
+<td class="gt_row gt_right" headers="cv">0.923</td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div></li>
@@ -1061,21 +1045,21 @@ div.csl-indent {
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-cawley2010" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-cawley2010" class="csl-entry" role="listitem">
 Cawley, Gavin C., and Nicola L.C. Talbot. 2010. <span>“On over-Fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation.”</span> <em>The Journal of Machine Learning Research</em> 11 (August): 20792107.
 </div>
-<div id="ref-parvandeh2020a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-parvandeh2020a" class="csl-entry" role="listitem">
 Parvandeh, Saeid, Hung-Wen Yeh, Martin P. Paulus, and Brett A. McKinney. 2020. <span>“Consensus Features Nested Cross-Validation.”</span> <a href="https://doi.org/10.1101/2019.12.31.891895">https://doi.org/10.1101/2019.12.31.891895</a>.
 </div>
-</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</div></section><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>The unfortunate and unintended consequence of the wonderful <code>GridSearchCV()</code> class is that data scientists think that you can predict from a grid search process, and when they are pressed about where the ‘final model’ from a cross-validated process comes from, they may wonder, is it an ensemble model averaged across the folds, or are the hyperparameters averaged, or …????<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>presumably based on the average score between folds: this is unclear from the documentation but the numbers match up<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>this is the default, set as False if you do not want the refitting. In the case of multiple metrics, refit should be a string denoting the metric you want to use to find the best estimator.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section></div></main> <!-- /main -->
+</aside></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1103,9 +1087,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1141,10 +1139,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1154,8 +1151,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1170,6 +1176,147 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1211,19 +1358,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <script src="https://giscus.app/client.js" data-repo="philip-khor/quarto-blog" data-repo-id="R_kgDOInvtwA" data-category="Announcements" data-category-id="DIC_kwDOInvtwM4CTG6M" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
+<input type="hidden" id="giscus-base-theme" value="light_protanopia">
+<input type="hidden" id="giscus-alt-theme" value="light_protanopia">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Made with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-left">
+<p>Made with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../about.html">About</a>
+    <a class="nav-link" href="../../about.html">
+<p>About</p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 
