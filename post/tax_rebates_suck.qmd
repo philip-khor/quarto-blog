@@ -26,7 +26,7 @@ To see why, let's take a middle-of-the-road employee ('Person A') from a T20 hou
 | Person B | First 70,000  | 4,400 |           |
 |          | 22,496 \@ 21% | 4,724 | **9,124** |
 
-Now suppose that both Person A and B enjoy RM1,000 tax relief on top of the standard RM9,000 tax relief (for existing? idk). This reduces chargable income for each of these persons by RM10,000. However, for Person A, tax payable reduces by 800 (RM10,000 $\times$ 8%), while for Person B tax payable reduces by RM2,100. This means the government has forgone 2.6 times more tax revenue for the richer Person B than for Person A, and makes tax deductions highly regressive.
+Suppose that both Person A and B enjoy RM1,000 tax relief on top of the standard RM9,000 tax relief (for existing? idk). This reduces chargable income for each of these persons by RM10,000. However, for Person A, tax payable reduces by 800 (RM10,000 $\times$ 8%), while for Person B tax payable reduces by RM2,100. This means the government has forgone 2.6 times more tax revenue for the richer Person B than for Person A, and makes tax deductions highly regressive.
 
 Perhaps you object: Person B's income means he contributes more to society, so he deserves additional relief proportionate to his contribution. Even by that logic, the government has forgone proportionately more revenue than Person B has earned.
 
