@@ -15,7 +15,7 @@ So yeah, if you're familiar with [Borang BE](https://www.hasil.gov.my/media/gf1d
 
 Tax rebates are a great way for the government to claim to 'fix' problems without actually putting their money where their mouth is. There's no real expense, just revenue forgone. But in truth, like a reverse Robin Hood, tax rebates steal from the poor to subsidise tax bills for the rich. So when a bunch of experts suggested [in the media](https://www.thestar.com.my/news/nation/2023/07/07/ensuring-a-healthy-nest-egg) that tax rebates be used to encourage people to top up their EPF savings, I was rather unhappy.
 
-To see why, let's take a middle-of-the-road employee ('Person A') from a T20 household. In 2019, the median income per capita in a T20 household was RM3,854, or RM 46,248 a year[^2]. For comparison, let's take an individual ('Person B') that earns double that, say RM92,496. For the [year of assessment 2022]( https://www.hasil.gov.my/en/individual/individual-life-cycle/how-to-declare-income/tax-rate/), Person A falls under the 8% tax bracket, whereas Person B falls under the 21% tax bracket. Ignoring all applicable tax reliefs, their tax payable would be as follows:
+To see why, let's take a middle-of-the-road employee ('Person A') from a T20 household. In 2019, the median income per capita in a T20 household was RM3,854, or RM 46,248 a year[^2]. For comparison, let's take an individual ('Person B') that earns double that, say RM92,496. For the [year of assessment 2022](https://www.hasil.gov.my/en/individual/individual-life-cycle/how-to-declare-income/tax-rate/), Person A falls under the 8% tax bracket, whereas Person B falls under the 21% tax bracket. Ignoring all applicable tax reliefs, their tax payable would be as follows:
 
 [^2]: See also <http://web.usm.my/km/30(2)2012/KM%2030(2)%20ART%202%20(27-43).pdf>
 
@@ -26,7 +26,7 @@ To see why, let's take a middle-of-the-road employee ('Person A') from a T20 hou
 | Person B | First 70,000  | 4,400 |           |
 |          | 22,496 \@ 21% | 4,724 | **9,124** |
 
-Now suppose that both Person A and B enjoy RM1,000 tax relief on top of the standard RM9,000 tax relief (for existing? idk). This reduces chargable income for each of these persons by RM10,000. However, for Person A, chargable income reduces by 800, while for Person B chargable income reduces by RM2,100. This means the government has forgone 2.6 times more tax revenue for the richer Person B than for Person A, and makes tax deductions highly regressive.
+Now suppose that both Person A and B enjoy RM1,000 tax relief on top of the standard RM9,000 tax relief (for existing? idk). This reduces chargable income for each of these persons by RM10,000. However, for Person A, tax payable reduces by 800 (RM10,000 $\times$ 8%), while for Person B tax payable reduces by RM2,100. This means the government has forgone 2.6 times more tax revenue for the richer Person B than for Person A, and makes tax deductions highly regressive.
 
 Perhaps you object: Person B's income means he contributes more to society, so he deserves additional relief proportionate to his contribution. Even by that logic, the government has forgone proportionately more revenue than Person B has earned.
 
