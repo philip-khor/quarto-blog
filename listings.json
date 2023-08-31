@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/post/decarb/decarb.html",
       "/post/tax_rebates_suck.html",
       "/post/2022-04-20-gradient-boosting/index.html",
       "/post/2020-10-24-nested-cross-validation/index.html",
