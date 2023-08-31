@@ -7,7 +7,7 @@ date: "2023/08/31"
 
 We need to decarbonise our economies ASAP, because global warming induced by human activity is bringing us dangerously close to breaching the limits of adaptability for human civilisation. One project that tracks that effort is a website called [Carbon Monitor](https://carbonmonitor.org/variation) and boy are we not doing great:
 
-![](images/Screenshot 2023-08-31 172242.png)
+![](images/Screenshot%202023-08-31%20172242.png)
 
 Okay, in fairness, that's more like mixed reviews. We're making good progress in power (and somehow the residential sector?) but transport is looking bad, whether ground or air.
 
