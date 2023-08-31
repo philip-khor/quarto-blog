@@ -23,8 +23,8 @@ website:
   open-graph: true
   navbar:
     collapse: false
-    left: 
-    - about.qmd
+    # left: 
+    # - about.qmd
     right:
     - icon: github
       href: https://github.com/philip-khor
@@ -45,7 +45,9 @@ execute:
 
 format:
   html:
-    theme: spacelab
+    theme: 
+      light: spacelab
+      dark: cyborg
     # css: styles.css
     toc: true
     smooth-scroll: true
