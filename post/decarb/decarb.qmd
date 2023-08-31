@@ -66,4 +66,4 @@ carbon |>
         axis.text = element_text(colour = "#cbcbcd")) + guides(fill = FALSE)
 ```
 
-Honestly not sure what to make of this. EVs perhaps?
+Honestly not sure what to make of this. EVs perhaps? More likely, it's reflective of the reversal of flexible work arrangements to in-person work in spite of the significant health risks that continue to be posed by Covid-19, and it looks like there are significant climate costs associated with this unfortunate phenomena.
