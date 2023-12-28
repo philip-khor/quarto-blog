@@ -22,17 +22,18 @@ website:
   twitter-card: true
   open-graph: true
   navbar:
-    collapse: false
+    collapse: true
     # left: 
     # - about.qmd
-    right:
+  sidebar:
+    tools: 
     - icon: github
       href: https://github.com/philip-khor
+    - icon: linkedin
+      href: https://www.linkedin.com/in/philip-khor/
     - icon: mastodon
       href: https://masto.ai/@pk
       rel: me
-    - icon: linkedin
-      href: https://www.linkedin.com/in/philip-khor/
   page-footer: 
     left: "Made with [Quarto](https://quarto.org/)."
     right:
