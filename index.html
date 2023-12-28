@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.339">
+<meta name="generator" content="quarto-1.4.533">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -50,9 +50,11 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
-    null
+    "f",
+    "/",
+    "s"
   ],
   "language": {
     "search-no-results-text": "No results",
@@ -62,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -101,6 +104,33 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <meta property="og:title" content="philip’s curve - Home">
 <meta property="og:image" content="https://www.philipscurve.com/post/2022-04-20-gradient-boosting/featured.jpg">
 <meta property="og:site_name" content="philip's curve">
@@ -109,50 +139,46 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">philip’s curve</span>
     </a>
   </div>
-          <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/philip-khor"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://masto.ai/@pk" rel="me"> <i class="bi bi-mastodon" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/philip-khor/"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
-          <div class="quarto-navbar-tools">
+        <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Home</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
+    <div class="quarto-title column-body">
       <h1 class="title">Home</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta column-body">
 
       
     
@@ -162,12 +188,26 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+        <div class="sidebar-tools-collapse tools-wide">
+    <a href="https://github.com/philip-khor" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/philip-khor/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://masto.ai/@pk" rel="&quot;me&quot;" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
+</div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(17)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="econometrics">econometrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tidyverse">tidyverse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="wage-gap">wage-gap <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+
 
 
 
@@ -178,25 +218,25 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1693440000000" data-listing-file-modified-sort="1693487787145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="461">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1693440000000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="461">
 <div class="thumbnail">
-<p><a href="./post/decarb/decarb.html"> <p class="card-img-top"><img src="post/decarb/images/Screenshot 2023-08-31 172242.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./post/decarb/decarb.html" class="no-external"></a></p><a href="./post/decarb/decarb.html" class="no-external">
+<p class="card-img-top"><img src="post/decarb/images/Screenshot 2023-08-31 172242.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./post/decarb/decarb.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/decarb/decarb.html">
 <h3 class="no-anchor listing-title">
-Seasonality in decarbonisation
+<a href="./post/decarb/decarb.html" class="no-external">Seasonality in decarbonisation</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./post/decarb/decarb.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>or, perhaps, the carbon costs of returning to the office?</p>
+<a href="./post/decarb/decarb.html" class="no-external">or, perhaps, the carbon costs of returning to the office?</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/decarb/decarb.html">
+<a href="./post/decarb/decarb.html" class="no-external">
 <div class="listing-date">
 Aug 31, 2023
 </div>
@@ -206,25 +246,25 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1688860800000" data-listing-file-modified-sort="1693487787157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="865">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1688860800000" data-listing-file-modified-sort="1703752231026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="865">
 <div class="thumbnail">
-<p><a href="./post/tax_rebates_suck.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./post/tax_rebates_suck.html" class="no-external"></a></p><a href="./post/tax_rebates_suck.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./post/tax_rebates_suck.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/tax_rebates_suck.html">
 <h3 class="no-anchor listing-title">
-(Individual) tax rebates suck
+<a href="./post/tax_rebates_suck.html" class="no-external">(Individual) tax rebates suck</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./post/tax_rebates_suck.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>One of my pet peeves is to see people advocate for tax rebates when they should know better.</p>
+<a href="./post/tax_rebates_suck.html" class="no-external">One of my pet peeves is to see people advocate for tax rebates when they should know better.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/tax_rebates_suck.html">
+<a href="./post/tax_rebates_suck.html" class="no-external">
 <div class="listing-date">
 Jul 9, 2023
 </div>
@@ -234,25 +274,25 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1650412800000" data-listing-file-modified-sort="1693487787145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2719">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1650412800000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2719">
 <div class="thumbnail">
-<p><a href="./post/2022-04-20-gradient-boosting/index.html"> <img src="./post/2022-04-20-gradient-boosting/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./post/2022-04-20-gradient-boosting/index.html" class="no-external"></a></p><a href="./post/2022-04-20-gradient-boosting/index.html" class="no-external">
+<p><img src="./post/2022-04-20-gradient-boosting/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./post/2022-04-20-gradient-boosting/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2022-04-20-gradient-boosting/index.html">
 <h3 class="no-anchor listing-title">
-Gradient boosting?
+<a href="./post/2022-04-20-gradient-boosting/index.html" class="no-external">Gradient boosting?</a>
 </h3>
 <div class="listing-subtitle">
-Yet another article trying to explain how GBMs work.
+<a href="./post/2022-04-20-gradient-boosting/index.html" class="no-external">Yet another article trying to explain how GBMs work.</a>
 </div>
 <div class="listing-description">
-There’s no shortage of machine learning hot takes on how the XGBoost gradient boosting framework continues to defy the no-free-lunch theorem by being perhaps the most…
+<a href="./post/2022-04-20-gradient-boosting/index.html" class="no-external">There’s no shortage of machine learning hot takes on how the XGBoost gradient boosting framework continues to defy the no-free-lunch theorem by being perhaps the most…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2022-04-20-gradient-boosting/index.html">
+<a href="./post/2022-04-20-gradient-boosting/index.html" class="no-external">
 <div class="listing-date">
 Apr 20, 2022
 </div>
@@ -262,30 +302,28 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="" data-listing-date-sort="1603497600000" data-listing-file-modified-sort="1693487787145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2012">
+<div class="quarto-post image-right" data-index="3" data-categories="" data-listing-date-sort="1603497600000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2012">
 <div class="thumbnail">
-<p><a href="./post/2020-10-24-nested-cross-validation/index.html"> <img src="./post/2020-10-24-nested-cross-validation/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./post/2020-10-24-nested-cross-validation/index.html" class="no-external"></a></p><a href="./post/2020-10-24-nested-cross-validation/index.html" class="no-external">
+<p><img src="./post/2020-10-24-nested-cross-validation/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./post/2020-10-24-nested-cross-validation/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2020-10-24-nested-cross-validation/index.html">
 <h3 class="no-anchor listing-title">
-Nested cross-validation
+<a href="./post/2020-10-24-nested-cross-validation/index.html" class="no-external">Nested cross-validation</a>
 </h3>
 <div class="listing-subtitle">
-A solution for overfitting in model selection
+<a href="./post/2020-10-24-nested-cross-validation/index.html" class="no-external">A solution for overfitting in model selection</a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./post/2020-10-24-nested-cross-validation/index.html">
 <div class="listing-description">
-In Why do cross-validation, I described cross-validation as a way of evaluating your modeling workflow from start to end to help you pick the appropriate model and avoid…<sup></sup>
+<a href="./post/2020-10-24-nested-cross-validation/index.html" class="no-external">In Why do cross-validation, I described cross-validation as a way of evaluating your modeling workflow from start to end to help you pick the appropriate model and avoid…<sup></sup></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2020-10-24-nested-cross-validation/index.html">
+<a href="./post/2020-10-24-nested-cross-validation/index.html" class="no-external">
 <div class="listing-date">
 Oct 24, 2020
 </div>
@@ -295,25 +333,25 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1602374400000" data-listing-file-modified-sort="1693487787145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="627">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1602374400000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="627">
 <div class="thumbnail">
-<p><a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html"> <img src="./img/300px-Korsstygn_detalj.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html" class="no-external"></a></p><a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html" class="no-external">
+<p><img src="./img/300px-Korsstygn_detalj.jpg" class="thumbnail-image"></p>
+</a><p><a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html">
 <h3 class="no-anchor listing-title">
-Why do cross-validation?
+<a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html" class="no-external">Why do cross-validation?</a>
 </h3>
 <div class="listing-subtitle">
-It can be difficult to see the forest for the trees sometimes. And it certainly can be the case with cross-validation.
+<a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html" class="no-external">It can be difficult to see the forest for the trees sometimes. And it certainly can be the case with cross-validation.</a>
 </div>
 <div class="listing-description">
-In short, we do cross-validation to pick the right model. But what does that mean for our ‘final model’?
+<a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html" class="no-external">In short, we do cross-validation to pick the right model. But what does that mean for our ‘final model’?</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html">
+<a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html" class="no-external">
 <div class="listing-date">
 Oct 11, 2020
 </div>
@@ -323,32 +361,30 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="R" data-listing-date-sort="1598486400000" data-listing-file-modified-sort="1693487787157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
+<div class="quarto-post image-right" data-index="5" data-categories="R" data-listing-date-sort="1598486400000" data-listing-file-modified-sort="1703752231026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
 <div class="thumbnail">
-<p><a href="./post/wsl/index.html"> <img src="./post/wsl/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./post/wsl/index.html" class="no-external"></a></p><a href="./post/wsl/index.html" class="no-external">
+<p><img src="./post/wsl/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./post/wsl/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/wsl/index.html">
 <h3 class="no-anchor listing-title">
-WSL2 and R
+<a href="./post/wsl/index.html" class="no-external">WSL2 and R</a>
 </h3>
 <div class="listing-subtitle">
-Why and how to use R from WSL2.
+<a href="./post/wsl/index.html" class="no-external">Why and how to use R from WSL2.</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
 </div>
-<a href="./post/wsl/index.html">
 <div class="listing-description">
-Windows Subsystem for Linux (WSL) is a great way to run Linux software on your computer without dual-booting or starting over. For certain reasons, you may want to run R in…
+<a href="./post/wsl/index.html" class="no-external">Windows Subsystem for Linux (WSL) is a great way to run Linux software on your computer without dual-booting or starting over. For certain reasons, you may want to run R in…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/wsl/index.html">
+<a href="./post/wsl/index.html" class="no-external">
 <div class="listing-date">
 Aug 27, 2020
 </div>
@@ -358,25 +394,25 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1571011200000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="785">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1571011200000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="785">
 <div class="thumbnail">
-<p><a href="./post/2019-10-14-charts-can-lie.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./post/2019-10-14-charts-can-lie.html" class="no-external"></a></p><a href="./post/2019-10-14-charts-can-lie.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./post/2019-10-14-charts-can-lie.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2019-10-14-charts-can-lie.html">
 <h3 class="no-anchor listing-title">
-Charts can lie
+<a href="./post/2019-10-14-charts-can-lie.html" class="no-external">Charts can lie</a>
 </h3>
 <div class="listing-subtitle">
-It’s not cool if your chart’s designed to mislead, YB.
+<a href="./post/2019-10-14-charts-can-lie.html" class="no-external">It’s not cool if your chart’s designed to mislead, YB.</a>
 </div>
 <div class="listing-description">
-Data visualization is something we use to understand our data. Sure, it has some aesthetic function, but its primary purpose is to communicate what’s in the data.
+<a href="./post/2019-10-14-charts-can-lie.html" class="no-external">Data visualization is something we use to understand our data. Sure, it has some aesthetic function, but its primary purpose is to communicate what’s in the data.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2019-10-14-charts-can-lie.html">
+<a href="./post/2019-10-14-charts-can-lie.html" class="no-external">
 <div class="listing-date">
 Oct 14, 2019
 </div>
@@ -386,30 +422,28 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="" data-listing-date-sort="1565136000000" data-listing-file-modified-sort="1693487787153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="850">
+<div class="quarto-post image-right" data-index="7" data-categories="" data-listing-date-sort="1565136000000" data-listing-file-modified-sort="1703752231022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="850">
 <div class="thumbnail">
-<p><a href="./post/learning-to-sell/index.html"> <img src="./post/learning-to-sell/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./post/learning-to-sell/index.html" class="no-external"></a></p><a href="./post/learning-to-sell/index.html" class="no-external">
+<p><img src="./post/learning-to-sell/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./post/learning-to-sell/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/learning-to-sell/index.html">
 <h3 class="no-anchor listing-title">
-Learning to sell data science
+<a href="./post/learning-to-sell/index.html" class="no-external">Learning to sell data science</a>
 </h3>
 <div class="listing-subtitle">
-Half of your job, regardless of what that job is, is being able to sell your work.
+<a href="./post/learning-to-sell/index.html" class="no-external">Half of your job, regardless of what that job is, is being able to sell your work.</a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./post/learning-to-sell/index.html">
 <div class="listing-description">
-Half of your job, regardless of what that job is, is being able to sell your work. (source)
+<a href="./post/learning-to-sell/index.html" class="no-external">Half of your job, regardless of what that job is, is being able to sell your work. (source)</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/learning-to-sell/index.html">
+<a href="./post/learning-to-sell/index.html" class="no-external">
 <div class="listing-date">
 Aug 7, 2019
 </div>
@@ -419,25 +453,25 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1563062400000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1139">
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1563062400000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1139">
 <div class="thumbnail">
-<p><a href="./post/2019-07-14-link-functions-matter.html"> <img src="./img/384608250_535b9a6840_z.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./post/2019-07-14-link-functions-matter.html" class="no-external"></a></p><a href="./post/2019-07-14-link-functions-matter.html" class="no-external">
+<p><img src="./img/384608250_535b9a6840_z.jpg" class="thumbnail-image"></p>
+</a><p><a href="./post/2019-07-14-link-functions-matter.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2019-07-14-link-functions-matter.html">
 <h3 class="no-anchor listing-title">
-Link functions matter
+<a href="./post/2019-07-14-link-functions-matter.html" class="no-external">Link functions matter</a>
 </h3>
 <div class="listing-subtitle">
-Benchmarking different link functions
+<a href="./post/2019-07-14-link-functions-matter.html" class="no-external">Benchmarking different link functions</a>
 </div>
 <div class="listing-description">
-There’s a bit of a conversation on Twitter whether to use linear models or logistic models for estimating effect sizes in the case of binary response variables. I wondered…
+<a href="./post/2019-07-14-link-functions-matter.html" class="no-external">There’s a bit of a conversation on Twitter whether to use linear models or logistic models for estimating effect sizes in the case of binary response variables. I wondered…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2019-07-14-link-functions-matter.html">
+<a href="./post/2019-07-14-link-functions-matter.html" class="no-external">
 <div class="listing-date">
 Jul 14, 2019
 </div>
@@ -447,19 +481,19 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="R,tidyverse" data-listing-date-sort="1562457600000" data-listing-file-modified-sort="1693487787157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1640">
+<div class="quarto-post image-right" data-index="9" data-categories="R,tidyverse" data-listing-date-sort="1562457600000" data-listing-file-modified-sort="1703752231026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1640">
 <div class="thumbnail">
-<p><a href="./post/reflections-on-the-tidyverse/index.html"> <img src="./post/reflections-on-the-tidyverse/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./post/reflections-on-the-tidyverse/index.html" class="no-external"></a></p><a href="./post/reflections-on-the-tidyverse/index.html" class="no-external">
+<p><img src="./post/reflections-on-the-tidyverse/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./post/reflections-on-the-tidyverse/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/reflections-on-the-tidyverse/index.html">
 <h3 class="no-anchor listing-title">
-Reflections on the tidyverse
+<a href="./post/reflections-on-the-tidyverse/index.html" class="no-external">Reflections on the tidyverse</a>
 </h3>
 <div class="listing-subtitle">
-Why I like (and use) the tidyverse
+<a href="./post/reflections-on-the-tidyverse/index.html" class="no-external">Why I like (and use) the tidyverse</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
@@ -468,14 +502,12 @@ R
 tidyverse
 </div>
 </div>
-<a href="./post/reflections-on-the-tidyverse/index.html">
 <div class="listing-description">
-At my previous gig as a junior data scientist trainer, my team was given some time to revamp our base R-based syllabus to be more tidy-friendly while retaining significant…
+<a href="./post/reflections-on-the-tidyverse/index.html" class="no-external">At my previous gig as a junior data scientist trainer, my team was given some time to revamp our base R-based syllabus to be more tidy-friendly while retaining significant…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/reflections-on-the-tidyverse/index.html">
+<a href="./post/reflections-on-the-tidyverse/index.html" class="no-external">
 <div class="listing-date">
 Jul 7, 2019
 </div>
@@ -485,25 +517,25 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1560384000000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1560384000000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
 <div class="thumbnail">
-<p><a href="./post/2019-06-13-file-paths-and-data-science-projects.html"> <img src="./img/1741269954_6e4cc6bacf_b.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./post/2019-06-13-file-paths-and-data-science-projects.html" class="no-external"></a></p><a href="./post/2019-06-13-file-paths-and-data-science-projects.html" class="no-external">
+<p><img src="./img/1741269954_6e4cc6bacf_b.jpg" class="thumbnail-image"></p>
+</a><p><a href="./post/2019-06-13-file-paths-and-data-science-projects.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2019-06-13-file-paths-and-data-science-projects.html">
 <h3 class="no-anchor listing-title">
-File paths and data science projects
+<a href="./post/2019-06-13-file-paths-and-data-science-projects.html" class="no-external">File paths and data science projects</a>
 </h3>
 <div class="listing-subtitle">
-Some thoughts on keeping a data science project tidy.
+<a href="./post/2019-06-13-file-paths-and-data-science-projects.html" class="no-external">Some thoughts on keeping a data science project tidy.</a>
 </div>
 <div class="listing-description">
-Large data science projects can be a pain to manage. Cookiecutter Data Science recommends the following project folder structure, and I think it’s a good picture of how a…<em></em>
+<a href="./post/2019-06-13-file-paths-and-data-science-projects.html" class="no-external">Large data science projects can be a pain to manage. Cookiecutter Data Science recommends the following project folder structure, and I think it’s a good picture of how a…<em></em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2019-06-13-file-paths-and-data-science-projects.html">
+<a href="./post/2019-06-13-file-paths-and-data-science-projects.html" class="no-external">
 <div class="listing-date">
 Jun 13, 2019
 </div>
@@ -513,19 +545,19 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="ggplot2,wage-gap" data-listing-date-sort="1560038400000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1018">
+<div class="quarto-post image-right" data-index="11" data-categories="ggplot2,wage-gap" data-listing-date-sort="1560038400000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1018">
 <div class="thumbnail">
-<p><a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html" class="no-external"></a></p><a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html">
 <h3 class="no-anchor listing-title">
-The Australian gender wage gap: interactive viz
+<a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html" class="no-external">The Australian gender wage gap: interactive viz</a>
 </h3>
 <div class="listing-subtitle">
-A little more dataviz
+<a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html" class="no-external">A little more dataviz</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('ggplot2'); return false;">
 ggplot2
@@ -534,14 +566,12 @@ ggplot2
 wage-gap
 </div>
 </div>
-<a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html">
 <div class="listing-description">
-I wrote a piece at The Ambitious Economist on Australia’s gender wage gap with some good ol’ <code>ggplot2</code> dataviz. However, there was a chart showing the gender wage gap by…
+<a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html" class="no-external">I wrote a piece at The Ambitious Economist on Australia’s gender wage gap with some good ol’ <code>ggplot2</code> dataviz. However, there was a chart showing the gender wage gap by…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html">
+<a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html" class="no-external">
 <div class="listing-date">
 Jun 9, 2019
 </div>
@@ -551,19 +581,19 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="econometrics,python" data-listing-date-sort="1559692800000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="713">
+<div class="quarto-post image-right" data-index="12" data-categories="econometrics,python" data-listing-date-sort="1559692800000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="713">
 <div class="thumbnail">
-<p><a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html"> <p class="card-img-top"><img src="img/e6f.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html" class="no-external"></a></p><a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html" class="no-external">
+<p class="card-img-top"><img src="img/e6f.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html">
 <h3 class="no-anchor listing-title">
-PSA: Python, OLS and perfectly collinear variables
+<a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html" class="no-external">PSA: Python, OLS and perfectly collinear variables</a>
 </h3>
 <div class="listing-subtitle">
-Unlike most implementations of linear models, Python packages don’t usually drop perfectly collinear variables.
+<a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html" class="no-external">Unlike most implementations of linear models, Python packages don’t usually drop perfectly collinear variables.</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('econometrics'); return false;">
 econometrics
@@ -572,14 +602,12 @@ econometrics
 python
 </div>
 </div>
-<a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html">
 <div class="listing-description">
-Unlike most implementations of linear models (e.g.&nbsp;Stata, R), Python packages don’t usually drop perfectly collinear variables.
+<a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html" class="no-external">Unlike most implementations of linear models (e.g.&nbsp;Stata, R), Python packages don’t usually drop perfectly collinear variables.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html">
+<a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html" class="no-external">
 <div class="listing-date">
 Jun 5, 2019
 </div>
@@ -589,32 +617,30 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="R" data-listing-date-sort="1556928000000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="434">
+<div class="quarto-post image-right" data-index="13" data-categories="R" data-listing-date-sort="1556928000000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="434">
 <div class="thumbnail">
-<p><a href="./post/2019-05-04-my-first-package-bnmr.html"> <img src="./img/logo.png" class="thumbnail-image"> </a></p>
+<p><a href="./post/2019-05-04-my-first-package-bnmr.html" class="no-external"></a></p><a href="./post/2019-05-04-my-first-package-bnmr.html" class="no-external">
+<p><img src="./img/logo.png" class="thumbnail-image"></p>
+</a><p><a href="./post/2019-05-04-my-first-package-bnmr.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2019-05-04-my-first-package-bnmr.html">
 <h3 class="no-anchor listing-title">
-My first package: bnmr
+<a href="./post/2019-05-04-my-first-package-bnmr.html" class="no-external">My first package: bnmr</a>
 </h3>
 <div class="listing-subtitle">
-A wrapper to access Malaysia’s central bank’s API
+<a href="./post/2019-05-04-my-first-package-bnmr.html" class="no-external">A wrapper to access Malaysia’s central bank’s API</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
 </div>
-<a href="./post/2019-05-04-my-first-package-bnmr.html">
 <div class="listing-description">
-bnmr is a wrapper for <code>httr</code> to access BNM (Malaysia’s central bank)’s recently released API. I wrote this to practice writing R packages, with lots of help from the R Packages…
+<a href="./post/2019-05-04-my-first-package-bnmr.html" class="no-external">bnmr is a wrapper for <code>httr</code> to access BNM (Malaysia’s central bank)’s recently released API. I wrote this to practice writing R packages, with lots of help from the R Packages…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2019-05-04-my-first-package-bnmr.html">
+<a href="./post/2019-05-04-my-first-package-bnmr.html" class="no-external">
 <div class="listing-date">
 May 4, 2019
 </div>
@@ -624,32 +650,30 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="Python" data-listing-date-sort="1535673600000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2086">
+<div class="quarto-post image-right" data-index="14" data-categories="Python" data-listing-date-sort="1535673600000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2086">
 <div class="thumbnail">
-<p><a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html"> <p class="card-img-top"><img src="img/output_51_1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html" class="no-external"></a></p><a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html" class="no-external">
+<p class="card-img-top"><img src="img/output_51_1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html">
 <h3 class="no-anchor listing-title">
-Exploring GE14 results with Python (part 2)
+<a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html" class="no-external">Exploring GE14 results with Python (part 2)</a>
 </h3>
 <div class="listing-subtitle">
-Can we use machine learning to understand the demographic factors underlying the election results?
+<a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html" class="no-external">Can we use machine learning to understand the demographic factors underlying the election results?</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
 Python
 </div>
 </div>
-<a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html">
 <div class="listing-description">
-See here for part 1.
+<a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html" class="no-external">See here for part 1.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html">
+<a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html" class="no-external">
 <div class="listing-date">
 Aug 31, 2018
 </div>
@@ -659,32 +683,30 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="Python" data-listing-date-sort="1535155200000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1855">
+<div class="quarto-post image-right" data-index="15" data-categories="Python" data-listing-date-sort="1535155200000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1855">
 <div class="thumbnail">
-<p><a href="./post/2018-08-25-exploring-ge14-results-with-python.html"> <p class="card-img-top"><img src="img/output_6_0.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./post/2018-08-25-exploring-ge14-results-with-python.html" class="no-external"></a></p><a href="./post/2018-08-25-exploring-ge14-results-with-python.html" class="no-external">
+<p class="card-img-top"><img src="img/output_6_0.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./post/2018-08-25-exploring-ge14-results-with-python.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2018-08-25-exploring-ge14-results-with-python.html">
 <h3 class="no-anchor listing-title">
-Exploring GE14 results with Python (part 1)
+<a href="./post/2018-08-25-exploring-ge14-results-with-python.html" class="no-external">Exploring GE14 results with Python (part 1)</a>
 </h3>
 <div class="listing-subtitle">
-Some exploratory insights from the 14th Malaysian general election
+<a href="./post/2018-08-25-exploring-ge14-results-with-python.html" class="no-external">Some exploratory insights from the 14th Malaysian general election</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
 Python
 </div>
 </div>
-<a href="./post/2018-08-25-exploring-ge14-results-with-python.html">
 <div class="listing-description">
-There’s an interesting blog post up on DataTarik about using random forests to model the outcomes of Malaysia’s 14th general election (GE14). While I have my reservations…
+<a href="./post/2018-08-25-exploring-ge14-results-with-python.html" class="no-external">There’s an interesting blog post up on DataTarik about using random forests to model the outcomes of Malaysia’s 14th general election (GE14). While I have my reservations…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2018-08-25-exploring-ge14-results-with-python.html">
+<a href="./post/2018-08-25-exploring-ge14-results-with-python.html" class="no-external">
 <div class="listing-date">
 Aug 25, 2018
 </div>
@@ -694,32 +716,30 @@ Philip Khor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="R" data-listing-date-sort="1535068800000" data-listing-file-modified-sort="1693487787141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="642">
+<div class="quarto-post image-right" data-index="16" data-categories="R" data-listing-date-sort="1535068800000" data-listing-file-modified-sort="1703752231014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="642">
 <div class="thumbnail">
-<p><a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html"> <p class="card-img-top"><img src="post/2018-08-23-visualising-government-expenditure-data-with-ggplot2_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html" class="no-external"></a></p><a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html" class="no-external">
+<p class="card-img-top"><img src="post/2018-08-23-visualising-government-expenditure-data-with-ggplot2_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html">
 <h3 class="no-anchor listing-title">
-Visualising government expenditure data with ggplot2
+<a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html" class="no-external">Visualising government expenditure data with ggplot2</a>
 </h3>
 <div class="listing-subtitle">
-Visualising Malaysia’s stagnating development expenditure
+<a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html" class="no-external">Visualising Malaysia’s stagnating development expenditure</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
 </div>
-<a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html">
 <div class="listing-description">
-I thought I’d practice my rusty R skills when I came across a post by Khairil Yusof on the Sinar Project Facebook group that Malaysian Administrative Modernisation and…
+<a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html" class="no-external">I thought I’d practice my rusty R skills when I came across a post by Khairil Yusof on the Sinar Project Facebook group that Malaysian Administrative Modernisation and…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html">
+<a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html" class="no-external">
 <div class="listing-date">
 Aug 24, 2018
 </div>
@@ -1006,15 +1026,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
         }
         return container.innerHTML
       } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -1022,6 +1055,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const anchorLink = note.querySelector('a.anchorjs-link');
       if (anchorLink) {
         anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
       }
       return note.innerHTML;
     }
@@ -1065,6 +1101,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -1140,7 +1199,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
-        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);
