@@ -1,79 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.philipscurve.com/post/wsl/index.html</loc>
-    <lastmod>2023-12-28T08:30:31.026Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/learning-to-sell/index.html</loc>
-    <lastmod>2023-12-28T08:30:31.022Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2019-10-14-charts-can-lie.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2019-06-13-file-paths-and-data-science-projects.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2019-05-04-my-first-package-bnmr.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2018-08-27-exploring-ge14-results-with-python-part-2.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
+    <loc>https://www.philipscurve.com/post/decarb/decarb.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
   </url>
   <url>
     <loc>https://www.philipscurve.com/post/tax_rebates_suck.html</loc>
-    <lastmod>2023-12-28T08:30:31.026Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/decarb/decarb.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/index.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/about.html</loc>
-    <lastmod>2023-12-28T08:30:30.922Z</lastmod>
+    <lastmod>2024-04-26T12:38:01.619Z</lastmod>
   </url>
   <url>
     <loc>https://www.philipscurve.com/post/2022-04-20-gradient-boosting/index.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
   </url>
   <url>
-    <loc>https://www.philipscurve.com/post/2018-08-25-exploring-ge14-results-with-python.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2019-07-14-link-functions-matter.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/index.html</loc>
-    <lastmod>2023-12-28T08:30:31.014Z</lastmod>
+    <loc>https://www.philipscurve.com/about.html</loc>
+    <lastmod>2024-04-26T12:38:01.507Z</lastmod>
   </url>
   <url>
     <loc>https://www.philipscurve.com/post/reflections-on-the-tidyverse/index.html</loc>
-    <lastmod>2023-12-28T08:30:31.026Z</lastmod>
+    <lastmod>2024-04-26T12:38:01.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/index.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2019-07-14-link-functions-matter.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html</loc>
+    <lastmod>2024-04-26T12:38:01.603Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2018-08-25-exploring-ge14-results-with-python.html</loc>
+    <lastmod>2024-04-26T12:38:01.603Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2018-08-27-exploring-ge14-results-with-python-part-2.html</loc>
+    <lastmod>2024-04-26T12:38:01.603Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2019-05-04-my-first-package-bnmr.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2019-06-13-file-paths-and-data-science-projects.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2019-10-14-charts-can-lie.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html</loc>
+    <lastmod>2024-04-26T12:38:01.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/learning-to-sell/index.html</loc>
+    <lastmod>2024-04-26T12:38:01.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/wsl/index.html</loc>
+    <lastmod>2024-04-26T12:38:01.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/index.html</loc>
+    <lastmod>2024-04-26T12:38:01.603Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.philipscurve.com/post/swift.html</loc>
+    <lastmod>2024-04-26T12:38:01.619Z</lastmod>
   </url>
 </urlset>
