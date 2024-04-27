@@ -1,6 +1,5 @@
 ---
 title: "My approach to Covid-19 in 2024"
-draft: true
 author: Philip Khor
 date: '2024-04-01'
 ---
