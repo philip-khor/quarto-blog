@@ -1,0 +1,57 @@
+---
+title: "Hello Julia"
+author: Philip Khor
+date: '2024-04-28'
+---
+
+Not sure how I landed up browsing through \[Julia for Data Science\](<https://livebook.manning.com/book/julia-for-data-analysis/>) and \[Julia Data Science\]()<https://juliadatascience.io>) this Saturday evening. Julia is a fascinating language, but I'm not sure if the learning curve is a bit much for me. Tried making a simple line chart and it's ... pretty hard, although the syntax is quite interesting ...
+
+``` julia
+begin
+	using CSV, DataFrames
+	using Downloads: download
+	URL_DATA = "https://storage.dosm.gov.my/cpi/cpi_2d.csv"
+	download(URL_DATA, "cpi_2d.csv")
+	df = CSV.read("cpi_2d.csv", DataFrame)
+end
+```
+
+``` julia
+begin
+	using DataFramesMeta
+	using AlgebraOfGraphics
+	using CairoMakie
+	using Dates: Year
+	
+	@rsubset! df :division == "overall"
+
+end
+```
+
+``` julia
+dat = @chain df begin
+	@select :date :lagged_index = :index
+	@rtransform :date = :date + Year(1)
+	rightjoin(df; on = :date)
+	@rtransform :yoy = :index / :lagged_index - 1	
+	dropmissing(:yoy)
+end
+```
+
+``` julia
+begin
+	set_aog_theme!()
+	plt =  data(dat) * mapping(:date, :yoy) 
+	layers = visual(Scatter) + visual(Lines)
+	draw(
+		plt * layers,
+		axis = (
+		ytickformat = "{:.0%}", 
+		title = "Year-on-year change, consumer price index, Malaysia",
+		xlabel = "", 
+		ylabel = "")
+	)
+end
+```
+
+![](images/clipboard-466531566.png)
