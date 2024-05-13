@@ -1,0 +1,10 @@
+---
+title: "Temperatures 🌡️"
+description: Panasnya
+author: Philip Khor
+date: '2024-04-26'
+---
+
+Got so frustrated with the heat here in Penang I did a quick little fooling around with open-meteo.com data, ggplot2 and Inkscape. Started out with a simple facet plot in ggplot2 then tinkered around with the svg in Inkscape.
+
+![](drawing.webp)
