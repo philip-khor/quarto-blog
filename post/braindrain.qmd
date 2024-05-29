@@ -1,0 +1,59 @@
+---
+title: "Brain drain: not as big a problem as you think"
+author: "Philip Khor"
+date: "2024-05-29"
+---
+
+::: callout-note
+First published on [LinkedIn](https://www.linkedin.com/pulse/brain-drain-big-problem-you-think-philip-khor-gjoec/?trackingId=Xom62RTXSZCaUPdNUc3CkA%3D%3D).
+:::
+
+It's curious why lots of Malaysians think that brain drain is a problem. We had a look at the numbers at work last year, and reality is a bit more nuanced.
+
+### The migration rate is 5.7%
+
+The migration rate is the share of Malaysia-born persons who currently reside outside Malaysia. Malaysia's population was 32.6 million in 2021, and with 1.85 million residing abroad, the migration rate is 5.7%.
+
+It's important to bear in mind that the numerator of the migration rate is a [stock, not a flow](https://en.wikipedia.org/wiki/Stock_and_flow). This context is often not provided in the media.
+
+In simpler terms, we don't have good numbers on who moves where and when. All we know is who is where at a given time.
+
+### The migration rate is above the global average
+
+It's commonly cited that Malaysia's migration rate is almost double the global migration rate. However, our migration rate is not out of line with neighbouring countries.
+
+In fact, Malaysia's migration rate is neck-to-neck with Singapore.
+ 
+![](../images/clipboard-1309878859.png)
+
+### More and more people are migrating abroad
+
+Perhaps - yes, the migration rate has risen from 5.6% (2010) to 5.7% (2020), but the rate of growth of the number of Malaysian-born persons abroad has slowed:
+
+![](../images/clipboard-566296810.png)
+
+So yes, the number of emigrants may be rising, but at a decreasing (even plateauing) rate.
+
+If we were to use the citizen population as the denominator instead, the migration rate would in fact decline from 6.34% (2015) to 6.25% (2020).
+
+### Brain drain vs brain gain
+
+Concerns about brain drain ignore the realities of human capital in the 21st century, where people's skills have become increasingly niche and may not be in demand in local markets.
+
+As a developing economy, there may not be immediate demand for niche skillsets in Malaysia. In a globalised world, there's no harm in Malaysians leaving the country to workplaces that are in need of their skillsets, and returning once demand for their skillsets has developed here, in what's termed ['brain gain'](https://www.knomad.org/sites/default/files/2022-11/knomad_paper_46_brain_drain_brain_gain_and_its_net_effect_sandra_berger_november_2022.pdf).
+
+In fact, the observation that Singapore is by far the largest destination for Malaysian-born persons (rather than somewhere else across the world) suggests that Malaysians living abroad may not really want to leave for good.
+
+![](../images/clipboard-1331457292.png)
+
+However, if remote working is here to stay, I suppose concerns may eventually shift from brain drain to, say, tax avoidance.
+
+------------------------------------------------------------------------
+
+Check my work
+
+-   <https://ourworldindata.org/explorers/migration-flows?tab=table&facet=none&Select+a+country=Malaysia&Outflow+or+Inflow=Emigrants%3A+Where+people+born+in+the+selected+country+moved+to&country=~MYS>
+
+-   KNOMAD [2021 migration matrix](https://www.knomad.org/sites/default/files/2022-12/bilateral_migration_matrix_2021_latest.xlsx)
+
+-   [Malaysia population](https://open.dosm.gov.my/data-catalogue/population_malaysia)
