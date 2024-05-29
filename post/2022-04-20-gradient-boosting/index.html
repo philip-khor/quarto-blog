@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.33">
+<meta name="generator" content="quarto-1.5.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -283,7 +283,7 @@ F(x)=\sum^B_{b=1}f_b\left(x\right)
 <h2 class="anchored" data-anchor-id="hyperparameters">Hyperparameters</h2>
 <p>A major challenge with tuning GBM models is knowing where to start from the large number of hyperparameters available. A great reference is <a href="https://sites.google.com/view/lauraepp/parameters">this table from Laurae++</a> which lists the mapping between hyperparameters in XGBoost and LightGBM.</p>
 <p>Apart from learning rate and the number of trees, I group XGBoost hyperparameters into three categories:</p>
-<table class="table">
+<table class="caption-top table">
 <caption>Categories of GBM hyperparameters</caption>
 <colgroup>
 <col style="width: 68%">
@@ -331,7 +331,7 @@ F(x)=\sum^B_{b=1}f_b\left(x\right)
 </ul>
 <p>There’s no shortage of articles comparing these different implementations.</p>
 <p>These libraries (in particular XGBoost and LightGBM) do borrow ideas from each other. For instance, I list down the major differences between XGBoost and LightGBM below, however these LightGBM features are also available in XGBoost as options:</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th></th>

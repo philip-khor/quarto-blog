@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.33">
+<meta name="generator" content="quarto-1.5.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -344,7 +344,7 @@ window.Quarto = {
 <p>Essentially:</p>
 <ol type="1">
 <li><p>You construct a grid of hyperparameter values:</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>C</th>
@@ -373,7 +373,6 @@ window.Quarto = {
 <li><p>you perform a 5-fold cross validation, building a model on each combination of 4 of the 5 folds and evaluating the model on the remaining fold:</p>
 <div class="cell">
 <div class="cell-output-display">
-<div>
 <div id="hamjlnbvkl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
@@ -786,7 +785,7 @@ window.Quarto = {
 }
 </style>
 
-<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true">
 <thead class="gt_col_headings">
 <tr class="header">
 <th id="C" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">C</th>
@@ -845,7 +844,6 @@ window.Quarto = {
 
 </div>
 </div>
-</div>
 </div></li>
 <li><p>pick the best combination of hyperparameters<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></li>
 <li><p><strong>REFIT</strong> the model on the WHOLE dataset<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p></li>
@@ -867,7 +865,7 @@ window.Quarto = {
 <section id="wait-what-just-happened" class="level3">
 <h3 class="anchored" data-anchor-id="wait-what-just-happened">Wait … what just happened?</h3>
 <p>To see why this is an issue, let’s simplify this problem a little by substituting cross-validation with a validation set approach. Suppose you used a train-validation split on your data and used the test score to guide your hyperparameter choice. And suppose our results looked a little like:</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>C</th>
@@ -899,7 +897,7 @@ window.Quarto = {
 </tbody>
 </table>
 <p>Now you know that 10 and linear are optimal, so you search around the vicinity of C = 10.</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>C</th>
@@ -935,7 +933,7 @@ window.Quarto = {
 <section id="can-cross-validation-save-us" class="level3">
 <h3 class="anchored" data-anchor-id="can-cross-validation-save-us">Can cross-validation save us?</h3>
 <p>Using cross-validation may not be enough. Suppose we had cross-validation split 1 with the following evaluation scores:</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>C</th>
@@ -967,7 +965,7 @@ window.Quarto = {
 </tbody>
 </table>
 <p>and again searched around the vicinity of C = 10:</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>C</th>
