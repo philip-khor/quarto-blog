@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home – philip’s curve</title>
+<title>About – philip’s curve</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,12 +31,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./icon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -44,6 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -70,80 +68,23 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 18,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="philip's curve" href="index.xml" data-external="1"><meta property="og:title" content="Home – philip’s curve">
-<meta property="og:image" content="https://www.philipscurve.com/post/2022-04-20-gradient-boosting/featured.jpg">
+<meta property="og:title" content="About – philip’s curve">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://www.philipscurve.com/avatar.jpg">
 <meta property="og:site_name" content="philip's curve">
-<meta name="twitter:title" content="Home – philip’s curve">
-<meta name="twitter:image" content="https://www.philipscurve.com/post/2022-04-20-gradient-boosting/featured.jpg">
+<meta name="twitter:title" content="About – philip’s curve">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://www.philipscurve.com/avatar.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -161,7 +102,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Home</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">About</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -171,23 +112,7 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Home</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-body">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -205,633 +130,78 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(23)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="econometrics">econometrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tidyverse">tidyverse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="wage-gap">wage-gap <span class="quarto-category-count">(1)</span></div></div></div>
-<!-- main -->
-<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
-
-
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1717200000000" data-listing-file-modified-sort="1719167224198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2082">
-<a href="./post/epf.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="images/clipboard-1009397881.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-EPF Account 3: Flexibility or Erosion of Retirement Savings?
-</h5>
-<div class="card-text listing-description">
-First published in Penang Monthly (June 2024).
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Jun 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1716940800000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="385">
-<a href="./post/braindrain.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="images/clipboard-1309878859.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Brain drain: not as big a problem as you think
-</h5>
-<div class="card-text listing-description">
-First published on LinkedIn.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-May 29, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1715558400000" data-listing-file-modified-sort="1719167224266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
-<a href="./post/temp/temp.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="post/temp/drawing.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Temperatures 🌡️
-</h5>
-<div class="card-text listing-description">
-Panasnya
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-May 13, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1714262400000" data-listing-file-modified-sort="1719167224198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="265">
-<a href="./post/hello-julia.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="post/images/clipboard-466531566.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hello Julia
-</h5>
-<div class="card-text listing-description">
-Not sure how I landed up browsing through Julia for Data Science and Julia Data Science this Saturday evening. Julia is a fascinating language, but I think the learning…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Apr 28, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1714089600000" data-listing-file-modified-sort="1719167224206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="943">
-<a href="./post/swift.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://penangmonthly.com/storage/19675/27086749_l_normal_none.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Limited Local Benefits of Swiftonomics
-</h5>
-<div class="card-text listing-description">
-You wish she would come to Malaysia. But it’s all good.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Apr 26, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1711929600000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1436">
-<a href="./post/covid24.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My approach to Covid-19 in 2024
-</h5>
-<div class="card-text listing-description">
-Four years into the pandemic, my refusal to align myself with the rest of society sleepwalking into a replay of 2019 norms of work and life has set me back for years…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Apr 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1693440000000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="461">
-<a href="./post/decarb/decarb.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="post/decarb/images/Screenshot 2023-08-31 172242.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Seasonality in decarbonisation
-</h5>
-<div class="card-text listing-description">
-or, perhaps, the carbon costs of returning to the office?
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Aug 31, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1688860800000" data-listing-file-modified-sort="1719167224206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="865">
-<a href="./post/tax_rebates_suck.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-(Individual) tax rebates suck
-</h5>
-<div class="card-text listing-description">
-One of my pet peeves is to see people advocate for tax rebates when they should know better.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Jul 9, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1650412800000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2719">
-<a href="./post/2022-04-20-gradient-boosting/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./post/2022-04-20-gradient-boosting/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Gradient boosting?
-</h5>
-<div class="card-text listing-description">
-There’s no shortage of machine learning hot takes on how the XGBoost gradient boosting framework continues to defy the no-free-lunch theorem by being perhaps the most…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Apr 20, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="" data-listing-date-sort="1603497600000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2012">
-<a href="./post/2020-10-24-nested-cross-validation/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./post/2020-10-24-nested-cross-validation/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Nested cross-validation
-</h5>
-<div class="listing-categories">
-
-</div>
-<div class="card-text listing-description">
-In Why do cross-validation, I described cross-validation as a way of evaluating your modeling workflow from start to end to help you pick the appropriate model and avoid…<sup></sup>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Oct 24, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1602374400000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="627">
-<a href="./post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/300px-Korsstygn_detalj.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why do cross-validation?
-</h5>
-<div class="card-text listing-description">
-In short, we do cross-validation to pick the right model. But what does that mean for our ‘final model’?
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Oct 11, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="R" data-listing-date-sort="1598486400000" data-listing-file-modified-sort="1719167224266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
-<a href="./post/wsl/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./post/wsl/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-WSL2 and R
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-Windows Subsystem for Linux (WSL) is a great way to run Linux software on your computer without dual-booting or starting over. For certain reasons, you may want to run R in…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Aug 27, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="12" data-listing-date-sort="1571011200000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="785">
-<a href="./post/2019-10-14-charts-can-lie.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Charts can lie
-</h5>
-<div class="card-text listing-description">
-Data visualization is something we use to understand our data. Sure, it has some aesthetic function, but its primary purpose is to communicate what’s in the data.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Oct 14, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="" data-listing-date-sort="1565136000000" data-listing-file-modified-sort="1719167224202" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="850">
-<a href="./post/learning-to-sell/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./post/learning-to-sell/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Learning to sell data science
-</h5>
-<div class="listing-categories">
-
-</div>
-<div class="card-text listing-description">
-Half of your job, regardless of what that job is, is being able to sell your work. (source)
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Aug 7, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-listing-date-sort="1563062400000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1139">
-<a href="./post/2019-07-14-link-functions-matter.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/384608250_535b9a6840_z.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Link functions matter
-</h5>
-<div class="card-text listing-description">
-There’s a bit of a conversation on Twitter whether to use linear models or logistic models for estimating effect sizes in the case of binary response variables. I wondered…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Jul 14, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="R,tidyverse" data-listing-date-sort="1562457600000" data-listing-file-modified-sort="1719167224206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1640">
-<a href="./post/reflections-on-the-tidyverse/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./post/reflections-on-the-tidyverse/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reflections on the tidyverse
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
-tidyverse
-</div>
-</div>
-<div class="card-text listing-description">
-At my previous gig as a junior data scientist trainer, my team was given some time to revamp our base R-based syllabus to be more tidy-friendly while retaining significant…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Jul 7, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-listing-date-sort="1560384000000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
-<a href="./post/2019-06-13-file-paths-and-data-science-projects.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./img/1741269954_6e4cc6bacf_b.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-File paths and data science projects
-</h5>
-<div class="card-text listing-description">
-Large data science projects can be a pain to manage. Cookiecutter Data Science recommends the following project folder structure, and I think it’s a good picture of how a…<em></em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Jun 13, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="ggplot2,wage-gap" data-listing-date-sort="1560038400000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1018">
-<a href="./post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Australian gender wage gap: interactive viz
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ggplot2'); return false;">
-ggplot2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('wage-gap'); return false;">
-wage-gap
-</div>
-</div>
-<div class="card-text listing-description">
-I wrote a piece at The Ambitious Economist on Australia’s gender wage gap with some good ol’ <code>ggplot2</code> dataviz. However, there was a chart showing the gender wage gap by…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Jun 9, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="18" data-categories="econometrics,python" data-listing-date-sort="1559692800000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="713">
-<a href="./post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/e6f.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-PSA: Python, OLS and perfectly collinear variables
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('econometrics'); return false;">
-econometrics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-</div>
-<div class="card-text listing-description">
-Unlike most implementations of linear models (e.g.&nbsp;Stata, R), Python packages don’t usually drop perfectly collinear variables.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Jun 5, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="19" data-categories="R" data-listing-date-sort="1556928000000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="434">
-<a href="./post/2019-05-04-my-first-package-bnmr.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./img/logo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My first package: bnmr
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-bnmr is a wrapper for <code>httr</code> to access BNM (Malaysia’s central bank)’s recently released API. I wrote this to practice writing R packages, with lots of help from the R Packages…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-May 4, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="20" data-categories="Python" data-listing-date-sort="1535673600000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2086">
-<a href="./post/2018-08-27-exploring-ge14-results-with-python-part-2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/output_51_1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Exploring GE14 results with Python (part 2)
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-</div>
-<div class="card-text listing-description">
-See here for part 1.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Aug 31, 2018
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="21" data-categories="Python" data-listing-date-sort="1535155200000" data-listing-file-modified-sort="1719167224194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1855">
-<a href="./post/2018-08-25-exploring-ge14-results-with-python.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/output_6_0.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Exploring GE14 results with Python (part 1)
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-</div>
-<div class="card-text listing-description">
-There’s an interesting blog post up on DataTarik about using random forests to model the outcomes of Malaysia’s 14th general election (GE14). While I have my reservations…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Aug 25, 2018
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="22" data-categories="R" data-listing-date-sort="1535068800000" data-listing-file-modified-sort="1719167224190" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="642">
-<a href="./post/2018-08-23-visualising-government-expenditure-data-with-ggplot2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="post/2018-08-23-visualising-government-expenditure-data-with-ggplot2_files/figure-html/unnamed-chunk-2-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Visualising government expenditure data with ggplot2
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-I thought I’d practice my rusty R skills when I came across a post by Khairil Yusof on the Sinar Project Facebook group that Malaysian Administrative Modernisation and…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Philip Khor
-</div>
-<div class="listing-date">
-Aug 24, 2018
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  </ul>
 </nav>
-</div></main> <!-- /main -->
+    </div>
+<!-- main -->
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="avatar.jpg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">About</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="https://masto.ai/@pk" class="about-link" rel="" target="">
+    <i class="bi bi-mastodon"></i>
+     <span class="about-link-text">Mastodon</span>
+  </a>
+  <a href="https://www.linkedin.com/in/philip-khor/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/philip-khor" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://bsky.app/profile/philipscurve.com" class="about-link" rel="" target="">
+     <span class="about-link-text"><iconify-icon inline="" icon="simple-icons:bluesky"></iconify-icon> Bluesky</span>
+  </a>
+  <a href="https://www.threads.net/@phil.ip.k" class="about-link" rel="" target="">
+    <i class="bi bi-threads"></i>
+     <span class="about-link-text">Threads</span>
+  </a>
+  <a href="https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-earmark-person"></i>
+     <span class="about-link-text">CV</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+
+<p><a rel="me" href="https://masto.ai/@pk">Philip</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the <a href="https://conda-forge.org/">conda-forge</a> software distribution project. He is package maintainer of the R package <a href="https://github.com/philip-khor/bnmr/">bnmr</a> and an author of <a href="https://github.com/NickCH-K/pmdplyr">pmdplyr</a>, and volunteers for <a href="https://www.meetup.com/pydatakl/">PyData Kuala Lumpur</a>.</p>
+<section id="education" class="level3">
+<h3 data-anchor-id="education">Education</h3>
+<p><strong>University of Wollongong</strong> | Wollongong, NSW<br>
+Bachelor of Commerce (Hons), Economics | 2017</p>
+<p><strong>University of Wollongong</strong> | Wollongong, NSW<br>
+Bachelor of Commerce (Dean’s Scholar), Economics | 2014-2016</p>
+<p><strong>Tunku Abdul Rahman University of Management and Technology</strong> | Tanjung Bungah, Penang<br>
+Diploma in Business Studies, Accounting | 2012-2014</p>
+</section>
+<section id="experience" class="level3">
+<h3 data-anchor-id="experience">Experience</h3>
+<p><strong>Penang Institute</strong> | <a href="https://penanginstitute.org/programmes/socioeconomics-and-statistics-programme/">Visiting Data Scientist, Socioeconomics and Statistics Programme</a> | January 2023 - present</p>
+<p><strong>CIMB Bank Berhad</strong> | Manager, Regional Advanced Risk Modelling, Group Risk | March 2020 - May 2022</p>
+<p><strong>Skymind AI Berhad</strong> | Technical Writer | Oct 2019 - Dec 2019</p>
+<p><strong>GRID Inc.</strong> | Data Scientist Intern | May 2019 - Aug 2019</p>
+<p><strong>The Center of Applied Data Science</strong> | Data Scientist Associate | Jul 2018 - May 2019</p>
+<p><strong>Penang Institute</strong> | Research Assistant | Dec 2015 - Jan 2016, Aug 2016 - Jun 2017</p>
+
+
+</section>
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -996,13 +366,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -1408,8 +771,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./about.html">
-<p>About</p>
+ about.qmd
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./posts.html">
+<p>Posts</p>
 </a>
   </li>  
 </ul>
