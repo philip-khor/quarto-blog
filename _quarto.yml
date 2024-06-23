@@ -34,6 +34,9 @@ website:
     - icon: mastodon
       href: https://masto.ai/@pk
       rel: me
+    - icon: activity
+      href: https://web.brid.gy/r/https://philipscurve.com
+      rel: me
   page-footer: 
     left: "Made with [Quarto](https://quarto.org/)."
     right:
