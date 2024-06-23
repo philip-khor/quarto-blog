@@ -8,7 +8,7 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: 
-    type: metadata
+    type: partial
 page-layout: full
 title-block-banner: true
 ---
