@@ -15,7 +15,7 @@
   <title>EPF Account 3: Flexibility or Erosion of Retirement Savings?</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/epf.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ First published in <a href="https://penangmonthly.com/article/21163/epf-account-3-flexibility-or-erosion-of-retirement-savings">Penang Monthly (June 2024)</a>. ]]></description>
   <guid>https://www.philipscurve.com/post/epf.html</guid>
   <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
 </item>
@@ -23,7 +23,7 @@
   <title>Brain drain: not as big a problem as you think</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/braindrain.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ First published on <a href="https://www.linkedin.com/pulse/brain-drain-big-problem-you-think-philip-khor-gjoec/?trackingId=Xom62RTXSZCaUPdNUc3CkA%3D%3D">LinkedIn</a>. ]]></description>
   <guid>https://www.philipscurve.com/post/braindrain.html</guid>
   <pubDate>Wed, 29 May 2024 00:00:00 GMT</pubDate>
 </item>
@@ -39,7 +39,7 @@
   <title>Hello Julia</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/hello-julia.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ Not sure how I landed up browsing through <a href="https://livebook.manning.com/book/julia-for-data-analysis/">Julia for Data Science</a> and <a href="https://juliadatascience.io">Julia Data Science</a> this Saturday evening. Julia is a fascinating language, but I think the learning curve is a bit much for me. Tried making a simple line chart and it’s … pretty hard, although the syntax is quite interesting … ]]></description>
   <guid>https://www.philipscurve.com/post/hello-julia.html</guid>
   <pubDate>Sun, 28 Apr 2024 00:00:00 GMT</pubDate>
 </item>
@@ -56,7 +56,7 @@
   <title>My approach to Covid-19 in 2024</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/covid24.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ Four years into the pandemic, my refusal to align myself with the rest of society sleepwalking into a replay of 2019 norms of work and life has set me back for years personally and professionally. Many parties are trying to hoodwink the public into thinking that the pandemic is over in pursuit of short-term economic gain, while practically ensuring long-term economic and health catastrophe across the globe. Despite policymakers, public intellectuals and journalists’ attempt to wish the pandemic away, the Covid-19 pandemic remains, in 2024, a clear and present danger to public health. ]]></description>
   <guid>https://www.philipscurve.com/post/covid24.html</guid>
   <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
 </item>
@@ -80,7 +80,7 @@
   <title>Gradient boosting?</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2022-04-20-gradient-boosting/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ There’s no shortage of machine learning hot takes on how the XGBoost gradient boosting framework continues to defy the <a href="https://machinelearningmastery.com/no-free-lunch-theorem-for-machine-learning/">no-free-lunch theorem</a> by being perhaps the most versatile learning algorithm across tabular data applications. ]]></description>
   <guid>https://www.philipscurve.com/post/2022-04-20-gradient-boosting/</guid>
   <pubDate>Wed, 20 Apr 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/post/2022-04-20-gradient-boosting/featured.jpg" medium="image" type="image/jpeg"/>
@@ -89,7 +89,7 @@
   <title>Nested cross-validation</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ In <a href="../why-do-cross-validation/">Why do cross-validation</a>, I described cross-validation as a way of evaluating your modeling workflow from start to end to help you pick the appropriate model and avoid overfitting on your test set. No single model from the cross-validation process should actually be used as your final model<sup>1</sup>; cross-validation is merely a way to evaluate how well your modeling process works on repeated samples of your data, to get a better sense of how well your modeling choice works in the real world. ]]></description>
   <guid>https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/</guid>
   <pubDate>Sat, 24 Oct 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/featured.jpg" medium="image" type="image/jpeg"/>
@@ -98,7 +98,7 @@
   <title>Why do cross-validation?</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ In short, we do cross-validation to pick the right model. But what does that mean for our ‘final model’? ]]></description>
   <guid>https://www.philipscurve.com/post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html</guid>
   <pubDate>Sun, 11 Oct 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/img/300px-Korsstygn_detalj.jpg" medium="image" type="image/jpeg"/>
@@ -107,7 +107,7 @@
   <title>WSL2 and R</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/wsl/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ Windows Subsystem for Linux (WSL) is a great way to run Linux software on your computer without dual-booting or starting over. For certain reasons, you may want to run R in Linux instead of Windows, and WSL can help. ]]></description>
   <category>R</category>
   <guid>https://www.philipscurve.com/post/wsl/</guid>
   <pubDate>Thu, 27 Aug 2020 00:00:00 GMT</pubDate>
@@ -117,7 +117,7 @@
   <title>Charts can lie</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2019-10-14-charts-can-lie.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ Data visualization is something we use to understand our data. Sure, it has some aesthetic function, but its primary purpose is to communicate what’s in the data. ]]></description>
   <guid>https://www.philipscurve.com/post/2019-10-14-charts-can-lie.html</guid>
   <pubDate>Mon, 14 Oct 2019 00:00:00 GMT</pubDate>
 </item>
@@ -125,7 +125,7 @@
   <title>Learning to sell data science</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/learning-to-sell/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ Half of your job, regardless of what that job is, is being able to sell your work. (<a href="https://vicki.substack.com/p/selling-data-science">source</a>) ]]></description>
   <guid>https://www.philipscurve.com/post/learning-to-sell/</guid>
   <pubDate>Wed, 07 Aug 2019 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/post/learning-to-sell/featured.jpg" medium="image" type="image/jpeg"/>
@@ -134,7 +134,7 @@
   <title>Link functions matter</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2019-07-14-link-functions-matter.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ There’s a bit of a conversation on Twitter whether to use linear models or logistic models for estimating effect sizes in the case of binary response variables. I wondered if linear models can work for prediction problems with binary response variables, since there may be cases where the latent probability is linearly related to the features. ]]></description>
   <guid>https://www.philipscurve.com/post/2019-07-14-link-functions-matter.html</guid>
   <pubDate>Sun, 14 Jul 2019 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/img/384608250_535b9a6840_z.jpg" medium="image" type="image/jpeg"/>
@@ -143,7 +143,7 @@
   <title>Reflections on the tidyverse</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/reflections-on-the-tidyverse/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ At my previous gig as a junior data scientist trainer, my team was given some time to revamp our base R-based syllabus to be more tidy-friendly while retaining significant base-R content. ]]></description>
   <category>R</category>
   <category>tidyverse</category>
   <guid>https://www.philipscurve.com/post/reflections-on-the-tidyverse/</guid>
@@ -154,7 +154,7 @@
   <title>File paths and data science projects</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2019-06-13-file-paths-and-data-science-projects.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ Large data science projects can be a pain to manage. Cookiecutter Data Science recommends the following project folder structure, and I think it’s a good picture of how a data science project <em>should</em> be organized: ]]></description>
   <guid>https://www.philipscurve.com/post/2019-06-13-file-paths-and-data-science-projects.html</guid>
   <pubDate>Thu, 13 Jun 2019 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/img/1741269954_6e4cc6bacf_b.jpg" medium="image" type="image/jpeg"/>
@@ -163,7 +163,7 @@
   <title>The Australian gender wage gap: interactive viz</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ I wrote a piece at <a href="https://theambitiouseconomist.com/an-analysis-of-the-gender-wage-gap-in-australia/">The Ambitious Economist</a> on Australia’s gender wage gap with some good ol’ <code>ggplot2</code> dataviz. However, there was a chart showing the gender wage gap by occupation that could have benefited from some interactive visualisation. Fortunately, the R package plotly makes this quite simple, with just two more lines of code … ]]></description>
   <category>ggplot2</category>
   <category>wage-gap</category>
   <guid>https://www.philipscurve.com/post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html</guid>
@@ -173,7 +173,7 @@
   <title>PSA: Python, OLS and perfectly collinear variables</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ Unlike most implementations of linear models (e.g.&nbsp;Stata, R), Python packages don’t usually drop perfectly collinear variables. ]]></description>
   <category>econometrics</category>
   <category>python</category>
   <guid>https://www.philipscurve.com/post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html</guid>
@@ -183,7 +183,7 @@
   <title>My first package: bnmr</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/2019-05-04-my-first-package-bnmr.html</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ <a href="../bnmr">bnmr</a> is a wrapper for <code>httr</code> to access BNM (Malaysia’s central bank)’s <a href="api.bnm.gov.my">recently released API</a>. I wrote this to practice writing R packages, with lots of help from the <a href="http://r-pkgs.had.co.nz/">R Packages</a> book. ]]></description>
   <category>R</category>
   <guid>https://www.philipscurve.com/post/2019-05-04-my-first-package-bnmr.html</guid>
   <pubDate>Sat, 04 May 2019 00:00:00 GMT</pubDate>
