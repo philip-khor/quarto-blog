@@ -41,7 +41,7 @@ website:
   page-footer: 
     left: "Made with [Quarto](https://quarto.org/)."
     right:
-      - about.qmd
+      - index.qmd
       - posts.qmd
   search: 
     location: sidebar

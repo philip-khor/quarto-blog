@@ -23,7 +23,7 @@ about:
       href: https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf
 ---
 
-<a rel="me" href="https://masto.ai/@pk">Philip</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the [conda-forge](https://conda-forge.org/) software distribution project. He is package maintainer of the R package [bnmr](https://github.com/philip-khor/bnmr/) and an author of [pmdplyr](https://github.com/NickCH-K/pmdplyr), and volunteers for [PyData Kuala Lumpur](https://www.meetup.com/pydatakl/).
+<a rel="me" class="h-card" href="https://philipscurve.com">Philip</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the [conda-forge](https://conda-forge.org/) software distribution project. He is package maintainer of the R package [bnmr](https://github.com/philip-khor/bnmr/) and an author of [pmdplyr](https://github.com/NickCH-K/pmdplyr), and volunteers for [PyData Kuala Lumpur](https://www.meetup.com/pydatakl/).
 
 ### Education
 
