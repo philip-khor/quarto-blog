@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>philip&#39;s curve</title>
+<link>https://www.philipscurve.com/</link>
+<atom:link href="https://www.philipscurve.com/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.5.47</generator>
+<lastBuildDate>Sat, 01 Jun 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>EPF Account 3: Flexibility or Erosion of Retirement Savings?</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/epf.html</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/epf.html</guid>
+  <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Brain drain: not as big a problem as you think</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/braindrain.html</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/braindrain.html</guid>
+  <pubDate>Wed, 29 May 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Temperatures 🌡️</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/temp/temp.html</link>
+  <description><![CDATA[ Panasnya ]]></description>
+  <guid>https://www.philipscurve.com/post/temp/temp.html</guid>
+  <pubDate>Mon, 13 May 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hello Julia</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/hello-julia.html</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/hello-julia.html</guid>
+  <pubDate>Sun, 28 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Limited Local Benefits of Swiftonomics</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/swift.html</link>
+  <description><![CDATA[ You wish she would come to Malaysia. But it’s all good. ]]></description>
+  <guid>https://www.philipscurve.com/post/swift.html</guid>
+  <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://penangmonthly.com/storage/19675/27086749_l_normal_none.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>My approach to Covid-19 in 2024</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/covid24.html</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/covid24.html</guid>
+  <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Seasonality in decarbonisation</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/decarb/decarb.html</link>
+  <description><![CDATA[ or, perhaps, the carbon costs of returning to the office? ]]></description>
+  <guid>https://www.philipscurve.com/post/decarb/decarb.html</guid>
+  <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>(Individual) tax rebates suck</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/tax_rebates_suck.html</link>
+  <description><![CDATA[ One of my pet peeves is to see people advocate for tax rebates when they should know better. ]]></description>
+  <guid>https://www.philipscurve.com/post/tax_rebates_suck.html</guid>
+  <pubDate>Sun, 09 Jul 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Gradient boosting?</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2022-04-20-gradient-boosting/</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/2022-04-20-gradient-boosting/</guid>
+  <pubDate>Wed, 20 Apr 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/post/2022-04-20-gradient-boosting/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Nested cross-validation</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/</guid>
+  <pubDate>Sat, 24 Oct 2020 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/post/2020-10-24-nested-cross-validation/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Why do cross-validation?</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html</guid>
+  <pubDate>Sun, 11 Oct 2020 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/img/300px-Korsstygn_detalj.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>WSL2 and R</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/wsl/</link>
+  <description><![CDATA[  ]]></description>
+  <category>R</category>
+  <guid>https://www.philipscurve.com/post/wsl/</guid>
+  <pubDate>Thu, 27 Aug 2020 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/post/wsl/featured.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
+  <title>Charts can lie</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2019-10-14-charts-can-lie.html</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/2019-10-14-charts-can-lie.html</guid>
+  <pubDate>Mon, 14 Oct 2019 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Learning to sell data science</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/learning-to-sell/</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/learning-to-sell/</guid>
+  <pubDate>Wed, 07 Aug 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/post/learning-to-sell/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Link functions matter</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2019-07-14-link-functions-matter.html</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/2019-07-14-link-functions-matter.html</guid>
+  <pubDate>Sun, 14 Jul 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/img/384608250_535b9a6840_z.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Reflections on the tidyverse</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/reflections-on-the-tidyverse/</link>
+  <description><![CDATA[  ]]></description>
+  <category>R</category>
+  <category>tidyverse</category>
+  <guid>https://www.philipscurve.com/post/reflections-on-the-tidyverse/</guid>
+  <pubDate>Sun, 07 Jul 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/post/reflections-on-the-tidyverse/featured.png" medium="image" type="image/png" height="166" width="144"/>
+</item>
+<item>
+  <title>File paths and data science projects</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2019-06-13-file-paths-and-data-science-projects.html</link>
+  <description><![CDATA[  ]]></description>
+  <guid>https://www.philipscurve.com/post/2019-06-13-file-paths-and-data-science-projects.html</guid>
+  <pubDate>Thu, 13 Jun 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/img/1741269954_6e4cc6bacf_b.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The Australian gender wage gap: interactive viz</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html</link>
+  <description><![CDATA[  ]]></description>
+  <category>ggplot2</category>
+  <category>wage-gap</category>
+  <guid>https://www.philipscurve.com/post/2019-06-09-the-australian-gender-wage-gap-interactive-viz.html</guid>
+  <pubDate>Sun, 09 Jun 2019 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>PSA: Python, OLS and perfectly collinear variables</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html</link>
+  <description><![CDATA[  ]]></description>
+  <category>econometrics</category>
+  <category>python</category>
+  <guid>https://www.philipscurve.com/post/2019-06-05-psa-python-ols-and-perfectly-collinear-variables.html</guid>
+  <pubDate>Wed, 05 Jun 2019 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>My first package: bnmr</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/2019-05-04-my-first-package-bnmr.html</link>
+  <description><![CDATA[  ]]></description>
+  <category>R</category>
+  <guid>https://www.philipscurve.com/post/2019-05-04-my-first-package-bnmr.html</guid>
+  <pubDate>Sat, 04 May 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://www.philipscurve.com/img/logo.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
+</channel>
+</rss>
