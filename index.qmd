@@ -3,10 +3,12 @@ title: "Home"
 listing:
   contents: post
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
   sort-ui: false
   filter-ui: false
+  feed: true
+  type: metadata
 page-layout: full
 title-block-banner: true
 ---
