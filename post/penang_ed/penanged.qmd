@@ -2,6 +2,8 @@
 title: "Penang's Evolving Schooling Preferences"
 author: "Philip Khor"
 date: "2024-08-01"
+description: |
+    Penang’s education scene is changing rapidly. While Malaysia’s private school enrollment remains modest compared to the region, it is seeing a concerning shift. 
 reference-location: margin
 citation-location: margin
 cap-location: margin 
