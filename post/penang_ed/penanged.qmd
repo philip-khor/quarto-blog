@@ -10,7 +10,7 @@ cap-location: margin
 ---
 
 ::: callout-note
-First published in Penang Monthly (August 2024).
+First published in [Penang Monthly (August 2024)](https://penangmonthly.com/article/21207/penangs-evolving-schooling-preferences).
 :::
 
 Penang's education scene is changing rapidly. While Malaysia's private school enrollment remains modest compared to the region, it is seeing a concerning shift. Public secondary schools in Penang are experiencing a drop in enrollment, while private institutions, particularly international schools, are booming. Is this a simple case of parents seeking better options, or is it something more? This trend raises concerns about a widening education divide and potential cracks in Penang's social cohesion.
