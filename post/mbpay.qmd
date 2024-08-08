@@ -1,12 +1,16 @@
 ---
 title: "Pay for progress: do head of state governments' pay respond to performance?"
+author: Philip Khor
+date: '2024-08-09'
+categories:
+  - R
 format: 
   html:
     code-fold: true
     code-summary: "Show setup code"
 execute: 
   cache: true
-  freeze: auto
+  freeze: true
 ---
  
 Malaysiakini's data journalism team just published this fascinating analysis about the salaries of states' heads of government:
@@ -160,9 +164,9 @@ Okay great, but this doesn't tell me much about what exactly about state's econo
 ```{r}
 #| output: false
 #| echo: false
+library(readxl)
 
-
-read_excel("./data/1.2.4 GDP Per Capita by State at Current Prices 2005-2023_dataset.xlsx", na = "n.a.") |> 
+read_excel("../data/1.2.4 GDP Per Capita by State at Current Prices 2005-2023_dataset.xlsx", na = "n.a.") |> 
   filter(Year %in% c(2016, 2022), `Base Year` >= 2015 
   ) |> 
   select(-`Base Year`, -`Status Data`) |>
