@@ -6,6 +6,7 @@ format:
     code-summary: "Show setup code"
 execute: 
   cache: true
+  freeze: auto
 ---
  
 Malaysiakini's data journalism team just published this fascinating analysis about the salaries of states' heads of government:
