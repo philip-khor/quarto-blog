@@ -1,0 +1,275 @@
+---
+title: "Pay for progress: do head of state governments' pay respond to performance?"
+format: 
+  html:
+    code-fold: true
+    code-summary: "Show setup code"
+execute: 
+  cache: true
+---
+ 
+Malaysiakini's data journalism team just published this fascinating analysis about the salaries of states' heads of government:
+
+```{=html}
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMalaysiakini%2Fposts%2Fpfbid0TZGSiFUWrXvDFzXVrNgMqdrCgmzL2BCfPjXFRXP4QftL5U5bBNVWNjzEsjPcDKbpl&show_text=true&width=500" width="500" height="718" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+```
+
+```{r}
+#| output: false
+library(dplyr)
+library(tibble)
+library(arrow)
+library(tidyr)
+library(ggplot2)
+library(readr)
+hies_state <- read_parquet("https://storage.dosm.gov.my/hies/hies_state.parquet") |> 
+  filter(lubridate::year(date) == 2022)
+
+hies_pct <- read_parquet("https://storage.dosm.gov.my/hies/hies_state_percentile.parquet") |> 
+  filter(lubridate::year(date) == 2022, percentile %in% c(1, 20), variable == "maximum") |> 
+  pivot_wider(names_from = c(percentile), values_from = income, names_prefix = "pct_")
+
+wellbeing <- read_parquet("https://storage.dosm.gov.my/dashboards/wellbeing_state_choropleth.parquet")
+tribble(
+  ~ state, ~ head_executive_pay, ~ gdppercap, ~median_wage,
+  "Kelantan", 20000, 16836, 1600,
+  "Sabah", 33033, 31147, 1800, 
+  "Terengganu", 30000, 31111, 1900, 
+  "Perlis", 20000, 24004, 1627, 
+  "Kedah", 22000, 26353, 1845, 
+  "Perak", 25000, 37170, 2000, 
+  "Pahang", 30000, 46084, 2000,
+  "Sarawak", 39000, 72411, 2000, 
+  "Malaysia", 22826, 54612, 2600, 
+  "Selangor", 25000, 62492, 2900, 
+  "Negeri Sembilan", 19175, 51709, 2245,  
+  "Johor", 14907, 41902, 2400, 
+  "Melaka", 18000, 53922, 2282, 
+  "Pulau Pinang", 14175, 72586, 2645
+) -> exec_pay
+
+```
+
+They find that there's no relationship between the head of government's pay and the state's economic performance, as measured by GDP per capita: 
+
+```{r}
+ggplot(exec_pay, aes(x = gdppercap, y = head_executive_pay)) + 
+  geom_point() + ggrepel::geom_text_repel(aes(label = state))
+
+```
+
+correlation coefficient (log-log): `r cor(log(exec_pay$gdppercap), log(exec_pay$head_executive_pay)) `
+
+and similarly for wages - if anything, they seem to be earning *less* where household income is higher? [^1]
+
+[^1]: I didn't verify if Malaysiakini's numbers were from administrative data or the salaries surveys
+
+```{r}
+ggplot(exec_pay, aes(x = median_wage, y = head_executive_pay)) + 
+  geom_point() + ggrepel::geom_text_repel(aes(label = state))
+```
+
+correlation coefficient: `r cor(log(exec_pay$median_wage), log(exec_pay$head_executive_pay))`
+
+So I thought okay, maybe there's something that isn't captured in either of these metrics. Now that data is much easier to access on data.gov.my I thought I'd see if there's any relationship between MB pay and 2022 values for the Malaysia Well-Being Index. 
+
+Yeah, this is very data-miney, but I think it's quite far from what we saw before, that there's *no* relationship. Below are the Pearson correlation coefficients. The index is made up of economic and social components. The economic and overall components are modestly correlated; at the sub-indicator levels, it looks like safety is the most closely linked to MB pay.
+
+```{r}
+wellbeing |> 
+  inner_join(exec_pay, by = "state") |> 
+  summarize(across(overall:social_family, \(x) cor(x, log(head_executive_pay)))) |> 
+  pivot_longer(everything()) |> 
+  arrange(desc(abs(value))) |> 
+  mutate(cat = case_when(
+    name %in% c("overall", "economy", "social") ~ "overall", 
+    stringr::str_sub(name, end = 6) == "social" ~ "social", 
+    .default = "economy"), 
+    cat = forcats::fct(cat, levels = c("overall", "economy", "social")),
+    name = stringr::str_remove(name, ".+\\_"),
+    name = forcats::fct_reorder(name, value)) |>
+  gt::gt(groupname_col = 'cat') |>
+  gt::fmt_number() 
+  # ggplot(aes(x = value, y = name)) + 
+  # geom_col() + 
+  # ggrepel::geom_text_repel(aes(label = round(value, 2))) + 
+  # facet_wrap(vars(cat), scale = "free_y") + labs(y = "", x = "")
+
+```
+
+
+It kind of makes sense for politicians to be rewarded for economic welfare and social safety. So is the system ... working? 
+
+It's never a good idea to take a metric at face value, so let's plot the index versus MB pay. 
+
+```{r}
+wellbeing |> 
+  inner_join(exec_pay, by = "state") |> 
+  ggplot(aes(x = overall - 100, y = head_executive_pay)) + geom_point() + 
+  ggrepel::geom_text_repel(aes(label = state), colour = "grey30") + 
+  ggthemes::theme_fivethirtyeight(base_size = 9) + 
+  scale_x_continuous(labels = \(x) paste0("+", x, "%")) + 
+  theme(panel.grid.major = element_blank(), plot.title.position = "plot") + 
+  labs(
+    title = "Progress in overall well-being is correlated with MB pay",
+    subtitle = "Head of government's pay versus change in overall Malaysia Well-being Index since 2010",
+    x = "Change since 2010", 
+    y = "Head of government's pay"
+  )
+```
+
+Seems fairly legit to me, except for Penang that's underpaying, probably a legacy of a past administration's  belt-tightening approach to governance. 
+
+At this point it's a good idea to take a step back and think about what the index means. I think the documentation wasn't very clear, but essentially, each state has the value 100 for 2010. In other words, the index values for each state measure 'overall progress' on various indicators since 2010. 
+
+The strongest economic indicator has to do with income and distribution, and includes  
+
+- GDP per capita 
+- poverty rate
+- Gini coefficient of household income 
+
+```{r}
+#| echo: false 
+wellbeing |>  
+  inner_join(exec_pay, by = "state") -> income_index
+```
+The correlation between executive pay and this sub-indicator seems modest (`r cor(income_index$economy_income, log(income_index$head_executive_pay))`). 
+
+```{r}
+
+income_index |> 
+  ggplot(aes(x = economy_income - 100, y = head_executive_pay)) + geom_point() + 
+  ggrepel::geom_text_repel(aes(label = state), colour = "grey30") + 
+  ggthemes::theme_fivethirtyeight(base_size = 9) + 
+  scale_x_continuous(labels = \(x) paste0("+", x, "%")) + 
+  theme(panel.grid.major = element_blank(), plot.title.position = "plot") + 
+  labs(
+    title = "Progress in the income and distribution index is correlated with MB pay",
+    subtitle = "Head of government's pay versus change in the income and distribution index since 2010",
+    x = "Change since 2010", 
+    y = "Head of government's pay"
+  )
+```
+
+
+Okay great, but this doesn't tell me much about what exactly about state's economies that heads of government are rewarded for. [^2] So I compare the annual growth of a few economic welfare metrics between 2016 and 2022. 
+
+[^2]: For comparability with the Household Income Survey, I go with 2016 to 2022. 
+
+```{r}
+#| output: false
+#| echo: false
+
+
+read_excel("./data/1.2.4 GDP Per Capita by State at Current Prices 2005-2023_dataset.xlsx", na = "n.a.") |> 
+  filter(Year %in% c(2016, 2022), `Base Year` >= 2015 
+  ) |> 
+  select(-`Base Year`, -`Status Data`) |>
+  pivot_wider(names_from = Year, values_from = `Value RM Million`, names_prefix = "year") |> 
+  mutate(rat2216 = (year2022 / year2016) ^ (1/6) - 1, 
+  `State` = case_match(
+    `State`, "N.Sembilan" ~ "Negeri Sembilan",  "P.Pinang" ~ "Pulau Pinang", .default = `State`)) |> 
+      # right_join(wellbeing, by = c("Country/State" = "state")) |>
+      right_join(exec_pay, by = c("State" = "state")) -> gdp_growth
+```
+
+## GDP per capita growth between 2016 and 2022: `r cor(gdp_growth$rat2216, gdp_growth$head_executive_pay, use = "complete.obs")`
+
+```{r}
+
+
+gdp_growth |>
+  ggplot(aes(x = `rat2216`, y = head_executive_pay)) + geom_point() +
+    ggrepel::geom_text_repel(aes(label = `State`), colour = "grey30") + 
+    scale_x_continuous(labels = scales::label_percent()) + 
+    labs(title = "Are MBs/CMs rewarding themselves for economic growth?", 
+    subtitle = "Head of government's pay vs annual growth rate of GDP per capita between 2016 and 2022") + 
+      ggthemes::theme_fivethirtyeight(base_size = 9) + 
+  theme(panel.grid.major = element_blank(), plot.title.position = "plot") + geom_smooth(alpha = .3, method = "lm", se = FALSE)
+
+```
+
+```{r}
+#| output: false
+#| echo: false
+read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQnkVj7bQIJIK7b_FTq5zNsrTCSY9g2LGt5Q0byAQkC_ZYOJDKmZReYHshxO4OdleBmmwzAHR1rPuNt/pub?gid=2071777810&single=true&output=csv") -> hhinc
+
+hhinc |> 
+  filter(year %in% c(2016, 2022), is.na(district)) |> 
+  select(year, median_gross_income, state) |> 
+  pivot_wider(names_from = year, values_from = median_gross_income, names_prefix = "year") |> 
+  mutate(rat2216 = (year2022 / year2016) ^ (1/6) - 1) |> 
+  right_join(exec_pay) -> hhinc_growth
+```
+
+## Household income growth between 2016 and 2022: `r cor(hhinc_growth$rat2216, log(hhinc_growth$head_executive_pay), use = "complete.obs")`
+
+```{r}
+
+  
+hhinc_growth |> 
+  ggplot(aes(x = rat2216, y = head_executive_pay)) + geom_point() + 
+  geom_text(aes(label = state)) + 
+  scale_x_continuous(labels = scales::label_percent()) + 
+  labs(x = "annual growth rate", y = "annual head of government pay") -> p1
+```
+
+
+```{r}
+#| echo: false
+p1
+```
+
+
+```{r}
+#| output: false
+#| echo: false
+hhinc |> 
+  filter(year %in% c(2016, 2022), is.na(district)) |> 
+  select(year, gini_gross_income, state) |> 
+  pivot_wider(names_from = year, values_from = gini_gross_income, names_prefix = "year") |> 
+  mutate(rat2216 = year2022 - year2016) |> 
+  right_join(exec_pay) -> gini_growth
+```
+
+## Change in inequality: `r cor(gini_growth$rat2216, log(gini_growth$head_executive_pay))`
+
+i.e. less inequality, more pay 
+
+```{r}
+
+
+gini_growth |> ggplot(aes(x = rat2216 * 100, y = head_executive_pay)) + geom_point() + 
+  geom_text(aes(label = state)) + 
+  labs(x = "change in gini between 2022 and 2016, percentage points", 
+  y = "annual head of government pay", 
+  caption = "Scale reversed for clarity. Greater gini is less equal, states are more equal towards the right of the x-axis ") + 
+  scale_x_reverse()
+```
+
+This seems to suggest ... the system is working? 
+
+Honestly, I'm more surprised to find that there seems to be some relationship between state heads' salaries and their performance, than the other way round. Good to know though. 
+
+If anything, I think it makes more sense that politicians in states that progress faster are compensated better, rather than for politicians to be compensated for the work of those than come before them. 
+
+# Sidenote
+
+On the other hand, I think there's value in comparing top-of-the-line pay with the pay of those at the bottom. Newly released Data.gov.my data from the Household Income Surveys help us do that. Below I show how many times' the head of government's salary is of different percentiles in the household income distribution. 
+
+For instance, the Sarawak head of government earns almost 8 times that of the median Sarawakian household, over 13 times that of the bottom 20% of Sarawakian households, and almost 35 times that of the bottom 1% of Sarawakian households. 
+
+```{r}
+exec_pay |> 
+  inner_join(hies_state, by = "state") |> 
+  inner_join(hies_pct, by = "state") |> 
+  mutate(
+    across(c(income_median, expenditure_mean, pct_1, pct_20), \(x) head_executive_pay / x),
+    state = forcats::fct_reorder(state, income_median)
+    ) |> 
+  pivot_longer(c(income_median, pct_1, pct_20)) |> 
+  mutate(name = forcats::fct_reorder(name, value)) |>
+  ggplot(aes(y = state, x = value)) + geom_col() + facet_wrap(vars(name), nrow = 1, scale = "free_x") + 
+  labs(y = "", x = "", 
+  subtitle = "Head of government's salary as multiple of household income metrics")
+```
