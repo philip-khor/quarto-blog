@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/posts.html",
+    "listing": "/index.html",
     "items": [
+      "/post/chips.html",
       "/post/mbpay.html",
       "/post/penang_ed/penanged.html",
       "/post/epf.html",

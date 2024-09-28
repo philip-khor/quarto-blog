@@ -6,11 +6,85 @@
       version="2.0">
 <channel>
 <title>philip&#39;s curve</title>
-<link>https://www.philipscurve.com/posts.html</link>
-<atom:link href="https://www.philipscurve.com/posts.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.philipscurve.com/</link>
+<atom:link href="https://www.philipscurve.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.4</generator>
-<lastBuildDate>Fri, 09 Aug 2024 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.15</generator>
+<lastBuildDate>Tue, 01 Oct 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>US-China Tensions and the Transformation of Penang’s Tech Industry</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/chips.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>First published in Penang Monthly (October 2024).</p>
+</div>
+</div>
+<p>Tiny semiconductors are the hidden engines behind today’s tech marvels, from artificial intelligence (AI) to electric cars. The semiconductor industry continues to cram an increasing number of elements onto integrated circuits<sup>1</sup>. In 1965, Gordon Moore, a founder of Intel, predicted that the number of transistors on chips would double every two years, a phenomenon referred to as Moore’s Law. Remarkably, the industry has mostly kept pace with Moore’s prediction—Apple’s M2 Ultra, for example, contains a staggering 134 billion transistors.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;Moore’s 1965 paper was titled “Cramming More Components onto Integrated Circuits”.</p></div></div><p>Miniaturisation may be hitting a wall, but chip advancements are surging ahead. Design innovations like improved architecture and 3D stacking are cramming more power into existing transistors. For instance, Apple’s groundbreaking M-series chips condense immense processing power for next-generation smartphones and laptops. Specialised AI chips further accelerate application-specific performance, while innovations in compound semiconductors like silicon carbide and gallium nitride promise breakthroughs in <a href="https://semiengineering.com/unleashing-the-potential-of-compound-semiconductors-industry-leaders-collaborate-at-semicon-taiwan-2022-to-create-ecosystem/">data centres, cars, and communications</a>.</p>
+<p><img src="https://www.philipscurve.com/images/clipboard-1464707813.png" class="img-fluid"></p>
+<p><img src="https://www.philipscurve.com/images/clipboard-2841476697.png" class="img-fluid"></p>
+<section id="chip-manufacturing" class="level2">
+<h2 class="anchored" data-anchor-id="chip-manufacturing">Chip manufacturing</h2>
+<p>A marvel of engineering and a poster child for globalisation, the semiconductor industry thrives on a complex, geographically distributed supply chain. No single country reigns supreme; specialised firms around the world contribute to different parts of the supply chain. While cutting-edge fabrication plants (fabs) are concentrated in a few regions, other parts are scattered globally.</p>
+<p>As miniaturisation nears its limits, value is migrating from shrinking transistors in the front-end of semiconductor manufacturing to maximising their efficiency through clever design. Design contributes a majority of the industry’s value, according to a 2021 BCG report.</p>
+<p>Take NVIDIA, the world’s most valuable chip company. They design chips but outsource manufacturing giants like TSMC (Taiwan Semiconductor Manufacturing Company) handle the actual production. This “pure-play foundry” model empowers tech giants like Microsoft, Google, and Meta to design their own chips without fabs – as “fabless” chipmakers.</p>
+<p><img src="https://www.philipscurve.com/images/clipboard-1504559797.png" class="img-fluid"></p>
+<p>Chipmaking starts with slicing ultra-pure silicon into wafers. These wafers are etched with intricate designs using cutting-edge photolithography equipment, commonly procured from the Dutch manufacturer ASML. Once etched, the chips are assembled and tested, with locations like China, Vietnam, and Penang playing a role. Finally, the packaged chips are integrated into circuit boards for everything from phones to smart sensors.</p>
+<p>While chip assembly (back-end) is traditionally seen as less valuable, innovations like 3D stacking are boosting its importance. Packaging-related innovations allow for more powerful chips despite miniaturisation limits. As a result, the future may see value more evenly distributed across all chipmaking stages, with each playing a crucial role in maximising performance.</p>
+</section>
+<section id="a-geopolitical-pivot-creates-opportunity" class="level2">
+<h2 class="anchored" data-anchor-id="a-geopolitical-pivot-creates-opportunity">A Geopolitical Pivot Creates Opportunity</h2>
+<p>Despite short-term weakness from a <a href="https://www.reuters.com/technology/chipmakers-signal-supply-glut-easing-demand-recovery-still-slow-2023-07-28/">supply glut</a>, the chip industry’s future looks bright. As of Q1 2024, microelectronics industry association SEMI reports <a href="https://www.semi.org/en/news-media-press-releases/semi-press-releases/key-measures-of-global-semiconductor-manufacturing-strength-improve-in-q1-2024-semi-reports">positive trends</a> in sales, inventories, and factory capacity. While demand recovery <a href="https://www.semi.org/en/news-media-press-releases/semi-press-releases/key-measures-of-global-semiconductor-manufacturing-strength-improve-in-q1-2024-semi-reports">varies by sector</a>, leaders see <a href="https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/global-semiconductor-industry-outlook.pdf">automotive and AI</a> as 2024’s growth engines, with <a href="https://www.spglobal.com/marketintelligence/en/mi/research-analysis/state-and-outlook-for-semiconductor-supply-chains-2024-beyond.html">AI infrastructure</a> (especially data centres) following closely. The sluggish consumer electronics market, particularly smartphones, is looking to on-device (<a href="https://www.semi.org/en/news-media-press-releases/semi-press-releases/key-measures-of-global-semiconductor-manufacturing-strength-improve-in-q1-2024-semi-reports">‘edge’</a>) AI, powered by neural processing units (NPUs), for a comeback.</p>
+<p>In spite of the global chip slowdown, Penang’s electronics sector has soared. In 2021, foreign approved manufacturing investment skyrocketed to RM 74 billion, a tenfold increase from the past decade’s average (RM 6 billion), where 98.7% (2021) was attributed to the electrical and electronics (E&amp;E) sector. This surge accompanies double-digit production growth (GDP) for Penang’s electronics industry in both 2021 (+16.5%) and 2022 (+21.8%).</p>
+<p>Penang, a leader in back-end processes since the 1970s, is a prime beneficiary of the electronics industry’s shift towards geographical diversification. KPMG’s <a href="https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/global-semiconductor-industry-outlook.pdf">2024 survey</a> reveals that 53% of firms plan to diversify their supply chains in the coming year. The COVID-19 pandemic and accompanying 2021 chip shortage highlighted the need for stronger supply chains. Concerns about future disruptions, from extreme weather to tensions around Taiwan, further emphasise this need.</p>
+<p>The shift is expedited by the US-China “chip war”, where the US has tried to limit China’s tech growth with export restrictions and the CHIPS Act, which funds US chip production but restricts recipients from expanding in China. Since then, construction of electronics-related manufacturing in the States has grown <a href="https://www.ft.com/content/26756186-99e5-448f-a451-f5e307b13723">15-fold</a>, although slow grant disbursement and talent shortages threaten to slow US chip projects.</p>
+<p>On the other hand, China has been heavily investing in its chip industry, aiming for self-sufficiency by subsidising domestic companies and recruiting foreign talent. While Chinese firms excel in mature chips, it is unclear how much the US has managed to slow China’s progress in advanced chip development.</p>
+</section>
+<section id="the-national-semiconductor-strategy" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-national-semiconductor-strategy">The National Semiconductor Strategy</h2>
+<p>Amidst intensifying rivalry between these two great powers, Malaysia, with its neutral position in regards to US-China relations, is well-placed to accommodate both Western allies seeking to diversify supply chains as well as Chinese firms trying to dodge American sanctions. In launching the National Semiconductor Strategy, prime minister Anwar Ibrahim touted Malaysia as the <a href="https://fortune.com/asia/2024/05/29/malaysia-prime-minister-anwar-ibrahim-touts-country-neutral-nonaligned-home-chip-companies-semiconductors-us-china/">“most neutral and non-aligned location for semiconductor production”</a>, and in a interview with the Financial Times, he expressed Malaysia’s position to maintain <a href="https://www.ft.com/content/929541ce-32fc-4f5f-9b9e-714b62f6e712">“good stable relations with the US [while] looking at China as an important ally”</a>.</p>
+<p>While Malaysian observers have celebrated the launch of the strategy, in reality Malaysia is playing catch-up to a heated global semiconductor subsidy race. Anwar’s May 2024 announcement comes a full year after the UK, a leading chip design economy, launched its semiconductor strategy, following local chip bosses’ threats to move out of the UK if a plan was not launched.</p>
+<p>The strategy is ambitious, targeting each portion of the semiconductor supply chain. Talent has been identified as a critical factor for the success of the local semiconductor industry, with plans to increase semiconductor talent tenfold. While substantial, the RM 25 billion (USD 5.33 billion) allocated pales in comparison to other states’ spending on chips: equivalent to just 13 ASML extreme ultraviolet (EUV) lithography machines at RM1.9 billion each, as pointed out in an opinion piece by semiconductor employee <a href="https://www.themalaysianinsight.com/s/483829">Ooi Tze Howe</a>.&nbsp;</p>
+<p><img src="https://www.philipscurve.com/images/clipboard-2637121903.png" class="img-fluid"></p>
+<p>As part of the Strategy, Putrajaya aspires to be at the cutting edge of semiconductor manufacturing across all stages of manufacturing. With the ballooning costs of building semiconductor fabs, Malaysia’s competitiveness in cutting-edge fabs is unclear, particularly as Malaysia competes against generous <a href="https://www.bcg.com/publications/2023/navigating-the-semiconductor-manufacturing-costs">state subsidies targeting fab construction</a>. Indeed, the PM’s address specifically mentions trailing-edge chips and power chips, which are less capital intensive to produce, for the first phase of the strategy.</p>
+<p>Considering the high resource intensity of the fabrication process, expansion of the semiconductor industry requires responsible, forward-looking stewardship of environmental resources, in the face of the looming threat of climate change. By <a href="https://fortune.com/2024/01/29/chips-act-semiconductor-factories-environmental-impact-water-electricity-carbon-chemical-waste/">some estimates</a>, an advanced fab consumes</p>
+<ul>
+<li><p>several million gallons of water daily<sup>2</sup>, equivalent to a small town, and</p></li>
+<li><p>as much as 100 megawatt-hours of electricity per hour, or around one-eight of peak energy demand on Penang Island, while</p></li>
+<li><p>producing thousands of tonnes of chemical waste annually.</p></li>
+</ul>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;Some semiconductor manufacturers have made great strides towards reducing their water use: Intel’s Penang plant for example returned and restored 89% of its water use in 2023, and some Intel sites actually return/restore more water than used (2023-24 Intel Corporate Responsibility Report).</p></div></div><p>Alongside Malaysia’s bullish posture towards data centres, Malaysia must consider if it has the means to support the resource needs of its fab aspirations.</p>
+<p>On the other hand, commentators have pointed out the potential of scaling up Malaysia’s chip design industry, although as a highly knowledge-intensive industry, there are substantial barriers to entry. Thus far, only one chip design company, Oppstar, is listed on the Malaysian stock market. As with chip fabrication, Malaysia competes with substantial public investments by countries with first-mover advantage at the <a href="https://web-assets.bcg.com/3f/b4/fd384ccd46dc8a381bd61a648105/bcg-the-growing-challenge-of-semiconductor-design-leadership-nov-2022-r.pdf">design stage</a>.&nbsp;</p>
+<p>In line with these aspirations, Penang’s chief minister Chow Kon Yeow has <a href="https://api.nst.com.my/news/nation/2024/07/1082406/new-penang-silicon-design-5km-initiative-set-boost-ee-ecosystem">announced plans</a> for the Penang Silicon Design @5KM initiative, which includes facilities catered towards high-value activities—in particular chip <a href="https://www.thevibes.com/articles/news/102874/penang-on-target-to-becoming-global-integrated-circuit-hub-says-kon-yeow">design and research and development (R&amp;D)</a><strong>—</strong>and talent development strategies<sup>3</sup>.</p>
+<div class="no-row-height column-margin column-container"><div id="fn3"><p><sup>3</sup>&nbsp;Penang’s state-level talent development framework is outlined in Penang STEM Talent Blueprint: A Roadmap for Workforce Development (2024), available at https://penanginstitute.org/publications/reports-and-papers/penang-stem-talent-blueprint-a-roadmap-for-workforce-development/.</p></div></div><p>What is certain is that multinationals will continue to drive Malaysia’s semiconductor industry. In the past, Penang’s backend ecosystem has created opportunities for local companies in automated equipment and services. Intel’s establishment of its first 3D packaging facility outside the US in Penang comes alongside the increased importance of advanced chip packaging, potentially raising the value of backend operations. This collaborative approach, combining homegrown talent with the expertise of global players, positions Penang for future success.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The US-China tensions present a complex scenario, fraught with both challenges and immense opportunities. Penang is well-positioned to capitalise on this unique moment. By strategically investing in upskilling its workforce and fostering a culture of innovation, the state can solidify its place as a prominent player in the global tech arena. Embracing advanced packaging technologies and design capabilities will be paramount in this transformation. Penang can leverage its existing strengths in manufacturing to create a robust ecosystem that integrates design, cutting-edge technology, and a skilled workforce. This holistic approach will ensure Penang remains a relevant and thriving tech hub in the years to come.</p>
+
+
+</section>
+
+
+ ]]></description>
+  <guid>https://www.philipscurve.com/post/chips.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Pay for progress: do head of state governments’ pay respond to performance?</title>
   <dc:creator>Philip Khor</dc:creator>
@@ -936,88 +1010,88 @@ font-style: inherit;">fmt_number</span>() </span></code></pre></div>
 }
 </style>
 
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
-<tr class="header gt_col_headings">
+<tr class="gt_col_headings">
 <th id="name" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">name</th>
 <th id="value" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">value</th>
 </tr>
 </thead>
 <tbody class="gt_table_body">
-<tr class="odd gt_group_heading_row">
+<tr class="gt_group_heading_row">
 <td colspan="2" id="social" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">social</td>
 </tr>
-<tr class="even gt_row_group_first">
+<tr class="gt_row_group_first">
 <td class="gt_row gt_center" headers="social  name">safety</td>
 <td class="gt_row gt_right" headers="social  value">0.78</td>
 </tr>
-<tr class="odd">
+<tr>
 <td class="gt_row gt_center" headers="social  name">participation</td>
 <td class="gt_row gt_right" headers="social  value">−0.53</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_center" headers="social  name">culture</td>
 <td class="gt_row gt_right" headers="social  value">−0.37</td>
 </tr>
-<tr class="odd">
+<tr>
 <td class="gt_row gt_center" headers="social  name">health</td>
 <td class="gt_row gt_right" headers="social  value">−0.27</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_center" headers="social  name">environment</td>
 <td class="gt_row gt_right" headers="social  value">0.27</td>
 </tr>
-<tr class="odd">
+<tr>
 <td class="gt_row gt_center" headers="social  name">entertainment</td>
 <td class="gt_row gt_right" headers="social  value">0.24</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_center" headers="social  name">governance</td>
 <td class="gt_row gt_right" headers="social  value">0.21</td>
 </tr>
-<tr class="odd">
+<tr>
 <td class="gt_row gt_center" headers="social  name">family</td>
 <td class="gt_row gt_right" headers="social  value">−0.16</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_center" headers="social  name">housing</td>
 <td class="gt_row gt_right" headers="social  value">−0.14</td>
 </tr>
-<tr class="odd gt_group_heading_row">
+<tr class="gt_group_heading_row">
 <td colspan="2" id="overall" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">overall</td>
 </tr>
-<tr class="even gt_row_group_first">
+<tr class="gt_row_group_first">
 <td class="gt_row gt_center" headers="overall  name">economy</td>
 <td class="gt_row gt_right" headers="overall  value">0.59</td>
 </tr>
-<tr class="odd">
+<tr>
 <td class="gt_row gt_center" headers="overall  name">overall</td>
 <td class="gt_row gt_right" headers="overall  value">0.53</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_center" headers="overall  name">social</td>
 <td class="gt_row gt_right" headers="overall  value">0.18</td>
 </tr>
-<tr class="odd gt_group_heading_row">
+<tr class="gt_group_heading_row">
 <td colspan="2" id="economy" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">economy</td>
 </tr>
-<tr class="even gt_row_group_first">
+<tr class="gt_row_group_first">
 <td class="gt_row gt_center" headers="economy  name">income</td>
 <td class="gt_row gt_right" headers="economy  value">0.55</td>
 </tr>
-<tr class="odd">
+<tr>
 <td class="gt_row gt_center" headers="economy  name">educ</td>
 <td class="gt_row gt_right" headers="economy  value">0.44</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_center" headers="economy  name">work</td>
 <td class="gt_row gt_right" headers="economy  value">0.25</td>
 </tr>
-<tr class="odd">
+<tr>
 <td class="gt_row gt_center" headers="economy  name">comms</td>
 <td class="gt_row gt_right" headers="economy  value">0.12</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_center" headers="economy  name">transport</td>
 <td class="gt_row gt_right" headers="economy  value">−0.08</td>
 </tr>
@@ -2679,27 +2753,27 @@ font-style: inherit;">FALSE</span>)</span></code></pre></div>
 <p>So yeah, if you’re familiar with <a href="https://www.hasil.gov.my/media/gf1dooov/form_be2022_2.pdf">Borang BE</a> pat yourself on the back. You’re T20, you’ve made it as part of the socioeconomic elite.</p>
 <p>Tax rebates are a great way for the government to claim to ‘fix’ problems without actually putting their money where their mouth is. There’s no real expense, just revenue forgone. But in truth, like a reverse Robin Hood, tax rebates steal from the poor to subsidise tax bills for the rich. So when a bunch of experts suggested <a href="https://www.thestar.com.my/news/nation/2023/07/07/ensuring-a-healthy-nest-egg">in the media</a> that tax rebates be used to encourage people to top up their EPF savings, I was rather unhappy.</p>
 <p>To see why, let’s take a middle-of-the-road employee (‘Person A’) from a T20 household. In 2019, the median income per capita in a T20 household was RM3,854, or RM 46,248 a year<sup>2</sup>. For comparison, let’s take an individual (‘Person B’) that earns double that, say RM92,496. For the <a href="https://www.hasil.gov.my/en/individual/individual-life-cycle/how-to-declare-income/tax-rate/">year of assessment 2022</a>, Person A falls under the 8% tax bracket, whereas Person B falls under the 21% tax bracket. Ignoring all applicable tax reliefs, their tax payable would be as follows:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <tbody>
-<tr class="odd">
+<tr>
 <td>Person A</td>
 <td>First 35,000</td>
 <td>600</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>11,248 @ 8%</td>
 <td>900</td>
 <td><strong>1,500</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Person B</td>
 <td>First 70,000</td>
 <td>4,400</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>22,496 @ 21%</td>
 <td>4,724</td>
@@ -2814,25 +2888,25 @@ Disclaimer
 <h2 class="anchored" data-anchor-id="hyperparameters">Hyperparameters</h2>
 <p>A major challenge with tuning GBM models is knowing where to start from the large number of hyperparameters available. A great reference is <a href="https://sites.google.com/view/lauraepp/parameters">this table from Laurae++</a> which lists the mapping between hyperparameters in XGBoost and LightGBM.</p>
 <p>Apart from learning rate and the number of trees, I group XGBoost hyperparameters into three categories:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <caption>Categories of GBM hyperparameters</caption>
 <colgroup>
 <col style="width: 68%">
 <col style="width: 31%">
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Categories</th>
 <th>Hyperparameters</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Explicit regularization</strong></p>
 <p>Directly adding cost for model complexity into the objective function</p></td>
 <td>L1 (alpha) and L2 (lambda) regularization</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><strong>Tree growth</strong></p>
 <p>Control tree growth. I refer to some of these (maximum + pruning) as implicit regularization hyperparameters.</p></td>
 <td><ul>
@@ -2842,7 +2916,7 @@ Disclaimer
 <li>Pruning: gamma, min_child_weight</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><strong>Sampling</strong></p>
 <p>Inspired by bagging/random forests</p></td>
 <td>Row-wise and column-wise sampling</td>
@@ -2862,21 +2936,21 @@ Disclaimer
 </ul>
 <p>There’s no shortage of articles comparing these different implementations.</p>
 <p>These libraries (in particular XGBoost and LightGBM) do borrow ideas from each other. For instance, I list down the major differences between XGBoost and LightGBM below, however these LightGBM features are also available in XGBoost as options:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <thead>
-<tr class="header">
+<tr>
 <th></th>
 <th>XGBoost</th>
 <th>LightGBM</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Tree building method</td>
 <td>Exact: enumerate all split candidates</td>
 <td>Features are discretized/binned beforehand (<a href="https://robotenique.github.io/posts/gbm-histogram/">hist</a>)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Tree growth method</td>
 <td>Depthwise/level-wise: trees are grown level by level.</td>
 <td>Lossguide/leaf-wise: split based on best global loss</td>
@@ -3118,27 +3192,27 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 <p>Essentially:</p>
 <ol type="1">
 <li><p>You construct a grid of hyperparameter values:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <thead>
-<tr class="header">
+<tr>
 <th>C</th>
 <th>kernel</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td>linear</td>
 </tr>
-<tr class="even">
+<tr>
 <td>1</td>
 <td>rbf</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10</td>
 <td>linear</td>
 </tr>
-<tr class="even">
+<tr>
 <td>10</td>
 <td>rbf</td>
 </tr>
@@ -3559,9 +3633,9 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 }
 </style>
 
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<table class="gt_table caption-top" data-quarto-postprocess="true">
 <thead class="gt_col_headings">
-<tr class="header">
+<tr>
 <th id="C" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">C</th>
 <th id="kernel" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">kernel</th>
 <th id="fold0" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">fold0</th>
@@ -3573,7 +3647,7 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 </tr>
 </thead>
 <tbody class="gt_table_body">
-<tr class="odd">
+<tr>
 <td class="gt_row gt_right" headers="C">1</td>
 <td class="gt_row gt_left" headers="kernel">linear</td>
 <td class="gt_row gt_right" headers="fold0">0.947</td>
@@ -3583,7 +3657,7 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 <td class="gt_row gt_right" headers="fold4">0.956</td>
 <td class="gt_row gt_right" headers="cv">0.946</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_right" headers="C">1</td>
 <td class="gt_row gt_left" headers="kernel">rbf</td>
 <td class="gt_row gt_right" headers="fold0">0.851</td>
@@ -3593,7 +3667,7 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 <td class="gt_row gt_right" headers="fold4">0.938</td>
 <td class="gt_row gt_right" headers="cv">0.912</td>
 </tr>
-<tr class="odd">
+<tr>
 <td class="gt_row gt_right" headers="C">10</td>
 <td class="gt_row gt_left" headers="kernel">linear</td>
 <td class="gt_row gt_right" headers="fold0">0.939</td>
@@ -3603,7 +3677,7 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 <td class="gt_row gt_right" headers="fold4">0.965</td>
 <td class="gt_row gt_right" headers="cv">0.953</td>
 </tr>
-<tr class="even">
+<tr>
 <td class="gt_row gt_right" headers="C">10</td>
 <td class="gt_row gt_left" headers="kernel">rbf</td>
 <td class="gt_row gt_right" headers="fold0">0.877</td>
@@ -3667,31 +3741,31 @@ font-style: inherit;">11</span>]}</span></code></pre></div>
 <section id="wait-what-just-happened" class="level3">
 <h3 class="anchored" data-anchor-id="wait-what-just-happened">Wait … what just happened?</h3>
 <p>To see why this is an issue, let’s simplify this problem a little by substituting cross-validation with a validation set approach. Suppose you used a train-validation split on your data and used the test score to guide your hyperparameter choice. And suppose our results looked a little like:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <thead>
-<tr class="header">
+<tr>
 <th>C</th>
 <th>kernel</th>
 <th>test score</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td>linear</td>
 <td>.95</td>
 </tr>
-<tr class="even">
+<tr>
 <td>1</td>
 <td>rbf</td>
 <td>.91</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr class="even">
+<tr>
 <td>10</td>
 <td>rbf</td>
 <td>.90</td>
@@ -3699,31 +3773,31 @@ font-style: inherit;">11</span>]}</span></code></pre></div>
 </tbody>
 </table>
 <p>Now you know that 10 and linear are optimal, so you search around the vicinity of C = 10.</p>
-<table class="caption-top table">
+<table class="caption-top">
 <thead>
-<tr class="header">
+<tr>
 <th>C</th>
 <th>kernel</th>
 <th>test score</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>8</td>
 <td>linear</td>
 <td>.92</td>
 </tr>
-<tr class="even">
+<tr>
 <td>9</td>
 <td>linear</td>
 <td>.93</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr class="even">
+<tr>
 <td>11</td>
 <td>linear</td>
 <td>.97</td>
@@ -3735,31 +3809,31 @@ font-style: inherit;">11</span>]}</span></code></pre></div>
 <section id="can-cross-validation-save-us" class="level3">
 <h3 class="anchored" data-anchor-id="can-cross-validation-save-us">Can cross-validation save us?</h3>
 <p>Using cross-validation may not be enough. Suppose we had cross-validation split 1 with the following evaluation scores:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <thead>
-<tr class="header">
+<tr>
 <th>C</th>
 <th>kernel</th>
 <th>cross-validated</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td>linear</td>
 <td>.95</td>
 </tr>
-<tr class="even">
+<tr>
 <td>1</td>
 <td>rbf</td>
 <td>.91</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr class="even">
+<tr>
 <td>10</td>
 <td>rbf</td>
 <td>.90</td>
@@ -3767,31 +3841,31 @@ font-style: inherit;">11</span>]}</span></code></pre></div>
 </tbody>
 </table>
 <p>and again searched around the vicinity of C = 10:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <thead>
-<tr class="header">
+<tr>
 <th>C</th>
 <th>kernel</th>
 <th>cross-validated</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>8</td>
 <td>linear</td>
 <td>.92</td>
 </tr>
-<tr class="even">
+<tr>
 <td>9</td>
 <td>linear</td>
 <td>.93</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr class="even">
+<tr>
 <td>11</td>
 <td>linear</td>
 <td>.97</td>
@@ -5140,86 +5214,6 @@ font-style: inherit;">-&gt;</span> df_test</span></code></pre></div>
   <guid>https://www.philipscurve.com/post/reflections-on-the-tidyverse/</guid>
   <pubDate>Sun, 07 Jul 2019 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/post/reflections-on-the-tidyverse/featured.png" medium="image" type="image/png" height="166" width="144"/>
-</item>
-<item>
-  <title>File paths and data science projects</title>
-  <dc:creator>Philip Khor</dc:creator>
-  <link>https://www.philipscurve.com/post/2019-06-13-file-paths-and-data-science-projects.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Large data science projects can be a pain to manage. Cookiecutter Data Science recommends the following project folder structure, and I think it’s a good picture of how a data science project <em>should</em> be organized:</p>
-<pre><code>├── README.md          
-├── data
-│   ├── external       
-│   ├── interim        
-│   ├── processed      
-│   └── raw            
-├── docs               
-├── models            
-├── notebooks          
-├── references         
-├── reports           
-│   └── figures        
-├── requirements.txt   
-├── setup.py           
-├── src                
-│   ├── __init__.py    
-│   ├── data           
-│   │   └── make_dataset.py
-│   ├── features       
-│   │   └── build_features.py
-│   ├── models         
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   └── visualization  
-│       └── visualize.py</code></pre>
-<p>Specifically, file paths can be hard to manage, since it’s not great practice to use absolute paths in your code. In R, I’ve gotten used to using the <code>here</code> package, which automatically detects the root folder of your project, so that to import a csv file from the <code>external</code> folder, all I have to do is</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(readr)</span>
-<span id="cb2-2"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">read_csv</span>(<span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">here</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"data"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"external"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"my_csv_file.csv"</span>))</span></code></pre></div>
-</div>
-<p>so long as a <code>.here</code> or <code>.Rproj</code> file is present in the project directory.</p>
-<p>Previously, I used <code>..</code> a lot, which references the directory above the current directory. However, if you move your files around, you’ll have to change your file paths too.</p>
-<p>While looking for a Python alternative, I found a package <a href="https://github.com/grimen/python-rootpath"><code>rootpath</code></a> which essentially does the same with the <code>rootpath.detect()</code> function.</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> rootpath</span>
-<span id="cb3-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> os </span>
-<span id="cb3-3"></span>
-<span id="cb3-4">ROOT_DIR <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> rootpath.detect()</span>
-<span id="cb3-5">os.chdir(ROOT_DIR)</span>
-<span id="cb3-6">file_path <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"data/interim/..."</span></span></code></pre></div>
-
-
-
- ]]></description>
-  <guid>https://www.philipscurve.com/post/2019-06-13-file-paths-and-data-science-projects.html</guid>
-  <pubDate>Thu, 13 Jun 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://www.philipscurve.com/img/1741269954_6e4cc6bacf_b.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

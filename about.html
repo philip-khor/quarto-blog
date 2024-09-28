@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Philip Khor">
-<meta name="dcterms.date" content="2020-08-27">
 
-<title>WSL2 and R – philip’s curve</title>
+<title>About – philip’s curve</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../icon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-018089954d508eae8a473f0b7f0491f0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-5223d57514b7f3c9e8f675d86406bf62.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-86b2e491b81cb8f55ed19ce61708149d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./icon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-018089954d508eae8a473f0b7f0491f0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-5223d57514b7f3c9e8f675d86406bf62.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-86b2e491b81cb8f55ed19ce61708149d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -73,28 +71,24 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="WSL2 and R – philip’s curve">
-<meta property="og:description" content="Why and how to use R from WSL2.">
-<meta property="og:image" content="https://www.philipscurve.com/post/wsl/featured.png">
+<meta property="og:title" content="About – philip’s curve">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://www.philipscurve.com/avatar.jpg">
 <meta property="og:site_name" content="philip's curve">
-<meta property="og:image:height" content="147">
-<meta property="og:image:width" content="220">
-<meta name="twitter:title" content="WSL2 and R – philip’s curve">
-<meta name="twitter:description" content="Why and how to use R from WSL2.">
-<meta name="twitter:image" content="https://www.philipscurve.com/post/wsl/featured.png">
-<meta name="twitter:image-height" content="147">
-<meta name="twitter:image-width" content="220">
+<meta name="twitter:title" content="About – philip’s curve">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://www.philipscurve.com/avatar.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">philip’s curve</span>
     </a>
   </div>
@@ -108,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">WSL2 and R</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">About</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -118,39 +112,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">WSL2 and R</h1>
-            <p class="subtitle lead">Why and how to use R from WSL2.</p>
-                                <div class="quarto-categories">
-                <div class="quarto-category">R</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Philip Khor </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">August 27, 2020</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -170,46 +132,81 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
-  <li><a href="#why-bother" id="toc-why-bother" class="nav-link active" data-scroll-target="#why-bother">Why bother?</a></li>
-  <li><a href="#okay-thats-great-but-i-want-to-keep-my-ide" id="toc-okay-thats-great-but-i-want-to-keep-my-ide" class="nav-link" data-scroll-target="#okay-thats-great-but-i-want-to-keep-my-ide">Okay that’s great, but I want to keep my IDE!</a></li>
-  <li><a href="#transferring-files" id="toc-transferring-files" class="nav-link" data-scroll-target="#transferring-files">Transferring files</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="avatar.jpg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">About</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="https://masto.ai/@pk" class="about-link" rel="" target="">
+    <i class="bi bi-mastodon"></i>
+     <span class="about-link-text">Mastodon</span>
+  </a>
+  <a href="https://www.linkedin.com/in/philip-khor/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/philip-khor" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://bsky.app/profile/philipscurve.com" class="about-link" rel="" target="">
+     <span class="about-link-text"><iconify-icon inline="" icon="simple-icons:bluesky"></iconify-icon> Bluesky</span>
+  </a>
+  <a href="https://www.threads.net/@phil.ip.k" class="about-link" rel="" target="">
+    <i class="bi bi-threads"></i>
+     <span class="about-link-text">Threads</span>
+  </a>
+  <a href="https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-earmark-person"></i>
+     <span class="about-link-text">CV</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-
-
-
-
-<p>Windows Subsystem for Linux (WSL) is a great way to run Linux software on your computer without dual-booting or starting over. For certain reasons, you may want to run R in Linux instead of Windows, and WSL can help.</p>
-<p>As of the time of writing, the current version of WSL is WSL2.</p>
-<section id="why-bother" class="level2">
-<h2 class="anchored" data-anchor-id="why-bother">Why bother?</h2>
-<p>That’s a good question. R does work fine with Windows, at least as far as I use it. And in general I think that would be the case for most people. Using R with Windows has the big advantage of having binaries on CRAN available for the latest version of packages. In comparison, Linux does not, however if you use RStudio Package Manager as a package source you’ll have access to <a href="https://packagemanager.rstudio.com/">package binaries for Linux</a>.</p>
-<p>With R 4.0, compiling packages requires Rtools4.0, which requires <a href="https://cran.r-project.org/bin/windows/Rtools/">adding the Rtools home to the .Renviron file</a>. While I haven’t had problems with this setup, I’ve seen people facing issues on Twitter. Thank goodness we don’t have to install arbitrary Visual Studio dependencies like with some Python packages …</p>
-<p>Essentially, I think you may want to consider using WSL2 with R if you anticipate having compilation issues for your packages on Windows that could be sidestepped by using Linux.</p>
-<p>Downloading R binaries from conda is a great alternative, but conda’s pretty heavy and I wouldn’t recommend running R from conda in parallel with R, at least on Windows. This is because in my experience, the conda R instance looks for packages in the non-conda package library. This is something that’s <a href="https://github.com/conda-forge/r-base-feedstock/pull/65">being worked on</a>; in addition, if you install packages from GitHub, it’s probably not a great idea to mix that with your conda R library.</p>
+<div class="h-card">
+<p class="p-note">
+</p><p><a rel="me" class="p-name u-url" href="https://philipscurve.com">Philip Khor</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the <a href="https://conda-forge.org/">conda-forge</a> software distribution project. He is package maintainer of the R package <a href="https://github.com/philip-khor/bnmr/">bnmr</a> and an author of <a href="https://github.com/NickCH-K/pmdplyr">pmdplyr</a>, and volunteers for <a href="https://www.meetup.com/pydatakl/">PyData Kuala Lumpur</a>.</p>
+<p></p>
+</div>
+<section id="education" class="level3">
+<h3 data-anchor-id="education">Education</h3>
+<p><strong>University of Wollongong</strong> | Wollongong, NSW<br>
+Bachelor of Commerce (Hons), Economics | 2017</p>
+<p><strong>University of Wollongong</strong> | Wollongong, NSW<br>
+Bachelor of Commerce (Dean’s Scholar), Economics | 2014-2016</p>
+<p><strong>Tunku Abdul Rahman University of Management and Technology</strong> | Tanjung Bungah, Penang<br>
+Diploma in Business Studies, Accounting | 2012-2014</p>
 </section>
-<section id="okay-thats-great-but-i-want-to-keep-my-ide" class="level2">
-<h2 class="anchored" data-anchor-id="okay-thats-great-but-i-want-to-keep-my-ide">Okay that’s great, but I want to keep my IDE!</h2>
-<p>Running GUIs from WSL2 is a <a href="https://www.omgubuntu.co.uk/2020/05/run-linux-apps-on-windows-10-wsl-2">work-in-progress</a>. I think the most straightforward solution at this point is to use RStudio Server , which essentially allows you to use RStudio in a browser.</p>
-<p>As with installing R on Windows, you’ll want to install R first. <a href="https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-20-04#step-2-%E2%80%94-installing-r-packages-from-cran">This tutorial</a> will help you install R using apt. Then, you’ll want to follow the instructions <a href="https://support.rstudio.com/hc/en-us/articles/360049776974-Using-RStudio-Server-in-Windows-WSL2">here</a> for installing RStudio Server.</p>
-<p>Once you’re done, run</p>
-<pre><code>sudo rstudio-server start</code></pre>
-<p>in your WSL terminal.</p>
-</section>
-<section id="transferring-files" class="level2">
-<h2 class="anchored" data-anchor-id="transferring-files">Transferring files</h2>
-<p>That’s not too much of a problem actually. Once you start wsl, you can access your Linux file system using <code>//wsl$</code>.</p>
+<section id="experience" class="level3">
+<h3 data-anchor-id="experience">Experience</h3>
+<p><strong>SustenyX</strong> | Sustainable Finance Consultant | August 2024 - present</p>
+<p><strong>Penang Institute</strong> | <a href="https://penanginstitute.org/programmes/socioeconomics-and-statistics-programme/">Visiting Data Scientist, Socioeconomics and Statistics Programme</a> | January 2023 - present</p>
+<p><strong>CIMB Bank Berhad</strong> | Manager, Regional Advanced Risk Modelling, Group Risk | March 2020 - May 2022</p>
+<p><strong>Skymind AI Berhad</strong> | Technical Writer | Oct 2019 - Dec 2019</p>
+<p><strong>GRID Inc.</strong> | Data Scientist Intern | May 2019 - Aug 2019</p>
+<p><strong>The Center of Applied Data Science</strong> | Data Scientist Associate | Jul 2018 - May 2019</p>
+<p><strong>Penang Institute</strong> | Research Assistant | Dec 2015 - Jan 2016, Aug 2016 - Jun 2017</p>
 
 
 </section>
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -374,13 +371,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -774,10 +764,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="philip-khor/quarto-blog" data-repo-id="R_kgDOInvtwA" data-category="Announcements" data-category-id="DIC_kwDOInvtwM4CTG6M" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light_protanopia">
-<input type="hidden" id="giscus-alt-theme" value="light_protanopia">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -790,12 +776,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../index.html">
+    <a class="nav-link" href="./index.html">
 <p>Posts</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
+    <a class="nav-link active" href="./about.html" aria-current="page">
 <p>About</p>
 </a>
   </li>  
@@ -807,5 +793,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
