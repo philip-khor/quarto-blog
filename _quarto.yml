@@ -42,7 +42,7 @@ website:
     left: "Made with [Quarto](https://quarto.org/)."
     right:
       - index.qmd
-      - posts.qmd
+      - about.qmd
   search: 
     location: sidebar
   favicon: icon.png
