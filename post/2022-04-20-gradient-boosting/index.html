@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.15">
+<meta name="generator" content="quarto-1.6.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-5223d57514b7f3c9e8f675d86406bf62.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-86b2e491b81cb8f55ed19ce61708149d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-bea5deeb91400ae2529fdc1701537c92.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -284,25 +284,25 @@ F(x)=\sum^B_{b=1}f_b\left(x\right)
 <h2 class="anchored" data-anchor-id="hyperparameters">Hyperparameters</h2>
 <p>A major challenge with tuning GBM models is knowing where to start from the large number of hyperparameters available. A great reference is <a href="https://sites.google.com/view/lauraepp/parameters">this table from Laurae++</a> which lists the mapping between hyperparameters in XGBoost and LightGBM.</p>
 <p>Apart from learning rate and the number of trees, I group XGBoost hyperparameters into three categories:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <caption>Categories of GBM hyperparameters</caption>
 <colgroup>
 <col style="width: 68%">
 <col style="width: 31%">
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Categories</th>
 <th>Hyperparameters</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><p><strong>Explicit regularization</strong></p>
 <p>Directly adding cost for model complexity into the objective function</p></td>
 <td>L1 (alpha) and L2 (lambda) regularization</td>
 </tr>
-<tr>
+<tr class="even">
 <td><p><strong>Tree growth</strong></p>
 <p>Control tree growth. I refer to some of these (maximum + pruning) as implicit regularization hyperparameters.</p></td>
 <td><ul>
@@ -312,7 +312,7 @@ F(x)=\sum^B_{b=1}f_b\left(x\right)
 <li>Pruning: gamma, min_child_weight</li>
 </ul></td>
 </tr>
-<tr>
+<tr class="odd">
 <td><p><strong>Sampling</strong></p>
 <p>Inspired by bagging/random forests</p></td>
 <td>Row-wise and column-wise sampling</td>
@@ -332,21 +332,21 @@ F(x)=\sum^B_{b=1}f_b\left(x\right)
 </ul>
 <p>There’s no shortage of articles comparing these different implementations.</p>
 <p>These libraries (in particular XGBoost and LightGBM) do borrow ideas from each other. For instance, I list down the major differences between XGBoost and LightGBM below, however these LightGBM features are also available in XGBoost as options:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th></th>
 <th>XGBoost</th>
 <th>LightGBM</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>Tree building method</td>
 <td>Exact: enumerate all split candidates</td>
 <td>Features are discretized/binned beforehand (<a href="https://robotenique.github.io/posts/gbm-histogram/">hist</a>)</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Tree growth method</td>
 <td>Depthwise/level-wise: trees are grown level by level.</td>
 <td>Lossguide/leaf-wise: split based on best global loss</td>

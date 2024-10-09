@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.15">
+<meta name="generator" content="quarto-1.6.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -96,7 +96,7 @@ div.csl-indent {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-5223d57514b7f3c9e8f675d86406bf62.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-86b2e491b81cb8f55ed19ce61708149d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-bea5deeb91400ae2529fdc1701537c92.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -345,27 +345,27 @@ window.Quarto = {
 <p>Essentially:</p>
 <ol type="1">
 <li><p>You construct a grid of hyperparameter values:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>1</td>
 <td>linear</td>
 </tr>
-<tr>
+<tr class="even">
 <td>1</td>
 <td>rbf</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 </tr>
-<tr>
+<tr class="even">
 <td>10</td>
 <td>rbf</td>
 </tr>
@@ -786,9 +786,9 @@ window.Quarto = {
 }
 </style>
 
-<table class="gt_table caption-top" data-quarto-postprocess="true">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true">
 <thead class="gt_col_headings">
-<tr>
+<tr class="header">
 <th id="C" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">C</th>
 <th id="kernel" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">kernel</th>
 <th id="fold0" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">fold0</th>
@@ -800,7 +800,7 @@ window.Quarto = {
 </tr>
 </thead>
 <tbody class="gt_table_body">
-<tr>
+<tr class="odd">
 <td class="gt_row gt_right" headers="C">1</td>
 <td class="gt_row gt_left" headers="kernel">linear</td>
 <td class="gt_row gt_right" headers="fold0">0.947</td>
@@ -810,7 +810,7 @@ window.Quarto = {
 <td class="gt_row gt_right" headers="fold4">0.956</td>
 <td class="gt_row gt_right" headers="cv">0.946</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_right" headers="C">1</td>
 <td class="gt_row gt_left" headers="kernel">rbf</td>
 <td class="gt_row gt_right" headers="fold0">0.851</td>
@@ -820,7 +820,7 @@ window.Quarto = {
 <td class="gt_row gt_right" headers="fold4">0.938</td>
 <td class="gt_row gt_right" headers="cv">0.912</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_right" headers="C">10</td>
 <td class="gt_row gt_left" headers="kernel">linear</td>
 <td class="gt_row gt_right" headers="fold0">0.939</td>
@@ -830,7 +830,7 @@ window.Quarto = {
 <td class="gt_row gt_right" headers="fold4">0.965</td>
 <td class="gt_row gt_right" headers="cv">0.953</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_right" headers="C">10</td>
 <td class="gt_row gt_left" headers="kernel">rbf</td>
 <td class="gt_row gt_right" headers="fold0">0.877</td>
@@ -866,31 +866,31 @@ window.Quarto = {
 <section id="wait-what-just-happened" class="level3">
 <h3 class="anchored" data-anchor-id="wait-what-just-happened">Wait … what just happened?</h3>
 <p>To see why this is an issue, let’s simplify this problem a little by substituting cross-validation with a validation set approach. Suppose you used a train-validation split on your data and used the test score to guide your hyperparameter choice. And suppose our results looked a little like:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 <th>test score</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>1</td>
 <td>linear</td>
 <td>.95</td>
 </tr>
-<tr>
+<tr class="even">
 <td>1</td>
 <td>rbf</td>
 <td>.91</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr>
+<tr class="even">
 <td>10</td>
 <td>rbf</td>
 <td>.90</td>
@@ -898,31 +898,31 @@ window.Quarto = {
 </tbody>
 </table>
 <p>Now you know that 10 and linear are optimal, so you search around the vicinity of C = 10.</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 <th>test score</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>8</td>
 <td>linear</td>
 <td>.92</td>
 </tr>
-<tr>
+<tr class="even">
 <td>9</td>
 <td>linear</td>
 <td>.93</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr>
+<tr class="even">
 <td>11</td>
 <td>linear</td>
 <td>.97</td>
@@ -934,31 +934,31 @@ window.Quarto = {
 <section id="can-cross-validation-save-us" class="level3">
 <h3 class="anchored" data-anchor-id="can-cross-validation-save-us">Can cross-validation save us?</h3>
 <p>Using cross-validation may not be enough. Suppose we had cross-validation split 1 with the following evaluation scores:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 <th>cross-validated</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>1</td>
 <td>linear</td>
 <td>.95</td>
 </tr>
-<tr>
+<tr class="even">
 <td>1</td>
 <td>rbf</td>
 <td>.91</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr>
+<tr class="even">
 <td>10</td>
 <td>rbf</td>
 <td>.90</td>
@@ -966,31 +966,31 @@ window.Quarto = {
 </tbody>
 </table>
 <p>and again searched around the vicinity of C = 10:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 <th>cross-validated</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>8</td>
 <td>linear</td>
 <td>.92</td>
 </tr>
-<tr>
+<tr class="even">
 <td>9</td>
 <td>linear</td>
 <td>.93</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr>
+<tr class="even">
 <td>11</td>
 <td>linear</td>
 <td>.97</td>

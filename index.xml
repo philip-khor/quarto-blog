@@ -9,7 +9,7 @@
 <link>https://www.philipscurve.com/</link>
 <atom:link href="https://www.philipscurve.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.15</generator>
+<generator>quarto-1.6.24</generator>
 <lastBuildDate>Tue, 01 Oct 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>US-China Tensions and the Transformation of Penang’s Tech Industry</title>
@@ -31,7 +31,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>First published in Penang Monthly (October 2024).</p>
+<p>First published in Penang Monthly (<a href="https://www.penangmonthly.com/us-china-tensions-the-transformation-of-penangs-tech-industry-2/">October 2024</a>).</p>
 </div>
 </div>
 <p>Tiny semiconductors are the hidden engines behind today’s tech marvels, from artificial intelligence (AI) to electric cars. The semiconductor industry continues to cram an increasing number of elements onto integrated circuits<sup>1</sup>. In 1965, Gordon Moore, a founder of Intel, predicted that the number of transistors on chips would double every two years, a phenomenon referred to as Moore’s Law. Remarkably, the industry has mostly kept pace with Moore’s prediction—Apple’s M2 Ultra, for example, contains a staggering 134 billion transistors.</p>
@@ -1010,88 +1010,88 @@ font-style: inherit;">fmt_number</span>() </span></code></pre></div>
 }
 </style>
 
-<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
-<tr class="gt_col_headings">
+<tr class="gt_col_headings header">
 <th id="name" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">name</th>
 <th id="value" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">value</th>
 </tr>
 </thead>
 <tbody class="gt_table_body">
-<tr class="gt_group_heading_row">
+<tr class="gt_group_heading_row odd">
 <td colspan="2" id="social" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">social</td>
 </tr>
-<tr class="gt_row_group_first">
+<tr class="gt_row_group_first even">
 <td class="gt_row gt_center" headers="social  name">safety</td>
 <td class="gt_row gt_right" headers="social  value">0.78</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_center" headers="social  name">participation</td>
 <td class="gt_row gt_right" headers="social  value">−0.53</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_center" headers="social  name">culture</td>
 <td class="gt_row gt_right" headers="social  value">−0.37</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_center" headers="social  name">health</td>
 <td class="gt_row gt_right" headers="social  value">−0.27</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_center" headers="social  name">environment</td>
 <td class="gt_row gt_right" headers="social  value">0.27</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_center" headers="social  name">entertainment</td>
 <td class="gt_row gt_right" headers="social  value">0.24</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_center" headers="social  name">governance</td>
 <td class="gt_row gt_right" headers="social  value">0.21</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_center" headers="social  name">family</td>
 <td class="gt_row gt_right" headers="social  value">−0.16</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_center" headers="social  name">housing</td>
 <td class="gt_row gt_right" headers="social  value">−0.14</td>
 </tr>
-<tr class="gt_group_heading_row">
+<tr class="gt_group_heading_row odd">
 <td colspan="2" id="overall" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">overall</td>
 </tr>
-<tr class="gt_row_group_first">
+<tr class="gt_row_group_first even">
 <td class="gt_row gt_center" headers="overall  name">economy</td>
 <td class="gt_row gt_right" headers="overall  value">0.59</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_center" headers="overall  name">overall</td>
 <td class="gt_row gt_right" headers="overall  value">0.53</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_center" headers="overall  name">social</td>
 <td class="gt_row gt_right" headers="overall  value">0.18</td>
 </tr>
-<tr class="gt_group_heading_row">
+<tr class="gt_group_heading_row odd">
 <td colspan="2" id="economy" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">economy</td>
 </tr>
-<tr class="gt_row_group_first">
+<tr class="gt_row_group_first even">
 <td class="gt_row gt_center" headers="economy  name">income</td>
 <td class="gt_row gt_right" headers="economy  value">0.55</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_center" headers="economy  name">educ</td>
 <td class="gt_row gt_right" headers="economy  value">0.44</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_center" headers="economy  name">work</td>
 <td class="gt_row gt_right" headers="economy  value">0.25</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_center" headers="economy  name">comms</td>
 <td class="gt_row gt_right" headers="economy  value">0.12</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_center" headers="economy  name">transport</td>
 <td class="gt_row gt_right" headers="economy  value">−0.08</td>
 </tr>
@@ -2753,27 +2753,27 @@ font-style: inherit;">FALSE</span>)</span></code></pre></div>
 <p>So yeah, if you’re familiar with <a href="https://www.hasil.gov.my/media/gf1dooov/form_be2022_2.pdf">Borang BE</a> pat yourself on the back. You’re T20, you’ve made it as part of the socioeconomic elite.</p>
 <p>Tax rebates are a great way for the government to claim to ‘fix’ problems without actually putting their money where their mouth is. There’s no real expense, just revenue forgone. But in truth, like a reverse Robin Hood, tax rebates steal from the poor to subsidise tax bills for the rich. So when a bunch of experts suggested <a href="https://www.thestar.com.my/news/nation/2023/07/07/ensuring-a-healthy-nest-egg">in the media</a> that tax rebates be used to encourage people to top up their EPF savings, I was rather unhappy.</p>
 <p>To see why, let’s take a middle-of-the-road employee (‘Person A’) from a T20 household. In 2019, the median income per capita in a T20 household was RM3,854, or RM 46,248 a year<sup>2</sup>. For comparison, let’s take an individual (‘Person B’) that earns double that, say RM92,496. For the <a href="https://www.hasil.gov.my/en/individual/individual-life-cycle/how-to-declare-income/tax-rate/">year of assessment 2022</a>, Person A falls under the 8% tax bracket, whereas Person B falls under the 21% tax bracket. Ignoring all applicable tax reliefs, their tax payable would be as follows:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <tbody>
-<tr>
+<tr class="odd">
 <td>Person A</td>
 <td>First 35,000</td>
 <td>600</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td>11,248 @ 8%</td>
 <td>900</td>
 <td><strong>1,500</strong></td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Person B</td>
 <td>First 70,000</td>
 <td>4,400</td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td>22,496 @ 21%</td>
 <td>4,724</td>
@@ -2888,25 +2888,25 @@ Disclaimer
 <h2 class="anchored" data-anchor-id="hyperparameters">Hyperparameters</h2>
 <p>A major challenge with tuning GBM models is knowing where to start from the large number of hyperparameters available. A great reference is <a href="https://sites.google.com/view/lauraepp/parameters">this table from Laurae++</a> which lists the mapping between hyperparameters in XGBoost and LightGBM.</p>
 <p>Apart from learning rate and the number of trees, I group XGBoost hyperparameters into three categories:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <caption>Categories of GBM hyperparameters</caption>
 <colgroup>
 <col style="width: 68%">
 <col style="width: 31%">
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Categories</th>
 <th>Hyperparameters</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><p><strong>Explicit regularization</strong></p>
 <p>Directly adding cost for model complexity into the objective function</p></td>
 <td>L1 (alpha) and L2 (lambda) regularization</td>
 </tr>
-<tr>
+<tr class="even">
 <td><p><strong>Tree growth</strong></p>
 <p>Control tree growth. I refer to some of these (maximum + pruning) as implicit regularization hyperparameters.</p></td>
 <td><ul>
@@ -2916,7 +2916,7 @@ Disclaimer
 <li>Pruning: gamma, min_child_weight</li>
 </ul></td>
 </tr>
-<tr>
+<tr class="odd">
 <td><p><strong>Sampling</strong></p>
 <p>Inspired by bagging/random forests</p></td>
 <td>Row-wise and column-wise sampling</td>
@@ -2936,21 +2936,21 @@ Disclaimer
 </ul>
 <p>There’s no shortage of articles comparing these different implementations.</p>
 <p>These libraries (in particular XGBoost and LightGBM) do borrow ideas from each other. For instance, I list down the major differences between XGBoost and LightGBM below, however these LightGBM features are also available in XGBoost as options:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th></th>
 <th>XGBoost</th>
 <th>LightGBM</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>Tree building method</td>
 <td>Exact: enumerate all split candidates</td>
 <td>Features are discretized/binned beforehand (<a href="https://robotenique.github.io/posts/gbm-histogram/">hist</a>)</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Tree growth method</td>
 <td>Depthwise/level-wise: trees are grown level by level.</td>
 <td>Lossguide/leaf-wise: split based on best global loss</td>
@@ -3192,27 +3192,27 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 <p>Essentially:</p>
 <ol type="1">
 <li><p>You construct a grid of hyperparameter values:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>1</td>
 <td>linear</td>
 </tr>
-<tr>
+<tr class="even">
 <td>1</td>
 <td>rbf</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 </tr>
-<tr>
+<tr class="even">
 <td>10</td>
 <td>rbf</td>
 </tr>
@@ -3633,9 +3633,9 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 }
 </style>
 
-<table class="gt_table caption-top" data-quarto-postprocess="true">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true">
 <thead class="gt_col_headings">
-<tr>
+<tr class="header">
 <th id="C" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">C</th>
 <th id="kernel" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">kernel</th>
 <th id="fold0" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">fold0</th>
@@ -3647,7 +3647,7 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 </tr>
 </thead>
 <tbody class="gt_table_body">
-<tr>
+<tr class="odd">
 <td class="gt_row gt_right" headers="C">1</td>
 <td class="gt_row gt_left" headers="kernel">linear</td>
 <td class="gt_row gt_right" headers="fold0">0.947</td>
@@ -3657,7 +3657,7 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 <td class="gt_row gt_right" headers="fold4">0.956</td>
 <td class="gt_row gt_right" headers="cv">0.946</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_right" headers="C">1</td>
 <td class="gt_row gt_left" headers="kernel">rbf</td>
 <td class="gt_row gt_right" headers="fold0">0.851</td>
@@ -3667,7 +3667,7 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 <td class="gt_row gt_right" headers="fold4">0.938</td>
 <td class="gt_row gt_right" headers="cv">0.912</td>
 </tr>
-<tr>
+<tr class="odd">
 <td class="gt_row gt_right" headers="C">10</td>
 <td class="gt_row gt_left" headers="kernel">linear</td>
 <td class="gt_row gt_right" headers="fold0">0.939</td>
@@ -3677,7 +3677,7 @@ font-style: inherit;">1</span>)</span></code></pre></div>
 <td class="gt_row gt_right" headers="fold4">0.965</td>
 <td class="gt_row gt_right" headers="cv">0.953</td>
 </tr>
-<tr>
+<tr class="even">
 <td class="gt_row gt_right" headers="C">10</td>
 <td class="gt_row gt_left" headers="kernel">rbf</td>
 <td class="gt_row gt_right" headers="fold0">0.877</td>
@@ -3741,31 +3741,31 @@ font-style: inherit;">11</span>]}</span></code></pre></div>
 <section id="wait-what-just-happened" class="level3">
 <h3 class="anchored" data-anchor-id="wait-what-just-happened">Wait … what just happened?</h3>
 <p>To see why this is an issue, let’s simplify this problem a little by substituting cross-validation with a validation set approach. Suppose you used a train-validation split on your data and used the test score to guide your hyperparameter choice. And suppose our results looked a little like:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 <th>test score</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>1</td>
 <td>linear</td>
 <td>.95</td>
 </tr>
-<tr>
+<tr class="even">
 <td>1</td>
 <td>rbf</td>
 <td>.91</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr>
+<tr class="even">
 <td>10</td>
 <td>rbf</td>
 <td>.90</td>
@@ -3773,31 +3773,31 @@ font-style: inherit;">11</span>]}</span></code></pre></div>
 </tbody>
 </table>
 <p>Now you know that 10 and linear are optimal, so you search around the vicinity of C = 10.</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 <th>test score</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>8</td>
 <td>linear</td>
 <td>.92</td>
 </tr>
-<tr>
+<tr class="even">
 <td>9</td>
 <td>linear</td>
 <td>.93</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr>
+<tr class="even">
 <td>11</td>
 <td>linear</td>
 <td>.97</td>
@@ -3809,31 +3809,31 @@ font-style: inherit;">11</span>]}</span></code></pre></div>
 <section id="can-cross-validation-save-us" class="level3">
 <h3 class="anchored" data-anchor-id="can-cross-validation-save-us">Can cross-validation save us?</h3>
 <p>Using cross-validation may not be enough. Suppose we had cross-validation split 1 with the following evaluation scores:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 <th>cross-validated</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>1</td>
 <td>linear</td>
 <td>.95</td>
 </tr>
-<tr>
+<tr class="even">
 <td>1</td>
 <td>rbf</td>
 <td>.91</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr>
+<tr class="even">
 <td>10</td>
 <td>rbf</td>
 <td>.90</td>
@@ -3841,31 +3841,31 @@ font-style: inherit;">11</span>]}</span></code></pre></div>
 </tbody>
 </table>
 <p>and again searched around the vicinity of C = 10:</p>
-<table class="caption-top">
+<table class="caption-top table">
 <thead>
-<tr>
+<tr class="header">
 <th>C</th>
 <th>kernel</th>
 <th>cross-validated</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>8</td>
 <td>linear</td>
 <td>.92</td>
 </tr>
-<tr>
+<tr class="even">
 <td>9</td>
 <td>linear</td>
 <td>.93</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>10</td>
 <td>linear</td>
 <td>.96</td>
 </tr>
-<tr>
+<tr class="even">
 <td>11</td>
 <td>linear</td>
 <td>.97</td>
