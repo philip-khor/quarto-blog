@@ -8,7 +8,7 @@ cap-location: margin
 ---
 
 ::: callout-note
-First published in Penang Monthly (October 2024).
+First published in Penang Monthly ([October 2024](https://www.penangmonthly.com/us-china-tensions-the-transformation-of-penangs-tech-industry-2/)).
 :::
 
 Tiny semiconductors are the hidden engines behind today's tech marvels, from artificial intelligence (AI) to electric cars. The semiconductor industry continues to cram an increasing number of elements onto integrated circuits[^1]. In 1965, Gordon Moore, a founder of Intel, predicted that the number of transistors on chips would double every two years, a phenomenon referred to as Moore’s Law. Remarkably, the industry has mostly kept pace with Moore’s prediction—Apple’s M2 Ultra, for example, contains a staggering 134 billion transistors.
