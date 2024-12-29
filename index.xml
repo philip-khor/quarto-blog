@@ -9,8 +9,92 @@
 <link>https://www.philipscurve.com/</link>
 <atom:link href="https://www.philipscurve.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.24</generator>
-<lastBuildDate>Tue, 01 Oct 2024 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.5</generator>
+<lastBuildDate>Wed, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Penang’s Semiconductor Crossroads</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/chips2.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>First published in Penang Monthly (January 2025).</p>
+</div>
+</div>
+<p>THE WORLD SEMICONDUCTOR TRADE STATISTICS (WSTS) forecasts 16% year-on-year growth for the global semiconductor market in 2024, with the Asia Pacific region growing by 17.5%.<sup>1</sup> This robust market expansion is led by the demand for advanced processing to power artificial intelligence applications across data centres and consumer devices.<sup>2</sup></p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;https://www.wsts.org/76/103/WSTS- Semiconductor-Market- Forecast-Spring-2024</p></div><div id="fn2"><p><sup>2</sup>&nbsp;https://www.bloomberg.com/ professional/insights/markets/global- semiconductor-midyear-outlook/</p></div><div id="fn3"><p><sup>3</sup>&nbsp;https://www.thestar.com.my/ business/business-news/2024/09/09/ ee-firms-confident-about- 2h24-performance</p></div></div><p>Malaysian electronics and electrical (E&amp;E) firms are projecting continued confidence in their performance for the second half of 2024.<sup>3</sup> Penang, in particular, has emerged as a key player in this global semiconductor boom. The state’s strategic location, skilled workforce and favourable investment climate have attracted numerous multinational corporations to set up their operations here.</p>
+<p>Although Penang plays a vital role in the global electronics supply chain, a significant portion of the value creation happens elsewhere. Penang specialises in the assembly and testing of semiconductor chips, commonly known as outsourcing semiconductor assembly and test (OSAT) services. While these have been perceived as a lower-value segment, they provide a strong foundation for future growth in the semiconductor industry, especially with the demand for advanced packaging solutions increasing.</p>
+<p>The trend towards diversification and the increasing importance of backend processes create opportunities for locations with established ecosystems, such as Penang. Arizona’s success in attracting TSMC’s investment—due to an existing semiconductor ecosystem primarily built by Intel—shows the advantages of leveraging established infrastructure and a skilled workforce.<sup>4</sup> Penang can similarly capitalise on its OSAT strengths to attract investment in related activities, potentially becoming a hub for advanced packaging and testing solutions.</p>
+<div class="no-row-height column-margin column-container"><div id="fn4"><p><sup>4</sup>&nbsp;Nikkei Asia, 2024.</p></div></div><section id="penangs-ee-trade-performance" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="penangs-ee-trade-performance">Penang’s E&amp;E trade performance</h2>
+<div class="column-page-inset">
+<p><img src="https://www.philipscurve.com/post/images/clipboard-167916609.png" class="img-fluid"></p>
+</div>
+<p>While E&amp;E exports growth has been muted for Malaysia this year, growth in Penang’s E&amp;E exports remains robust. Nationally, between January and September 2024, E&amp;E imports surged 16.9% year-on-year, while export value dropped slightly by -1.5%.<sup>5</sup> In contrast, September’s year-to-date value of Penang’s electronics exports grew by 4.6% year-on-year, while imports grew by 15.5% over the same period, resulting in total trade rising by 8.4%.</p>
+<div class="no-row-height column-margin column-container"><div id="fn5"><p><sup>5</sup>&nbsp;E&amp;E references Harmonised System (HS) code 85 for comparability with Penang-level data, which is only available at the two-digit level for the HS. MATRADE states 28.6% and 0.6% for imports and exports respectively in its September 2024 report, but it is unclear which commodity codes are used. Restricting the analysis to HS codes 8541 and 8542, we get 17.6% and -4.4% for imports and exports respectively. (https://www.wcoomd. org/-/media/wco/public/ global/pdf/events/2019/ hs-conference/ semiconductors-and-the-future-of-the-hs_sia- white-paper_april-2019. pdf?la=fr)</p></div></div><p>A broader look at trade data shows a rally in Penang’s electronics sector in the lead up to 2022, when it recorded a whopping 21.8% year-on-year GDP growth. Consequently, growth in Penang’s electronics trade between 2015 and 2024 has well surpassed 10% per annum. Following a slump between 2023 and mid-2024, during which gross output (GDP) declined by 0.8% (2023), the sector has rebounded in Q3 of 2024.</p>
+</section>
+<section id="global-trends-local-impacts" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="global-trends-local-impacts">Global trends, local impacts</h2>
+<p>Penang—and Malaysia by extension—have been large beneficiaries of the global electronics reshoring race. RM53.3bil in foreign-source E&amp;E investments were approved in 2023 within Penang, second only to 2021’s record.</p>
+<p>When looking at trade performance, it is important not to overly attribute short-term movements in the local E&amp;E sector to local conditions. For instance, the 2023-24 slowdown in Penang’s electronics trade clearly reflects global trends in semiconductor billings.</p>
+<div class="column-page-inset">
+<p><img src="https://www.philipscurve.com/post/images/clipboard-106278083.png" class="img-fluid"></p>
+</div>
+<p>Keep in mind that the sector is characterised by boom-and-bust cycles caused by rapid technological changes and unpredictable demand—companies tend to overinvest in manufacturing capacity during booms, and this is often followed by market corrections.</p>
+</section>
+<section id="moving-up-the-value-chain" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="moving-up-the-value-chain">Moving up the value chain</h2>
+<p>Launched in December 2024, the Penang Silicon Design 5km+ initiative aims to spur semiconductor innovation and industrial upgrading by co-locating semiconductor companies, targeted subsidies and talent programmes.</p>
+<p>While Penang has actively sought to attract investment and leverage its existing strengths, industrial upgrading, particularly towards higher-value activities like chip design and fabrication, significant hurdles are still present. The technological complexity and capital intensity required for leading-edge fabrication pose substantial challenges for newcomers.</p>
+<p>Intel, a long-time leader in semiconductor manufacturing, encountered substantial difficulties in transitioning to advanced nodes, illustrating the technological barriers even for established players.<sup>6</sup> Fortunately, even if Penang does not rise to the pinnacle of the value chain, industry and geopolitical circumstances continue to offer a strong foundation for Penang’s job market—no doubt a contributor to Penang’s enviably low unemployment rate.</p>
+<div class="no-row-height column-margin column-container"><div id="fn6"><p><sup>6</sup>&nbsp;Nikkei Asia, 2024.</p></div></div><p>One way for Penang companies to upgrade their operations is through the championing of their local site leaders—however, it takes visionary leadership and long-term planning to build local capacity and convince top management that local sites are ready to move up the value chain. Further understanding of the internal decision-making processes of multinational companies (MNCs) could shed some light into developing strategies to encourage them to upgrade their operations in Penang.</p>
+<p>Even so, strong corporate leadership may not be sufficient. Typically, policies that induce “vulnerability shocks” which challenge firms’ status quos are the main driver of industrial upgrades in the developing world.<sup>7</sup> Recognising and preparing for similar future disruptions can be crucial in facilitating industrial upgrades in Penang.</p>
+<div class="no-row-height column-margin column-container"><div id="fn7"><p><sup>7</sup>&nbsp;https://www.sciencedirect.com/ science/article/abs/pii/ S0305750X17301729</p></div><div id="fn8"><p><sup>8</sup>&nbsp;The Penang Talent Prospects Survey (https://penanginstitute.org/wp- content/uploads/2023/07/Penang_Talent_Prospects_2023.pdf) finds that industry participants expect demand for engineering and technician talent to shift from technician-majority to engineer-majority from 2023 to 2026, although talent demand for each is projected to more than double.</p></div></div><p>That being said, moving up the electronics value chain is not a silver bullet for economic development—a move to higher-value activities does not automatically lift all boats. As the industry in Penang becomes more technologically sophisticated, workforce demand may shift from technician- to engineer-dominant,<sup>8</sup> potentially widening the wage gap between skilled and unskilled workers, or even resulting in job losses for those whose skills are no longer in demand.</p>
+<p>Policies that support worker training and reskilling can help mitigate job displacement and facilitate the transition to higher-value activities. Additionally, policies that promote fair labour practices and collective bargaining can ensure a more equitable distribution of the benefits.</p>
+</section>
+<section id="trump-2.0-a-stormy-outlook" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="trump-2.0-a-stormy-outlook">Trump 2.0: a stormy outlook</h2>
+<p>A wave of decoupling from the Chinese supply chain among Western allies in the electronics industry, accelerated by the US CHIPS (“Creating Helpful Incentives to Produce Semiconductors”) and Science Act of 2022, is on track to create an even more geographically distributed supply chain. Experts have opined that the rise in US chip manufacturing will lead to greater demand for OSAT services abroad. Additionally, Penang has attracted chipmakers seeking to diversify their manufacturing footprint in what has been named the China Plus One strategy.<sup>9</sup></p>
+<div class="no-row-height column-margin column-container"><div id="fn9"><p><sup>9</sup>&nbsp;https://www.channelnewsasia.com/asia/malaysia-china-companies-move-manufacturing-facilities-semiconductors-trade-war-4282471</p></div></div><p>The return of the Trump administration in 2025 creates substantial uncertainty for the global E&amp;E industry. Of concern is the previous Trump administration’s aggressive posture towards the Chinese. Even though the US has a long-standing commitment to Taiwan’s security, the incoming administration’s capitulation towards authoritarians bodes poorly for Taiwan, an indispensable component of the global supply chain for leading-edge chips.</p>
+<p>The only certainty will be a further breakdown in US policy coherence. It is baffling how the CHIPS Act’s aggressive measures to reshore chips manufacturing and stifle Chinese innovation is the encapsulation of Trump’s “America First” rhetoric. Yet, in October, Trump referred to the CHIPS Act as a “bad deal”,<sup>10</sup> raising uncertainties about the future of the Act.<sup>11</sup> Trump’s protectionist rhetoric must be considered together with the contrarianism that defines the Make America Great Again (MAGA) movement.</p>
+<div class="no-row-height column-margin column-container"><div id="fn10"><p><sup>10</sup>&nbsp;https://www.cnbc.com/2024/11/07/trump-likely-to-uphold-chips-act-despite-his-campaign-rhetoric-experts-say.html</p></div><div id="fn11"><p><sup>11</sup>&nbsp;Experts have opined that a repeal of CHIPS is unlikely. House Speaker Mike Johnson echoed Trump’s position on CHIPS, then walked back on his comments, expressing a desire to “streamline” the Act instead of repealing it. (https://apnews.com/article/mike-johnson-chips-act-d5504f76d3aa0d5b401216f3592c9a09)</p></div><div id="fn12"><p><sup>12</sup>&nbsp;There is also the question of tariffs’ impact on consumer tech products in the US, which were previously exempt from Chinese import tariffs. Reporting suggests the tech industry expects to be caught in a trade war. (https://arstechnica.com/tech-policy/2024/11/tech- industry-fears-china-will- retaliate-against-trumps- 60-tariffs/)</p></div><div id="fn13"><p><sup>13</sup>&nbsp;Tax Foundation, 2024.</p></div></div><p>More alarmingly, on the campaign trail, Trump floated the idea of raising import tariffs to unprecedented levels, in particular with China: 60% for Chinese goods, 10-20% for goods from the rest of the world.<sup>12</sup> This proposal would bring back US import tariff rates unseen since the Great Depression. In 1930, the US passed the Smoot-Hawley Tariff Act which raised tariffs to their highest levels since the early 19th century, and is believed to have contributed to the severity of the Great Depression by reducing international trade.<sup>13</sup></p>
+<p><img src="https://www.philipscurve.com/post/images/clipboard-387361680.png" class="img-fluid"></p>
+<p>If Trump were to implement tariffs at the levels he has proposed, they would be comparable to Smoot-Hawley in magnitude—though the impact of Trump’s proposal for universal tariffs would be far more wide-ranging, affecting 10 times the value of trade impacted by the 2018 trade war. Experts expect these tariffs to raise inflation and unemployment alongside substantial uncertainties for US importers,<sup>14</sup> increasing the risk of a US recession. Given the magnitude of the tariffs, China and other countries would likely be compelled to impose retaliatory tariffs against the US, reducing gains from trade across the world. Moreover, the accompanying appreciation in the dollar risks precipitating global financial instability.<sup>15</sup></p>
+<div class="no-row-height column-margin column-container"><div id="fn14"><p><sup>14</sup>&nbsp;https://www.hamiltonproject.org/publication/post/ tariffs-on-all-imports-would-create-chaos-for-business/</p></div><div id="fn15"><p><sup>15</sup>&nbsp;https://www.intereconomics.eu/ contents/year/2024/ number/4/article/trump-s-2025-tariff-threats.html</p></div><div id="fn16"><p><sup>16</sup>&nbsp;Ratan, 2024.</p></div><div id="fn17"><p><sup>17</sup>&nbsp;For semiconductors specifically, even without Trump’s tariffs, 2025 is already set for a substantial widening of Malaysia’s tariff gap vis-a-vis China. Currently, China semiconductor imports are subject to 25% Section 301 tariffs, but with the four-year review of Section 301 recently finalised in September 2024, US tariffs for China semiconductor imports are set to rise to 50% in 2025, notwithstanding 10-year restrictions on expansion in China and other “countries of concern” imposed on the recipients of the CHIPS Act funding. (https://ustr.gov/sites/default/files/89%20FR%2076581%20(September%2018%2C%202024).pdf;https://www.thestar.com.my/business/business-news/2024/05/16/united-states-tariff-hike-will-benefit-malaysia;https://www.csis.org/blogs/perspectives-innovation/guardrails-chips-act-funding-restrict-investments-china-may-restrict)</p></div><div id="fn18"><p><sup>18</sup>&nbsp;A Consumer Technology Association report attributes the 2021 surge in Malaysia’s semiconductor production to supply issues rather than US tariffs, since the 25% Section 301 US semiconductor tariffs were imposed already in August 2018. (https://www.wita.org/wp-content/uploads/2022/08/CTA_Section-301-Tariff-Whitepaper.pdf)</p></div><div id="fn19"><p><sup>19</sup>&nbsp;https://www.nber.org/digest/202204/how-us-china-trade-war-affected-rest-world</p></div></div><p>Penang has welcomed firms seeking to exploit tariff gaps— for instance the relocation of Chinese solar manufacturers to circumvent trade barriers.<sup>16</sup> Therefore, there is some chance that Trump 2.0 may work in Penang’s favour.<sup>17</sup> In fact, the ignition of the US-China trade war during the first Trump administration saw trade increase for “bystander” countries<sup>18</sup>, particularly those with a high degree of economic integration.<sup>19</sup> Nevertheless, with Trump’s proposal affecting the rest of the world this time, there will be no bystanders.</p>
+<p>While protectionist measures like those implemented by the US could incentivise the return of some manufacturing to the US, Malaysia’s semiconductor industry has shown resilience in the face of such policies. However, beyond the anticipated tariff-induced slump in the US domestic demand, if US chips policy deepens across the supply chain beyond fabrication<sup>20</sup>—or, worse yet—if the CHIPS Act is repealed, demand for Penang’s OSAT services could decline, potentially leading to local job losses in the industry.</p>
+<div class="no-row-height column-margin column-container"><div id="fn20"><p><sup>20</sup>&nbsp;While the focus of the CHIPS Act is on semiconductor manufacturing, CHIPS incentives also include packaging activities with an apparent focus on advanced packaging. It also includes funding that will be deployed to expand international packaging capacity through the ITSI (International Technology Security and Innovation) fund. See https://sgp.fas.org/crs/misc/R47523.pdf for details.</p></div></div></section>
+<section id="talent-the-way-forward" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="talent-the-way-forward">Talent: the way forward?</h2>
+<p>Addressing talent demand is crucial for Penang’s semiconductor industry success. As a matter of fact, the global semiconductor industry faces an acute shortage of skilled workers, from technicians to specialised engineers. While initiatives like Penang’s STEM Talent Blueprint and Malaysia’s National Semiconductor Strategy address this challenge, competition for talent remains fierce. Continuous training and upskilling programmes are crucial to ensure that the local workforce meets the industry’s evolving demands. Collaborations with educational institutions—like Intel’s partnership with Arizona colleges<sup>21</sup>—can help create a pipeline of skilled workers.</p>
+<div class="no-row-height column-margin column-container"><div id="fn21"><p><sup>21</sup>&nbsp;https://www.youtube.com/watch?v=lTcbUcRdaYg&amp;t=690s</p></div></div><p>While federal and state authorities have accurately identified human capital as the growth lever for the semiconductor industry, caution must be exercised to ensure it is done holistically. Amidst the E&amp;E gold rush, policymakers must not lose sight of the broad spectrum of the sciences. A holistic STEM development strategy in Penang must go beyond electronics engineering. The STEAM movement—incorporating artistic skills into science education—is a reminder not to decouple creativity from the sciences, as problem-solving skills are key enablers for higher-value operations.</p>
+<p>It is natural for policymakers to pursue STEM development to accommodate the needs of the E&amp;E industry, but the responsibility goes both ways. The success of China’s “forced” technology transfer regime in jumpstarting its now-dominant electric vehicle industry calls into question the conventional wisdom of a straightforward role for investment liberalisation in spurring economic development.<sup>22</sup> Although the practice is controversial, it may be worthwhile to explore mechanisms to encourage capital investments from talent-intensive sectors to contribute to the community’s talent development.</p>
+<div class="no-row-height column-margin column-container"><div id="fn22"><p><sup>22</sup>&nbsp;An assessment of Chinese solar panel manufacturers’ relocation to Malaysia (primarily Penang), induced by trade barriers, casts doubt on the idea of broad benefits from FDI beyond local employment (https://gsipe-workshop.github.io/files/Malaysia_Paper.pdf)</p></div></div></section>
+<section id="risks-and-opportunities" class="level2">
+<h2 class="anchored" data-anchor-id="risks-and-opportunities">Risks and opportunities</h2>
+<p>Penang’s E&amp;E industry is at a crossroads. On the one hand, the industry is poised for continued growth, driven by global semiconductor demand and Penang’s key role in the global supply chain. Penang has successfully attracted significant foreign investment in the E&amp;E sector, particularly in 2021 and 2023. On the other hand, the industry faces uncertainties arising from its inordinate exposure to global trends and geopolitical tensions, such as the US-China “chip war” and the return of the Trump administration.</p>
+<p>Penang’s semiconductor future hinges on recognising the complexities of corporate decision-making and the potential pitfalls of focusing solely on moving up the value chain. While chip design and research and development (R&amp;D) are attractive opportunities for industrial upgrading, to encourage higher-value operations, a keen understanding of the internal processes within MNCs goes hand-in-hand. Additionally, simply shifting towards higher-value activities may not guarantee widespread economic benefits and could even exacerbate social inequalities. Therefore, a nuanced approach is needed—one that considers the interplay of global trends, internal corporate dynamics and social equity—alongside strategies for talent development and technological advancement.</p>
+
+
+</section>
+
+
+ ]]></description>
+  <guid>https://www.philipscurve.com/post/chips2.html</guid>
+  <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>US-China Tensions and the Transformation of Penang’s Tech Industry</title>
   <dc:creator>Philip Khor</dc:creator>
@@ -4970,250 +5054,6 @@ font-style: inherit;">geom_histogram</span>()</span></code></pre></div>
   <guid>https://www.philipscurve.com/post/2019-07-14-link-functions-matter.html</guid>
   <pubDate>Sun, 14 Jul 2019 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/img/384608250_535b9a6840_z.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Reflections on the tidyverse</title>
-  <dc:creator>Philip Khor</dc:creator>
-  <link>https://www.philipscurve.com/post/reflections-on-the-tidyverse/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>At my previous gig as a junior data scientist trainer, my team was given some time to revamp our base R-based syllabus to be more tidy-friendly while retaining significant base-R content.</p>
-<p>This article is not written as an introduction to the tidyverse. It assumes you already work with the tidyverse, and is really just me jotting down my notes from the revamp exercise.</p>
-<section id="the-tidyverse-is-opinionated" class="level2">
-<h2 class="anchored" data-anchor-id="the-tidyverse-is-opinionated">The tidyverse is opinionated</h2>
-<p>There’s decisions made for your own good, and that’s bound to split people. For example, you <a href="https://stackoverflow.com/questions/3099219/ggplot-with-2-y-axes-on-each-side-and-different-scales">can’t make dual y-axis charts in <code>ggplot2</code></a>. And that’s probably for the best (imo).</p>
-</section>
-<section id="the-tidyverse-is-designed-to-be-readable" class="level2">
-<h2 class="anchored" data-anchor-id="the-tidyverse-is-designed-to-be-readable">The tidyverse is designed to be readable</h2>
-<p>After skimming over base data structures, I start out my <code>dplyr</code> classes not showing users anything but a code chunk something like this</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">mtcars <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span></span>
-<span id="cb1-2">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">rownames_to_columns</span>() <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> </span>
-<span id="cb1-3">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">select</span>(cyl, mpg) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> </span>
-<span id="cb1-4">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">filter</span>(cyl <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> </span>
-<span id="cb1-5">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">arrange</span>(mpg) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> </span>
-<span id="cb1-6">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">litres_per_100km =</span> mpg <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">6.72</span>)</span></code></pre></div>
-<p>and asking students to guess what the code is doing. While I tested this on only two groups of students, generally this example made sense, and is a great motivation to use the tidyverse.</p>
-<p>For me, starting out with skimming over base basics is probably the ideal approach. At the least, cover basic atomic vectors and lists. It’d be difficult to show how to use functions operating on vectors in <code>mutate()</code> (and maybe the <code>.data</code> pronoun) with limited experience in base otherwise.</p>
-<p>As we designed the course, we discovered that <code>dplyr</code> had convenient database backends that connect to SQL and Spark, and this was an added motivation for learning <code>dplyr</code> syntax well.</p>
-</section>
-<section id="the-tidyverse-is-designed-to-be-safe" class="level2">
-<h2 class="anchored" data-anchor-id="the-tidyverse-is-designed-to-be-safe">The tidyverse is designed to be safe</h2>
-<p>I take safety in the tidyverse to mean anticipate user mistakes and to guard against these mistakes. I think they call it ‘defensive programming’? However I concede most of the progress in safety is with <code>purrr</code> and less so in <code>dplyr</code> (my impression).</p>
-<ol type="1">
-<li><p><strong>No side-effects</strong> A key principle in the design of <code>dplyr</code> functions is that the function should not affect the original data frame. We designed our material in Jupyter Notebooks, where <a href="https://yihui.name/en/2018/09/notebook-war/#1-hidden-state-and-out-of-order-execution">out-of-order execution</a> was an issue. In the context of material designed in Jupyter Notebooks, a no-side-effects workflow is advantageous, since if you run cells out of order, you could potentially get different results. This is less of a problem in R Markdown because the user is encouraged to knit the document. pandas seems to be headed in a similar direction, deprecating the <code>inplace = True</code> argument altogether and encouraging the use of method chaining.</p></li>
-<li><p><strong>safer functions</strong>: The tidyverse includes type-safe versions of base functions such as <code>if_else()</code>vs.&nbsp;<code>ifelse()</code> and especially type-safe functional programming (<code>purrr::map()</code> functions vs.&nbsp;<code>sapply()</code> with its set of simplification rules).</p></li>
-</ol>
-</section>
-<section id="pipes-are-good-but-to-teach" class="level2">
-<h2 class="anchored" data-anchor-id="pipes-are-good-but-to-teach">Pipes are good, but to teach?</h2>
-<p>R <code>magrittr</code> pipes were inspired by UNIX pipes. While I’m not familiar with using them, they’ve been around for a while.</p>
-<p>Pipes, combined with <code>dplyr</code> verbs, provide a SQL-like logic to your code. In R for Data Science, the authors compare</p>
-<p><code>x(y(z(a)))</code></p>
-<p><code>a %&gt;% z() %&gt;% y() %&gt;% x()</code></p>
-<p>where the first example is less human-readable, since it doesn’t follow the sequence of operations performed.</p>
-<p>Pandas <a href="https://tomaugspurger.github.io/method-chaining">method chaining</a> uses a similar workflow. I’m so used to using <code>dplyr</code> now, the first thing I look up before doing a data analysis project on tabular data in Python is the corresponding methods in <code>pandas</code> for the <code>dplyr</code> verbs. While I’m less familiar with the pandas methods, using them in conjunction with method chaining make for much more readable code, and using them is a priority for me if I’m doing extensive analysis in pandas.</p>
-<p>I’m not sure if pipes are easy to teach for most audiences given my limited experience, but they are critical to teaching in the tidyverse imo. It’s worked for me so far, but students often forget about the first argument.</p>
-</section>
-<section id="consistent-design" class="level2">
-<h2 class="anchored" data-anchor-id="consistent-design">Consistent design</h2>
-<p>tidyverse functions have generally consistent design. For learners, this generally means learning a few functions allows you to reuse that knowledge with other functions with relative ease. tidyverse functions and packages offer consistent arguments across functions and packages, e.g.&nbsp;<code>readr</code>, <code>readxl</code>.</p>
-<p>The biggest common denominator across the tidyverse is the data-first paradigm. An example how this helps is how it may be easier to teach functional programming in <code>purrr</code> compared to base R, since the multivariate versions of the <code>apply</code> functions contain the data within the ellipsis argument, which is the <em>last</em> argument, versus with <code>lapply()</code>/<code>sapply()</code> where the data is the <em>first</em> argument.</p>
-<p>The <code>tidyverse</code> is designed as a grammar, or perhaps a way to speak about the operations you’re running. <code>dplyr</code> is the tidyverse’s grammar for manipulating tabular data encapsulated in 6 verbs and their variants, whereas <code>ggplot2</code> is the tidyverse’s grammar for constructing charts.</p>
-<p>Within the tidyverse grammar, every function is a verb. I particularly like the classification of the join verbs as mutating and filtering joins. It’s a useful heuristic for me to decide which join to use.</p>
-</section>
-<section id="small-core-function-set-relative-to-pandas" class="level2">
-<h2 class="anchored" data-anchor-id="small-core-function-set-relative-to-pandas">Small core function set (relative to pandas?)</h2>
-<p>A common way to teach <code>dplyr</code>, as I found in many tutorials, is to help students master the 6 core <code>dplyr</code> functions <strong>first</strong>. I emphasise while teaching that functions such as <code>rename()</code> are shortcuts for these 6 functions, and there are always workarounds to do what you need even if you can’t find/don’t remember the shortcuts. It takes pressure off the student to ‘remember <code>everything()</code>’.</p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">mtcars <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> </span>
-<span id="cb2-2">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">rename</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">miles_per_gallon =</span> mpg)</span>
-<span id="cb2-3"></span>
-<span id="cb2-4"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># is equivalent to</span></span>
-<span id="cb2-5">mtcars <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> </span>
-<span id="cb2-6">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">select</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">miles_per_gallon =</span> mpg, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">everything</span>())</span>
-<span id="cb2-7"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># provided you don't care about the ordering of the columns</span></span></code></pre></div>
-</section>
-<section id="tibbles-are-simpler" class="level2">
-<h2 class="anchored" data-anchor-id="tibbles-are-simpler">Tibbles are <em>simpler</em></h2>
-<p>There are only two differences between the base data frame and the tibble: (1) a different print method that considers console size and (2) not allowing rownames. (If you go by R4DS, tibbles are more restrictive and complain more) If anything students don’t need to learn about row names, because frankly they don’t need them. (Wrangling MultiIndex is something I certainly don’t miss from pandas … )</p>
-<p>The requirement for <strong>tidy data</strong> is shared between <code>ggplot2</code> and <code>seaborn</code>. Tidy data seems to get less emphasis in the Python ecosystem (this <a href="https://tomaugspurger.github.io/modern-5-tidy">pandas course</a> seems to be an excellent exception), and students didn’t have a good mental model for thinking about how to prepare their data before plotting or modelling.</p>
-</section>
-<section id="base-r-pains" class="level2">
-<h2 class="anchored" data-anchor-id="base-r-pains">Base R pains</h2>
-<p>Still having not worked much with R, I didn’t get the pains with base until after reading a few chapters in R for Data Science. <code>is.vector()</code> for example returns <code>TRUE</code> for a list, because a list is just a recursive vector. This is annoying if you wanted to simplify the teaching of atomic vectors as <em>vectors</em> and the students try running <code>is.vector()</code> …</p>
-<p><code>stringsAsFactors = TRUE</code> in <code>read.csv</code> is a less-than-ideal default for data analysis. The argument defines the order of the factor levels before the user manipulates them, and the user is unaware of the order of the factor levels. If the user isn’t aware of the default, data analysis can be a bit of a pain. (Although I concede that <code>read_csv()</code> has failed me on one occasions. However, I never understood reprex well enough to file a good bug when it happened. )</p>
-<p>We’ve been bitten by the ellipsis (<code>...</code>) argument in functions such as <code>mean()</code>. Because of the ellipsis argument, the following lines of code run without error:</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># rm.na is not a valid named argument, but no error is returned</span></span>
-<span id="cb3-2"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">mean</span>(<span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span>), <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">rm.na =</span> <span class="cn" style="color: #8f5902;
-background-color: null;
-font-style: inherit;">TRUE</span>)</span>
-<span id="cb3-3"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># returns 1</span></span>
-<span id="cb3-4"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">mean</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span>)</span></code></pre></div>
-</section>
-<section id="emphasis-on-code-style-from-the-outset" class="level2">
-<h2 class="anchored" data-anchor-id="emphasis-on-code-style-from-the-outset">Emphasis on code style from the outset</h2>
-<p>The tidyverse emphasises using a consistent casing for objects. Snake case is preferred across all objects. <code>janitor::clean_names()</code> is a great way to enforce this, to coerce all column names to snakecase. It’s easy to promote the perks of consistent code style to students given good examples and opinionated design in the tidyverse. Having to use backticks as escape characters otherwise is a good motivation for using <code>janitor::clean_names()</code>.</p>
-<p>One thing I like about teaching <code>dplyr</code> functions is that they implicitly discourage integer indexing in favour of making filtering/selecting decisions explicit, although it is still possible, for instance,</p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">df <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">select</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span>)</span>
-<span id="cb4-2">df <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">slice</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">6</span>)</span></code></pre></div>
-<p>One could argue indexing is still required for data partitions for predictive modelling, but I’d argue <code>rsample</code> circumvents that</p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(rsample)</span>
-<span id="cb5-2">df_split <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">initial_split</span>(df)</span>
-<span id="cb5-3">df_train <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">training</span>(df_split)</span>
-<span id="cb5-4">df_test <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">testing</span>(df_split)</span></code></pre></div>
-<p>Of course, there’s always <code>dplyr::sample_n()</code> and <code>dplyr::sample_frac()</code>, which can be used in conjunction with a filtering join:</p>
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">df <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">sample_frac</span>(.<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">8</span>) <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">-&gt;</span> df_train</span>
-<span id="cb6-2">df <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">anti_join</span>(df_train) <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">-&gt;</span> df_test</span></code></pre></div>
-</section>
-<section id="debugging" class="level2">
-<h2 class="anchored" data-anchor-id="debugging">Debugging</h2>
-<p>It is very true that debugging in a long series of pipes can be a pain, and I think <code>dplyr</code> should provide more messages. Stata has <a href="https://twitter.com/AnnaMBokun/status/1146289574999678977">useful reports</a> on operations that <code>dplyr</code> can benefit from implementing, and independent efforts such as <a href="https://github.com/elbersb/tidylog">tidylog</a> help report the outcomes of data wrangling.</p>
-</section>
-<section id="conclusions" class="level2">
-<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
-<p>There are parts I still find awkward to teach in the tidyverse.</p>
-<ul>
-<li>Like how to explain how symbols work when used in <code>dplyr</code> functions. Teaching it as ‘exposes the vectors within a data frame within an environment’ just doesn’t seem very beginner-friendly, and I need to find a simpler way.<br>
-</li>
-<li>The multitude of packages to teach to accomplish different tasks gets annoying at times (I wish I could start off with <code>here()</code> as soon as we talk about importing data without confusing students with an additional import!).</li>
-<li>I wish <code>dplyr</code> returns a warning when removing rownames because users aren’t aware that the rownames are being dropped (but the only use case here is <code>mtcars</code>, really …).</li>
-<li>I still get <code>top_n()</code> wrong. All the time.</li>
-<li>And don’t even get me started with tidyeval …</li>
-</ul>
-<p>My teaching philosophy is to teach people to work with data efficiently with good data analysis workflows, not to become package authors (although that’d be nice!). I find that <code>dplyr</code> helps me think about my analysis faster. I don’t deal with datasets so big that I really care how long my code takes to run, so long as I do it right. But my teaching days are over … for now.</p>
-
-
-</section>
-
- ]]></description>
-  <category>R</category>
-  <category>tidyverse</category>
-  <guid>https://www.philipscurve.com/post/reflections-on-the-tidyverse/</guid>
-  <pubDate>Sun, 07 Jul 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://www.philipscurve.com/post/reflections-on-the-tidyverse/featured.png" medium="image" type="image/png" height="166" width="144"/>
 </item>
 </channel>
 </rss>
