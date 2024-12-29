@@ -53,7 +53,7 @@ format:
   html:
     theme: 
       light: spacelab
-      dark: cyborg
+      dark: [cyborg, assets/theme-dark.scss]
     # css: styles.css
     toc: true
     smooth-scroll: true
