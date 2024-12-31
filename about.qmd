@@ -1,5 +1,6 @@
 ---
-title: About
+title: Philip Khor
+pagetitle: About
 sidebar: false
 page-navigation: false
 toc: false

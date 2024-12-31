@@ -7,6 +7,7 @@ description: |
 reference-location: margin
 citation-location: margin
 cap-location: margin 
+categories: ["Penang Monthly"]
 ---
 
 ::: callout-note

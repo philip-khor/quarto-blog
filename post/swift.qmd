@@ -3,7 +3,7 @@ title: "The Limited Local Benefits of Swiftonomics"
 author: Philip Khor
 date: '2024-04-26'
 slug: swift
-image: https://penangmonthly.com/storage/19675/27086749_l_normal_none.jpg
+image: https://host.forward.edu.my/pm_storage/public/19675/27086749_l_normal_none.jpg
 categories: ["Penang Monthly"]
 ---
 

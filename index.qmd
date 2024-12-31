@@ -1,5 +1,6 @@
 ---
-title: "Posts"
+title: ""
+pagetitle: Home
 listing:
   contents: post
   sort: "date desc"
@@ -10,5 +11,5 @@ listing:
   feed: 
     type: full
 page-layout: full
-title-block-banner: true
+title-block-banner: none
 ---

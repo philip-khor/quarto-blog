@@ -3,6 +3,7 @@ title: "When Less Is More Expensive: The Trend of Shrinkflation"
 author: "Philip Khor"
 date: "2023-09-01"
 categories: ["Penang Monthly"]
+image: https://host.forward.edu.my/pm_storage/public/18956/Website-(4).jpg
 ---
 
 ::: callout-note
@@ -23,11 +24,10 @@ As of June 2023, the food component of Penang’s consumer price index (CPI) has
 
 Different parts of the world have been experiencing shrinkflation differently. In Nigeria, Domino’s launched a “smallie” pizza with just four slices. In Europe, *Bloomberg* reports that Hamburg’s consumer protection office received three to five times more than the usual number of complaints regarding shrinking product sizes. In Britain, *The Economist* reports that Cadbury’s Creme Eggs now come in packs of five instead of six.
 
-**Top 10 items with the highest increase in price (January 2022 to July 2023).**
 
-![Source: PriceCatcher data from OpenDOSM, Department of Statistics Malaysia; author’s analysis.](https://penangmonthly.com/storage/18955/instastories.jpg)
+![Top 10 items with the highest increase in price (January 2022 to July 2023). Source: PriceCatcher data from OpenDOSM, Department of Statistics Malaysia; author’s analysis.](https://host.forward.edu.my/pm_storage/public/18955/instastories.jpg)
 
-## **Why Does This Work?**
+## Why Does This Work?
 
 To many economists, the idea that the economic man (*homo economicus*) would fall prey to the shrinkflation trick is preposterous. If consumers are rational, should they not respond to a traditional price increase like they would to a price increase disguised as smaller packaging? On the contrary, the market research firm, Nielsen[^2], claims that consumers respond half as much to a change in prices via downsizing versus a raw price increase, and evidence suggests that shrinkflation does fool consumers.
 
@@ -43,11 +43,10 @@ For certain types of businesses, shrinkflation can be explained by using a prici
 
 [^5]: Diego Aparicio & Roberto Rigobon, 2023. "Quantum prices," Journal of International Economics.
 
-**Median price by premise type, Penang (January 2022 to July 2023).**
 
-![Source: PriceCatcher data from OpenDOSM, Department of Statistics, Malaysia.](https://penangmonthly.com/storage/18954/shrink1.jpg)
+![Median price by premise type, Penang (January 2022 to July 2023). Source: PriceCatcher data from OpenDOSM, Department of Statistics, Malaysia.](https://host.forward.edu.my/pm_storage/public/18954/shrink1.jpg)
 
-## **What Can We Do?**
+## What Can We Do?
 
 Given how hard it is to track shrinkflation, consumers have taken matters into their own hands in some parts of the world. A Japanese consumer, Masayuki Iwasa, created a website to track shrinkflation — www.neage.jp — which monitors 400 goods and services. In the US, Edgar Dworsky, founder of consumer advocacy site mouseprint.org, has been cited in the *New York Times* as the only person documenting shrinkflation in the US.
 
