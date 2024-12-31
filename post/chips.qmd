@@ -5,6 +5,7 @@ date: "2024-10-01"
 reference-location: margin
 citation-location: margin
 cap-location: margin 
+categories: ["Penang Monthly"]
 ---
 
 ::: callout-note

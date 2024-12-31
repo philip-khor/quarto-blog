@@ -6,8 +6,8 @@ citation-location: margin
 cap-location: margin 
 author: "Philip Khor"
 date: "2025-01-01"
+categories: ["Penang Monthly"]
 ---
-
 
 ::: callout-note
 First published in Penang Monthly (January 2025).
@@ -106,14 +106,16 @@ If Trump were to implement tariffs at the levels he has proposed, they would be 
 Penang has welcomed firms seeking to exploit tariff gaps— for instance the relocation of Chinese solar manufacturers to circumvent trade barriers.[^16] Therefore, there is some chance that Trump 2.0 may work in Penang’s favour.[^17] In fact, the ignition of the US-China trade war during the first Trump administration saw trade increase for “bystander” countries[^18], particularly those with a high degree of economic integration.[^19] Nevertheless, with Trump’s proposal affecting the rest of the world this time, there will be no bystanders.
 
 [^16]: Ratan, 2024.
+
 [^17]: For semiconductors specifically, even without Trump’s tariffs, 2025 is already set for a substantial widening of Malaysia’s tariff gap vis-a-vis China. Currently, China semiconductor imports are subject to 25% Section 301 tariffs, but with the four-year review of Section 301 recently finalised in September 2024, US tariffs for China semiconductor imports are set to rise to 50% in 2025, notwithstanding 10-year restrictions on expansion in China and other “countries of concern” imposed on the recipients of the CHIPS Act funding. (https://ustr.gov/sites/default/files/89%20FR%2076581%20(September%2018%2C%202024).pdf;https://www.thestar.com.my/business/business-news/2024/05/16/united-states-tariff-hike-will-benefit-malaysia;https://www.csis.org/blogs/perspectives-innovation/guardrails-chips-act-funding-restrict-investments-china-may-restrict)
+
 [^18]: A Consumer Technology Association report attributes the 2021 surge in Malaysia’s semiconductor production to supply issues rather than US tariffs, since the 25% Section 301 US semiconductor tariffs were imposed already in August 2018. (https://www.wita.org/wp-content/uploads/2022/08/CTA_Section-301-Tariff-Whitepaper.pdf)
+
 [^19]: https://www.nber.org/digest/202204/how-us-china-trade-war-affected-rest-world
 
 While protectionist measures like those implemented by the US could incentivise the return of some manufacturing to the US, Malaysia’s semiconductor industry has shown resilience in the face of such policies. However, beyond the anticipated tariff-induced slump in the US domestic demand, if US chips policy deepens across the supply chain beyond fabrication[^20]—or, worse yet—if the CHIPS Act is repealed, demand for Penang’s OSAT services could decline, potentially leading to local job losses in the industry.
 
 [^20]: While the focus of the CHIPS Act is on semiconductor manufacturing, CHIPS incentives also include packaging activities with an apparent focus on advanced packaging. It also includes funding that will be deployed to expand international packaging capacity through the ITSI (International Technology Security and Innovation) fund. See https://sgp.fas.org/crs/misc/R47523.pdf for details.
-
 
 ## Talent: the way forward?
 

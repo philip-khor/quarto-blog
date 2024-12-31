@@ -2,6 +2,7 @@
 title: "EPF Account 3: Flexibility or Erosion of Retirement Savings?"
 author: "Philip Khor"
 date: "2024-06-01"
+categories: ["Penang Monthly"]
 ---
 
 ::: callout-note

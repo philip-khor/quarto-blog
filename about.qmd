@@ -1,8 +1,11 @@
 ---
-title: "About"
-image: avatar.jpg
+title: About
+sidebar: false
+page-navigation: false
+toc: false
 about:
-  template: trestles
+  id: hero-heading
+  template: solana
   links:
     - icon: mastodon
       text: Mastodon
@@ -23,28 +26,14 @@ about:
       href: https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf
 ---
 
-::: h-card
-<p class="p-note">
+::: {#hero-heading .h-card}
+<a rel="me" class="p-name u-url" href="https://philipscurve.com">Philip Khor</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the [conda-forge](https://conda-forge.org/) software distribution project. He is package maintainer of the R package [bnmr](https://github.com/philip-khor/bnmr/).
 
-<a rel="me" class="p-name u-url" href="https://philipscurve.com">Philip Khor</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the [conda-forge](https://conda-forge.org/) software distribution project. He is package maintainer of the R package [bnmr](https://github.com/philip-khor/bnmr/) and an author of [pmdplyr](https://github.com/NickCH-K/pmdplyr), and volunteers for [PyData Kuala Lumpur](https://www.meetup.com/pydatakl/).
-
-</p>
 :::
 
-### Education
+## Experience
 
-**University of Wollongong** \| Wollongong, NSW\
-Bachelor of Commerce (Hons), Economics \| 2017
-
-**University of Wollongong** \| Wollongong, NSW\
-Bachelor of Commerce (Dean's Scholar), Economics \| 2014-2016
-
-**Tunku Abdul Rahman University of Management and Technology** \| Tanjung Bungah, Penang\
-Diploma in Business Studies, Accounting \| 2012-2014
-
-### Experience
-
-**SustenyX** \| Sustainable Finance Consultant \| August 2024 - present
+**SustenyX** | Sustainable Finance Consultant | August 2024 - present
 
 **Penang Institute** \| [Visiting Data Scientist, Socioeconomics and Statistics Programme](https://penanginstitute.org/programmes/socioeconomics-and-statistics-programme/) \| January 2023 - present
 
@@ -56,4 +45,15 @@ Diploma in Business Studies, Accounting \| 2012-2014
 
 **The Center of Applied Data Science** \| Data Scientist Associate \| Jul 2018 - May 2019
 
-**Penang Institute** \| Research Assistant \| Dec 2015 - Jan 2016, Aug 2016 - Jun 2017
+**Penang Institute** | Research Assistant | Dec 2015 - Jan 2016, Aug 2016 - Jun 2017
+
+## Education
+
+**University of Wollongong** \| Wollongong, NSW\
+Bachelor of Commerce (Hons), Economics \| 2017
+
+**University of Wollongong** \| Wollongong, NSW\
+Bachelor of Commerce (Dean's Scholar), Economics \| 2014-2016
+
+**Tunku Abdul Rahman University of Management and Technology** \| Tanjung Bungah, Penang\
+Diploma in Business Studies, Accounting \| 2012-2014
