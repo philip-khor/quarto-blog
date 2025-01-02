@@ -20,6 +20,7 @@ website:
   title: "φ philip's curve"
   site-url: https://www.philipscurve.com
   twitter-card: true
+  google-analytics: G-98QCCJTRLM
   open-graph: true
   navbar:
     collapse: true
