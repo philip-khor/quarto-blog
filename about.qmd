@@ -19,9 +19,6 @@ about:
       href: https://github.com/philip-khor
     - text: '{{< iconify simple-icons bluesky >}} Bluesky'
       href: https://bsky.app/profile/philipscurve.com
-    - icon: threads
-      text: Threads
-      href: https://www.threads.net/@phil.ip.k
     - icon: file-earmark-person 
       text: CV 
       href: https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf
@@ -29,14 +26,13 @@ about:
 
 ::: {#hero-heading .h-card}
 <a rel="me" class="p-name u-url" href="https://philipscurve.com">Philip Khor</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the [conda-forge](https://conda-forge.org/) software distribution project. He is package maintainer of the R package [bnmr](https://github.com/philip-khor/bnmr/).
-
 :::
 
 ## Experience
 
-**SustenyX** | Sustainable Finance Consultant | August 2024 - present
+**SustenyX** \| Sustainable Finance Consultant \| August 2024 - present
 
-**Penang Institute** \| [Visiting Data Scientist, Socioeconomics and Statistics Programme](https://penanginstitute.org/programmes/socioeconomics-and-statistics-programme/) \| January 2023 - present
+**Penang Institute** \| Visiting Data Scientist, Socioeconomics and Statistics Programme \| January 2023 - present
 
 **CIMB Bank Berhad** \| Manager, Regional Advanced Risk Modelling, Group Risk \| March 2020 - May 2022
 
@@ -46,7 +42,7 @@ about:
 
 **The Center of Applied Data Science** \| Data Scientist Associate \| Jul 2018 - May 2019
 
-**Penang Institute** | Research Assistant | Dec 2015 - Jan 2016, Aug 2016 - Jun 2017
+**Penang Institute** \| Research Assistant \| Dec 2015 - Jan 2016, Aug 2016 - Jun 2017
 
 ## Education
 
