@@ -1,7 +1,7 @@
 ---
 title: "Fair Pay: Getting it Right for ESG Success"
 author: "Philip Khor"
-date: "2024-04-17"
+date: "2025-04-17"
 categories: ["ESG"]
 description: |
     We compare how FTSE Russell and S&P Global assess various aspects of fair pay within their ESG ratings methodologies. By highlighting the key differences in their approaches to minimum/living wage, equal pay, and executive remuneration, this article seeks to enhance understanding of these critical social indicators and their significance in ESG evaluations.
