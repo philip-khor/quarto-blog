@@ -1,0 +1,62 @@
+---
+title: "Anti-Corruption Governance and ESG Ratings"
+author: "Philip Khor"
+date: "2025-03-30"
+categories: ["ESG"]
+---
+
+::: callout-note
+Prepared for SustenyX; first published on [LinkedIn](https://www.linkedin.com/pulse/anti-corruption-governance-esg-ratings-sustenyx-8oh6c/?trackingId=CabE4t9mB1Gj%2FJcwg%2BaexQ%3D%3D)
+:::
+
+Businesses in Malaysia face both challenges and opportunities regarding anti-corruption. While the country has made efforts to strengthen its anti-corruption framework, high-profile cases of alleged corruption, coupled with Malaysia's [stagnating](https://thesun.my/malaysia-news/malaysia-remains-at-57th-spot-in-global-corruption-perceptions-index-2024-KB13658424) performance in Transparency International's Corruption Perceptions Index, highlight the persistent need for improvement. These issues have brought the topic of corruption into sharp public focus, with headlines regularly featuring allegations of misconduct and highlighting the struggle for accountability. 
+
+![](images/paste-3.png)
+
+The Malaysian government has demonstrated its commitment to addressing this issue through initiatives like the [National Anti-Corruption Strategy (NACS)](https://www.sprm.gov.my/admin/uploads_publication/strategi-pembanterasan-rasuah-nasional-2024-2028--en-08052024.pdf), which outlines a roadmap for combating corruption across various sectors. Furthermore, institutions like the The Malaysian Institute of Integrity play a crucial role in promoting ethical conduct and fostering a culture of integrity within the country.
+
+In this environment, private sector companies, particularly those listed on Bursa Malaysia, have a responsibility to demonstrate leadership by implementing robust anti-corruption programs, as outlined in the [Organisational Anti-Corruption Plan (OACP) Guide](https://bpgn.sprm.gov.my/wp-content/uploads/2022/11/Guide-to-Developing-OACP.pdf) by the National Centre for Governance, Integrity and Anti-Corruption (GIACC). 
+
+Importantly, for companies listed on Bursa Malaysia, conducting a corruption risk assessment is compulsory under the Listing Requirements, which mandates the inclusion of corruption risk in the annual risk assessment. This requirement is further reinforced by the mandatory reporting of "percentage of operations assessed for corruption-related risks" within the Common Sustainability Matters.
+
+This proactive approach not only mitigates their risks but also contributes to a broader culture of integrity and transparency within the Malaysian business community, supporting national efforts to improve corporate governance.
+
+## The Multifaceted Importance of Anti-Corruption Measures
+
+-   Protecting Financial Value: The [2018 amendment to the MACC Act](https://www.pwc.com/my/en/services/assurance/risk-assurance-services/governance-risk-compliance/macc-act-2018.html) introduces corporate liability for corruption offenses. When a person associated with a company commits a corrupt act to obtain a business advantage, this exposes the company to criminal charges unless it can demonstrate that adequate procedures were in place to prevent such conduct. This exposes companies without robust anti-corruption controls to significant financial and reputational risks.
+
+-   Preserving Reputation and Brand Value: Involvement in corruption scandals can severely damage a company's reputation and brand value, leading to loss of customer trust, boycotts, and negative media coverage. Strong anti-corruption governance protects the company's reputation and safeguards its brand equity.
+
+-   Strengthening Stakeholder Relationships: Building trust with stakeholders, including employees, customers, suppliers, and communities, is essential for long-term success. A strong commitment to anti-corruption fosters trust and strengthens these relationships.
+
+-   Enhancing Operational Efficiency: Implementing robust anti-corruption controls can improve operational efficiency by streamlining processes, reducing waste, and preventing fraud.
+
+## Aligning Anti-Corruption Practices with Rating Agency Expectations
+
+Ratings agencies assess companies' anti-corruption efforts through various criteria, focusing on the strength of their governance framework. To achieve strong ESG ratings, companies must demonstrate a commitment to best practices in the following areas:
+
+### Policies and Procedures
+
+Ratings agencies look for comprehensive anti-corruption policies that are clearly communicated, regularly updated, and effectively enforced. These policies should cover all forms of corruption, including bribery, extortion, fraud, and conflicts of interest, and extend to all business operations and third-party relationships. FTSE Russell may assess companies on the coverage of their bribery and anti-corruption policies, and whether procedures are in place to address corruption in operations which are deemed to be high risk for corruption. 
+
+### Risk Assessment and Due Diligence
+
+Companies are expected to conduct thorough risk assessments to identify potential corruption risks within their operations and supply chains. Robust due diligence processes for third parties, including suppliers, agents, and joint venture partners, are also essential. FTSE Russell may assess companies on the coverage of corruption risk assessment across company operations and corruption due diligence performed for new business partners. 
+
+### Monitoring and Controls
+
+Effective monitoring mechanisms, such as internal audits, whistleblower hotlines, and data analytics, are crucial for detecting and preventing corruption. Companies should also demonstrate that they have robust internal controls in place to manage financial and operational risks related to corruption. FTSE Russell may assess the availability of a confidential or anonymous whistle-blowing mechanism for staff.
+
+### Training and Communication
+
+Regular training programs for employees and third parties on anti-corruption policies and procedures are essential. Companies should also communicate their commitment to ethical conduct and transparency to all stakeholders. FTSE Russell may assess companies for the communication of and staff training on the anti-corruption policy. 
+
+### Remediation and Disclosure
+
+Companies should also be transparent in disclosing relevant information about corruption incidents to stakeholders, while respecting legal and confidentiality obligations. FTSE Russell assesses whether disclosures are made for the amount of political contributions, staff non-compliance with anti-corruption policies and fines relating to corruption. 
+
+By benchmarking their practices against the expectations of leading ratings agencies, companies can identify areas for improvement and strengthen their anti-corruption governance. This not only improves their ESG ratings but also builds trust with investors and other stakeholders.
+
+## Conclusion
+
+In the competitive landscape of ESG investing, strong anti-corruption governance is an increasingly important factor. For listed companies on Bursa Malaysia, strong anti-corruption governance is particularly crucial for complying with listing requirements, demonstrating alignment with Malaysian national priorities while improving their ESG ratings. By aligning their practices with both international standards and Malaysian national priorities, companies can improve their ESG ratings, build trust with stakeholders, and contribute to a more sustainable and ethical business environment.
