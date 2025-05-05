@@ -1,0 +1,68 @@
+---
+title: "Fair Pay: Getting it Right for ESG Success"
+author: "Philip Khor"
+date: "2024-04-17"
+categories: ["ESG"]
+description: |
+    We compare how FTSE Russell and S&P Global assess various aspects of fair pay within their ESG ratings methodologies. By highlighting the key differences in their approaches to minimum/living wage, equal pay, and executive remuneration, this article seeks to enhance understanding of these critical social indicators and their significance in ESG evaluations.
+---
+
+::: callout-note
+Written for SustenyX: first published on [LinkedIn](https://www.linkedin.com/pulse/fair-pay-getting-right-esg-success-sustenyx-o3vec/?trackingId=6Y2m7MxehIXRbzqCs7W69w%3D%3D)
+:::
+
+In Malaysia, platforms like PayGap.Asia are providing detailed pay information to increase transparency and empower workers with better data for salary negotiations. This initiative reflects the increasing demand for wage transparency and fair compensation. Globally, websites like Glassdoor, which provide employee reviews and salary information, are being increasingly used by workers to research and compare pay levels across different companies and industries, further contributing to this scrutiny.
+
+## ESG ratings and frameworks
+
+Investors and stakeholders are also increasingly evaluating companies based on their ESG performance, using information provided by ESG ratings agencies. Both FTSE Russell, a prominent global index and data provider, and S&P Global (through its Corporate Sustainability Assessment, or CSA), a leading provider of credit ratings and benchmarks, play a significant role in assessing and reporting on these salary-related factors. Their ratings and indices are widely used by investors to identify sustainable investments.
+
+-   **FTSE Russell**: FTSE Russell uses its ESG Ratings to evaluate companies against a range of indicators, including those related to labour standards, human rights, and corporate governance, which encompass many of the salary-related issues discussed above. Companies with strong performance in these areas are more likely to be included in the FTSE4Good Index Series, which is used by investors to identify sustainable investments.
+-   **S&P**: The S&P CSA is an in-depth questionnaire that evaluates companies on a wide range of ESG criteria. This includes questions and metrics related to fair pay, diversity, and executive compensation, which contribute to a company's overall sustainability score. This score is used to determine inclusion in the Dow Jones Sustainability Indices (DJSI) and other S&P Global ESG indices.
+
+The future landscape of fair pay disclosure is also evolving with the development of the Taskforce on Inequality and Social-related Financial Disclosures (TISFD) framework and its anticipated inclusion in the IFRS Sustainability Disclosure Standards (SDS). This move towards standardised reporting on social equity, including fair wages, suggests that both FTSE Russell and S&P Global may further refine their methodologies to align with these emerging global standards. Companies that proactively work towards greater transparency in their wage practices, considering the principles outlined by TISFD and the IFRS SDS, are likely to be better positioned to meet the expectations of future ESG assessments.
+
+The following table provides an overview of the key differences between the FTSE Russell and S&P Global frameworks in their approach to evaluating various aspects of fair pay. Both frameworks assess fair pay issues, but they employ distinct methodologies and focus on different indicators to assess company performance in this area. This table highlights these variations across minimum/living wage considerations, equal pay assessments, and the evaluation of executive remuneration.
+
+|  |  |  |
+|------------------------|------------------------|------------------------|
+| **Aspect of Fair Pay** | **FTSE Russell** | **S&P Global (CSA)** |
+| **Minimum/Living Wage** | Assesses **policy existence and compliance with minimum wage laws**, including supplier considerations.  | Focuses on **formal commitment to a living wage** and its calculation methodology. |
+| **Equal Pay** | Assesses publicly available policies and practices on equal pay and non-discrimination. | Requests **gender pay indicators** (pay gap, bonus gap). |
+| **Executive Remuneration** | Evaluates **remuneration policies**, committee structure, and shareholder rights. Focuses on linking pay to **long-term incentives and ESG performance** for **senior executives**. | Captures the **CEO-to-Employee Pay Ratio** and **CEO compensation** metrics for variable pay. Assesses incentives for long-term value creation across all employee levels. |
+
+## Living Wage and Cost of Living
+
+A fundamental aspect of fair compensation is ensuring that employees earn enough to meet their basic needs. This concept goes beyond the legal minimum wage and considers the actual cost of living.
+
+-   The **minimum wage** is the legally mandated lowest amount an employer can pay its workers. 
+
+-   The **cost of living** is the amount of money needed to sustain a certain standard of living in a particular location. 
+
+-   A **living wage** is a wage high enough to maintain a decent standard of living. It is higher than the minimum wage and is often calculated based on the local cost of living. 
+
+-   Going further, the European Sustainability Reporting Standards (ESRS) — the sustainability reporting standard for corporations in the European Union — defines the concept of an ‘**adequate wage**’ as “a wage that provides for the satisfaction of the needs of the worker and his / her family in the light of national economic and social conditions.”
+
+In Malaysia, the Employees Provident Fund (EPF) has introduced Belanjawanku, a guideline that outlines the estimated monthly expenses for different household types in various locations. Belanjawanku provides a benchmark for understanding the cost of living in Malaysia and can be used as a reference point when discussing living wage considerations.
+
+FTSE Russell assesses whether companies have instituted a minimum or living wage policy. Companies receive credit for public evidence of compliance with minimum wage laws, with additional credit for commitments to exceed the minimum wage and/or pay a living wage. Companies are also evaluated on whether they require their suppliers to make similar commitments. In contrast, instead of assessing compliance with minimum wage laws, S&P focuses on whether companies in relevant industries have made a formal commitment to paying a living wage, and the methodology used to calculate that wage.
+
+## Equal pay for equal work
+
+The principle of equal pay for equal work is that individuals performing the same job, under similar conditions, should receive the same pay, irrespective of their gender or other characteristics not related to productivity. For gender, this may be expressed as the gender pay gap: the difference in average earnings between men and women in a workforce.
+
+FTSE Russell assesses publicly available policies and practices related to equal pay and non-discrimination. S&P requests companies to provide gender pay indicators to measure and track gender pay disparities, such as the mean and median gender pay gap, as well as the bonus gap. Companies may opt to provide this information to S&P directly if they do not wish to publish said information.
+
+## Executive Remuneration
+
+The compensation of top executives is another critical area of scrutiny within ESG assessments. High executive pay, especially when disproportionate to overall company performance or average employee pay, can raise concerns about fairness and governance. The S&P CSA captures the CEO-to-Employee Pay Ratio: the ratio between the total annual compensation of the Chief Executive Officer and the mean or median employee compensation, highlighting the disparity between executive pay and the pay of the average worker.
+
+FTSE Russell's assessment of executive remuneration policies focuses on evaluating the structure and independence of the committee responsible for setting executive pay, the guidelines and procedures companies follow in determining executive compensation, and shareholder rights to approve or express their views on executive compensation packages. This includes assessing the transparency in reporting how executive pay is structured, including both guaranteed and performance-based components. A key principle in this assessment is linking executive compensation to long-term incentives and ESG performance, aligning executive interests with the company's long-term success.
+
+While both S&P and FTSE emphasize the importance of aligning executive pay with long-term goals, they have slightly different approaches. FTSE Russell evaluates whether remuneration for senior executives includes long term incentives or mechanisms and/or incorporates ESG performance. S&P evaluates compensation of the CEO specifically, focusing on the metrics used to determine their variable pay and how well compensation is structured to incentivize long-term value creation.
+
+The IFRS Sustainability Disclosure Standards (SDS), specifically S2 6(a)(v) and 29(g), require the disclosure of whether climate-linked performance metrics are factored into executive remuneration. The Transition Pathway Initiative’s Management Quality staircase, which is incorporated into FTSE’s ESG score, also evaluates the link between executive compensation and the achievement of climate-related targets. S&P goes further to consider incentives across all levels of employees and evaluates the nature of the KPIs implemented.
+
+## Conclusion
+
+Salary transparency and equitable compensation practices are critical for building strong employee relationships. Frameworks like FTSE Russell and S&P CSA provide valuable tools for assessing company performance in these areas, helping investors make informed decisions and encouraging companies to adopt more equitable and sustainable compensation practices. FTSE Russell emphasises policy existence, compliance, and broader labour standards, while S&P delves deeper into specific metrics like living wage commitments and gender pay gaps. Companies that prioritize fair pay, transparency, and responsible executive compensation are better positioned to attract and retain talent, mitigate reputational risks, and achieve long-term success in an increasingly ESG-conscious world.
