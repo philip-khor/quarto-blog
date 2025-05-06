@@ -1,0 +1,70 @@
+---
+title: "Navigating the ESG Ratings Maze: A Guide for Malaysian PLCs"
+author: "Philip Khor"
+date: "2025-03-30"
+categories: ["ESG"]
+---
+
+::: callout-note
+## Prepared for SustenyX; first published on LinkedIn
+:::
+
+Companies are increasingly expected to show strong ESG performance. While ESG (Environmental, Social, and Governance) ratings aim to make it easier to compare the non-financial performance of different companies, the same company can receive different ratings from different agencies. 
+
+FTSE Russell's ratings hold significant weight in Malaysia, making it crucial for Malaysian PLCs to engage with them. This is underscored by Bursa Malaysia's collaboration with FTSE Russell, leading to the development of key indices like the FTSE Bursa Malaysia KLCI and the FTSE4Good Bursa Malaysia Index. Furthermore, alongside reporting frameworks such as the GRI, FTSE is the main ESG ratings framework referenced[^1] in Bursa Malaysia’s Sustainability Reporting Guide and the Simplified ESG Disclosure Guide (SEDG).
+
+[^1]:  The CDP framework is also used to guide the SEDG, however it does not assess social issues.
+
+## Malaysia’s ESG leaders
+
+To illustrate, below are six Malaysian companies ranked within the top 15% of ESG performers in their respective industry by S&P Global. We compare how Sustainalytics, MSCI and LSEG rank these six companies.
+
+Note that FTSE Russell considers each of these companies ESG leaders in Malaysia, graded 4\* in assessment results disclosed by [Bursa Malaysia in June 2024](https://www.bursamalaysia.com/sites/5d809dcf39fba22790cad230/assets/667e26d2e6414a9b3a6aecd1/ESG_Ratings_of_PLCs_assessed_by_FTSE_Russell_n_Index_Constituents_June2024.pdf). 
+
+|                                  |                    |            |          |
+|----------------------------|----------------|---------------|---------------|
+| **Industry rank (top x%)**       | **Sustainalytics** | **MSCI\*** | **LSEG** |
+| Energy Equipment and Services    | 1%                 | \-         | 3%       |
+| Chemical                         | 6%                 | 28-44%     | 19%      |
+| Bank                             | 14%                | 5-43%      | 1%       |
+| Beverage                         | 5%                 | \-         | 16%      |
+| Healthcare Supplies Manufacturer | 1%                 | \-         | 7%       |
+| Transport Infrastructure         | 2%                 | 61-84%     | 4%       |
+
+: \* Companies’ names have been anonymised by industry category. MSCI scores are only available for MSCI ACWI index constituents. Based on desk research from providers’ websites on 19th November 2024. Industry rank normalised to 100% for Sustainalytics and LSEG.
+
+For a broader view, the working paper Aggregate Confusion (Berg et al. 2022) estimates the relationship between each agency’s ratings. The higher the value, the greater the (linear) relationship between the scores from each ratings agency. 
+
+![Elements above the diagonal are omitted since the R-squared of a simple regression model is symmetric. S&P Global and LSEG acquired RobecoSAM and Refinitiv; the paper uses the latter names. Adapted from Table A.1](images/paste-4.png)
+
+While Sustainalytics and LSEG generally concur with S&P Global’s assessments, MSCI’s ratings seem to diverge from the others. Why is that? 
+
+## Different frameworks measure ESG differently
+
+The researchers find that **the way each agency measures ESG matters is the biggest cause of these differences (56%), followed by scope (38%) and weight (6%)**:
+
+-   **Measurement:** How each factor is measured. For example, a questionnaire-based framework such as S&P Global incorporates internal information, whereas FTSE Russell only considers public information. 
+
+-   **Scope:** Which ESG factors are considered. For example, one firm may consider business ethics, while another may not. 
+
+-   **Weight:** How much importance each factor is given. For example, labour practices might be weighted more heavily than business ethics.
+
+## Recommendations for Malaysian PLCs
+
+Given the emphasis on FTSE Russell's ratings in Malaysia, it is **highly recommended for Malaysian PLCs to prioritise engaging with FTSE Russell**. However, companies should also be aware of and address the broader ESG ratings landscape. Here are some key recommendations:
+
+-   **Understand Methodologies and Criteria:** Invest time in understanding the methodologies of different rating agencies, particularly FTSE Russell, to identify areas for improvement and align your ESG initiatives accordingly.
+
+-   **Utilise ESG Ratings for Internal Improvement:** Treat ESG ratings not just as external evaluations but also as tools for internal risk assessment, strategy development, and stakeholder engagement.
+
+-   **Actively Engage with Rating Agencies:** Participate in questionnaires, provide data, and clarify any discrepancies or concerns. 
+
+## Conclusion
+
+The ESG ratings landscape can be challenging to navigate. However, by prioritising transparency, actively engaging with rating agencies, and understanding methodologies, Malaysian PLCs can improve their ESG ratings performance, enhance their reputation, and attract responsible investments.
+
+------------------------------------------------------------------------
+
+**Appendix: Scores and index constituent status**
+
+![Scores and index constituent status based on desk research from individual providers’ websites on 19th November 2024, other than FTSE Russell scores which were disclosed by Bursa Malaysia as at June 2024. Status and scores may change. Lower is better for Sustainalytics scores. Inclusion in ESG indices is subject to criteria set by index providers, e.g. exclusion screening, and not solely dependent on superior ESG scoring.](images/paste-5.png)
