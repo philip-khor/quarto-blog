@@ -189,6 +189,142 @@ Note
   <pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Navigating the ESG Ratings Maze: A Guide for Malaysian PLCs</title>
+  <dc:creator>Philip Khor</dc:creator>
+  <link>https://www.philipscurve.com/post/ratings.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<div class="callout callout-style-default callout-note callout-empty-content callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Prepared for SustenyX; first published on LinkedIn
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>Companies are increasingly expected to show strong ESG performance. While ESG (Environmental, Social, and Governance) ratings aim to make it easier to compare the non-financial performance of different companies, the same company can receive different ratings from different agencies.&nbsp;</p>
+<p>FTSE Russell’s ratings hold significant weight in Malaysia, making it crucial for Malaysian PLCs to engage with them. This is underscored by Bursa Malaysia’s collaboration with FTSE Russell, leading to the development of key indices like the FTSE Bursa Malaysia KLCI and the FTSE4Good Bursa Malaysia Index. Furthermore, alongside reporting frameworks such as the GRI, FTSE is the main ESG ratings framework referenced<sup>1</sup> in Bursa Malaysia’s Sustainability Reporting Guide and the Simplified ESG Disclosure Guide (SEDG).</p>
+<section id="malaysias-esg-leaders" class="level2">
+<h2 class="anchored" data-anchor-id="malaysias-esg-leaders">Malaysia’s ESG leaders</h2>
+<p>To illustrate, below are six Malaysian companies ranked within the top 15% of ESG performers in their respective industry by S&amp;P Global. We compare how Sustainalytics, MSCI and LSEG rank these six companies.</p>
+<p>Note that FTSE Russell considers each of these companies ESG leaders in Malaysia, graded 4* in assessment results disclosed by <a href="https://www.bursamalaysia.com/sites/5d809dcf39fba22790cad230/assets/667e26d2e6414a9b3a6aecd1/ESG_Ratings_of_PLCs_assessed_by_FTSE_Russell_n_Index_Constituents_June2024.pdf">Bursa Malaysia in June 2024</a>.&nbsp;</p>
+<table class="caption-top table">
+<caption>* Companies’ names have been anonymised by industry category. MSCI scores are only available for MSCI ACWI index constituents. Based on desk research from providers’ websites on 19th November 2024. Industry rank normalised to 100% for Sustainalytics and LSEG.</caption>
+<colgroup>
+<col style="width: 37%">
+<col style="width: 21%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Industry rank (top x%)</strong></td>
+<td><strong>Sustainalytics</strong></td>
+<td><strong>MSCI*</strong></td>
+<td><strong>LSEG</strong></td>
+</tr>
+<tr class="even">
+<td>Energy Equipment and Services</td>
+<td>1%</td>
+<td>-</td>
+<td>3%</td>
+</tr>
+<tr class="odd">
+<td>Chemical&nbsp;</td>
+<td>6%</td>
+<td>28-44%</td>
+<td>19%</td>
+</tr>
+<tr class="even">
+<td>Bank&nbsp;</td>
+<td>14%</td>
+<td>5-43%</td>
+<td>1%</td>
+</tr>
+<tr class="odd">
+<td>Beverage&nbsp;</td>
+<td>5%</td>
+<td>-</td>
+<td>16%</td>
+</tr>
+<tr class="even">
+<td>Healthcare Supplies Manufacturer</td>
+<td>1%</td>
+<td>-</td>
+<td>7%</td>
+</tr>
+<tr class="odd">
+<td>Transport Infrastructure&nbsp;</td>
+<td>2%</td>
+<td>61-84%</td>
+<td>4%</td>
+</tr>
+</tbody>
+</table>
+<p>For a broader view, the working paper Aggregate Confusion (Berg et al.&nbsp;2022) estimates the relationship between each agency’s ratings. The higher the value, the greater the (linear) relationship between the scores from each ratings agency.&nbsp;</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.philipscurve.com/post/images/paste-4.png" class="img-fluid figure-img"></p>
+<figcaption>Elements above the diagonal are omitted since the R-squared of a simple regression model is symmetric. S&amp;P Global and LSEG acquired RobecoSAM and Refinitiv; the paper uses the latter names. Adapted from Table A.1</figcaption>
+</figure>
+</div>
+<p>While Sustainalytics and LSEG generally concur with S&amp;P Global’s assessments, MSCI’s ratings seem to diverge from the others. Why is that?&nbsp;</p>
+</section>
+<section id="different-frameworks-measure-esg-differently" class="level2">
+<h2 class="anchored" data-anchor-id="different-frameworks-measure-esg-differently">Different frameworks measure ESG differently</h2>
+<p>The researchers find that <strong>the way each agency measures ESG matters is the biggest cause of these differences (56%), followed by scope (38%) and weight (6%)</strong>:</p>
+<ul>
+<li><p><strong>Measurement:</strong> How each factor is measured. For example, a questionnaire-based framework such as S&amp;P Global incorporates internal information, whereas FTSE Russell only considers public information.&nbsp;</p></li>
+<li><p><strong>Scope:</strong> Which ESG factors are considered. For example, one firm may consider business ethics, while another may not.&nbsp;</p></li>
+<li><p><strong>Weight:</strong> How much importance each factor is given. For example, labour practices might be weighted more heavily than business ethics.</p></li>
+</ul>
+</section>
+<section id="recommendations-for-malaysian-plcs" class="level2">
+<h2 class="anchored" data-anchor-id="recommendations-for-malaysian-plcs">Recommendations for Malaysian PLCs</h2>
+<p>Given the emphasis on FTSE Russell’s ratings in Malaysia, it is <strong>highly recommended for Malaysian PLCs to prioritise engaging with FTSE Russell</strong>. However, companies should also be aware of and address the broader ESG ratings landscape. Here are some key recommendations:</p>
+<ul>
+<li><p><strong>Understand Methodologies and Criteria:</strong> Invest time in understanding the methodologies of different rating agencies, particularly FTSE Russell, to identify areas for improvement and align your ESG initiatives accordingly.</p></li>
+<li><p><strong>Utilise ESG Ratings for Internal Improvement:</strong> Treat ESG ratings not just as external evaluations but also as tools for internal risk assessment, strategy development, and stakeholder engagement.</p></li>
+<li><p><strong>Actively Engage with Rating Agencies:</strong> Participate in questionnaires, provide data, and clarify any discrepancies or concerns.&nbsp;</p></li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The ESG ratings landscape can be challenging to navigate. However, by prioritising transparency, actively engaging with rating agencies, and understanding methodologies, Malaysian PLCs can improve their ESG ratings performance, enhance their reputation, and attract responsible investments.</p>
+<hr>
+<p><strong>Appendix: Scores and index constituent status</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.philipscurve.com/post/images/paste-5.png" class="img-fluid figure-img"></p>
+<figcaption>Scores and index constituent status based on desk research from individual providers’ websites on 19th November 2024, other than FTSE Russell scores which were disclosed by Bursa Malaysia as at June 2024. Status and scores may change. Lower is better for Sustainalytics scores. Inclusion in ESG indices is subject to criteria set by index providers, e.g.&nbsp;exclusion screening, and not solely dependent on superior ESG scoring.</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>&nbsp;The CDP framework is also used to guide the SEDG, however it does not assess social issues.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>ESG</category>
+  <guid>https://www.philipscurve.com/post/ratings.html</guid>
+  <pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Waste Management and ESG</title>
   <dc:creator>Philip Khor</dc:creator>
   <link>https://www.philipscurve.com/post/waste.html</link>
@@ -4508,47 +4644,6 @@ font-style: inherit;">testing</span>(car_split)</span></code></pre></div>
   <guid>https://www.philipscurve.com/post/2020-10-11-why-do-cross-validation/2020-10-11-why-do-cross-validation.html</guid>
   <pubDate>Sun, 11 Oct 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.philipscurve.com/img/300px-Korsstygn_detalj.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>WSL2 and R</title>
-  <dc:creator>Philip Khor</dc:creator>
-  <link>https://www.philipscurve.com/post/wsl/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p>Windows Subsystem for Linux (WSL) is a great way to run Linux software on your computer without dual-booting or starting over. For certain reasons, you may want to run R in Linux instead of Windows, and WSL can help.</p>
-<p>As of the time of writing, the current version of WSL is WSL2.</p>
-<section id="why-bother" class="level2">
-<h2 class="anchored" data-anchor-id="why-bother">Why bother?</h2>
-<p>That’s a good question. R does work fine with Windows, at least as far as I use it. And in general I think that would be the case for most people. Using R with Windows has the big advantage of having binaries on CRAN available for the latest version of packages. In comparison, Linux does not, however if you use RStudio Package Manager as a package source you’ll have access to <a href="https://packagemanager.rstudio.com/">package binaries for Linux</a>.</p>
-<p>With R 4.0, compiling packages requires Rtools4.0, which requires <a href="https://cran.r-project.org/bin/windows/Rtools/">adding the Rtools home to the .Renviron file</a>. While I haven’t had problems with this setup, I’ve seen people facing issues on Twitter. Thank goodness we don’t have to install arbitrary Visual Studio dependencies like with some Python packages …</p>
-<p>Essentially, I think you may want to consider using WSL2 with R if you anticipate having compilation issues for your packages on Windows that could be sidestepped by using Linux.</p>
-<p>Downloading R binaries from conda is a great alternative, but conda’s pretty heavy and I wouldn’t recommend running R from conda in parallel with R, at least on Windows. This is because in my experience, the conda R instance looks for packages in the non-conda package library. This is something that’s <a href="https://github.com/conda-forge/r-base-feedstock/pull/65">being worked on</a>; in addition, if you install packages from GitHub, it’s probably not a great idea to mix that with your conda R library.</p>
-</section>
-<section id="okay-thats-great-but-i-want-to-keep-my-ide" class="level2">
-<h2 class="anchored" data-anchor-id="okay-thats-great-but-i-want-to-keep-my-ide">Okay that’s great, but I want to keep my IDE!</h2>
-<p>Running GUIs from WSL2 is a <a href="https://www.omgubuntu.co.uk/2020/05/run-linux-apps-on-windows-10-wsl-2">work-in-progress</a>. I think the most straightforward solution at this point is to use RStudio Server , which essentially allows you to use RStudio in a browser.</p>
-<p>As with installing R on Windows, you’ll want to install R first. <a href="https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-20-04#step-2-%E2%80%94-installing-r-packages-from-cran">This tutorial</a> will help you install R using apt. Then, you’ll want to follow the instructions <a href="https://support.rstudio.com/hc/en-us/articles/360049776974-Using-RStudio-Server-in-Windows-WSL2">here</a> for installing RStudio Server.</p>
-<p>Once you’re done, run</p>
-<pre><code>sudo rstudio-server start</code></pre>
-<p>in your WSL terminal.</p>
-</section>
-<section id="transferring-files" class="level2">
-<h2 class="anchored" data-anchor-id="transferring-files">Transferring files</h2>
-<p>That’s not too much of a problem actually. Once you start wsl, you can access your Linux file system using <code>//wsl$</code>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>R</category>
-  <guid>https://www.philipscurve.com/post/wsl/</guid>
-  <pubDate>Thu, 27 Aug 2020 00:00:00 GMT</pubDate>
-  <media:content url="https://www.philipscurve.com/post/wsl/featured.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
