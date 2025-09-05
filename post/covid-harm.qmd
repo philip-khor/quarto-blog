@@ -1,0 +1,122 @@
+---
+title: "Immunity Is Real. Harm Is Ambient."
+description: "Why I refuse PPE abandonment—and why the logic of reprieve, though biologically sound, collapses under asymptomatic spread."
+author: "Philip Khor"
+date: "2025-09-05"
+image: /img/Image_fx.jpg
+---
+
+::: callout-note
+Substantial portions of this page were AI-generated. I stand by the argument.
+:::
+
+COVID is not over. But the infrastructure is.
+
+The virus still circulates, but the systems that once tracked, warned, and protected have been quietly dismantled.
+
+This is not a return to normal. It is a retreat from responsibility.
+
+## 🧬 The Disease Is Not Just Respiratory
+
+COVID reshapes immunity itself—disrupting T-cell function, exhausting lymphocytes, and leaving behind a body less able to respond to future threats. It is also a vascular disease—damaging blood vessels, impairing circulation, and triggering inflammation across organ systems. There is no such thing as a COVID infection without consequence.
+
+As Dr. David Putrino, Director of Rehabilitation Innovation at Mount Sinai, has stated in multiple interviews: “There is no such thing as a COVID infection without consequences.” His team has treated thousands of long COVID patients, and his research—conducted with immunologists like Akiko Iwasaki—has helped define the biomarkers of post-viral illness. Putrino speaks not from theory, but from direct clinical experience.
+
+Compared to the disease, the mask is trivial. Fifteen minutes of wearing one is negligible beside weeks of vascular disruption or months of immune drag.
+
+## 🧠 The Reprieve Is Real—But It’s a Countdown
+
+Infection does buy time. Post-infection immunity blocks reinfection for a while—not because it is permanent, but because the virus hasn’t shifted far enough yet.
+
+This reprieve is genuine. It feels solid, and for a season it is. But it is also provisional. Variants drift. Immune memory fades. The clock keeps moving.
+
+That is why people drop their masks after infection. The logic is understandable. But the same logic, if left unexamined, becomes the seed of silent harm—killing, sickening, and disabling others without ever having to know about it.
+
+## 🔥 Why Asymptomatic Spread Collapses That Logic
+
+COVID does not wait for symptoms. Transmission is often invisible, unfolding quietly before anyone feels ill. That makes the logic of reprieve fragile: your “pause” may protect you, but it does not insulate the people around you.
+
+The effect is cumulative. A single silent infection can restart dozens of chains. Each round magnifies the last. What feels like safety for one person becomes the hidden risk for another.
+
+The problem is your comfort could ruin the life of someone else sharing your air—and the best part is you don’t even have to know about it. The psychological distance makes the violence feel normal.
+
+And because transmission is silent, the burden shifts: what feels like a personal calculation quietly becomes a public risk.
+
+This creates a perfect, society-wide diffusion of responsibility. When everyone is a potential vector, and no single source can be definitively linked to a single victim, the collective conveniently decides that no one is specifically responsible. We have, through inaction and the dismantling of infrastructure, collectively endorsed a certain level of population-level harm. The question "Who specifically caused it?" becomes the unanswerable shield that protects everyone and sacrifices the vulnerable.
+
+This is how ambient harm becomes ambient culture. The violence is not just tolerated—it is choreographed. The absence of accountability becomes a feature, not a bug. And the result is a society that treats exposure as a given, and civic responsibility as a deviance.
+
+## 🧱 PPE Refusal Isn’t Just About Comfort. It’s Cultural Choreography.
+
+Even with breathable, high-filtration masks, people still refuse. Not because the mask is unbearable, but because the social air is.
+
+PPE signals distrust. Precaution signals deviance. Care signals excess.
+
+Even when the mask is breathable, the choreography punishes refusal. This is how societal violence is normalized: by denormalizing masking even while a dangerous airborne pathogen continues to circulate—and the curve does not bend.
+
+This is where environmental arguments slip in as justification. Disposable surgical masks are framed as wasteful, while cloth masks are praised as sustainable.
+
+But this logic collapses under the most basic accounting. Hospitals already generate immense medical waste daily. Chronic illness generates far more — oxygen tanks, test kits, IV bags, pharmaceuticals, long-term equipment. To single out surgical masks while ignoring this larger picture is a mismeasurement of waste by volume while ignoring waste by duration.
+
+And the argument ignores innovation entirely. Elastomeric respirators, widely adopted in parts of North America, are both durable and highly protective. They exist in Malaysia too — you can buy them on Lazada, and city council workers use them for public works.
+
+Yet they are absent from government advisories, pharmacy shelves, and public health discourse. Think tanks and NGOs don’t mention them. For the public, they vanish.
+
+I even own one myself. But I hesitate to use it, because I don’t know what to make of the valve. It feels like I’m exposed when I’ve been told that fit matters. In North America, there’s guidance on how to adapt them—typically by wearing a surgical mask over the valve if source control is needed.
+
+But that guidance assumes reciprocity. It assumes others will mask too.
+
+They don’t.
+
+So I no longer care about source control. If someone refuses to mask, I refuse to protect them.
+
+The result is predictable: environmentalism becomes a pretext, not a solution. Instead of normalizing durable, reusable protection, the conversation stigmatizes disposables and erases the most sustainable option.
+
+What gets framed as “green concern” ends in more people infected, disabled, or dead.
+
+## ⚖️ COVID Is Over. No, It Is Not
+
+| Short-term safety          | Cumulative harm                          |
+|----------------------------|------------------------------------------|
+| “I just had it, I’m safe.” | “You can still spread without symptoms.” |
+| “Masking is a hassle.”     | “Air itself is the vector.”              |
+| “I’m not sick.”            | “Exposure is cumulative, not binary.”    |
+| “Everyone else moved on.”  | “Everyone else is the curve.”            |
+
+Both sides contain truth. But only one accounts for the room itself.
+
+## 📉 Malaysia: Scarcity by Design
+
+In theory, vaccines should reset the reprieve. A booster would extend protection, making masking less urgent for longer stretches.
+
+In practice, Malaysia has reintroduced vaccination campaigns and encouraged uptake—but the rollout remains limited. The current booster offered is XBB.1.5, not JN.1, and access is still constrained.
+
+The private vaccination route—ProtectHealth’s network of hospitals and GP clinics—was quietly dismantled. No formal closure, no replacement. MySejahtera now lists only public clinics, and pharmacies, though trusted for many other services, were never brought into the vaccine channel.
+
+That leaves scarcity in practice. Uptake has collapsed nationwide, and dashboards like KKMNOW only show cumulative doses, which obscures decay. They never show time since last dose, the one number that actually tracks protection.
+
+So immunity is treated as a permanent credential rather than a decaying one. On paper, coverage is stable. In reality, almost no one is recent.
+
+This is not about lack of vaccines. It is about refusal to normalize access through everyday channels. Scarcity, designed into the system.
+
+## 🧩 Why I Leave, and Why I Still Mask
+
+Which is why I no longer rely on the system to keep my reprieve alive. I ration exposure by leaving, and I bridge the gaps with a mask.
+
+I don’t trust proximity. I don’t linger in rooms when I don’t need to be there. Because risk is not only about who coughs—it is about how long I remain inside the same air.
+
+And when leaving is impossible, I mask. Not as a performance, but as a calculation. I have no shield left: no recent vaccine, no recent infection. The reprieve expired, and the system offers no way to renew it.
+
+So yes, I mask because I am afraid—afraid of long COVID that medicine here rarely names, afraid of losing work to brain fog, afraid of a calculus of air that I cannot bend.
+
+But more often, I simply leave. Because exposure is not binary. It accumulates with every minute. My strategy is to subtract.
+
+I no longer pretend my actions bend the epidemiologic curve. That curve has been surrendered, fed by a society intent on maximizing it.
+
+So I optimize not for the population, but for survival. For continuity of work, of health, of thought.
+
+Because it is never just lungs. It is everywhere blood flows.
+
+This is not paranoia. It is literacy in risk, in a system that insists risk is finished.
+
+I leave because the infrastructure won’t. I mask because I have no immunity against the dominant variant. I leave because the dashboards mislead by omission. I mask because disease is worse. I leave because reprieve is temporary. And I refuse to be ambient exposure.

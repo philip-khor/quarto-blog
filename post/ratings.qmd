@@ -1,12 +1,12 @@
 ---
 title: "Navigating the ESG Ratings Maze: A Guide for Malaysian PLCs"
 author: "Philip Khor"
-date: "2025-03-30"
+date: "2025-01-02"
 categories: ["ESG"]
 ---
 
 ::: callout-note
-## Prepared for SustenyX; first published on LinkedIn
+Prepared for SustenyX; first published on [LinkedIn](https://www.linkedin.com/pulse/navigating-esg-ratings-maze-guide-malaysian-plcs-sustenyx-hdlnc/?trackingId=x8iH6CeDd9QTeWwNnRPNYw%3D%3D)
 :::
 
 Companies are increasingly expected to show strong ESG performance. While ESG (Environmental, Social, and Governance) ratings aim to make it easier to compare the non-financial performance of different companies, the same company can receive different ratings from different agencies. 
@@ -22,7 +22,7 @@ To illustrate, below are six Malaysian companies ranked within the top 15% of ES
 Note that FTSE Russell considers each of these companies ESG leaders in Malaysia, graded 4\* in assessment results disclosed by [Bursa Malaysia in June 2024](https://www.bursamalaysia.com/sites/5d809dcf39fba22790cad230/assets/667e26d2e6414a9b3a6aecd1/ESG_Ratings_of_PLCs_assessed_by_FTSE_Russell_n_Index_Constituents_June2024.pdf). 
 
 |                                  |                    |            |          |
-|----------------------------|----------------|---------------|---------------|
+|-------------------|------------------|------------------|------------------|
 | **Industry rank (top x%)**       | **Sustainalytics** | **MSCI\*** | **LSEG** |
 | Energy Equipment and Services    | 1%                 | \-         | 3%       |
 | Chemical                         | 6%                 | 28-44%     | 19%      |
