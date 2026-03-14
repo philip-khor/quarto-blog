@@ -1,0 +1,209 @@
+---
+title: "Misdirected confusion: what are ESG ratings even"
+author: "Philip Khor"
+date: "2026-03-15"
+description: "On ESG ratings, Berg et al., the welfare function nobody specified, and why 71% inter-rater correlation is not a scandal."
+categories: [ESG, finance, microeconomics]
+---
+
+ESG ratings are a qualified, standardised opinion on whether a company clears a basic level of corporate decency to enter your portfolio, so you can defend the contents of your 'ESG fund'. Asking why ratings diverge is like asking why Baptist and Catholic sermons have different takes on salvation.
+
+That is it. They are not a measurement of sustainability. They are not a proxy for risk-adjusted returns. They are not a ranking of corporate virtue or a contribution to any broader welfare accounting project.
+
+This framing, obvious once stated, resolves almost every confusion in the literature. It also reveals why the literature is confused: it has spent considerable effort critiquing a product without first asking what the product is for.
+
+## The question being avoided
+
+The ESG ratings literature clusters around three claims about what ESG ratings *should* do:
+
+-   **They should be well correlated across providers** — because divergence suggests measurement error and undermines investor confidence.
+
+-   **They should line up with risk management** — because sustainability risks are financial risks, and a good ESG score should predict resilience.
+
+-   **They should line up with credible business practices** — because companies that genuinely embed sustainability should score higher than those that do not.
+
+Each of these claims is a facade. The harder question underneath — the one the claimant is usually asking without admitting it — is: what does it mean for a company to be good?
+
+Not good at managing climate transition risk. Not good at generating sustainable returns. Not good at satisfying a stakeholder survey.
+
+Good — in the normative sense that moral philosophy has been arguing about since Aristotle, without resolution. A question any second-year microeconomics student should flag as intractable: heterogenous preferences cannot be trivially aggregated across agents.
+
+The literature will do everything except being honest about asking this question (And I don't think it should.). Instead it keeps returning to Berg et al., noting the 71% correlation, concluding that ESG ratings are broken — not fit for investment, not fit for measuring sustainability — and calling for harmonisation. No engagement with what the product is for. No engagement with why the divergence exists. No engagement with welfare theory, measurement theory, or what it would even mean for ESG ratings to "work." Just: got error, doesn't work, someone fix it.
+
+But it does not disappear. It reappears every time you ask whether Tesla's green revenues offset its labour relations record. It reappears every time two raters disagree by fifty points on the same company. And it reappears every time a issuer flimsily asserts alignment with the Sustainable Development Goals as evidence of goodness, as if to say "hey rater, look at me".
+
+::: {.callout-note appearance="simple"}
+The SDGs deserve a moment here, because the citation is doing less and more work than it appears. More — the SDG indicator framework was a legitimate UN Statistics Division effort to get member states to measure comparable things, and it made real progress on that input standardisation problem. Less — it is a diplomatic stalemate dressed in aspirational language, 193 member states negotiating until nobody objected. It tells you what sovereign data to collect. It does not tell you how to aggregate across goals, how to weight climate action against reduced inequalities, or what it means for a corporate activity to align with a target designed as a sovereign data collection benchmark.
+:::
+
+The basic decency framing cuts through all of this. If ESG ratings are a qualified opinion on whether a company clears a threshold of corporate decency to enter your portfolio, then:
+
+-   **The correlation problem dissolves.** Different qualified opinions on what basic decency requires will diverge. That is expected and appropriate. The question is not why they diverge but whether each opinion is internally coherent and transparently justified.
+
+-   **The risk management question becomes secondary.** Risk is one input into the decency assessment, not the criterion. A company that systematically destroys ecosystems is probably not decent regardless of whether that destruction currently prices into its cost of capital.
+
+-   **The Tesla question answers itself.** Does a credible green revenue strategy clear the basic decency threshold if the company is systematically bad to its employees? Probably not — because basic decency is not a portfolio optimisation problem where E offsets S at the margin. Which implies the aggregation function should reflect that. Which is the microeconomic argument that follows.
+
+-   **The SDG alignment claim loses its pretension to rigour.** A qualified opinion on corporate decency does not need to align with 232 indicators negotiated to stalemate. It needs to be grounded in a coherent and disclosed normative framework, applied consistently.
+
+## The wrong parent
+
+ESG ratings were built by financial services firms extending their existing infrastructure into nonfinancial territory. The product form got imported wholesale — tiered scores, sector adjustments, risk opinions — before anyone asked whether the underlying construct transferred.
+
+Credit works because the underlying construct is objective. Ya broke, ya broke. You can argue about where to draw the PN17 line — whether the thresholds are set correctly, whether the classification was applied fairly — but nobody contests what is being measured. Cash flow adequacy, debt serviceability. Financial distress is intersubjectively observable. The disagreement is always about the threshold, never about what is on the axes.
+
+And credit's objectivity is not just a matter of having financial statements as inputs. It rests on a long lineage of practice: GAAP and IFRS providing aggregation standards across entities and periods; audit providing external verification; management accounting ratios — Altman Z-score, interest coverage, debt-to-equity — with decades of empirical validation against actual default events; option-adjusted spreads and credit default swap spreads providing market discipline that forces ratings toward reality over time. When a credit rating is wrong, the terminal event eventually reveals it. The entire apparatus was built and refined over a century of that feedback loop.
+
+**ESG has none of this lineage.** The inputs are voluntary, unaudited, unstandardised across entities, and there is no terminal event to validate against. A company rated AAA on sustainability by MSCI and 17/100 by S&P Global (formerly RobecoSAM) — as EasyJet was — faces no moment of truth that resolves the disagreement. The rating migrates, but never gets called.
+
+The credit analogy is not just technically wrong. It is wrong about what the product is for. Credit ratings estimate default probability. ESG ratings — correctly understood — express a qualified opinion on corporate decency. Importing the credit product form into a decency assessment is like applying a probability of default model to the question of whether someone is a Good Person.
+
+![](images/paste-10.png)
+
+## Berg et al. shouldn't surprise anyone
+
+The 71% inter-rater correlation finding from Berg, Kölbel, and Rigobon has become the foundational citation for the view that ESG ratings are unreliable and require harmonisation. It deserves closer examination.
+
+Berg et al. aggregate correlation across six providers — KLD, Moody's ESG, MSCI, Refinitiv, S&P Global, and Sustainalytics — and find an average of approximately 54% in their pairwise analysis, reported as evidence of systematic disagreement. The policy literature has run with this ever since.
+
+The problem is visible in their own data. MSCI correlates with other providers at approximately 0.33 to 0.42. Every other provider correlates with every other provider at approximately 0.55 to 0.65. Strip MSCI out and the average rises to around 0.6 — moderate agreement among providers asking roughly the same question.
+
+MSCI is the outlier. And MSCI's leadership has been loud and proud about why — not just in methodology documents but in CEO interviews, conference keynotes, and explicit public positioning at the executive level. **MSCI measures financial risk to the company**: ESG factors that affect enterprise value, from the outside in. It explicitly rejects impact considerations, stakeholder effects, and double materiality framing. "We measure risk to companies, not risk from companies" is not a subtle position buried in a technical appendix. It is a deliberate product strategy stated publicly by MSCI's leadership in the rooms where this literature would have been presented. Berg et al. choosing not to foreground it is not a literature gap. It is choosing not to notice something being said loudly in plain sight.
+
+Every other provider in the Berg et al. sample accommodates double materiality to varying degrees, or at minimum does not explicitly refuse it. S&P Global ESG incorporates impact considerations. Sustainalytics uses absolute risk ratings that include stakeholder impacts. They are measuring a related but distinct construct. The low correlation between MSCI and these providers is not a measurement failure. It is construct difference by design, working exactly as intended.
+
+In an earlier piece on [ESG ratings for Malaysian PLCs](/post/ratings.html) I noted in passing that MSCI diverges from Sustainalytics and LSEG for the same companies — sometimes dramatically. A transport infrastructure company in the top 2% on Sustainalytics sitting in the 61-84th percentile on MSCI.
+
+I treated this as a navigational challenge for practitioners. In hindsight that framing was too accommodating. The divergence is not a navigational challenge. **It is the correct outcome of two providers answering different questions** — and I regret the fact that I noted it without noting why.
+
+The literature built on Berg et al. inherits the confusion. Calls for harmonisation treat single and double materiality as variants of the same measurement approach rather than as answers to different questions serving different purposes. Regulatory proposals address "divergence" without noting that some of the divergence is not only expected but correct — MSCI should not converge with Sustainalytics, because an investor using MSCI to assess financial risk exposure and an investor using Sustainalytics to assess comprehensive ESG performance are asking different questions and should receive different answers.
+
+The welfare function problem runs underneath all of this. Single materiality implicitly specifies the welfare function: only financial impacts on the firm count, weighted by their effect on enterprise value. Double materiality leaves the welfare function underspecified: financial impacts and stakeholder impacts both count, but how they are weighted against each other is the question nobody answers. **Both are normative positions. Neither is disclosed as such.** Berg et al. did not ask which one any provider was using, because the literature had not yet noticed that the question existed.
+
+Don't even bother asking whether, let alone how readily enterprise value substitutes for stakeholder-material responses.
+
+## Three literatures not engaged
+
+There are two bodies of literature that should be foundational to anyone building an aggregate score from multiple dimensions across entities. Neither is seriously engaged in the ESG ratings literature. A third — psychometrics — should at minimum be interrogated, but that is a longer conversation.
+
+**Measurement theory.** Are the pillar scores cardinal or ordinal? If ordinal — and there is no serious argument that a governance score of 70 is twice as good as a governance score of 35 in any meaningful sense — then what operations are permissible on them? You cannot take a weighted average of ordinal measures and claim the result is meaningful. The number produced has no interpretable units. The scoring apparatus is built on a measurement assumption that is never stated and almost certainly wrong.
+
+**Microeconomic theory.** No welfare function specified. No functional form justified. No MRS derived. No returns to scale examined. No complementarity considered. The rest of this post is about this one.
+
+## What Varian would ask first
+
+If you want to quantify when an agent prefers one outcome over another, you need to first specify a preference relation over those outcomes. What does it mean for a company scoring $(80,40,60)$ on E, S, G to be preferred to one scoring $(60, 70, 50)$? That is not a question arithmetic answers. It is a question a preference relation answers — and for that relation to support the arithmetic that follows, it needs to satisfy completeness, transitivity, and enough continuity to be represented by a utility function.
+
+The weighting schemes embedded in MSCI, Sustainalytics, and their competitors all converge on the same answer: a weighted arithmetic mean. Suppose a simplified model with three pillar scores $E, S, G \in [0, 100]$ and weights $\omega_E, \omega_S, \omega_G$ summing to one. The aggregate score is:
+
+$$U(E, S, G) = \omega_E \cdot E + \omega_S \cdot S + \omega_G \cdot G$$
+
+This is not just arithmetic. It is a claim about preferences. Specifically it asserts:
+
+**Constant marginal rates of substitution.** The MRS between any two pillars is fixed at the ratio of their weights, everywhere on the preference surface. If $\omega_E = \omega_S = 0.40$, then one unit of E substitutes perfectly for one unit of S at every point, regardless of how low either score already is.
+
+Tesla with $E = 90, G = 10$ scores identically under symmetric weighting to a company with $E = 10, G = 90$. Whether that is defensible depends entirely on whether you believe E and G are perfect substitutes — which is a normative position, not a technical one, and under the basic decency framing a moral one: the formula is asserting that a credible climate strategy buys down a poor labour relations record, unit for unit, without limit.
+
+**Constant returns to scale.** Since:
+
+$$U(2E, 2S, 2G) = \omega_E \cdot 2E + \omega_S \cdot 2S + \omega_G \cdot 2G = 2 \cdot U(E, S, G)$$
+
+a company that doubles every pillar score doubles its aggregate decency. There is no compounding of excellence, no diminishing returns to governance once you are already governing well, no increasing difficulty of ESG leadership at the frontier.
+
+**No complementarity between pillars.** Consider the alternative — a geometric mean:
+
+$$U(E, S, G) = E^{\omega_E} \cdot S^{\omega_S} \cdot G^{\omega_G}$$
+
+Under this specification, a company that scores zero on any single pillar scores zero in aggregate, regardless of performance elsewhere. Tesla's labour relations record drags it toward zero regardless of its green revenues.
+
+This is the treatment you would use if you believed that basic corporate decency requires adequate performance across all dimensions simultaneously — that E, S, and G are complements, not substitutes. It also implies diminishing returns: the marginal contribution of additional E declines as E rises, which is more defensible empirically and more defensible morally than the claim that green revenues offset labour rights deficits without limit.
+
+The choice between arithmetic and geometric mean is not a technical preference[^1]. Under the basic decency framing it is a substantive question: is a company that fails basic decency on one dimension rescued by excellence on another? The arithmetic mean says yes. The geometric mean says no. The literature has not argued for one over the other because it has not recognised that the choice encodes a moral position.[^2]
+
+[^1]: I am not arguing that the geometric mean is correct. I am arguing that whichever functional form a rater chooses encodes a normative position about substitutability, and that position requires justification. The literature has not noticed that justification is required.
+
+[^2]: This is not a subtle point. The intuition—that you can't add different kinds of things on different scales and get a meaningful total—is something a child learns in arithmetic (add joules to cm?). It's also something every student learns in microeconomics: utility is ordinal, not cardinal. Anyone who had to pass utility theory knows this. A student who failed to flag this in an intermediate microeconomics exam would not pass the course.
+
+## The returns to scale question
+
+The questions multiply. What are the returns to scale across the preference surface?
+
+If a company doubles its environmental performance, its social performance, and its governance performance simultaneously, should its ESG score double? More than double — because concentrated excellence compounds and a decency leader finds it easier to extend leadership? Less than double — because there are diminishing returns to each additional unit of governance improvement once you are already governing well?
+
+The linear weighted average implicitly answers: exactly double. Constant returns, always. A company at $(50, 50, 50)$ is precisely half as decent as a company at $(100, 100, 100)$. There is no frontier effect, no compounding, no increasing difficulty of ESG leadership.
+
+The cross-pillar question is equally unexamined. Does being excellent at E make additional S improvement more or less valuable? Are strong governance structures a complement to environmental ambition — so that a company with genuine board oversight of climate risk extracts more value from each unit of environmental investment? Or are they substitutes?
+
+The arithmetic mean answers all of these questions at once: constant returns, perfect substitutability, no interaction effects. A production function assumed without estimation. The contour plots are straight lines — parallel, evenly spaced, extending indefinitely. Corporate decency, apparently, has the preference structure of a linear programme.
+
+## The disclosure problem is not opacity — it is the absence of justification
+
+It would be unfair to say that ratings agencies hide their methodology. The arithmetic mean is visible to anyone who reads the methodology document. The welfare function is not secret.
+
+What is absent is rationale. The methodology document tells you what was chosen. It does not tell you why that choice is defensible — because doing so would require engaging with welfare economics, acknowledging that a normative choice was made, and answering the Tesla question explicitly rather than by default.
+
+The tacit welfare function is tacit not because it is hidden but because the agencies have not articulated why it is the right one. The most plausible explanation is stakeholder legibility. A geometric mean with diminishing returns and cross-pillar complementarity is harder to explain to a pension fund trustee than "40% E, 40% S, 20% G, added up." Legibility is a real constraint. But legibility is a communication constraint, not an economic justification and not a moral one.
+
+The absence of engagement with measurement theory, psychometrics, and microeconomic theory is what allows the methodology document to present a welfare function choice almost halfheartedly. If you have not asked whether your inputs are cardinal or ordinal, you will not notice that your weighted average is operating on numbers that were never meant to support arithmetic. If you have not asked what functional form your preferences take, you will not notice how you have answered the Tesla question by default.
+
+## ESG ETFs: the agnostic's Shariah fund
+
+If the credit rating analogy is the wrong genealogy, what is the right one?
+
+[Rigorous treatments of sustainable finance](http://thierry-roncalli.com/SustainableFinanceBook.html) locate ESG ratings in the values-based investing tradition, not the credit rating tradition. That lineage runs from faith-based exclusion screens through socially responsible investing to Islamic finance, which accomplished something genuinely important: it normalised the idea that values-based screening is a legitimate basis for constructing investable indices. That a qualified normative opinion on permissibility could be applied systematically and still produce a passive instrument.
+
+This overturned a real objection. Efficient market thinking resisted values-based screens precisely because any deviation from the market portfolio represents a view. Islamic finance won that argument in practice, and once it was won, the door opened for ESG screening, sin stock exclusions, fossil fuel divestment — the entire apparatus of values-based passive investing that ESG ratings now serve.
+
+ESG ratings are the intellectual descendants of that normalisation. They are qualified opinions on corporate decency, not measurements of a latent sustainability variable. The divergence between MSCI and S&P Global is not a reliability failure. It is different qualified opinions, grounded in different normative frameworks — single versus double materiality being the most consequential — producing different answers to the same underlying question. Which is what you should expect when the question is what it means for a company to be decent.
+
+Asking why MSCI and Sustainalytics produce different scores for the same company is like asking why a Sunni and a Shia scholar issue different rulings on the same question. The appropriate response is not a harmonisation committee. It is disclosed normative premises, investor self-selection, and honesty about what is being purchased: a qualified opinion, not a measurement.
+
+## What ESG ratings actually do well
+
+This is not an argument for abolishing ESG ratings. It is an argument for understanding what they are actually good at — which is not what the literature says they are good at.
+
+The underappreciated core value of a major ESG rating is not the methodology. It is the standardised data collection infrastructure, backed by the credibility of a financial services firm, that produces data the investment community can consume at scale. Financial services firms then build their own indices[^3] on top of that data — MSCI World ESG Leaders, S&P Global 1200 ESG, and their variants — which passive funds track, which makes the rating a portfolio entry filter with real capital allocation consequences.
+
+[^3]: The sheer brazenness of conflict of interest between the index provider and rater almost always being the same entity is another story for another day.
+
+The data collection story is actually quite differentiated. S&P Global ESG — formerly RobecoSAM — runs the Corporate Sustainability Assessment, a genuine questionnaire requiring companies to submit evidence. CDP and EcoVadis operate similarly - let's call then 'active raters'. MSCI and Sustainalytics are primarily passive: they scrape public disclosures, controversy news (everyone uses RepRisk for controversies afaik), and regulatory filings and rate you on what they find, without asking you directly.
+
+This distinction matters enormously for the data degradation problem. The [2025 Rate the Raters corporate survey](https://www.erm.com/globalassets/insights/rate_the_raters_rtr_2025.pdf) finds that active raters — S&P Global ESG, CDP, EcoVadis — rank highest on both quality and usefulness, with EcoVadis first on usefulness on the back of 150,000 companies in its supply chain database. That is a data infrastructure story, not a methodology story. The report also notes that assessed entities have been delivering worse data quality in recent years, with AI-generated disclosure text apparently substituting for actual measurement.
+
+For active raters, degraded data quality means companies submitting worse questionnaire responses — the questionnaire at least creates friction that may surface the emptiness. For passive raters like MSCI and Sustainalytics, AI-generated boilerplate that reads as substantive but measures nothing gets ingested without that friction. The scraper cannot tell the difference between a disclosure that reflects genuine measurement and one that reflects a well-prompted language model.
+
+A practitioner advising a company on ESG ratings engagement is not primarily advising on sustainability improvement. They are advising on three things:
+
+-   **You are affecting how your governance is perceived by the market.** The rating is a signal within a financial markets framework with real consequences for index inclusion and investor appetite. Managing it is not the same as improving sustainability — but the signal matters independently of whether the methodology is correct.
+
+-   **You are benchmarking against a financial markets framework of corporate norms of decent behaviour.** The rating tells you where you sit relative to what the investment community has collectively decided constitutes minimum acceptable conduct. That threshold is contestable and encoded in a weighted arithmetic mean with unexamined welfare function properties — but it is the threshold that exists.
+
+-   **You are influencing how your data is being ingested by investors.** The quality of what you disclose determines the quality of what passive raters scrape and what active raters score. This is the layer currently under the most stress, and the one the literature consistently underweights.
+
+In that sense, the ESG ratings industry arrived at the same useful destination as the SDG indicator framework — standardised, comparable, institutional-grade data collection — and the same limitation: no defensible aggregation function.
+
+Nobody is pretending to solve it at the SDG level except the Beyond GDP movement — the same intellectual tradition that lambasts ESG ratings for greenwashing because they do not measure sustainability according to what pops up on their availability heuristic. They are criticising ESG ratings for failing to do what Beyond GDP has also failed to do, using Arrow's impossibility result as a cudgel they have never applied to themselves.
+
+## What follows
+
+But here is the uncomfortable corollary to everything above: despite being built on unexamined welfare functions, ordinal inputs treated as cardinal, aggregation assumptions never stated, and measurement theory that would not survive peer review — **ESG ratings seem to work**. At least, if you take the sustainable finance community's gripes at face value and add a binary control variable.
+
+They work probably because everyone has independently landed on the weighted arithmetic mean. Even though each provider has different taxonomies on sustainability issues, different business model classifications, different exposure maps — the modest correlations should in fact be regarded as surprisingly good.
+
+Not because it is correct — it is not — but because it is legible, comparable, and familiar enough that the investment community can build products on top of it. The welfare function is wrong but it is the same wrong welfare function, which makes it a coordination standard. QWERTY is not the optimal keyboard layout. It is the keyboard layout everyone uses, which amounts to the same thing for practical purposes.
+
+The single materiality providers track financial risk exposure with reasonable consistency. The double materiality providers track something approximating comprehensive corporate decency with moderate inter-rater agreement once you remove the single materiality outlier. The Berg et al. correlation structure is not a map of who measures sustainability more accurately. It is a map of who has coordinated on which convention.
+
+Single and double materiality is not the only differentiator Berg et al. missed. FTSE Russell emerged from the EMH and index tradition — presence of disclosures as investable signals, the tacit expectation that market discipline will nudge issuers to fall in line. S&P/RobecoSAM emerged from the UN Global Compact and sustainable development consensus tradition — ratings as normative alignment assessments, comprehensive by design, calibrated against internationally agreed frameworks rather than market outcomes. These are not just different scope and weight choices. They are different epistemologies, different evidentiary standards, different definitions of what a good rating looks like.
+
+The literature's error is not that ESG ratings don't work. It is that the literature doesn't know why they work, and therefore doesn't know what would break them. **The answer to that question is the data layer.** If AI is systematically degrading corporate disclosure from measurement to text generation, the entire apparatus — weighted sums, SDG crosswalks negotiated to stalemate, pillar scores derived from ordinal inputs — is operating on inputs that no longer correspond to anything in the world.
+
+The policy prescriptions that dominate the literature — harmonisation, conflict of interest rules, more objective metrics, mandatory disclosure as the foundation for better ratings — are solutions to the wrong problem. They will produce more elaborate methodology documents, more decimal places on scores that were never cardinal to begin with — and none of it will resolve the underlying question, because the underlying question is not technical.
+
+The question is not whether they are correct. It is whether correctness was ever the point. Sub-90% inter-rater correlation is not a measurement failure. Of course they don't converge—they were never measuring the same thing. What the fuck is sustainable even — and who decided that a globally uniform welfare function exists despite presumably sitting through public economics class.
+
+The investment community is presumably more than happy to assert its definition of what's sustainable with a data layer subscription.
+
+::: {.callout-note appearance="simple"}
+Substantial writing assistance from Claude and Deepseek. I stand by the snark.
+:::
