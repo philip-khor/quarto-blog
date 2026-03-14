@@ -2,7 +2,7 @@
 title: "Misdirected confusion: what are ESG ratings even"
 author: "Philip Khor"
 date: "2026-03-15"
-description: "On ESG ratings, Berg et al., the welfare function nobody specified, and why 71% inter-rater correlation is not a scandal."
+description: "On ESG ratings, Berg et al., the welfare function nobody specified, and why unstable inter-rater correlation is not a scandal."
 categories: [ESG, finance, microeconomics]
 ---
 
@@ -28,7 +28,7 @@ Not good at managing climate transition risk. Not good at generating sustainable
 
 Good — in the normative sense that moral philosophy has been arguing about since Aristotle, without resolution. A question any second-year microeconomics student should flag as intractable: heterogenous preferences cannot be trivially aggregated across agents.
 
-The literature will do everything except being honest about asking this question (And I don't think it should.). Instead it keeps returning to Berg et al., noting the 71% correlation, concluding that ESG ratings are broken — not fit for investment, not fit for measuring sustainability — and calling for harmonisation. No engagement with what the product is for. No engagement with why the divergence exists. No engagement with welfare theory, measurement theory, or what it would even mean for ESG ratings to "work." Just: got error, doesn't work, someone fix it.
+The literature will do everything except being honest about asking this question (And I don't think it should.). Instead it keeps returning to Berg et al., noting correlations range from .38 to .71, concluding that ESG ratings are broken — not fit for investment, not fit for measuring sustainability — and calling for harmonisation. No engagement with what the product is for. No engagement with why the divergence exists. No engagement with welfare theory, measurement theory, or what it would even mean for ESG ratings to "work." Just: got error, doesn't work, someone fix it.
 
 But it does not disappear. It reappears every time you ask whether Tesla's green revenues offset its labour relations record. It reappears every time two raters disagree by fifty points on the same company. And it reappears every time a issuer flimsily asserts alignment with the Sustainable Development Goals as evidence of goodness, as if to say "hey rater, look at me".
 
@@ -62,11 +62,11 @@ The credit analogy is not just technically wrong. It is wrong about what the pro
 
 ## Berg et al. shouldn't surprise anyone
 
-The 71% inter-rater correlation finding from Berg, Kölbel, and Rigobon has become the foundational citation for the view that ESG ratings are unreliable and require harmonisation. It deserves closer examination.
+The unstable inter-rater correlation finding from Berg, Kölbel, and Rigobon has become the foundational citation for the view that ESG ratings are unreliable and require harmonisation. It deserves closer examination.
 
 Berg et al. aggregate correlation across six providers — KLD, Moody's ESG, MSCI, Refinitiv, S&P Global, and Sustainalytics — and find an average of approximately 54% in their pairwise analysis, reported as evidence of systematic disagreement. The policy literature has run with this ever since.
 
-The problem is visible in their own data. MSCI correlates with other providers at approximately 0.33 to 0.42. Every other provider correlates with every other provider at approximately 0.55 to 0.65. Strip MSCI out and the average rises to around 0.6 — moderate agreement among providers asking roughly the same question.
+The problem is visible in their own data. MSCI correlates with other providers at approximately 0.38 to 0.53. Every other provider correlates with every other provider at approximately 0.55 to 0.65. Strip MSCI out and the average rises to around 0.6 — moderate agreement among providers asking roughly the same question.
 
 MSCI is the outlier. And MSCI's leadership has been loud and proud about why — not just in methodology documents but in CEO interviews, conference keynotes, and explicit public positioning at the executive level. **MSCI measures financial risk to the company**: ESG factors that affect enterprise value, from the outside in. It explicitly rejects impact considerations, stakeholder effects, and double materiality framing. "We measure risk to companies, not risk from companies" is not a subtle position buried in a technical appendix. It is a deliberate product strategy stated publicly by MSCI's leadership in the rooms where this literature would have been presented. Berg et al. choosing not to foreground it is not a literature gap. It is choosing not to notice something being said loudly in plain sight.
 
@@ -80,7 +80,7 @@ The literature built on Berg et al. inherits the confusion. Calls for harmonisat
 
 The welfare function problem runs underneath all of this. Single materiality implicitly specifies the welfare function: only financial impacts on the firm count, weighted by their effect on enterprise value. Double materiality leaves the welfare function underspecified: financial impacts and stakeholder impacts both count, but how they are weighted against each other is the question nobody answers. **Both are normative positions. Neither is disclosed as such.** Berg et al. did not ask which one any provider was using, because the literature had not yet noticed that the question existed.
 
-Don't even bother asking whether, let alone how readily enterprise value substitutes for stakeholder-material responses.
+Don't even bother asking how readily enterprise value substitutes for stakeholder-material responses.
 
 ## Three literatures not engaged
 
