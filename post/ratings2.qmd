@@ -6,7 +6,7 @@ description: "On ESG ratings, Berg et al., the welfare function nobody specified
 categories: [ESG, finance, microeconomics]
 ---
 
-ESG ratings are a qualified, standardised opinion on whether a company clears a basic level of corporate decency to enter your portfolio, so you can defend the contents of your 'ESG fund'. Asking why ratings diverge is like asking why Baptist and Catholic sermons have different takes on salvation.
+ESG ratings are a professional, standardised opinion on whether a company clears a basic level of corporate decency to enter your portfolio, so you can defend the contents of your 'ESG fund'. Asking why ratings diverge is like asking why Baptist and Catholic sermons have different takes on salvation.
 
 That is it. They are not a measurement of sustainability. They are not a proxy for risk-adjusted returns. They are not a ranking of corporate virtue or a contribution to any broader welfare accounting project.
 
@@ -36,15 +36,15 @@ But it does not disappear. It reappears every time you ask whether Tesla's green
 The SDGs deserve a moment here, because the citation is doing less and more work than it appears. More — the SDG indicator framework was a legitimate UN Statistics Division effort to get member states to measure comparable things, and it made real progress on that input standardisation problem. Less — it is a diplomatic stalemate dressed in aspirational language, 193 member states negotiating until nobody objected. It tells you what sovereign data to collect. It does not tell you how to aggregate across goals, how to weight climate action against reduced inequalities, or what it means for a corporate activity to align with a target designed as a sovereign data collection benchmark.
 :::
 
-The basic decency framing cuts through all of this. If ESG ratings are a qualified opinion on whether a company clears a threshold of corporate decency to enter your portfolio, then:
+The basic decency framing cuts through all of this. If ESG ratings are a professional opinion on whether a company clears a threshold of corporate decency to enter your portfolio, then:
 
--   **The correlation problem dissolves.** Different qualified opinions on what basic decency requires will diverge. That is expected and appropriate. The question is not why they diverge but whether each opinion is internally coherent and transparently justified.
+-   **The correlation problem dissolves.** Different professional opinions on what basic decency requires will diverge. That is expected and appropriate. The question is not why they diverge but whether each opinion is internally coherent and transparently justified.
 
 -   **The risk management question becomes secondary.** Risk is one input into the decency assessment, not the criterion. A company that systematically destroys ecosystems is probably not decent regardless of whether that destruction currently prices into its cost of capital.
 
 -   **The Tesla question answers itself.** Does a credible green revenue strategy clear the basic decency threshold if the company is systematically bad to its employees? Probably (and hopefully? 😉) not? Which implies the aggregation function should reflect that. Which is the microeconomic argument that follows.
 
--   **The SDG alignment claim loses its pretension to rigour.** A qualified opinion on corporate decency does not need to align with 232 indicators negotiated to stalemate. It needs to be grounded in a coherent and disclosed normative framework, applied consistently.
+-   **The SDG alignment claim loses its pretension to rigour.** A professional opinion on corporate decency does not need to align with 232 indicators negotiated to stalemate. It needs to be grounded in a coherent and disclosed normative framework, applied consistently.
 
 ## The wrong parent
 
@@ -56,7 +56,7 @@ And credit's objectivity is not just a matter of having financial statements as 
 
 **ESG has none of this lineage.** The inputs are voluntary, unaudited, unstandardised across entities, and there is no terminal event to validate against. A company rated AAA on sustainability by MSCI and 17/100 by S&P Global (formerly RobecoSAM) — as EasyJet was — faces no moment of truth that resolves the disagreement. The rating migrates, but never gets called.
 
-The credit analogy is not just technically wrong. It is wrong about what the product is for. Credit ratings estimate default probability. ESG ratings — correctly understood — express a qualified opinion on corporate decency. Importing the credit product form into a decency assessment is like applying a probability of default model to the question of whether someone is a Good Person.
+The credit analogy is not just technically wrong. It is wrong about what the product is for. Credit ratings estimate default probability. ESG ratings — correctly understood — express a professional opinion on corporate decency. Importing the credit product form into a decency assessment is like applying a probability of default model to the question of whether someone is a Good Person.
 
 ![](images/paste-10.png)
 
@@ -150,13 +150,13 @@ The absence of engagement with measurement theory, psychometrics, and microecono
 
 If the credit rating analogy is the wrong genealogy, what is the right one?
 
-[Rigorous treatments of sustainable finance](http://thierry-roncalli.com/SustainableFinanceBook.html) locate ESG ratings in the values-based investing tradition, not the credit rating tradition. That lineage runs from faith-based exclusion screens through socially responsible investing to Islamic finance, which accomplished something genuinely important: it normalised the idea that values-based screening is a legitimate basis for constructing investable indices. That a qualified normative opinion on permissibility could be applied systematically and still produce a passive instrument.
+[Rigorous treatments of sustainable finance](http://thierry-roncalli.com/SustainableFinanceBook.html) locate ESG ratings in the values-based investing tradition, not the credit rating tradition. That lineage runs from faith-based exclusion screens through socially responsible investing to Islamic finance, which accomplished something genuinely important: it normalised the idea that values-based screening is a legitimate basis for constructing investable indices. That a normative opinion on permissibility could be applied systematically and still produce a passive instrument.
 
 This overturned a real objection. Efficient market thinking resisted values-based screens precisely because any deviation from the market portfolio represents a view. Islamic finance won that argument in practice, and once it was won, the door opened for ESG screening, sin stock exclusions, fossil fuel divestment — the entire apparatus of values-based passive investing that ESG ratings now serve.
 
-ESG ratings are the intellectual descendants of that normalisation. They are qualified opinions on corporate decency, not measurements of a latent sustainability variable. The divergence between MSCI and S&P Global is not a reliability failure. It is different qualified opinions, grounded in different normative frameworks — single versus double materiality being the most consequential — producing different answers to the same underlying question. Which is what you should expect when the question is what it means for a company to be decent.
+ESG ratings are the intellectual descendants of that normalisation. They are professional opinions on corporate decency, not measurements of a latent sustainability variable. The divergence between MSCI and S&P Global is not a reliability failure. It is different professional opinions, grounded in different normative frameworks — single versus double materiality being the most consequential — producing different answers to the same underlying question. Which is what you should expect when the question is what it means for a company to be decent.
 
-Asking why MSCI and Sustainalytics produce different scores for the same company is like asking why a Sunni and a Shia scholar issue different rulings on the same question. The appropriate response is not a harmonisation committee. It is disclosed normative premises, investor self-selection, and honesty about what is being purchased: a qualified opinion, not a measurement.
+Asking why MSCI and Sustainalytics produce different scores for the same company is like asking why a Sunni and a Shia scholar issue different rulings on the same question. The appropriate response is not a harmonisation committee. It is disclosed normative premises, investor self-selection, and honesty about what is being purchased: a professional opinion, not a measurement.
 
 ## What ESG ratings actually do well
 
