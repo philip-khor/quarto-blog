@@ -42,7 +42,7 @@ The basic decency framing cuts through all of this. If ESG ratings are a qualifi
 
 -   **The risk management question becomes secondary.** Risk is one input into the decency assessment, not the criterion. A company that systematically destroys ecosystems is probably not decent regardless of whether that destruction currently prices into its cost of capital.
 
--   **The Tesla question answers itself.** Does a credible green revenue strategy clear the basic decency threshold if the company is systematically bad to its employees? Probably not — because basic decency is not a portfolio optimisation problem where E offsets S at the margin. Which implies the aggregation function should reflect that. Which is the microeconomic argument that follows.
+-   **The Tesla question answers itself.** Does a credible green revenue strategy clear the basic decency threshold if the company is systematically bad to its employees? Probably (and hopefully? 😉) not? Which implies the aggregation function should reflect that. Which is the microeconomic argument that follows.
 
 -   **The SDG alignment claim loses its pretension to rigour.** A qualified opinion on corporate decency does not need to align with 232 indicators negotiated to stalemate. It needs to be grounded in a coherent and disclosed normative framework, applied consistently.
 
