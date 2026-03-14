@@ -1,0 +1,30 @@
+---
+title: "Some People Want It All. Good Sustainability Disclosure Doesn't Pretend You Can."
+author: "Philip Khor"
+categories: ["ESG"]
+format: html
+description: "Sustainability-related management commentary that does not communicate tradeoffs is not decision-useful. IFRS S1 is entirely comfortable letting boards confess their own incompetence."
+date: "2026-03-14"
+---
+
+It is absurd to think sustainability decisions involve no tradeoffs. Come to think of it, it's childish to think that there are no tradeoffs in life.
+
+Yet sustainability-related management commentary that does not communicate them is commonplace. The naivete it implies makes it necessarily incomplete — and investors pricing enterprise value on the basis of it should treat that incompleteness as a governance signal.
+
+IFRS S1 is unambiguous on this. At the governance body level, para 27(a)(iv) explicitly requires disclosure of whether and how the governance body has considered trade-offs associated with sustainability-related risks and opportunities when overseeing strategy, major transactions, and risk management processes.
+
+This is not an interpretive extension of the prioritisation requirement — it is a named obligation sitting at board level, not management level. Management inherits controls from the governance body (para 27(b)(ii)). If tradeoff commentary is absent from disclosures, the deficiency is upstream. It implicates the board.
+
+Note that para 27(a)(iv) asks whether the governance body considered tradeoffs — not that it must. **You are entirely entitled to disclose that it did not. Go for it.** You will have produced technically compliant disclosure and told markets your board consists of people who have never had to make a hard decision in their life.
+
+The prioritisation requirement reinforces this. Para 44(a)(iv) requires disclosure of whether and how the entity prioritises sustainability-related risks relative to other types of risk. Prioritisation implies a decision framework — one in which competing risks were held simultaneously, their interactions examined, and a reasoned basis established for the order in which they are managed. Without that, prioritisation disclosures are lists, not governance.
+
+To be clear: a governance body that has considered the tradeoffs and concluded that inaction is the correct call has produced investor-useful information. That is still a decision, with consequences that belong in the disclosure. The failure is not choosing inaction — it is not communicating that you are choosing it.
+
+This matters most where sustainability risks interact. Biodiversity and climate are not parallel registers — they compete for the same intervention space. **A decision to protect a sensitive ecosystem by blocking a climate remediation project is a choice with measurable atmospheric consequences. A decision to pursue a climate mitigation pathway that disturbs sensitive habitat is a choice with measurable ecological consequences. Neither is automatically wrong.** Both need to be visible in governance documentation, with the tradeoff named, the baseline of inaction quantified, and the basis for resolution disclosed.
+
+When jurisdictional authorities accept climate-related financial disclosures without requiring reporters to articulate these interdependencies, they are not deferring to standards setters. They are making a policy choice — one that produces lopsided disclosures systematically biased toward single-issue optimisation, particularly with the climate-first relief provisions, and that muddles prospects quantification to markets.
+
+Management commentary tells investors how you plan to run your company in response to your risk register. Without tradeoff commentary, it's not a management approach statement. **It's marketing fluff dressed as management commentary.**
+
+And telling markets you can have it all without accounting for what it costs is not a financially sustainable position. It is a signal that the people running the company have never had to make a hard decision in their life. Investors should take the signal at face value.
