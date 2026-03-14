@@ -116,7 +116,7 @@ $$U(E, S, G) = E^{\omega_E} \cdot S^{\omega_S} \cdot G^{\omega_G}$$
 
 Under this specification, a company that scores zero on any single pillar scores zero in aggregate, regardless of performance elsewhere. Tesla's labour relations record drags it toward zero regardless of its green revenues.
 
-This is the treatment you would use if you believed that basic corporate decency requires adequate performance across all dimensions simultaneously — that E, S, and G are complements, not substitutes. It also implies diminishing returns: the marginal contribution of additional E declines as E rises, which is more defensible empirically and more defensible morally than the claim that green revenues offset labour rights deficits without limit.
+This is the treatment you would use if you believed that basic corporate decency requires adequate performance across all dimensions simultaneously — that E, S, and G are complements, not substitutes.
 
 The choice between arithmetic and geometric mean is not a technical preference[^1]. Under the basic decency framing it is a substantive question: is a company that fails basic decency on one dimension rescued by excellence on another? The arithmetic mean says yes. The geometric mean says no. The literature has not argued for one over the other because it has not recognised that the choice encodes a moral position.[^2]
 
