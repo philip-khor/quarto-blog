@@ -200,7 +200,7 @@ The literature's error is not that ESG ratings don't work. It is that the litera
 
 The policy prescriptions that dominate the literature — harmonisation, conflict of interest rules, more objective metrics, mandatory disclosure as the foundation for better ratings — are solutions to the wrong problem. They will produce more elaborate methodology documents, more decimal places on scores that were never cardinal to begin with — and none of it will resolve the underlying question, because the underlying question is not technical.
 
-The question is not whether they are correct. It is whether correctness was ever the point. Sub-90% inter-rater correlation is not a measurement failure. Of course they don't converge—they were never measuring the same thing. What the fuck is sustainable even — and who decided that a globally uniform welfare function exists despite presumably sitting through public economics class.
+The question is not whether they are correct. It is whether correctness was ever the point. Sub-90% inter-rater correlation is not a measurement failure. Of course they don't converge—they were never measuring the same thing. [What the fuck is sustainable even](/post/issb2.html) — and who decided that aggregating the global sustainability welfare function is trivial despite presumably sitting through public economics class.
 
 The investment community is presumably more than happy to assert its definition of what's sustainable with a data layer subscription.
 
