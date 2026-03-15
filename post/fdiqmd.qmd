@@ -57,7 +57,9 @@ Ishana Ratan’s [2024 paper on Chinese solar manufacturing in Malaysia](https:/
 
 Ratan’s question was direct: when Chinese solar manufacturers relocated to Malaysia to circumvent US and EU anti-dumping tariffs, did they create local economic linkages? The answer, across bilateral trade data, spatial regression analysis, and twenty-four interviews with Malaysian solar industry professionals, was a resounding no. One interviewee put it plainly: the government prioritised a swift investment deal over negotiating local content requirements or domestic sales obligations.
 
-Chinese manufacturers used Malaysia as an export platform. Panels assembled here were destined for Western buyers at premium prices. Malaysian firms installing solar locally imported directly from mainland China — cheaper, faster, no waiting for expensive leftovers that didn’t make it to the US. The locally manufactured panels and the local solar industry operated in parallel with almost no connection between them.
+Chinese manufacturers used Malaysia as an export platform. Panels assembled here were destined for Western buyers at premium prices. Malaysian firms installing solar locally imported directly from mainland China[^2] — cheaper, faster, no waiting for expensive leftovers that didn’t make it to the US. The locally manufactured panels and the local solar industry operated in parallel with almost no connection between them.
+
+[^2]: If you're asking why not Penang specifically — JinkoSolar and JA Solar were both in Bayan Lepas, good catch. Ratan's interviewees estimated 99% of panels installed on Malaysian rooftops came from mainland China regardless. The supply chain topology was its own punchline: panels assembled in Malaysia to circumvent tariffs on Chinese goods, exported to buyers unwilling to accept Chinese panels, while Malaysian installers bought directly from the Chinese factories whose tariff problem Malaysia was ostensibly solving.
 
 The one genuine benefit to Malaysia came not from hosting the factories but from the global price effect of Chinese overcapacity. China’s industrial policy drove down panel prices worldwide. Malaysian installers swapped expensive German panels for cheap mainland Chinese imports. China built the capability. Malaysia got the discount.
 
@@ -65,9 +67,9 @@ FDI, in Ratan’s telling, is no better than a one-night stand. It arrives on it
 
 Yes, manufacturing FDI does establish domestic supplier ecosystems. This is real and not nothing. The question is: amounting to what? Malaysia’s semiconductor champions — the ones trotted out as evidence that Penang has built something — are Vitrox Corporation and Inari Amertron. Crudely, Vitrox supplies the equipment that tests the chips Inari assembles for Broadcom.
 
-Vitrox makes automated vision inspection equipment for semiconductor packaging lines. Inari does backend RF semiconductor testing, primarily for Broadcom[^2]. Both are genuine businesses, genuinely profitable, genuinely Malaysian. Both are also so far upstream of the end product that calling them evidence of industrial upgrading requires a definition of “upgrading” that has been quietly evacuated of meaning.
+Vitrox makes automated vision inspection equipment for semiconductor packaging lines. Inari does backend RF semiconductor testing, primarily for Broadcom[^3]. Both are genuine businesses, genuinely profitable, genuinely Malaysian. Both are also so far upstream of the end product that calling them evidence of industrial upgrading requires a definition of “upgrading” that has been quietly evacuated of meaning.
 
-[^2]: Inari does backend RF semiconductor testing, primarily for Broadcom — a single customer that accounts for an estimated 60–70% of its revenue, and which is actively exploring in-housing the same production. Malaysia's largest locally-listed semiconductor champion is one vertical integration decision away from its primary business case disappearing.
+[^3]: Inari does backend RF semiconductor testing, primarily for Broadcom — a single customer that accounts for an estimated 60–70% of its revenue, and which is actively exploring in-housing the same production. Malaysia's largest locally-listed semiconductor champion is one vertical integration decision away from its primary business case disappearing.
 
 Acclaimed semiconductor historian Chris Miller describes [successful local semiconductor ecosystems](https://chrismillersnewsletter.substack.com/p/does-manufacturing-matter) as self-reinforcing: metalworking knowledge compounds into precision tooling, which compounds into automobile manufacturing. Each cycle builds capability for the next. Taiwan's semiconductor competitiveness is partly this — dense tacit knowledge in precision machining, equipment maintenance, custom fabrication, accumulated over decades.
 
@@ -81,9 +83,9 @@ Ratan proved it for solar in 2024. Raj-Reichert proved it for semiconductors in 
 
 ## The data centre absurdity
 
-Data centres are, economically, international energy arbitrage infrastructure[^3]. They consume electricity, generate heat, and route data. The value added accrues to the infrastructure owner and the hyperscaler renting rack space. The externalities accrue to whoever lives nearby.
+Data centres are, economically, international energy arbitrage infrastructure[^4]. They consume electricity, generate heat, and route data. The value added accrues to the infrastructure owner and the hyperscaler renting rack space. The externalities accrue to whoever lives nearby. The jobs created are HVAC technicians at best, crowding out computer repair crew at worse.
 
-[^3]: Water consumption by data centres is a real externality but requires more careful quantification than this essay allows. The standard critique — that data centres consume enormous volumes for cooling — is complicated by two factors specific to Malaysia: first, high rainfall per unit area means the question is partly one of capture and flow rather than absolute scarcity; second, peak demand can in principle be addressed through on-site storage, which is a well-established engineering solution at utility scale ([details](https://www.linkedin.com/feed/update/urn:li:activity:7438311065068859392?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7438311065068859392%2C7438348552981975040%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287438348552981975040%2Curn%3Ali%3Aactivity%3A7438311065068859392%29)). The harder question is chronic annual demand on existing water infrastructure, particularly in Johor where rapid data centre concentration is outpacing utility capacity planning.
+[^4]: Water consumption by data centres is a real externality but requires more careful quantification than this essay allows. The standard critique — that data centres consume enormous volumes for cooling — is complicated by two factors specific to Malaysia: first, high rainfall per unit area means the question is partly one of capture and flow rather than absolute scarcity; second, peak demand can in principle be addressed through on-site storage, which is a well-established engineering solution at utility scale ([details](https://www.linkedin.com/feed/update/urn:li:activity:7438311065068859392?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7438311065068859392%2C7438348552981975040%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287438348552981975040%2Curn%3Ali%3Aactivity%3A7438311065068859392%29)). The harder question is chronic annual demand on existing water infrastructure, particularly in Johor where rapid data centre concentration is outpacing utility capacity planning.
 
 [In Iskandar Puteri](https://asianews.network/lesson-for-malaysias-johor-data-centres-should-not-be-too-near-homes-says-assemblyman-after-outcry/), Johor residents of Taman Nusantara Prima woke up in 2025 to find construction hoardings starting just outside their backyards. A Beijing-based operator and a Japanese one had purchased 43.5 hectares next to four residential estates. The hill behind one resident’s house — chosen specifically because it was rare in the area, because it kept things cool and quiet — was levelled. Dust fell from the sky into homes. Flash floods appeared on surrounding roads. Cracks formed in walls from piling vibrations. Wild boars and snakes began appearing in the neighbourhood.
 
@@ -135,9 +137,9 @@ Johor’s assemblyman thinks you fix brain drain by building data centres next t
 
 ## Sovereignty is not hostility
 
-People-pleasing is something to address at the therapy office[^4]. Not Putrajaya. Not KOMTAR.
+People-pleasing is something to address at the therapy office[^5]. Not Putrajaya. Not KOMTAR.
 
-[^4]: Tax-exempt for Malaysian ratepayers
+[^5]: Tax-exempt for Malaysian ratepayers
 
 Japan was not hostile to TSMC. China was not hostile to Volkswagen. Both knew what they wanted from the relationship before the relationship began. Both negotiated as parties with interests, not as supplicants grateful for the attention. Both made themselves attractive. Neither made themselves unconditional.
 
