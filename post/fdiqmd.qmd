@@ -111,7 +111,7 @@ Wonkery aside, Japan landed TSMC's best practice facility (higher growth yay). C
 
 The problem is that seeding requires a counterpart. External productivity improvements need somewhere to land. They need firms willing to take risk, capital willing to back uncertain ventures, a financial landscape that does not pay the capital class above-market returns to do nothing interesting.
 
-[Hafiz Noor Shams](https://maddruid.com/?p=17027) observed in 2020 that Malaysia is incentivising the wrong people to save. EPF, PNB, and Tabung Haji offer risk-free returns of 5–8% annually to people who already have enough capital to take risks. [The top 7% of EPF depositors hold approximately half the fund.](https://www.philipscurve.com/post/epf.html)The institutional design rewards the wealthy for financial parking rather than productive deployment.
+[Hafiz Noor Shams](https://maddruid.com/?p=17027) observed in 2020 that Malaysia is incentivising the wrong people to save. EPF, PNB, and Tabung Haji offer risk-free returns of 5–8% annually to people who already have enough capital to take risks. [The top 7% of EPF depositors hold approximately half the fund](https://www.philipscurve.com/post/epf.html). The institutional design rewards the wealthy for financial parking rather than productive deployment.
 
 ::: callout-note
 The numbers make this precise. The S&P 500 has returned an average of around 10% annually over the long term — the benchmark for genuine productive risk-taking returns. In a functioning capital allocation framework, the gap between the risk-free rate and the return on risky investment is what makes risk-taking rational — the compensation for tolerating uncertainty.
