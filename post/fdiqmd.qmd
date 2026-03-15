@@ -1,0 +1,152 @@
+---
+title: "Malaysian Hospitality"
+format: html
+author: "Philip Khor"
+date: "2026-03-16"
+description: "When your country channels people-pleasing tendencies into a governance strategy"
+categories: [microeconomics, public finance]
+---
+
+Donald Trump recently complimented Anwar Ibrahim on his hospitality. In therapy, we call that a yellow flag at minimum.
+
+Not because Trump is wrong. Anwar *is* hospitable. Malaysia *is* hospitable. The country has spent the better part of four decades perfecting the art of making foreign investors feel welcome — tax breaks, facilitated approvals, occasionally skirted regulatory processes, and now, apparently, a sea-view office block in Penang built aspirationally, for the tenant to be ... AMD. AMD, whose market capitalisation is approximately the GDP of a mid-sized European country. AMD, which did not ask for the building.
+
+The compliment is the tell. When the counterparty extracting maximum concessions from you remarks on your hospitality, that is not a win. That is him describing the dynamic you have consented to.
+
+## The price taker problem
+
+There is a time and a place for what Malaysia does. A small economy with nothing to offer but cheap labour and low regulatory friction, trying to get its first foothold in global supply chains — fine. You take what you can get, you build from there, and you renegotiate when you have leverage. That is not a shameful position. It is a pragmatic one.
+
+The problem is when the posture becomes permanent. When “making business easy” stops being a temporary strategy and starts being the entire theory of development. When the welcome mat is so deeply embedded in the institutional culture that nobody remembers it was supposed to come off.
+
+Malaysia’s implicit model is a bidding war: keep costs low, keep approvals fast, keep tthe prohe welcome mat out, and capital will come. Bank Negara’s anxiety about “not missing the train” on data centres is the macroeconomic version of the same instinct — we have no agency here, the train is leaving, get on. Ninety-nine times out of a hundred, when that is your opening position, something has gone wrong.
+
+Price takers do not set terms. Price takers compete on compliance. And the logical endpoint of competing on compliance is a race to the bottom dressed in the language of investment climate improvement.
+
+This is what Penang’s development model has become. The decapacitation of the state civil service effectively handed economic governance to state-owned corporations with no democratic accountability and no principal-agent controls — neither the electoral check of elected officials nor the institutional discipline of a functioning civil service. The result is a state that has confused a single-sector FDI pipeline for a development strategy, and has spent considerable political capital defending that confusion.
+
+## Doing Business, or Doing a One on Its People
+
+The World Bank published its Doing Business index for nearly two decades. It ranked countries on how easy it was for investors to navigate regulatory processes — start a company, get permits, register property, enforce contracts. Countries competed to climb the rankings. Malaysia competed too.
+
+The index was retired in 2021 after a data manipulation scandal. But the framework it embedded — ease of doing business as the primary measure of governance quality — did not retire with it. Every investment climate improvement agenda, every “reducing time-to-approval” initiative, every streamlining of regulatory processes is still running on that logic.
+
+The logic is not wrong. Bureaucratic friction that serves no public interest — redundant approvals, processes designed to extract rent rather than protect anyone — should be removed. A country that cannot issue a business permit without six months of inexplicable waiting is not protecting its sovereignty. It is just wasting everyone’s time.
+
+The question is whether the friction being removed is the redundant kind or the substantive kind. **Substantive friction is not a governance failure. It is governance.** The EIA exists because proximity to development has real consequences for real people. Community consultation exists because the people bearing the costs of an investment decision are not the same people making it. Democratic oversight exists because the long-run interests of a community are not automatically aligned with the short-run interests of a foreign investor and the medium-run interests of a state-owned development corporation with no electoral accountability.
+
+When these are framed as friction to be removed in the name of investment climate improvement, the language of governance reform is being used to accomplish the opposite of governance reform. The goal is not to make Malaysia inhospitable to investment. It is to be hospitable on terms that do not require giving away the things that make Malaysia worth investing in.
+
+Johor approved 51 data centre facilities representing RM183 billion in investment. The friction that was removed was the part where someone checks whether four residential estates are in the way.
+
+## What Japan and China actually did
+
+[Japan wanted TSMC.](https://www.brookings.edu/articles/the-renaissance-of-the-japanese-semiconductor-industry/) TSMC’s frontend fabrication plants are objects of global admiration — the process dependencies so brittle, the tolerances so tight, that TSMC does not willingly replicate variation across sites. Japan understood this and negotiated accordingly. You come, but you bring your best practice. The full thing. Not a consolation facility.
+
+China wanted European car manufacturers’ market access revenue. European manufacturers wanted China’s market. [China understood the asymmetry and extracted technology transfer as the price of admission](https://sccei.fsi.stanford.edu/china-briefs/how-much-do-chinas-joint-venture-requirements-promote-knowledge-transfers-domestic) — local joint ventures, knowledge transfer requirements, the deliberate construction of domestic capability as a condition of market entry. The result[^1], over two decades, is that China is a global automotive leader rather than an assembler of European designs.
+
+[^1]: China's joint venture requirement is often cited as the mechanism behind its automotive rise. The evidence on how much technology actually transferred through JVs versus other channels — domestic policy, demand-side subsidies, learning-by-doing — is contested. What is not contested is the outcome.
+
+Neither Japan nor China was hostile to foreign investment. Both were clear about what they wanted from it. Both made business possible. Neither made business unconditional.
+
+Malaysia’s theory of what it wants from FDI, stated plainly, is: the headline investment number, the jobs announcement, and the press release. This is not a theory of development. It is a theory of optics.
+
+## *Does Manufacturing Matter* matter?
+
+Ishana Ratan’s [2024 paper on Chinese solar manufacturing in Malaysia](https://ishanaratan.com/wp-content/uploads/2024/09/malaysia_paper_august2024-2-2.pdf) should have shook practitioners’ priors on FDI hopium. It did for me when I sat in Ratan’s ISEAS webinar. It wasn’t, because the policy consensus is not in the business of updating on evidence.
+
+Ratan’s question was direct: when Chinese solar manufacturers relocated to Malaysia to circumvent US and EU anti-dumping tariffs, did they create local economic linkages? The answer, across bilateral trade data, spatial regression analysis, and twenty-four interviews with Malaysian solar industry professionals, was a resounding no. One interviewee put it plainly: the government prioritised a swift investment deal over negotiating local content requirements or domestic sales obligations.
+
+Chinese manufacturers used Malaysia as an export platform. Panels assembled here were destined for Western buyers at premium prices. Malaysian firms installing solar locally imported directly from mainland China — cheaper, faster, no waiting for expensive leftovers that didn’t make it to the US. The locally manufactured panels and the local solar industry operated in parallel with almost no connection between them.
+
+The one genuine benefit to Malaysia came not from hosting the factories but from the global price effect of Chinese overcapacity. China’s industrial policy drove down panel prices worldwide. Malaysian installers swapped expensive German panels for cheap mainland Chinese imports. China built the capability. Malaysia got the discount.
+
+FDI, in Ratan’s telling, is no better than a one-night stand. It arrives on its own terms, performs for whoever’s paying the highest price, and leaves without exchanging numbers. What it leaves behind is Borang PKs (retrenchment reports) and a press release.
+
+Yes, manufacturing FDI does establish domestic supplier ecosystems. This is real and not nothing. The question is: amounting to what? Malaysia’s semiconductor champions — the ones trotted out as evidence that Penang has built something — are Vitrox Corporation and Inari Amertron. Crudely, Vitrox supplies the equipment that tests the chips Inari assembles for Broadcom.
+
+Vitrox makes automated vision inspection equipment for semiconductor packaging lines. Inari does backend RF semiconductor testing, primarily for Broadcom[^2]. Both are genuine businesses, genuinely profitable, genuinely Malaysian. Both are also so far upstream of the end product that calling them evidence of industrial upgrading requires a definition of “upgrading” that has been quietly evacuated of meaning.
+
+[^2]: Inari does backend RF semiconductor testing, primarily for Broadcom — a single customer that accounts for an estimated 60–70% of its revenue, and which is actively exploring in-housing the same production. Malaysia's largest locally-listed semiconductor champion is one vertical integration decision away from its primary business case disappearing.
+
+Acclaimed semiconductor historian Chris Miller describes [successful local semiconductor ecosystems](https://chrismillersnewsletter.substack.com/p/does-manufacturing-matter) as self-reinforcing: metalworking knowledge compounds into precision tooling, which compounds into automobile manufacturing. Each cycle builds capability for the next. Taiwan's semiconductor competitiveness is partly this — dense tacit knowledge in precision machining, equipment maintenance, custom fabrication, accumulated over decades.
+
+Whether Penang has built an equivalent is an open empirical question nobody has answered. When asked, nobody moves. What I can personally attest to is [one small components shop opposite the Caltex on Transfer Road](https://share.google/TvZYvqjCGUB3STs0f).
+
+Ratan answers the question for solar, and the answer is no. Small EPCs and installers benefited from cheap Chinese import prices — not from proximity to manufacturing, not from technology transfer, not from anything that compounds. A procurement convenience, not a capability platform. Solar was the stronger candidate for ecosystem formation than OSAT — better domestic demand conditions, more material science complexity. **And still nothing.**
+
+The argument that OSAT escapes Ratan’s findings requires a distinction that does not exist at the materials level, is not made explicitly by anyone invoking it, and is contradicted by [Raj-Reichert](https://www.tandfonline.com/doi/full/10.1080/00220388.2019.1595599), whose decade of fieldwork specifically on Penang's semiconductor electronics sector — published in 2019 after interviews spanning 2008 to 2015 — found the same pattern: reliance on foreign investment left no room for government negotiation, produced no technology transfer, and persisted in generating low-skill, low-wage jobs.
+
+Ratan proved it for solar in 2024. Raj-Reichert proved it for semiconductors in Penang in 2019. The finding is not new. The assumption survives because the alternative is uncomfortable for everyone currently holding a press release.
+
+## The data centre absurdity
+
+Data centres are, economically, international energy arbitrage infrastructure[^3]. They consume electricity, generate heat, and route data. The value added accrues to the infrastructure owner and the hyperscaler renting rack space. The externalities accrue to whoever lives nearby.
+
+[^3]: Water consumption by data centres is a real externality but requires more careful quantification than this essay allows. The standard critique — that data centres consume enormous volumes for cooling — is complicated by two factors specific to Malaysia: first, high rainfall per unit area means the question is partly one of capture and flow rather than absolute scarcity; second, peak demand can in principle be addressed through on-site storage, which is a well-established engineering solution at utility scale ([details](https://www.linkedin.com/feed/update/urn:li:activity:7438311065068859392?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7438311065068859392%2C7438348552981975040%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287438348552981975040%2Curn%3Ali%3Aactivity%3A7438311065068859392%29)). The harder question is chronic annual demand on existing water infrastructure, particularly in Johor where rapid data centre concentration is outpacing utility capacity planning.
+
+[In Iskandar Puteri](https://asianews.network/lesson-for-malaysias-johor-data-centres-should-not-be-too-near-homes-says-assemblyman-after-outcry/), Johor residents of Taman Nusantara Prima woke up in 2025 to find construction hoardings starting just outside their backyards. A Beijing-based operator and a Japanese one had purchased 43.5 hectares next to four residential estates. The hill behind one resident’s house — chosen specifically because it was rare in the area, because it kept things cool and quiet — was levelled. Dust fell from the sky into homes. Flash floods appeared on surrounding roads. Cracks formed in walls from piling vibrations. Wild boars and snakes began appearing in the neighbourhood.
+
+The assemblyman's response, at a press conference in March 2026: "this will be a lesson." Johor has 51 approved data centre facilities representing RM183 billion in investment. Nobody consulted the neighbours before approving any of them. The justification offered for the whole programme: stemming brain drain to Singapore.
+
+They are building extraction infrastructure next to people’s homes and calling it talent retention.
+
+Anwar’s AI-only data centre permit inversion makes this worse with a category error on top. **The foundational infrastructure of any digital service — storage at rest, backend servers, the unglamorous plumbing — is what actually needs to be geographically co-located.** The AI inference layer on top is precisely what is designed to be location-agnostic.
+
+By inverting the permits to AI-only, the policy either invites regulatory arbitrage through mislabelling, or reflects a fundamental misunderstanding of how the stack works. The dust and floods are real. The AI value-add is not staying in Johor.
+
+## **The production function nobody wants to modify**
+
+The ecosystem Miller describes is the internal version of what economists call an endogenous productivity shock. Malaysia has been betting on the other kind.
+
+External shocks — a foreign company arrives, brings better technology, you absorb it — raise the level of output. Internal accumulation — your own people build capability that compounds — raises the growth rate. These are not the same thing. A one-time external shock, even a large one, eventually exhausts itself. The economy returns to its prior trajectory at a higher level, but on the same slope. Only endogenous capability accumulation changes the slope permanently.
+
+The seductive thing about external shocks is that enough of them in sequence can look like development. US-China trade war — Chinese manufacturers come to Penang. COVID-lockdown supply chain disruption — reshoring accelerates. Each wave brings investment, employment, headlines. But when the arbitrage closes — when tariffs lift, when the supply chain normalises, when China *cabuts* (leaves) — you return to baseline. And who captured the value during each jump — the foreign investor, the state-owned development corporation, or the community bearing the externalities — is the question the policy circuit is not asking.
+
+Malaysia just got lucky enough to accumulate enough external shocks to earn the Asean Tiger moniker. Under the right conditions — the right negotiating posture, technology transfer requirements, domestic institutions capable of absorbing what arrives — external shocks can look like endogenous accumulation (second-year macro: a continually-hit Solow TFP parameter 'looks like' Romer).
+
+Wonkery aside, Japan landed TSMC's best practice facility (higher growth yay). China is the world's EV champion (higher growth yay). Both engineered Romerian virtuous cycles, while MIDA mumbles through another approved manufacturing investment press release. Fine.
+
+The problem is that seeding requires a counterpart. External productivity improvements need somewhere to land. They need firms willing to take risk, capital willing to back uncertain ventures, a financial landscape that does not pay the capital class above-market returns to do nothing interesting.
+
+[Hafiz Noor Shams](https://maddruid.com/?p=17027) observed in 2020 that Malaysia is incentivising the wrong people to save. EPF, PNB, and Tabung Haji offer risk-free returns of 5–8% annually to people who already have enough capital to take risks. [The top 7% of EPF depositors hold approximately half the fund.](https://www.philipscurve.com/post/epf.html)The institutional design rewards the wealthy for financial parking rather than productive deployment.
+
+::: callout-note
+The numbers make this precise. The S&P 500 has returned an average of around 10% annually over the long term — the benchmark for genuine productive risk-taking returns. In a functioning capital allocation framework, the gap between the risk-free rate and the return on risky investment is what makes risk-taking rational — the compensation for tolerating uncertainty.
+
+That gap is roughly 5–6 percentage points in the US, where Treasury bonds yield around 4–5%. Malaysia's institutional design has compressed the equivalent gap to near zero. EPF at 6–8%, guaranteed, with no volatility and the full weight of the state behind it, pays almost as well as genuine productive risk-taking.
+
+This comparison is generous. Malaysian listed equities have historically underperformed the S&P 500 — the gap EPF needs to close to make risk-taking rational is smaller than the US figure implies, and in some periods EPF has simply won.
+:::
+
+The "moving up the value chain" narrative conflates the external shock with the internal one — and then wonders why the long-run outcomes keep disappointing. They are different mechanisms with different policy requirements. Malaysia has spent considerable energy attracting the first kind while building institutions that actively price out the second.
+
+## The brain drain is not a problem. It is our best shot.
+
+The conventional lament — talented Malaysians leaving, the country losing its investment in human capital — assumes that retaining these people inside the existing system would produce better outcomes. It would not.
+
+Which Malaysians are leaving? Disproportionately, the ones with the highest tolerance for uncertainty. The ones willing to take risk, to build things in environments that do not guarantee the outcome in advance. These are precisely the people the domestic institutional landscape has no productive use for. The risk-free profit environment is not failing to retain them. It is actively expelling them, because the returns to their particular disposition are systematically suppressed here and not elsewhere.
+
+In that context, the brain drain is not a market failure. It is the system rebalancing by the only mechanism still available to it. The people who leave, build capability abroad, and either return with demonstrated proof that the alternative works, or generate external pressure that forces the domestic landscape to change — they are doing more for Malaysia’s long-run productive capacity than any talent retention programme that does not first address why the risk-free profit landscape exists.
+
+The earlier treatment of brain drain on this site noted that Singapore is by far the largest destination for Malaysian emigrants — one hour away, suggesting people are not really leaving for good. That reading is charitable. The more useful reading is that one hour is far enough to escape the capture economy and close enough to come back when something changes. The diaspora is not a loss. It is a reserve, accumulating outside the system until the system is ready to use it.
+
+Johor’s assemblyman thinks you fix brain drain by building data centres next to people’s houses. That is the level of analysis being applied to the problem.
+
+## Sovereignty is not hostility
+
+People-pleasing is something to address at the therapy office[^4]. Not Putrajaya. Not KOMTAR.
+
+[^4]: Tax-exempt for Malaysian ratepayers
+
+Japan was not hostile to TSMC. China was not hostile to Volkswagen. Both knew what they wanted from the relationship before the relationship began. Both negotiated as parties with interests, not as supplicants grateful for the attention. Both made themselves attractive. Neither made themselves unconditional.
+
+**Asia, at sixty percent of the world’s population, is not a peripheral beneficiary of global capital flows requiring special accommodation.** It is, or should be, a party with leverage — leverage that is currently being systematically underpriced because the negotiating posture was set in a different era and nobody has updated the priors.
+
+Malaysia specifically has things foreign investors want: geography, infrastructure, an educated workforce, English-language capability, political stability by regional standards. These are not nothing. They are not so abundant elsewhere that Malaysia must compete primarily on compliance.
+
+Hospitality is a virtue. It becomes a liability the moment it stops being a choice.
+
+Trump knows this. That is why he said you were hospitable.
+
+*This essay was assembled by AI to document an evening of unencumbered snark. The FDI frustration is entirely my own.*
