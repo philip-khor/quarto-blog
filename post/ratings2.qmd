@@ -60,6 +60,18 @@ The credit analogy is not just technically wrong. It is wrong about what the pro
 
 ![](images/paste-10.png)
 
+## ESG ETFs: the agnostic's Shariah fund
+
+If the credit rating analogy is the wrong genealogy, what is the right one?
+
+[Rigorous treatments of sustainable finance](http://thierry-roncalli.com/SustainableFinanceBook.html) locate ESG ratings in the values-based investing tradition, not the credit rating tradition. That lineage runs from faith-based exclusion screens through socially responsible investing to Islamic finance, which accomplished something genuinely important: it normalised the idea that values-based screening is a legitimate basis for constructing investable indices. That a normative opinion on permissibility could be applied systematically and still produce a passive instrument.
+
+This overturned a real objection. Efficient market thinking resisted values-based screens precisely because any deviation from the market portfolio represents a view. Islamic finance won that argument in practice, and once it was won, the door opened for ESG screening, sin stock exclusions, fossil fuel divestment — the entire apparatus of values-based passive investing that ESG ratings now serve.
+
+ESG ratings are the intellectual descendants of that normalisation. They are professional opinions on corporate decency, not measurements of a latent sustainability variable. The divergence between MSCI and S&P Global is not a reliability failure. It is different professional opinions, grounded in different normative frameworks — single versus double materiality being the most consequential — producing different answers to the same underlying question. Which is what you should expect when the question is what it means for a company to be decent.
+
+Asking why MSCI and Sustainalytics produce different scores for the same company is like asking why a Sunni and a Shia scholar issue different rulings on the same question. The appropriate response is not a harmonisation committee. It is disclosed normative premises, investor self-selection, and honesty about what is being purchased: a professional opinion, not a measurement.
+
 ## Berg et al. shouldn't surprise anyone
 
 The unstable inter-rater correlation finding from Berg, Kölbel, and Rigobon has become the foundational citation for the view that ESG ratings are unreliable and require harmonisation. It deserves closer examination.
@@ -149,18 +161,6 @@ What is absent is rationale. The methodology document tells you what was chosen.
 The tacit welfare function is tacit not because it is hidden but because the agencies have not articulated why it is the right one. The most plausible explanation is stakeholder legibility. A geometric mean with diminishing returns and cross-pillar complementarity is harder to explain to a pension fund trustee than "40% E, 40% S, 20% G, added up." Legibility is a real constraint. But legibility is a communication constraint, not an economic justification and not a moral one.
 
 The absence of engagement with measurement theory, psychometrics, and microeconomic theory is what allows the methodology document to present a welfare function choice almost halfheartedly. If you have not asked whether your inputs are cardinal or ordinal, you will not notice that your weighted average is operating on numbers that were never meant to support arithmetic. If you have not asked what functional form your preferences take, you will not notice how you have answered the Tesla question by default.
-
-## ESG ETFs: the agnostic's Shariah fund
-
-If the credit rating analogy is the wrong genealogy, what is the right one?
-
-[Rigorous treatments of sustainable finance](http://thierry-roncalli.com/SustainableFinanceBook.html) locate ESG ratings in the values-based investing tradition, not the credit rating tradition. That lineage runs from faith-based exclusion screens through socially responsible investing to Islamic finance, which accomplished something genuinely important: it normalised the idea that values-based screening is a legitimate basis for constructing investable indices. That a normative opinion on permissibility could be applied systematically and still produce a passive instrument.
-
-This overturned a real objection. Efficient market thinking resisted values-based screens precisely because any deviation from the market portfolio represents a view. Islamic finance won that argument in practice, and once it was won, the door opened for ESG screening, sin stock exclusions, fossil fuel divestment — the entire apparatus of values-based passive investing that ESG ratings now serve.
-
-ESG ratings are the intellectual descendants of that normalisation. They are professional opinions on corporate decency, not measurements of a latent sustainability variable. The divergence between MSCI and S&P Global is not a reliability failure. It is different professional opinions, grounded in different normative frameworks — single versus double materiality being the most consequential — producing different answers to the same underlying question. Which is what you should expect when the question is what it means for a company to be decent.
-
-Asking why MSCI and Sustainalytics produce different scores for the same company is like asking why a Sunni and a Shia scholar issue different rulings on the same question. The appropriate response is not a harmonisation committee. It is disclosed normative premises, investor self-selection, and honesty about what is being purchased: a professional opinion, not a measurement.
 
 ## What ESG ratings actually do well
 
