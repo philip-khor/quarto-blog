@@ -116,7 +116,9 @@ $$U(E, S, G) = E^{\omega_E} \cdot S^{\omega_S} \cdot G^{\omega_G}$$
 
 Under this specification, a company that scores zero on any single pillar scores zero in aggregate, regardless of performance elsewhere. Tesla's labour relations record drags it toward zero regardless of its green revenues.
 
-This is the treatment you would use if you believed that substitution across pillars is possible but increasingly costly — and that zero on any pillar is catastrophic regardless of excellence elsewhere. Strict complements would be harsher still: $U = \min(S_1, S_2)$, where the score is determined entirely by the weakest pillar and additional investment in any stronger pillar is wasted. The geometric mean sits between the two extremes.
+This is the treatment you would use if you believed that substitution across pillars is possible but increasingly costly — and that zero on any pillar is catastrophic regardless of excellence elsewhere.
+
+Strict complements would be harsher still: $U = \min(S_1, S_2)$, where the score is determined entirely by the weakest pillar and additional investment in any stronger pillar is wasted. The geometric mean sits between the two extremes.
 
 The choice between arithmetic and geometric mean is not a technical preference[^1]. Under the basic decency framing it is a substantive question: is a company that fails basic decency on one dimension rescued by excellence on another? The arithmetic mean says yes. The geometric mean says yes, but with increasing difficulty and with catastrophic consequences at zero. The Leontief minimum says no, absolutely — the weakest pillar is the only one that counts. The literature has not argued for one over the other because it has not recognised that the choice encodes a moral position.[^2]
 
@@ -124,7 +126,7 @@ The choice between arithmetic and geometric mean is not a technical preference[^
 
 [^2]: This is not a subtle point. The intuition—that you can't add different kinds of things on different scales and get a meaningful total—is something a child learns in arithmetic (add joules to cm?). It's also something every student learns in microeconomics: utility is ordinal, not cardinal. Anyone who had to pass utility theory knows this. A student who failed to flag this in an intermediate microeconomics exam would not pass the course.
 
-![The flat plane (additive) allows Tesla (90,10) to score identically to (10,90). The curved bowl (multiplicative) collapses to zero along either axis — a zero on any pillar cannot be rescued by excellence elsewhere.](images/esg_surfaces_both.svg)
+![](images/esg_three_panel.svg)
 
 ## The returns to scale question
 
