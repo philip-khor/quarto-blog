@@ -126,7 +126,7 @@ The choice between arithmetic and geometric mean is not a technical preference[^
 
 [^2]: This is not a subtle point. The intuition—that you can't add different kinds of things on different scales and get a meaningful total—is something a child learns in arithmetic (add joules to cm?). It's also something every student learns in microeconomics: utility is ordinal, not cardinal. Anyone who had to pass utility theory knows this. A student who failed to flag this in an intermediate microeconomics exam would not pass the course.
 
-![](images/esg_three_panel.svg)
+![](images/esg_three_panel.svg){.lightbox}
 
 ## The returns to scale question
 
