@@ -124,6 +124,8 @@ The choice between arithmetic and geometric mean is not a technical preference[^
 
 [^2]: This is not a subtle point. The intuition—that you can't add different kinds of things on different scales and get a meaningful total—is something a child learns in arithmetic (add joules to cm?). It's also something every student learns in microeconomics: utility is ordinal, not cardinal. Anyone who had to pass utility theory knows this. A student who failed to flag this in an intermediate microeconomics exam would not pass the course.
 
+![The flat plane (additive) allows Tesla (90,10) to score identically to (10,90). The curved bowl (multiplicative) collapses to zero along either axis — a zero on any pillar cannot be rescued by excellence elsewhere.](images/esg_surfaces_both.svg)
+
 ## The returns to scale question
 
 The questions multiply. What are the returns to scale across the preference surface?
