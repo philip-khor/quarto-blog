@@ -131,7 +131,9 @@ The "moving up the value chain" narrative conflates the external shock with the 
 
 ## The brain drain is not a problem. It is our best shot.
 
-The conventional lament — talented Malaysians leaving, the country losing its investment in human capital — assumes that retaining these people inside the existing system would produce better outcomes. It would not.
+The conventional lament — talented Malaysians leaving, the country losing its investment in human capital[^6] — assumes that retaining these people inside the existing system would produce better outcomes. It would not.
+
+[^6]: The author is perplexed that local practitioners do not openly mock brain drain alarmism. Treating brain drain as inherently harmful is at odds with standard international economics treatment. Labour mobility in an open economy is an [equilibrating mechanism](https://www.sciencedirect.com/topics/social-sciences/labor-mobility) — Mundell (1961) identified labour mobility as an alternative adjustment mechanism to restore equilibrium in the face of asymmetric shocks, functionally substituting for active monetary policy. Workers moving from low-wage to high-wage regions is unemployment adjustment, not national loss. That this requires clarification in Malaysian policy discourse is, frankly, puzzling.
 
 Which Malaysians are leaving? Disproportionately, the ones with the highest tolerance for uncertainty. The ones willing to take risk, to build things in environments that do not guarantee the outcome in advance. These are precisely the people the domestic institutional landscape has no productive use for. The risk-free profit environment is not failing to retain them. It is actively expelling them, because the returns to their particular disposition are systematically suppressed here and not elsewhere.
 
@@ -143,9 +145,9 @@ Johor’s assemblyman thinks you fix brain drain by building data centres next t
 
 ## Sovereignty is not hostility
 
-People-pleasing is something to address at the therapy office[^6]. Not Putrajaya. Not KOMTAR.
+People-pleasing is something to address at the therapy office[^7]. Not Putrajaya. Not KOMTAR.
 
-[^6]: Tax-exempt for Malaysian ratepayers
+[^7]: Tax-exempt for Malaysian ratepayers
 
 Japan was not hostile to TSMC. China was not hostile to Volkswagen. Both knew what they wanted from the relationship before the relationship began. Both negotiated as parties with interests, not as supplicants grateful for the attention. Both made themselves attractive. Neither made themselves unconditional.
 
