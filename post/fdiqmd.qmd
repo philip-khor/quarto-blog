@@ -75,7 +75,13 @@ Acclaimed semiconductor historian Chris Miller describes [successful local semic
 
 Whether Penang has built an equivalent is an open empirical question nobody has answered. When asked, nobody moves. What I can personally attest to is [one small components shop opposite the Caltex on Transfer Road](https://share.google/TvZYvqjCGUB3STs0f).
 
-Ratan answers the question for solar, and the answer is no. Small EPCs and installers benefited from cheap Chinese import prices — not from proximity to manufacturing, not from technology transfer, not from anything that compounds. A procurement convenience, not a capability platform. Solar was the stronger candidate for ecosystem formation than OSAT — better domestic demand conditions, more material science complexity. **And still nothing.**
+Ratan answers the question for solar, and the answer is no. Small EPCs and installers benefited from cheap Chinese import prices — not from proximity to manufacturing, not from technology transfer, not from anything that compounds. A procurement convenience, not a capability platform[^4]. Solar was the stronger candidate for ecosystem formation than OSAT — better domestic demand conditions, more material science complexity. **And still nothing.**
+
+[^4]: The downstream equivalent for semiconductor packaging would be domestic electronics manufacturers designing and assembling finished goods around locally-packaged chips. Taiwan developed this layer: Asus and MSI are admired worldwide and consistently a top pick for hardware value — proof that proximity to semiconductor manufacturing can compound into genuine brand equity and product capability. The author built his own PC with an MSI motherboard and a made-in-Malaysia AMD Ryzen 5600G. The value Malaysia captured in that transaction was the packaging.
+
+    Low Yat Plaza is [intriguing enough for Linus Tech Tips to pay a visit](https://www.youtube.com/watch?v=cvjA-jXk94o), but you wouldn't call it economic development. Cytron sells Raspberry Pis to hobbyists. OEM PC assembly never happened. Proton's electronics content is low-value power electronics — a segment immune to the nanometer race and therefore a Chinese stronghold on cost and scale, which Malaysia should not bother contesting. \
+    \
+    Malaysia holds neither end of the value chain. Wafers arrive. Chips leave. And Malaysians mock Singapore for being an entrepôt.
 
 The argument that OSAT escapes Ratan’s findings requires a distinction that does not exist at the materials level, is not made explicitly by anyone invoking it, and is contradicted by [Raj-Reichert](https://www.tandfonline.com/doi/full/10.1080/00220388.2019.1595599), whose decade of fieldwork specifically on Penang's semiconductor electronics sector — published in 2019 after interviews spanning 2008 to 2015 — found the same pattern: reliance on foreign investment left no room for government negotiation, produced no technology transfer, and persisted in generating low-skill, low-wage jobs.
 
@@ -83,9 +89,9 @@ Ratan proved it for solar in 2024. Raj-Reichert proved it for semiconductors in 
 
 ## The data centre absurdity
 
-Data centres are, economically, international energy arbitrage infrastructure[^4]. They consume electricity, generate heat, and route data. The value added accrues to the infrastructure owner and the hyperscaler renting rack space. The externalities accrue to whoever lives nearby. The jobs created are HVAC technicians at best, crowding out computer repair crew at worst.
+Data centres are, economically, international energy arbitrage infrastructure[^5]. They consume electricity, generate heat, and route data. The value added accrues to the infrastructure owner and the hyperscaler renting rack space. The externalities accrue to whoever lives nearby. The jobs created are HVAC technicians at best, crowding out computer repair crew at worst.
 
-[^4]: Water consumption by data centres is a real externality but requires more careful quantification than this essay allows. The standard critique — that data centres consume enormous volumes for cooling — is complicated by two factors specific to Malaysia: first, high rainfall per unit area means the question is partly one of capture and flow rather than absolute scarcity; second, peak demand can in principle be addressed through on-site storage, which is a well-established engineering solution at utility scale ([details](https://www.linkedin.com/feed/update/urn:li:activity:7438311065068859392?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7438311065068859392%2C7438348552981975040%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287438348552981975040%2Curn%3Ali%3Aactivity%3A7438311065068859392%29)). The harder question is chronic annual demand on existing water infrastructure, particularly in Johor where rapid data centre concentration is outpacing utility capacity planning.
+[^5]: Water consumption by data centres is a real externality but requires more careful quantification than this essay allows. The standard critique — that data centres consume enormous volumes for cooling — is complicated by two factors specific to Malaysia: first, high rainfall per unit area means the question is partly one of capture and flow rather than absolute scarcity; second, peak demand can in principle be addressed through on-site storage, which is a well-established engineering solution at utility scale ([details](https://www.linkedin.com/feed/update/urn:li:activity:7438311065068859392?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7438311065068859392%2C7438348552981975040%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287438348552981975040%2Curn%3Ali%3Aactivity%3A7438311065068859392%29)). The harder question is chronic annual demand on existing water infrastructure, particularly in Johor where rapid data centre concentration is outpacing utility capacity planning.
 
 [In Iskandar Puteri](https://asianews.network/lesson-for-malaysias-johor-data-centres-should-not-be-too-near-homes-says-assemblyman-after-outcry/), Johor residents of Taman Nusantara Prima woke up in 2025 to find construction hoardings starting just outside their backyards. A Beijing-based operator and a Japanese one had purchased 43.5 hectares next to four residential estates. The hill behind one resident’s house — chosen specifically because it was rare in the area, because it kept things cool and quiet — was levelled. Dust fell from the sky into homes. Flash floods appeared on surrounding roads. Cracks formed in walls from piling vibrations. Wild boars and snakes began appearing in the neighbourhood.
 
@@ -137,9 +143,9 @@ Johor’s assemblyman thinks you fix brain drain by building data centres next t
 
 ## Sovereignty is not hostility
 
-People-pleasing is something to address at the therapy office[^5]. Not Putrajaya. Not KOMTAR.
+People-pleasing is something to address at the therapy office[^6]. Not Putrajaya. Not KOMTAR.
 
-[^5]: Tax-exempt for Malaysian ratepayers
+[^6]: Tax-exempt for Malaysian ratepayers
 
 Japan was not hostile to TSMC. China was not hostile to Volkswagen. Both knew what they wanted from the relationship before the relationship began. Both negotiated as parties with interests, not as supplicants grateful for the attention. Both made themselves attractive. Neither made themselves unconditional.
 
