@@ -31,6 +31,8 @@ IFRS SDS has shifted the goalposts entirely. The question is no longer whether c
 
 So the intellectual hierarchy runs three levels deep. Berg the paper: static divergence measurement, inputs as undifferentiated data points, latent variable assumption smuggled in unremarked. Berg the person: static intentionality and context, better-calibrated snapshot readings. IFRS S1/S2: dynamic management quality, adjustment paths, investor prospects.
 
+LSEG cited level one to justify building at level one. Berg the person reached level two on LSEG's own podcast. Neither reaches level three, which is what the regulatory framework is now demanding.
+
 LSEG hosted Berg making the case for intentionality and context — and cited his earlier paper, which makes no such case, as the foundation for a product that strips both out.
 
 ## The Disequilibrium They Cleaned Up
@@ -127,7 +129,7 @@ This is the real version of the correlation paradox. LSEG's model is wrong by th
 
 The 220 binary indicators in LSEG Core are not just simplified for comparability — they are written in a way that makes automated retrieval unambiguous. Does the company have a biodiversity target? Does the chair qualify as independent? Does the tax policy commit to revenue-aligned payments? These are questions an LLM can answer from a sustainability report without an analyst in the loop. Parsimony is not just an aesthetic preference. It is an automation spec.
 
-This is a rational response to the operational efficiency crunch that has reshaped professional services since 2024. The 2025 Rate the Raters survey already found that companies are submitting AI-generated boilerplate that passive scrapers ingest without friction — a disclosure that reads as substantive but measures nothing gets processed the same way as one that reflects genuine measurement. LSEG's model is structured for exactly this environment: unambiguous inputs that retrieval systems can populate, defensible outputs that compliance teams can consume, institutional weight that a startup cannot replicate.
+This is a rational response to the operational efficiency crunch that has reshaped professional services since 2024. The consequences are already visible: a roundtable attendee at Climate Week NYC 2025, quoted in the [2025 Rate the Raters survey](https://www.erm.com/globalassets/insights/rate_the_raters_rtr_2025.pdf) noted that "the advent of AI use in some of the raters seems to be bringing additional challenges — we're noticing increasingly inaccurate data collection. Reducing the people behind the scenes is helping raters with their costs, but not our experience." The direction of travel is already producing quality failures at the raters who have moved fastest. LSEG's model is structured to accelerate that direction: unambiguous inputs that retrieval systems can populate, defensible outputs that compliance teams can consume, institutional weight that a startup cannot replicate.
 
 The analyst being automated out isn't losing the job because the model got better. The model got simpler so the analyst could be automated out. That is the sequence. It is a legitimate business decision in 2026. It is not what "management quality assessment" means.
 
