@@ -1,0 +1,150 @@
+---
+title: "LSEG ESG Core: Simplification as Strategy"
+format: html
+author: "Philip Khor"
+date: "2026-03-20"
+description: "LSEG launched its unified ESG Score in March 2026. This is what it actually built, why the methodology was constrained before it began, and what the simplification costs."
+categories: [ESG]
+---
+
+The LSEG ESG Score (Core) is best understood as a substantial simplification of the FTSE Russell model it inherits, not a rebuild. The structural DNA is unmistakable: the same 0–5 integer scale, the same pillar-theme architecture, the same binary indicator logic. The numbers confirm it: LSEG Core correlates at 0.82 with the FTSE Russell ESG Score and 0.78 with the Refinitiv ESG Score — while FTSE and Refinitiv themselves only correlated with each other at 0.69. LSEG is closer to FTSE than FTSE was to Refinitiv. The theme map tells the same story: LSEG's twelve themes map almost entirely onto FTSE Russell's topic structure. The Refinitiv DNA that survived is mostly governance and shareholder metrics. The rest is FTSE, tightened.
+
+What LSEG has done is strip away FTSE's operational complexity while retaining its fundamental character as a broad-based ESG disclosure assessor — and, in doing so, has made a set of choices that deserve examination.
+
+## The Berg Paradox
+
+The methodology document cites one academic paper. Not the Universal Declaration of Human Rights. Not the ILO Core Conventions. Not the UN Global Compact, the OECD Guidelines, or the Rio Declaration. Berg et al. 2022 — the Aggregate Confusion paper — which decomposed ESG rating divergence into scope, measurement, and weights, and concluded that ratings diverge too much.
+
+Berg never said they *should* converge. The paper is a diagnostic, not a prescription. But the finance literature built on Berg has run with a tacit assumption that ESG ratings are measurements of a single underlying latent construct — corporate sustainability, or something like it — that *should* converge as measurement improves, the same way IQ tests from different providers should correlate if they are measuring the same underlying cognitive ability. This assumption is imported silently from psychometrics without examination, and it is wrong.
+
+Divergence between single and double materiality providers is not a reliability failure. It is the correct outcome of two providers answering different questions. MSCI measures financial risk to the company — ESG factors that affect enterprise value, from the outside in. Sustainalytics accommodates stakeholder impacts. They should diverge. Treating that divergence as measurement error, as Berg et al. implicitly do by aggregating correlations across providers with fundamentally different constructs, produces a finding that is statistically clean and conceptually empty.
+
+There is also a commercial irony worth naming. Berg et al. 2022 arrived at precisely the moment LSEG needed to justify collapsing two inherited methodologies — Refinitiv and FTSE Russell — into a single unified product. The whitepaper itself cites Berg as the benchmark for average pairwise correlation (0.54 across major providers), and uses it to argue that LSEG Core's correlations with its heritage scores (0.82 and 0.78) are strong. Whether that is coincidence or selection bias in how they read the literature is unknowable. The effect is the same: a single academic citation that provides exact intellectual cover for a commercial consolidation decision. The epistemological question gets laundered into a methodology question, and the methodology question gets answered by pointing at Berg. Almost engineered for the purpose. Probably not useful for anything else.
+
+The irony deepens because Florian Berg himself, appearing on LSEG's own podcast in 2023, said something rather different. Asked what ESG raters actually add value by doing, he didn't say comparability. He said intentionality and context. Raters need to determine how serious a company is about its policies — not just whether the policy exists. A rise in sexual harassment cases might be a *positive* signal, he observed, if it reflects a culture where women finally feel safe enough to report. Pollution upstream is worse than pollution downstream. Data always has to be put in context. This, Berg argued, is where ESG raters have genuine added value in the ecosystem: forming opinions at the issue level that raw data cannot supply.
+
+Berg the person is more perceptive than Berg the paper. But even Berg the person is operating on a static plane. Intentionality and context are better-calibrated readings of a snapshot. They ask: at this point in time, what does this disclosure actually mean? Is the company serious about this policy? Does this data point mean what it appears to mean? These are genuine improvements over the divergence-decomposition of the 2022 paper, which treated inputs as undifferentiated data points and never asked what they were trying to capture.
+
+But they are still contemporaneous assessments, not dynamic ones.
+
+IFRS SDS has shifted the goalposts entirely. The question is no longer whether companies disclose consistently, or even whether their disclosures reflect genuine intent. It is whether disclosure enables investors to assess *prospects* — the ability to generate cash flows, create value, and manage risks over time. That requires the connective tissue of MD&A-style narrative: how governance responds to new information, how strategy adjusts as transition risks evolve, how capital allocation shifts, how the board learns, how trade-offs are navigated, how targets are governed, how progress is tracked. This is the economics of adjustment paths, not contemporaneous snapshots. It is dynamic, not static.
+
+So the intellectual hierarchy runs three levels deep. Berg the paper: static divergence measurement, inputs as undifferentiated data points, latent variable assumption smuggled in unremarked. Berg the person: static intentionality and context, better-calibrated snapshot readings. IFRS S1/S2: dynamic management quality, adjustment paths, investor prospects.
+
+LSEG cited level one to justify building at level one. Berg the person reached level two on LSEG's own podcast. Neither reaches level three, which is what the regulatory framework is now demanding.
+
+LSEG hosted Berg making the case for intentionality and context — and cited his earlier paper, which makes no such case, as the foundation for a product that strips both out.
+
+## The Disequilibrium They Cleaned Up
+
+Before examining what changed mechanically, it is worth asking what was lost in the cleaning.
+
+ESG indices as currently constructed are not failed attempts at a clean signal. They are the sediment of a decade of competing stakeholder demands talking over each other. Asset managers wanted comparability. NGOs wanted normative anchoring. Regulators wanted defensibility. Companies wanted legibility. Index providers wanted scale. Each left fingerprints. The result is messy, contradictory, and arguably more informationally rich than a clean signal would be — because the mess reflects genuine disagreement about what ESG *means*, and that disagreement is itself information.
+
+Think of the old FTSE system colloquially: it was an English essay assignment. A basic literacy screener that rewarded well-structured disclosure over actual management quality, with the occasional sharp question that sparked something real — not because the architecture demanded it, but because someone on the indicator design team had spent time with companies and knew where the bodies were buried. Intermittent sputters of life in an otherwise impotent checkboxy document.
+
+LSEG Core is the answer key distributed in advance. Companies don't need to understand the essay question. They need to find 13 checkboxes in the Board & Management theme and make sure the chair is independent. The progression isn't from shallow to deep. It's from a test that occasionally produced friction to a test you can pass without picking up the pen.
+
+Cleaning up the disequilibrium isn't progress toward a correct answer. It is a choice to stop asking the question — dressed as operational efficiency.
+
+Before examining what changed, it is worth naming what the whitepaper admits in its heritage comparison appendix: the new LSEG ESG Score was designed as the successor to the Refinitiv ESG Score and an alternative to the FTSE Russell ESG scores, "building on key strengths from both." The correlations of 0.82 and 0.78 are presented as validation. They are the optimisation target stated plainly. Whatever methodological choices were made — which indicators to include, how to weight themes, where to set thresholds — the binding constraint was a parsimonious representation of two legacy datasets. Not what would best serve investors assessing prospects. Not what the standards ISSB, GRI, SASB, and ESRS actually demand. What those two datasets, averaged and tightened, already contained. The framework citations are post-hoc rationalisation of a collection infrastructure that predates them. That is the original sin from which everything else follows.
+
+The loss is not evenly distributed. Of the roughly 380 indicators in the old FTSE framework, 73 were sector-specific — covering palm oil certification, forest products, seafood, mining rehabilitation, financial sector risk governance, catastrophic event preparedness for high-risk industries. These were the most carefully constructed part of the architecture, built indicator by indicator against RSPO, MSC, FSC, ILO conventions, and sector-specific regulatory expectations accumulated over years of normative consensus-building. They were the fingerprints of people who knew the sectors and the bodies were buried. They are gone. LSEG's materiality matrix handles sectoral differentiation through weighting, not through sector-specific indicators — a Basic Resources company gets a higher weight on Biodiversity, but answers the same binary questions as a Media company. The UN consensus-tuning that gave the old framework its occasional depth has been replaced by a dial.
+
+## **What Changed**
+
+The most significant architectural addition is the 10% revenue segment rule. Where the old FTSE model assigned materiality based on a company's primary business classification, LSEG now applies the highest materiality level across all business segments representing more than 10% of revenue. For a financial conglomerate with significant extractives exposure, a retailer with meaningful logistics operations, this closes a genuine gap. The ESG assessment follows the business, not just the headline sector.
+
+The scoring ladder has been standardized. Old FTSE varied indicator thresholds by exposure tier: a high-exposure company needed more indicators to reach the same score. LSEG uses fixed thresholds per theme regardless of materiality level. Materiality now affects only the weighting of themes in the overall score. This is a major simplification — cleaner, more comparable, considerably easier to explain.
+
+The indicator count has been rationalized. 220 indicators across 12 themes, equally weighted within each theme, down from roughly 380 in the old FTSE framework — a 40% reduction. The old three-tier hierarchy — indicators, subindicators, sub-subindicators — is gone. And the whitepaper is explicit about why: indicator selection criteria include standards alignment, metric quality, data availability, and *parsimony*. Parsimony is operational efficiency dressed as methodology principle.
+
+The collapse to pure binary scoring cuts in both directions simultaneously, which is the interesting tension. The old FTSE framework had around 14 performance indicators out of 380 — a small fraction, but they existed. More significantly, roughly 280 of the 380 indicators used a two-subindicator structure — does the policy exist / does it address the issue meaningfully — that created gradation within each indicator. It distinguished between having a target and having a quantified target, between mentioning biodiversity and committing to reduce impact, between audits at some sites and audits at all sites. Imperfect, but it captured where a company was on a journey.
+
+LSEG's binary is more demanding in some respects — unquantified targets no longer score at all, partial certification scores nothing — and entirely flat in others. A company that has set process targets but not yet quantified them scores identically to a company that has disclosed nothing on the topic. The direction of travel is invisible. Only the destination counts. Whether raising the floor while flattening the gradient is progress depends entirely on who your universe is.
+
+## Performance and Capping: The New Architecture
+
+LSEG has introduced two structural mechanisms that old FTSE lacked in combination. Performance indicators function as tiebreakers: among companies that have cleared the disclosure threshold for a given score band, performance — against absolute benchmarks or peer-relative quartiles — is what enables movement to the next level rather than further disclosure accumulation. This is a modest but real improvement over FTSE, where performance indicators existed but were arithmetically overwhelmed by checkboxes.
+
+Capping metrics are the more novel addition. For each theme, one indicator is designated as a ceiling gate: fail it, and the theme score cannot exceed 3 regardless of indicator points accumulated. Biodiversity targets. Independent chair. One-share-one-vote. Revenue-aligned tax commitment. The logic is sound. It enforces non-substitutability: you cannot disclose your way past a missing biodiversity target.
+
+This is where LSEG learned something real from TPI MQ. Some things shouldn't be substitutable. The Leontief patches are genuine progress — and perfect Goodhart targets.
+
+The general disclosure indicators are diffuse enough to offer some resistance: 220 checkboxes is a lot to optimise against simultaneously, and the marginal return on gaming the 180th indicator is low. But the capping metrics are the opposite. Few in number, clearly signposted, binary, and directly blocking a score ceiling — they are the most legible targets in the entire model. LSEG has told companies precisely which checkboxes stand between them and a score above 3. Companies will set biodiversity targets. They will appoint independent chairs. They will commit to revenue-aligned tax payments. The documents will exist. The scores will rise. Nothing about how they actually manage will change.
+
+The old FTSE system had traps — questions like SHR03 that were hard to game because they required actual strategic integration. *Statement of principles or process by which community investments are made, covering defined focus areas, linked to the company's business strategy.* In Malaysia, in Thailand, across developing markets, community investment is often relationship-based. You support the charities your board members care about. You sponsor the events your clients ask for. Call it *fren fren hor* — not corruption, just not strategic. SHR03 was designed to catch this. The "defined focus areas" force choices. The "linked to business strategy" forces justification in business terms. The trap works precisely because it asks *how*, not *whether*.
+
+The new LSEG Core flattens all of that. SHR03 becomes: do you have a community investment policy? Check the box. Move on. The relationship-based investment becomes invisible. The company gets credit for a policy that bears no relation to how it actually invests.
+
+## The FTSE Inheritance: Occasional Sputters in an Otherwise Impotent Document
+
+The old FTSE system paid conceptual lip service to the *how* questions. It understood what was being asked — process, integration, strategic linkage — and occasionally built indicators that gestured toward those questions. Whether audits happen at some sites or all sites. Whether programmes are in pilot or systematic deployment. Whether progress is quantified or just described. Whether risk management is integrated or siloed. Whether pay linkage ties to specific KPIs or merely mentions ESG in passing.
+
+But the arithmetic was arranged so that these questions could never matter — and this was not accidental. The system was built by people who knew the process questions couldn't move scores, and kept adding them anyway because stakeholders demanded better metrics. Internal teams were unwilling to shift scores dramatically. So they added timid checks: enough to gesture at process, not enough to let it actually matter. The gaming was structurally inevitable. The timidity was deliberate and self-perpetuating. Next quarter, same story.
+
+Disclosure checkboxes always drowned out the *how* indicators. A company could fail every process question and still score well with enough policies. The sputters of conceptual life were arithmetically impotent — window dressing on a disclosure counter that satisfied external critics without threatening incumbent scores.
+
+LSEG resolved the tension by dropping the questions rather than fixing the arithmetic. And here is where the argument inverts: LSEG Core is the more honest product. The whitepaper's own authors describe ESG scores as "a crude but useful proxy for corporate culture and management quality" — a phrase that does significant work if you read it carefully. Crude. Proxy. Not a measure. Not an assessment. A proxy, acknowledged as crude. That is the honest framing. The marketing language — "management quality assessment," "IFRS-aligned" — overclaims what the proxy can support.
+
+A fund manager reading a FTSE score might reasonably believe strategic integration was being assessed. A fund manager reading the LSEG Core methodology, if they have actually read it, knows they are getting a disclosure audit. The methodology is transparent. What surrounds it is not.
+
+The capping metrics are the closest LSEG comes to what FTSE's occasional process indicators were trying to do — and they illustrate exactly why the approach falls short. A capping metric asks *whether* something exists. The old process indicators, at their best, asked *how*. The distinction is the difference between a document and a mechanism. LSEG's caps enforce the document's existence. They say nothing about whether the mechanism works.
+
+## The Developing Market Bargain
+
+Thailand has committed to use FTSE for ESGX. Bursa Malaysia has an arrangement with FTSE to score its ACE and Main markets. Across Southeast Asia, exchanges and regulators are signing contracts with LSEG.
+
+On paper, it makes sense. One consistent methodology. Global comparability. Lower operational costs. The commercial logic is impeccable: by making Core convenient and producing flattering score distributions, adoption is structurally inevitable. Exchanges are drawn to simplicity for the same reason students reach for the answer key.
+
+But the structural architecture here warrants attention. LSEG holds commercial relationships with the very exchanges whose listed companies it scores. The methodology simplifies in ways that happen to make adoption easier and score distributions more flattering. Whether that is engineered or simply well-aligned commercial interests is unknowable — but the effect is the same. The exchanges adopt a product that reduces their opex. The methodology removes the friction that might have required harder conversations with issuers. The defanging and the commercialisation are not separable.
+
+What are these markets actually buying? A disclosure audit that calls itself a management quality proxy. A system that has stripped out the friction, the uncomfortable follow-ups, the occasional sharp question that might actually teach companies what good management looks like. The companies in these markets don't have the disclosure quality of London or New York. They have well-meaning reporters trying to figure out what "linked to business strategy" even means, tripping on indicators like SHR03 because they are still learning what the question is asking.
+
+The old FTSE system, for all its arithmetic impotence, created productive friction. The essay assignment, badly marked as it was, still required them to write the essay. The sputters of life were pedagogically useful even when they couldn't move scores.
+
+The new system has no essay. No friction. And no gradation. A company in an early disclosure environment that has set unquantified targets — genuine progress, a real step on a real journey — scores identically to a company that has disclosed nothing. The binary doesn't reward the direction of travel, only the destination. Which is defensible for a universe of FTSE All-World large caps with mature disclosure practices. For ACE Market companies in Malaysia still building the capability, it is a system that renders their progress invisible while telling them they have failed.
+
+The underlying bargain is this: developing markets are being handed a defanged product that claims to measure ESG management quality but is, by its authors' own admission, a crude proxy. The friction is gone. The learning is gone. The commercial arrangements remain.
+
+Whether that bet pays off for these markets is genuinely open. The FTSE Russell index transition is still under consideration and the dual-run with heritage scores extends to at least end-2027 — which means the new scores won't carry full index consequences for some time yet. Exchanges committing now are adopting a product mid-rationalisation, before the mechanism that would make scores consequential for issuers has been resolved. The methodology reduces friction for adoption. Whether it will reduce friction for the companies that most need the friction is a different question, and one that won't be answered until the index transition is settled.
+
+## The Financial Materiality Question
+
+LSEG acknowledges, in the section of the whitepaper explaining why the Plus layer exists, that a score relying only on corporate self-reported disclosures captures only what companies choose to report and misses how a firm affects society through its products and services. Their answer is the Plus layer: controversies, sovereign risk, green revenues, ESG debt issuance.
+
+This framing concedes the impact materiality gap while sidestepping a prior one. Core doesn't even satisfy the conventions of *financial* materiality as currently understood under ISSB S1/S2 or ESRS — and this is a more fundamental problem than the impact question, because it applies even to investors who have no interest in double materiality at all.
+
+ISSB S1 asks how management *responds* to material sustainability-related risks and opportunities: how the board oversees them, how strategy is tested against scenarios, how risk management processes identify and assess them, how metrics and targets are set, monitored, and updated. These are dynamic governance questions. They describe adjustment paths, not snapshots. They are the ESG equivalent of MD&A — the narrative that connects disclosed numbers to the management processes that generated them.
+
+Consider Biodiversity, where TNFD is already live and ISSB S3 is impending. A Core score of 4 on Biodiversity tells you a company has a biodiversity policy, has set targets, discloses BAP audits at all relevant sites, and engages with NGOs and regulators. It tells you nothing about whether the board has the expertise to oversee nature-related dependencies, how the company has identified and assessed its value chain exposures to ecosystem disruption, how biodiversity considerations are integrated into capital allocation decisions, or how impacts on natural ecosystems are monitored and governed over time. S3 will ask exactly these questions — how governance connects to nature-related dependencies and impacts, how strategy accounts for ecosystem interdependencies, how targets are set against nature outcomes and tracked.
+
+Core's implicit architecture assumes the Governance pillar — Board & Management, Shareholder Rights, Conduct & Anti-Corruption — provides the general sustainability management oversight that ISSB S1 demands across all themes. It doesn't. Board & Management asks whether the chair is independent and whether there's a CSR committee. It does not ask whether the board has the expertise to oversee biodiversity risk specifically, or any other material theme specifically. The governance overlay Core is relying on to catch dynamic management quality doesn't exist at the indicator level. It is assumed, not assessed.
+
+The high correlation with heritage scores makes this precise. A score of 0.82 with FTSE Russell is not validation — it is inheritance. What it says is: LSEG Core reproduces the same systematic gaps FTSE Russell had, more efficiently. The heritage scores were already known to be inadequate against financial materiality conventions. A tighter, cleaner version of the same architecture does not close the gap. It systematises it.
+
+This is the real version of the correlation paradox. LSEG's model is wrong by the standards the market is moving toward — and probably useful for the compliance and index eligibility purposes it actually serves. The dynamic intelligence tools are right by those standards — and probably less useful for the institutional workflows LSEG has spent 25 years embedding in. Both can be true simultaneously. The question is which customer is reading the marketing.
+
+## The 2026 Tradeoff
+
+The 220 binary indicators in LSEG Core are not just simplified for comparability — they are written in a way that makes automated retrieval unambiguous. Does the company have a biodiversity target? Does the chair qualify as independent? Does the tax policy commit to revenue-aligned payments? These are questions an LLM can answer from a sustainability report without an analyst in the loop. Parsimony is not just an aesthetic preference. It is an automation spec.
+
+This is a rational response to the operational efficiency crunch that has reshaped professional services since 2024. The 2025 Rate the Raters survey already found that companies are submitting AI-generated boilerplate that passive scrapers ingest without friction — a disclosure that reads as substantive but measures nothing gets processed the same way as one that reflects genuine measurement. LSEG's model is structured for exactly this environment: unambiguous inputs that retrieval systems can populate, defensible outputs that compliance teams can consume, institutional weight that a startup cannot replicate.
+
+The analyst being automated out isn't losing the job because the model got better. The model got simpler so the analyst could be automated out. That is the sequence. It is a legitimate business decision in 2026. It is not what "management quality assessment" means.
+
+Against this, LSEG has real advantages that should not be dismissed. Twenty-five years of institutional credibility. Exchange relationships across dozens of markets. Regulatory standing that a startup cannot replicate. For passive managers, compliance teams, and regulatory reporters, robustness and comparability may matter more than depth. LSEG may be fine — for that customer.
+
+The live products now answering the other kind of question — Manifest Climate, Responsible Capital, even a respectable general-purpose agent — are not displacing LSEG's actual customer. They are serving the customer LSEG's marketing claims to serve but the model cannot: investors asking dynamic questions about [governance, strategy, risk management, and prospects](https://www.linkedin.com/posts/nawar-alsaadi-fsa-sipc-9667b650_ai-tools-are-a-game-changer-for-sustainability-activity-7432809913275404289-Bp6e?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAV2aqUB7NkHZU8jI0ATLTO8iO6CEn5boj4). The market is separating into two layers: the commodity layer of disclosure counting, automated and institutionally credible; and the value layer of dynamic intelligence.
+
+A score answers *whether*. The value layer answers *how*.
+
+S&P took a different bet — capturing one question too many, accepting the comparability cost, trying to tell investors *why* those questions matter.
+
+The old FTSE scores had occasional sputters of conceptual life — process questions that tried to get at the *how*, even if the arithmetic wouldn't let them matter. LSEG Core has removed even the sputters. It is cleaner, more honest about what it is within the methodology document itself, and rationally designed for the operational environment of 2026. The crude proxy admission is buried on page five of a whitepaper most buyers won't read. The management quality language is in every deck.
+
+Goodhart would not be impressed by the Leontief patches. The IFRS Foundation would find the gap between S1's dynamic expectations and a static automation spec difficult to bridge.
+
+And the disequilibrium that LSEG cleaned up — the messy, contradictory sediment of a decade of competing stakeholder demands, including those occasional sputters that asked uncomfortable questions — turns out to have contained information. The clean version has resolved the disagreement by refusing to engage with it.
+
+That is a defensible choice in 2026. It is not a neutral one.
