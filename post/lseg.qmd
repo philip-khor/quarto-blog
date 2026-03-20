@@ -13,7 +13,9 @@ What LSEG has done is strip away FTSE's operational complexity while retaining i
 
 ## The Berg Paradox
 
-The methodology document cites one academic paper. Not the Universal Declaration of Human Rights. Not the ILO Core Conventions. Not the UN Global Compact, the OECD Guidelines, or the Rio Declaration. Berg et al. 2022 — the Aggregate Confusion paper — which decomposed ESG rating divergence into scope, measurement, and weights, and concluded that ratings diverge too much.
+The methodology document cites one academic paper[^1]. Not the Universal Declaration of Human Rights. Not the ILO Core Conventions. Not the UN Global Compact, the OECD Guidelines, or the Rio Declaration. Berg et al. 2022 — the Aggregate Confusion paper — which decomposed ESG rating divergence into scope, measurement, and weights, and concluded that ratings diverge too much.
+
+[^1]: The whitepaper ("Introducing the LSEG ESG Scores," Dodsworth et al., March 2026) is a more intellectually honest document, citing the Dodsworth et al. 2023 materiality paper, the Bourne et al. 2024 indicator construction paper, and Berg in a footnote specifically as a comparator for pairwise correlations. The single Berg citation as foundational reference appears in the scoring methodology document proper — the document that governs how scores are actually calculated.
 
 Berg never said they *should* converge. The paper is a diagnostic, not a prescription. But the finance literature built on Berg has run with a tacit assumption that ESG ratings are measurements of a single underlying latent construct — corporate sustainability, or something like it — that *should* converge as measurement improves, the same way IQ tests from different providers should correlate if they are measuring the same underlying cognitive ability. This assumption is imported silently from psychometrics without examination, and it is wrong.
 
@@ -141,7 +143,7 @@ A score answers *whether*. The value layer answers *how*.
 
 S&P took a different bet — capturing one question too many, accepting the comparability cost, trying to tell investors *why* those questions matter.
 
-The old FTSE scores had occasional sputters of conceptual life — process questions that tried to get at the *how*, even if the arithmetic wouldn't let them matter. 
+The old FTSE scores had occasional sputters of conceptual life — process questions that tried to get at the *how*, even if the arithmetic wouldn't let them matter.
 
 LSEG Core has removed even the sputters. It is cleaner, more honest about what it is within the methodology document itself, and rationally designed for the operational environment of 2026. The crude proxy admission is buried on page five of a whitepaper most buyers won't read. The management quality language is in every deck.
 
