@@ -1,12 +1,15 @@
 ---
 title: Philip Khor
 pagetitle: About
+image: profile.jpg
 sidebar: false
 page-navigation: false
 toc: false
 about:
   id: hero-heading
   template: solana
+  image-width: 12em
+  image-shape: rectangle
   links:
     - icon: mastodon
       text: Mastodon
@@ -25,34 +28,195 @@ about:
 ---
 
 ::: {#hero-heading .h-card}
-<a rel="me" class="p-name u-url" href="https://philipscurve.com">Philip Khor</a> is a data scientist in Malaysia with experience in applied microeconometrics, machine learning and technical writing. He occasionally contributes to open-source projects such as the [conda-forge](https://conda-forge.org/) software distribution project. He is package maintainer of the R package [bnmr](https://github.com/philip-khor/bnmr/).
+<a rel="me" class="p-name u-url" href="https://philipscurve.com">Philip Khor</a> lives in Penang and tends a kitchen garden. Economist by training, data scientist by practice. COVID-cautious.
+
+His work spans ESG ratings methodology, sustainability disclosure standards, LLM systems, policy analysis, credit risk modelling, fair ML, and applied microeconometrics.
 :::
 
 ## Experience
 
-[**SustenyX**](https://sustenyx.com)\| Sustainability Intelligence & Compliance Manager \| June 2025 - present
+::: {.org}
+[**SustenyX**](https://sustenyx.com)
 
-**SustenyX** \| Sustainable Finance Consultant \| August 2024 - June 2025
+::: {.entry}
+Technical Consultant\
+<span class="range">Mar 2026 - May 2026</span>
 
-**Penang Institute** \| Visiting Data Scientist, Socioeconomics and Statistics Programme \| January 2023 - December 2024
+Post-departure retainer providing architecture and engineering continuity for the ESG gap analysis platform, covering pipeline design, code review, and developer knowledge transfer.
+:::
 
-**CIMB Bank Berhad** \| Manager, Regional Advanced Risk Modelling, Group Risk \| March 2020 - May 2022
+::: {.entry}
+Sustainability Intelligence & Compliance Manager\
+<span class="range">June 2025 - Feb 2026</span>
 
-**Skymind AI Berhad** \| Technical Writer \| Oct 2019 - Dec 2019
+Translated FTSE Russell ratings methodology and IFRS Sustainability Disclosure Standards into AI-powered intelligence systems, engagement protocols, and commercial offerings for capital market clients across Southeast Asia. Defined the subject-matter logic for LLM-based ESG gap analysis workflows — pipeline architecture, NLP strategies for keyword extraction from company disclosures, and code review for modularity. Acted as the technical bridge for sales and marketing, mapped the regional regulatory landscape for product expansion, and coordinated localisation across target markets. Also remediated infrastructure security gaps, bringing AWS environment compliance from 70% to 92%.
+:::
 
-**GRID Inc.** \| Data Scientist Intern \| May 2019 - Aug 2019
+::: {.entry}
+Sustainable Finance Consultant\
+<span class="range">Aug 2024 - June 2025</span>
 
-**The Center of Applied Data Science** \| Data Scientist Associate \| Jul 2018 - May 2019
+Researched ESG ratings, standards, and frameworks; wrote reports and thought leadership on sustainability topics; and applied data analysis and AI tools to refine ESG product development and recommendation models.
+:::
+:::
 
-**Penang Institute** \| Research Assistant \| Dec 2015 - Jan 2016, Aug 2016 - Jun 2017
+::: {.org}
+**Penang Institute**
+
+::: {.entry}
+Visiting Data Scientist\
+<span class="range">Jan 2024 - Dec 2024</span>
+
+Designed and developed over 12 interactive Tableau dashboards covering population, labour, healthcare, housing, and state finances. Built a dedicated [statistics portal](https://statistics.penanginstitute.com) and streamlined data pipelines to reduce update times. Organised internal workshops on using large language models in policy research. (Tableau public profile: [penang.institute](https://public.tableau.com/app/profile/penang.institute))
+:::
+
+::: {.entry}
+Statistician\
+<span class="range">Jan 2023 - Dec 2023</span>
+
+Developed socioeconomic dashboards and maintained data pipelines. Supported the transition of Penang Monthly's statistics brief toward a more visual format with timely reviews and internal training.
+:::
+:::
+
+::: {.org}
+**CIMB Bank Berhad**
+
+::: {.entry}
+Manager, Risk — Retail Modelling\
+<span class="range">Mar 2020 - May 2022</span>
+
+Reviewed and enhanced credit risk rating model development processes for Basel and IFRS 9 across ASEAN markets. Communicated model outcomes to stakeholders, prepared documentation for machine learning models, and worked with validators and data engineers on feature derivation. Developed R scripts and internal packages to automate analysis on the AutoML platform, and upskilled risk modellers on ML algorithms, explainability, and fairness.
+:::
+:::
+
+::: {.org}
+**Skymind AI Berhad**
+
+::: {.entry}
+Technical Writer\
+<span class="range">Oct 2019 - Dec 2019</span>
+
+Created and maintained documentation for Konduit Serving, an enterprise ML deployment platform. Edited training materials and supported community engagement events.
+:::
+:::
+
+::: {.org}
+**GRID Inc.**
+
+::: {.entry}
+Data Scientist Intern\
+<span class="range">May 2019 - Aug 2019</span>
+
+Built real-time object detection models for agricultural applications using deep learning architectures, specifically YOLOv3. Worked on-site in Tokyo.
+:::
+:::
+
+::: {.org}
+**The Center of Applied Data Science**
+
+::: {.entry}
+Data Scientist Associate\
+<span class="range">Jul 2018 - May 2019</span>
+
+Developed training materials in R, Python, Excel, and Tableau for data science courses focused on commercial applications. Trained local talent in exploratory analysis, statistics, and machine learning.
+:::
+:::
+
+::: {.org}
+**ASEAN Data Analytics Exchange (ADAX)**
+
+::: {.entry}
+Data Scientist Trainee\
+<span class="range">Feb 2018 - June 2018</span>
+
+Four-month intensive data science finishing school covering Python, R, databases, statistics, NLP, and machine learning, initiated by MDEC in partnership with CADS.
+:::
+:::
+
+::: {.org}
+**Penang Institute**
+
+::: {.entry}
+Research Assistant\
+<span class="range">Aug 2016 - Jan 2017</span>
+
+Contributed to the Penang Skilled Workforce Study: scheduled and conducted employer interviews, analysed JobStreet data to identify skill shortages and hard-to-fill vacancies, and designed visualisation templates for qualitative job data that were incorporated in the final report.
+:::
+
+::: {.entry}
+Intern (Economics Studies)\
+<span class="range">Dec 2015 - Jan 2016</span>
+
+Worked on three projects — the Penang Skilled Workforce Study, the Penang Economic and Development Report 2015/2016, and the Institute's evaluation of the Trans-Pacific Partnership Agreement. Handled data collection and analysis, liaised with government agencies, outlined data collection methods, and prepared report text.
+:::
+:::
 
 ## Education
 
-**University of Wollongong** \| Wollongong, NSW\
-Bachelor of Commerce (Hons), Economics \| 2017
+::: {.org}
+**University of Wollongong** \| Wollongong, NSW
 
-**University of Wollongong** \| Wollongong, NSW\
-Bachelor of Commerce (Dean's Scholar), Economics \| 2014-2016
+::: {.entry}
+Bachelor of Commerce (Hons), Economics\
+<span class="range">2017</span>
+:::
 
-**Tunku Abdul Rahman University of Management and Technology** \| Tanjung Bungah, Penang\
-Diploma in Business Studies, Accounting \| 2012-2014
+::: {.entry}
+Bachelor of Commerce (Dean's Scholar), Economics\
+<span class="range">2014-2016</span>
+:::
+:::
+
+::: {.org}
+**Tunku Abdul Rahman University of Management and Technology** \| Tanjung Bungah, Penang
+
+::: {.entry}
+Diploma in Business Studies, Accounting\
+<span class="range">2012-2014</span>
+:::
+:::
+
+::: {.org}
+**Chung Ling (National Type) High School** \| Penang
+
+::: {.entry}
+Science-Commerce\
+<span class="range">2007 - 2011</span>
+:::
+:::
+
+## Honors & Awards
+
+- Kenneth A. Blakey Prize in ECON215 Microeconomic Theory & Policy
+- 2015 Dean's Merit List
+- 2014 Dean's Merit List
+- Undergraduate Excellence Scholarship
+- Business International Academic Merit Scholarship
+
+## Publications
+
+- [The Limited Local Benefits of Swiftonomics](https://www.philipscurve.com/post/mbpay.html)
+- [EPF Account 3: Flexibility or Erosion of Retirement Savings?](https://www.philipscurve.com/post/epf.html)
+- [Non-Profit Organisations In Penang](https://www.philipscurve.com/post/penang_ed/penanged.html)
+- [Penang's Evolving Schooling Preferences](https://www.philipscurve.com/post/braindrain.html)
+- [When Less Is More Expensive: The Trend of Shrinkflation](https://www.philipscurve.com/post/shrinkflation.html)
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var entries = [].slice.call(document.querySelectorAll('#experience .entry'));
+  if (!entries.length) return;
+  function updateActive() {
+    var mid = window.innerHeight / 2;
+    var closest = null, dist = Infinity;
+    entries.forEach(function(el) {
+      var r = el.getBoundingClientRect();
+      var d = Math.abs(r.top + r.height / 2 - mid);
+      if (d < dist) { dist = d; closest = el; }
+    });
+    entries.forEach(function(el) { el.classList.remove('active'); });
+    if (closest) closest.classList.add('active');
+  }
+  window.addEventListener('scroll', updateActive, { passive: true });
+  updateActive();
+});
+</script>
