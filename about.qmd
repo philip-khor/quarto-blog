@@ -49,7 +49,7 @@ Post-departure retainer providing architecture and engineering continuity for th
 Sustainability Intelligence & Compliance Manager\
 <span class="range">June 2025 - Feb 2026</span>
 
-Translated FTSE Russell ratings methodology and IFRS Sustainability Disclosure Standards into AI-powered intelligence systems, engagement protocols, and commercial offerings for capital market clients across Southeast Asia. Defined the subject-matter logic for LLM-based ESG gap analysis workflows — pipeline architecture, NLP strategies for keyword extraction from company disclosures, and code review for modularity. Acted as the technical bridge for sales and marketing, mapped the regional regulatory landscape for product expansion, and coordinated localisation across target markets. Also remediated infrastructure security gaps, bringing AWS environment compliance from 70% to 92%.
+Translated FTSE Russell ratings methodology and IFRS Sustainability Disclosure Standards into AI-powered intelligence systems and commercial offerings for corporate issuers in Malaysia. Defined the subject-matter logic for LLM-based ESG gap analysis workflows — pipeline architecture, NLP strategies for keyword extraction from company disclosures, and code review for modularity. Acted as the technical bridge for sales and marketing, mapped the regional regulatory landscape for product expansion, and coordinated localisation across target markets. Also remediated infrastructure security gaps, bringing AWS environment compliance from 70% to 92%.
 :::
 
 ::: {.entry}
@@ -107,7 +107,7 @@ Created and maintained documentation for Konduit Serving, an enterprise ML deplo
 Data Scientist Intern\
 <span class="range">May 2019 - Aug 2019</span>
 
-Built real-time object detection models for agricultural applications using deep learning architectures, specifically YOLOv3. Worked on-site in Tokyo.
+Built real-time object detection models for agricultural applications using deep learning architectures, specifically YOLOv2. Worked on-site in Tokyo.
 :::
 :::
 
