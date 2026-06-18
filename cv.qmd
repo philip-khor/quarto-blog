@@ -1,0 +1,10 @@
+---
+title: "CV"
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf">
+---
+
+Redirecting to CV… [click here if not redirected](https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf).
