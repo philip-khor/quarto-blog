@@ -2,9 +2,9 @@
 title: "CV"
 format:
   html:
-    include-in-header:
-      text: |
-        <meta http-equiv="refresh" content="0; url=https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf">
+    toc: false
 ---
 
-Redirecting to CV… [click here if not redirected](https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf).
+<iframe src="https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf" width="100%" height="900px" style="border:none;"></iframe>
+
+[Download CV](https://raw.githubusercontent.com/philip-khor/cv/main/cv/philip_khor-cv.pdf)
